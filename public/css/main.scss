@@ -1,4 +1,5 @@
 @import 'reset.scss';
+@import 'inter-ui.scss';
 
 $u-h: 36px;
 
@@ -16,7 +17,7 @@ $cor-urgente: #D0011B;
 
 $amarelo-preface: #ffdb3e;
 
-$fonte-texto: 'Georgia';
+$fonte-texto: 'Inter UI';
 
 // @ https://css-tricks.com/snippets/sass/power-function/
 @function pow($number, $exponent) {
