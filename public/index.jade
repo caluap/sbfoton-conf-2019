@@ -1,1 +1,42 @@
 include /_mixins
+
+div
+  p A Sociedade Brasileira de Ótica e Fotônica, SBFoton, é uma associação, sem fins lucrativos, que tem como principal objetivo a criação no Brasil de um meio ambiente propício ao desenvolvimento da pesquisa e inovação em Fotônica. Um aspecto inovador que nossa Sociedade traz para a comunidade brasileira é dar ênfase não só às atividades acadêmicas e centros de pesquisa, mas a inclusão de atividades industriais e empresariais inovadoras que estejam contribuindo para desenvolvimento desse importante e novo ramo do conhecimento tecnológico.  Para isso, fornecerá aos seus associados informações, cursos e eventos para aumentar suas capacitações e a interação entre interessados em fotônica.
+
+div
+  h2 Filiação
+  p Pessoas físicas e jurídicas com interesse em ótica e fotônica podem se filiar à SBFoton. Para as pessoas físicas existem dois tipos de filiação, Sócio Efetivo e Aspirante. Os Sócios Efetivos são os pesquisadores, professores e profissionais de empresas e os Aspirantes os estudantes de graduação, mestrado e doutorado. As empresas podem se filiar à SBFoton como Sócio Mantenedor. Todos os três tipos de associados terão descontos proporcionais aos valores das suas anuidades nas inscrições dos eventos.
+  p As anuidades, até 31 de Maio de 2018, para os Sócios Efetivos são de R$ 150,00, para os Aspirantes de R$ 50,00 e para os Mantenedores de R$ 5.000,00.
+  p Para a filiação à SBFoton precisa-se preencher um dos seguintes formulários e fazer o depósito da anuidade correspondente na conta bancária da SBFoton:
+  ol
+    li #[a(href="https://goo.gl/forms/J0nsQRzoiJijfvEj1") Pessoa Física]
+    li #[a(href="https://goo.gl/forms/URrJs4CUYPng0RXK2") Pessoa Jurídica]
+  h3 Dados da conta bancária da SBFoton para o depósito da anuidade:
+  p 
+    | Banco do Brasil #[br]
+    | Agência: 2447-3 #[br]
+    | Conta Corrente: 57784-7 #[br]
+    | CNPJ: 28.898.556/0001-66
+  p Enviar o comprovante de depósito bancário para #[a(href="mailto:sbfoton@sbfoton.org.br") sbfoton@sbfoton.org.br].
+
+
+div
+  h2 Direção
+  - each item, key in Membros
+    table
+      tr
+        th #{key}
+      - each membro in item
+        tr
+          td #{membro[0]}
+          td #{membro[1]}
+          td #{membro[2]}
+
+div
+  h2 Contato
+  p 
+    | Rua Dr. Ricardo Benetton Martins, 1000 #[br]
+    | Parque II do Polo de Alta Tecnologia #[br]
+    | 13086-902 Campinas SP #[br]#[br]
+    | #[a(href="mailto:sbfoton@sbfoton.org.br") sbfoton@sbfoton.org.br]
+
