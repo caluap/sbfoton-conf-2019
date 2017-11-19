@@ -9,12 +9,11 @@ $s-lg: 1024px;
 $s-xl: 1280px;
 
 $font-size-ratio: 1.25;
-$base-font-size: 20px;
+$base-font-size: 18px;
 
-$cor-sem-urgencia: #007AB7;
-$cor-pouco-urgente: #F6A623;
-$cor-urgente: #D0011B;
 
+$brand: #009cde;
+$brand-text: darken($brand, 3);
 $amarelo-preface: #ffdb3e;
 
 $fonte-texto: 'Inter UI';
@@ -103,6 +102,15 @@ $fonte-texto: 'Inter UI';
 				clear: both;
 				height: $u-h * $i;
 			}
+			.separador-visivel-#{$i} {
+				width: 100%;
+				border: none;
+				border-top: 1px solid $brand;
+				clear: both;
+				height: 1;
+				margin-top: $u-h * $i * 2/3;
+				margin-bottom: $u-h * $i * 1/3;
+			}
 			.separador-negativo-#{$i} {
 				width: 100%;
 				height: 0;
@@ -169,14 +177,27 @@ html, button, input, select, textarea,
 
 body {
 	font-family: $fonte-texto, sans-serif;
+	padding-top: 4 * $u-h;
 }
 
-p + p {
+p + p, blockquote + p, ol + p, ul + p {
 	margin-top: $u-h/2;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $fonte-texto, sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+	@include fs(2);
+	margin-bottom: $u-h/2;
+}
+
+h4 {
+	@include fs(-1);
+	font-weight: bold;
+	@include faux-caps;
 }
 
 
@@ -188,4 +209,35 @@ h1, h2, h3, h4, h5, h6 {
 		padding-right: 1em;
 		max-width: $u-h * 20;
 	}
+}
+
+.centraliza {
+	text-align: center;
+}
+
+.c-blocos-destaque {
+	.bloco-destaque {
+		margin-top: $u-h;
+		border: 2px solid $brand;
+		// color: $brand-text;
+		padding: $u-h/4 0;
+		// border-radius: 6px;
+	}
+}
+
+a {
+	color: black;
+	text-decoration-skip: ink;
+	text-decoration-color: $brand;
+	&:hover {
+		text-decoration: none;
+		background: transparentize($brand,0.75);
+	}
+}
+
+blockquote {
+	border-left: 2px solid cinza(5);
+	padding: $u-h/9 $u-h * 2/3;
+	margin: $u-h $u-h/2;
+	@include fs(-1);
 }
