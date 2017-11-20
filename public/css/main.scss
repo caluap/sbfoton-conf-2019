@@ -293,16 +293,14 @@ blockquote {
 	overflow-y: scroll;
 	padding: $u-h 0;
 
-	transition: opacity 0.2s ease;
-
 	&:before {
-		content: "";
+		// content: "";
 		position: fixed;
 		top: 90vh;
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: transparentize(cinza(2),0.8);
+		background: transparentize(cinza(2),0.1);
 	}
 
 	a {
@@ -344,6 +342,14 @@ body.popado > *:not(.popin) {
 	opacity: 0.5;
 }
 
-body > *:not(.popin) {
-	transition: filter 0.4s ease, opacity 0.4s ease;
+.conference-call {
+	position: fixed;
+	right: $u-h/2;
+	top: $u-h/2;
+	background: $brand;
+	padding: $u-h / 4;
+	@include sombra-1;
+	a {
+		color: white;
+	}
 }

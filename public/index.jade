@@ -11,6 +11,9 @@ include /_mixins
           i(class="fa fa-chevron-circle-right")
   button#fecha-popin about sbfoton
 
+.conference-call
+  a(href="/conference/") sbfoton #[br] conference #[br] 2018 #[i(class="fa fa-chevron-circle-right")]
+
 
 .conteudo
   .pure-g
@@ -102,9 +105,25 @@ include /_mixins
 
 script.
   $(document).ready(function(){
+
+    // para borrar fundo
     $('body').addClass('popado');
-    $('#fecha-popin').click(function () {
+
+    // esconde popin
+    function esconde_popin() {
       $('.popin').css('display','none');
       $('body').removeClass('popado');
+    }
+
+    $(document).on('click', function(event) {
+      console.log('window');
+      if (!$(event.target).closest('.popin').length) {
+        esconde_popin();
+      }
     });
+
+    $('#fecha-popin').click(esconde_popin);
+
+
+
   });
