@@ -251,6 +251,9 @@ blockquote {
 .c-membros {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	@include media-query($s-sm) {
+		grid-template-columns: 1fr 1fr;
+	}
 	grid-gap: $u-h/2;
 	margin: $u-h/2 0 $u-h;
 	.membro {
@@ -261,4 +264,21 @@ blockquote {
 		@include fs(-2);
 		padding: $u-h/2;
 	}
+}
+
+@keyframes roda {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+
+.logo-roda {
+	img {
+		max-width: 120px;
+		animation: roda 20s infinite linear;
+	}
+	margin-bottom: $u-h;
 }
