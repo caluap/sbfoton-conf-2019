@@ -42,7 +42,7 @@ $fonte-texto: 'Inter UI';
 }
 
 @function cinza($nivel : 5) {
-	@return mix(#FEF9F0,#0d0c0b,$nivel*10);
+	@return mix(#FEFBF9,#0d0c0b,$nivel*10);
 }
 
 @mixin fs($s : 1, $linha : 1.5) {
@@ -178,6 +178,7 @@ html, button, input, select, textarea,
 body {
 	font-family: $fonte-texto, sans-serif;
 	padding-top: 4 * $u-h;
+	padding-bottom: 2 * $u-h;
 }
 
 p + p, blockquote + p, ol + p, ul + p {
@@ -198,6 +199,11 @@ h4 {
 	@include fs(-1);
 	font-weight: bold;
 	@include faux-caps;
+}
+
+h5 {
+	@include fs(-1);
+	font-weight: bold;
 }
 
 
@@ -240,4 +246,19 @@ blockquote {
 	padding: $u-h/9 $u-h * 2/3;
 	margin: $u-h $u-h/2;
 	@include fs(-1);
+}
+
+.c-membros {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: $u-h/2;
+	margin: $u-h/2 0 $u-h;
+	.membro {
+		h5 {
+			color: cinza(3);
+		}
+		background: cinza(9.5);
+		@include fs(-2);
+		padding: $u-h/2;
+	}
 }

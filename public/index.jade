@@ -65,14 +65,12 @@ include /_mixins
     .pure-u-1
       h2 Direção
       - each item, key in Membros
-        table
-          tr
-            th #{key}
+        h4 #{key}
+        .c-membros
           - each membro in item
-            tr
-              td #{membro[0]}
-              td #{membro[1]}
-              td #{membro[2]}
+            .membro
+              h5 #{membro[0]} 
+              p #{membro[1]} #[br] #{membro[2]}
 
 
 .separador-2
