@@ -353,16 +353,17 @@ blockquote {
 		margin-bottom: $u-h;
 	}
 
-	button {
+	#fecha-popin {
 		position: fixed;
-		bottom: $u-h/2;
-		left: $u-h/2;
+		bottom: 10vh;
+		left: 50%;
+		transform: translateX(-50%) translateY(50%);
 		background: black;
-		padding: 4px $u-h;
+		padding: 12px $u-h * 3/2;
 		border-radius: 80px;
 		color: white;
 		border: none;
-		@include fs(1);
+		@include fs(2);
 		font-weight: bold;
 		&:hover {
 			background: $brand;
