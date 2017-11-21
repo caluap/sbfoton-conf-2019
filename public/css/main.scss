@@ -301,7 +301,6 @@ blockquote {
 
 
 .popin {
-	// display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -314,17 +313,6 @@ blockquote {
 	z-index: 10;
 
 	overflow-y: scroll;
-	padding: $u-h 0;
-
-	&:before {
-		// content: "";
-		position: fixed;
-		top: 90vh;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background: transparentize(cinza(2),0.1);
-	}
 
 	a {
 		color: $conf-frente;
@@ -345,6 +333,12 @@ blockquote {
 
 	.where-when {
 		@include fs(3);
+	}
+
+	.conteudo .pure-g {
+		min-height: 80vh;
+		display: flex;
+		align-items: center;
 	}
 
 
