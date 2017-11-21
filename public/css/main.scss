@@ -75,8 +75,17 @@ $fonte-texto: 'Inter UI';
 	top: $p;
 }
 
-@mixin texto-sombra-0 { text-shadow: 0	0px	1px rgba(0,0,0,0.50), 0	2px	8px rgba(0,0,0,0.1), 0	0.5px	0.5px rgba(0,0,0,0.6); }
-@mixin texto-sombra-1 { text-shadow: 0	1px	3px rgba(0,0,0,0.12), 0	1px	2px rgba(0,0,0,0.24); }
+@mixin texto-sombra-0($cor: #000000) { 
+	text-shadow: 
+		0	0px	1px transparentize($cor, 0.5), 
+		0	2px	8px transparentize($cor,0.9), 
+		0	0.5px	0.5px transparentize($cor, 0.4); 
+}
+@mixin texto-sombra-1($cor: #000000) { 
+	text-shadow: 
+		0	1px	3px transparentize($cor, 0.88), 
+		0	1px	2px transparentize($cor, 0.76); 
+	}
 
 @mixin sombra-0($c:black) { box-shadow: 0	0px	1px transparentize($c,1-0.1), 0	0.5px	0.5px transparentize($c,1-0.24); }
 @mixin sombra-1($c:black) { box-shadow: 0	1px	3px transparentize($c,1-0.12), 0	1px	2px transparentize($c,1-0.24); }
@@ -278,16 +287,19 @@ blockquote {
 	margin-bottom: $u-h;
 }
 
+$conf-color: tomato; //rebeccapurple;
+$conf-frente: white;
+
 .popin {
 	// display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 10vh;
-	background: transparentize($brand,0.1);
-	// @include sombra-1;
-	color: white;
+	bottom: 20vh;
+	background: transparentize($conf-color,0.4);
+	@include texto-sombra-0($conf-color);
+	color: $conf-frente;
 	z-index: 10;
 
 	overflow-y: scroll;
@@ -304,17 +316,30 @@ blockquote {
 	}
 
 	a {
-		color: white;
+		color: $conf-frente;
 		@include fs(6);
 		margin-top: $u-h/2;
-		float: right;
+		float: left;
 		margin-right: $u-h * 2;
+		color: $conf-frente;
+		transition: all 0.2s ease-in;
+		&:hover {
+			background: none;
+			transform: scale(1.04,1.04);
+		}
+		&:active, &:focus {
+			transform: scale(0.96,0.96);
+		}
+	}
+
+	.where-when {
+		@include fs(3);
 	}
 
 
 
 	h1 {
-		margin-left: $u-h * 2;
+		// margin-left: $u-h * 2;
 		@include fs(7,1);
 		@include media-query($s-sm) {
 			@include fs(3,1.3);
@@ -334,23 +359,46 @@ blockquote {
 		border: none;
 		@include fs(1);
 		font-weight: bold;
+		&:hover {
+			background: $brand;
+		}
 	}
-}
-
-body.popado > *:not(.popin) {
-	filter: blur(5px);
-	opacity: 0.5;
 }
 
 .conference-call {
 	position: fixed;
 	right: $u-h/2;
 	top: $u-h/2;
-	background: $brand;
+	background: $conf-color;
 	padding: $u-h / 4;
 	@include sombra-1;
+	transition: opacity 3s ease;
+	opacity: 1;
+	&:hover {
+		background: black;
+		a {
+			background: none;
+			text-decoration: none;
+		}
+	}
 	a {
+		text-decoration: none;
 		color: white;
 	}
 	z-index: 9;
+}
+
+
+
+body.popado {
+	.conference-call {
+		transition: all 0s;
+		opacity: 0;
+	}
+
+	& > *:not(.popin) {
+		filter: blur(7px);
+		opacity: 0.5;
+		cursor: pointer;
+	}
 }
