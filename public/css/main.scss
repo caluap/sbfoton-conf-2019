@@ -157,7 +157,7 @@ $fonte-texto: 'Inter UI';
 
 .minus-pad {
   @include media-query-a-partir {
-    width: calc(100% + #{$u-h*2});
+		width: calc(100% + #{$u-h*2});
     position: relative;
     left: -$u-h;
   }
@@ -293,8 +293,10 @@ blockquote {
 .logo {
 	img {
 		max-width: 240px;
-		position: relative;
-		left: -12px;
+		@include media-query-a-partir {
+			position: relative;
+			left: -12px;
+		}
 	}
 	margin-bottom: $u-h;
 }
@@ -364,6 +366,9 @@ blockquote {
 		color: white;
 		border: none;
 		@include fs(2);
+		@include media-query {
+			@include fs(1);
+		}
 		font-weight: bold;
 		&:hover {
 			background: $brand;
