@@ -27,13 +27,13 @@ p + h2, h2 + h2 {
 	margin-top: $u-h;
 }
 
-h4 {
+h3 {
 	@include fs(-1);
 	font-weight: bold;
 	@include faux-caps;
 }
 
-h5 {
+h4 {
 	@include fs(-1);
 	font-weight: bold;
 }

@@ -35,7 +35,7 @@ a.conference-call(href="/conference/") sbfoton #[br] conference #[br] #[span.ano
   .pure-g.centraliza.c-blocos-destaque
     .pure-u-1-1.pure-u-sm-1-3.pad-1-2
       .bloco-destaque.info
-        h4 Sócios efetivos
+        h4 Sócios Efetivos
         p R$&#8239;150,00
     .pure-u-1-1.pure-u-sm-1-3.pad-1-2
       .bloco-destaque.info
@@ -80,11 +80,11 @@ a.conference-call(href="/conference/") sbfoton #[br] conference #[br] #[span.ano
     .pure-u-1
       h2 Direção
       - each item, key in Membros
-        h4 #{key}
+        h3 #{key}
         .c-membros
           - each membro in item
             .membro
-              h5 #{membro[0]} 
+              h4 #{membro[0]} 
               p #{membro[1]} #[br] #{membro[2]}
 
 
