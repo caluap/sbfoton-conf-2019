@@ -265,7 +265,10 @@ body.home {
 }
 
 body.conference {
-	background: $conf-color;
+	background-color: $conf-color;
+	background-image: url('../img/fundo-conf.svg');
+	background-size: contain;
+	background-repeat: repeat-y;
 	color: white;
 	a {
 		color: white;
