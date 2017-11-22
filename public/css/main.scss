@@ -23,8 +23,12 @@ h2 {
 	margin-bottom: $u-h/2;
 }
 
-p + h2, h2 + h2 {
+p + h2, h2 + h2, ul + h2, ol + h2 {
 	margin-top: $u-h;
+}
+
+p + h3, h3 + h3, ul + h3, ol + h3 {
+	margin-top: $u-h/2;
 }
 
 h3 {
