@@ -323,3 +323,21 @@ body.conference {
 	}
 
 }	
+
+
+#voltar {
+	position: fixed;
+	left: $u-h/2;
+	top: $u-h/2;
+	background: $brand;
+	padding: $u-h/4;
+	color: white;
+	@include sombra-1;
+	@include fs(3,0);
+	text-decoration: none;
+	color: white;
+	z-index: 9;
+	&:hover {
+		background: black;
+	}
+}
