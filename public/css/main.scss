@@ -188,7 +188,9 @@ blockquote {
 	.conteudo .pure-g {
 		min-height: 80vh;
 		display: flex;
-		align-items: center;
+		// como row não estava centrando no ffox
+		flex-direction: column;
+		justify-content: center;
 	}
 
 
