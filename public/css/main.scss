@@ -171,6 +171,13 @@ blockquote {
 		@include fs(3);
 	}
 
+
+	@include media-query {
+		a, .where-when {
+			@include fs(1);
+		}
+	}
+
 	.conteudo .pure-g {
 		min-height: 80vh;
 		display: flex;
@@ -270,6 +277,9 @@ body.conference {
 	background-size: contain;
 	background-repeat: repeat-y;
 	color: white;
+	@include media-query {
+		background-size: 400vw;
+	}
 	a {
 		color: white;
 		// text-decoration-color: $conf-color-2;
@@ -303,6 +313,9 @@ body.conference {
 
 	@include media-query {
 		@include colunas(2, $u-h/2);
+		li {
+			@include fs(-1);
+		}
 	}
 
 	@include media-query-a-partir($s-md) {
