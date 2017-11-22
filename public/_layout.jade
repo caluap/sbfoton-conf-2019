@@ -26,5 +26,5 @@ html
 
 		title sbfoton / Sociedade Brasileira de Ótica e Fotônica
 		
-	body
+	body(class="#{ current.path.length == 1 ? 'home' : 'not-home' }")
 		!= yield
