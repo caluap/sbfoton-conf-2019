@@ -23,6 +23,10 @@ h2 {
 	margin-bottom: $u-h/2;
 }
 
+p + h2, h2 + h2 {
+	margin-top: $u-h;
+}
+
 h4 {
 	@include fs(-1);
 	font-weight: bold;
