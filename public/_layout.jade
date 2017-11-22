@@ -25,6 +25,17 @@ html
 		//- script(src="js/jquery.sticky-kit.js")
 
 		title sbfoton / Sociedade Brasileira de Ótica e Fotônica
+
+	-
+		var classes = "";
+		if (current.path.length == 1) {
+			classes = "home";
+		} else {
+			classes = "not-home";
+			if (current.path[1] = "conference") {
+				classes += " conference";
+			}
+		}
 		
-	body(class="#{ current.path.length == 1 ? 'home' : 'not-home' }")
+	body(class="#{classes}")
 		!= yield
