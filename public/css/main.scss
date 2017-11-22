@@ -135,6 +135,13 @@ blockquote {
 	margin-bottom: $u-h;
 }
 
+.popin {
+	display: none;
+}
+
+.popin.popin-visivel {
+	display: block;
+}
 
 .popin {
 	position: fixed;
@@ -267,7 +274,7 @@ body.popado {
 	}
 }
 
-body.home {
+body.home.popado {
 	animation: fade-in 1s ease-in-out;
 }
 
