@@ -53,6 +53,49 @@ h4 {
 	}
 }
 
+@mixin colunas($n, $gap) {
+	$p : percentage(1/ $n) - #{$gap * ($n - 1)/$n};
+	grid-template-columns: repeat($n, calc(#{$p}));
+}
+
+.topics {
+	li {
+		padding: $u-h/2;
+		background: white;
+		@include sombra-0;
+	}
+	width: 100%;
+  display: grid;
+	grid-gap: $u-h/2;
+  grid-auto-flow: row;
+	padding: $u-h/2;
+	box-sizing: border-box;
+	margin-bottom: $u-h;
+
+
+	@include media-query {
+		@include colunas(2, $u-h/2);
+	}
+
+	@include media-query-a-partir($s-md) {
+		@include colunas(3, $u-h/2);
+	}
+
+	@include media-query-a-partir($s-md) {
+		@include colunas(4, $u-h/2);
+	}
+
+	@include media-query-a-partir($s-lg) {
+		padding: $u-h;
+		@include colunas(6, $u-h/2);
+	}
+	
+	@include media-query-a-partir($s-xl) {
+		@include colunas(8, $u-h/2);
+	}
+
+}	
+
 .centraliza {
 	text-align: center;
 }
