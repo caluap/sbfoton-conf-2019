@@ -198,18 +198,19 @@ blockquote {
 	background: $conf-color;
 	padding: $u-h / 4;
 	@include sombra-1;
+	@include fs(0,1.2);
 	transition: opacity 3s ease;
 	opacity: 1;
+	text-decoration: none;
+	color: white;
 	&:hover {
 		background: black;
-		a {
-			background: none;
-			text-decoration: none;
-		}
 	}
-	a {
-		text-decoration: none;
-		color: white;
+	i {
+		padding-left: 4px;
+	}
+	.ano {
+
 	}
 	z-index: 9;
 }
