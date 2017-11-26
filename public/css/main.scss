@@ -374,3 +374,10 @@ body.conference {
 		max-width: 100%;
 	}
 }
+
+.buleted {
+	list-style-type: circle;
+	@include media-query($s-md) {
+		list-style-position: inside;
+	}
+}
