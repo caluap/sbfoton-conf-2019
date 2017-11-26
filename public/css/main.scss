@@ -136,7 +136,6 @@ blockquote {
 
 .popin {
 	display: none;
-	cursor: pointer;
 }
 
 .popin.popin-visivel {
@@ -154,8 +153,21 @@ blockquote {
 	@include texto-sombra-0($conf-color);
 	color: $conf-frente;
 	z-index: 10;
-
 	overflow-y: scroll;
+
+	
+	& > div {
+		cursor: pointer; // para indicar que o clique na área colorida faz algo...
+	}
+
+	.fundo-botao-popin {
+		position: fixed;
+		bottom: 0;
+		top: 80vh;
+		left: 0;
+		right: 0;
+		cursor: default; // só para dar um override na regra acima
+	}
 
 	a {
 		color: $conf-frente;

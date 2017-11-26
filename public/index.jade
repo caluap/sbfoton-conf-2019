@@ -1,8 +1,8 @@
 include /_mixins
 
 
-.popin(onclick="window.location='/conference/'")
-  .conteudo
+.popin
+  .conteudo(onclick="window.location='/conference/'")
     .pure-g
       .pure-u-1
         h1 sbfoton #[br] conference #[br] 2018
@@ -11,7 +11,8 @@ include /_mixins
           | October 8—10th
         a(href="/conference/")
           | Call for papers
-  button#fecha-popin about&nbsp;sbfoton
+  .fundo-botao-popin
+    button#fecha-popin about&nbsp;sbfoton
 
 a.conference-call(href="/conference/") sbfoton #[br] conference #[br] #[span.ano 2018] #[i(class="fa fa-chevron-circle-right")]
 
@@ -139,8 +140,7 @@ script.
       }
 
       $(document).on('click', function(event) {
-        console.log('window');
-        if (!$(event.target).closest('.popin').length) {
+        if ($(event.target).closest('.fundo-botao-popin').length) {
           esconde_popin();
         }
       });
