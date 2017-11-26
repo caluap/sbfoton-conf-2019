@@ -380,6 +380,11 @@ body.conference {
 #rodape {
 	background: cinza(9);
 	padding: $u-h 0 $u-h * 2;
+	@include media-query {
+		.pure-u-md-1-2 {
+			margin-bottom: $u-h;
+		}
+	}
 	p {
 		@include fs(-1);
 	}
