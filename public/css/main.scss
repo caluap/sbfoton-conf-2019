@@ -297,6 +297,7 @@ body.conference {
 	background-image: url('../img/fundo-conf.svg');
 	background-size: contain;
 	background-repeat: repeat-y;
+	padding-bottom: $u-h * 4;
 	color: white;
 	@include media-query {
 		background-size: 400vw;
