@@ -13,7 +13,6 @@ $conf-frente: white;
 body {
 	font-family: $fonte-texto, sans-serif;
 	padding-top: 4 * $u-h;
-	padding-bottom: 2 * $u-h;
 }
 
 p + p, blockquote + p, ol + p, ul + p {
@@ -361,5 +360,17 @@ body.conference {
 	z-index: 9;
 	&:hover {
 		background: black;
+	}
+}
+
+#rodape {
+	background: cinza(9);
+	padding: $u-h 0 $u-h * 2;
+	p {
+		@include fs(-1);
+	}
+	img {
+		margin-top: $u-h/3;
+		max-width: 100%;
 	}
 }
