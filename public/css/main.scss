@@ -34,7 +34,7 @@ h2 {
 }
 
 p + h2, h2 + h2, ul + h2, ol + h2 {
-	margin-top: $u-h;
+	margin-top: $u-h * 2;
 }
 
 p + h3, h3 + h3, ul + h3, ol + h3 {
@@ -411,5 +411,54 @@ body.conference {
 			grid-column-gap: $u-h;
 		}
 	
+	}
+}
+
+
+table {
+	width: 100%;
+	text-align: left;
+	padding: 0;
+	margin-bottom: $u-h * 2;
+
+	@include fs(-1);
+	small {
+		@include fs(-2);
+	}
+
+	td, th {
+		padding: $u-h/4 0 $u-h/8;
+	}
+	td {
+		border-bottom: 1px solid rgba(255,255,255,0.5);
+	}
+	th {
+		border-bottom: 2px solid white;
+	}
+
+	&.fees {
+		td:first-child, th:first-child {
+			width: percentage(1/2);
+		}
+		td:not(:first-child), th:not(:first-child) {
+			width: percentage(1/4);
+			padding-right: $u-h/2;
+			padding-left: $u-h/2;
+		}
+		td:not(:first-child) {
+		}
+
+		.there-be-prices td:not(:first-child), tr th:not(:first-child) {
+			// text-align: right;
+			font-feature-settings: 'tnum';
+			
+			.invisible-zeros {
+				opacity: 0;
+			}
+			.money {
+				opacity: 0.6;
+				@include fs(-2);
+			}
+		}
 	}
 }
