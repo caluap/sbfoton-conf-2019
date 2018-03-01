@@ -28,9 +28,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-	font-weight: bold;
-	@include fs(2);
+	font-weight: 900;
+	@include fs(3);
 	margin-bottom: $u-h/2;
+	.leve {
+		display: block;
+		@include fs(1);
+		font-weight: 400;
+	}
 }
 
 p + h2, h2 + h2, ul + h2, ol + h2 {
