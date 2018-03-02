@@ -308,6 +308,7 @@ body.conference {
 	background-repeat: repeat-y;
 	padding-bottom: $u-h * 4;
 	color: white;
+	padding-bottom: 0;
 	@include media-query {
 		background-size: 400vw;
 	}
@@ -482,4 +483,16 @@ table ~ .legenda-tabela {
 		border-top: 2px solid white;
 	}
 	@include fs(-2);
+}
+
+
+#get-in-touch {
+	background: $conf-color-2;
+	text-align: center;
+	margin-top: $u-h * 1;
+	padding: $u-h * 2 0 $u-h * 3;
+	@include fs(1);
+	a {
+		text-decoration: underline;
+	}
 }
