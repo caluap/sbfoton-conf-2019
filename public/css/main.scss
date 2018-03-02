@@ -496,3 +496,13 @@ table ~ .legenda-tabela {
 		text-decoration: underline;
 	}
 }
+
+.box {
+	background: cinza(9.6);
+	@include sombra-3(cinza(5));
+	padding: $u-h/2 0;
+	margin-bottom: $u-h * 2;
+	.newsletter {
+		text-align: center;
+	}
+}
