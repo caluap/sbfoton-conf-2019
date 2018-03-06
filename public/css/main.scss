@@ -79,6 +79,7 @@ h4 {
 	text-align: center;
 }
 
+
 .c-blocos-destaque {
 	.bloco-destaque {
 		margin-top: $u-h;
@@ -86,14 +87,15 @@ h4 {
 			background: $light-brand;
 		}
 		&.acao {
-			border: 2px solid cinza(9);
+			// border: 2px solid cinza(9);
 			display: block;
-			text-decoration: none;
-			border-radius: 3px;
+			// text-decoration: none;
+			// border-radius: $rad-bot;
 			&:hover {
-				background: transparentize($brand,0.75);
-				border-color: transparentize($brand,0.75);
+				// background: transparentize($brand,0.75);
+				// border-color: transparentize($brand,0.75);
 			}
+			@extend .botao;
 			// background: cinza(10);
 		}
 		padding: $u-h/4 0;
@@ -145,6 +147,30 @@ blockquote {
 	}
 	margin-bottom: $u-h;
 }
+
+
+.botao {
+	background: $brand;
+	border-radius: $rad-bot;
+	color: white;
+	& > * {
+		text-align: center;
+		color: white;
+		font-weight: bold;
+	}
+	a {
+		text-decoration: none;
+		&:hover {
+			background: transparent;
+		}
+	}
+	
+	&:hover {
+		background: black;
+	}
+
+}
+
 
 .popin {
 	display: none;
@@ -501,17 +527,10 @@ table ~ .legenda-tabela {
 }
 
 .box {
-	// background: cinza(9.6);
-	@include sombra-3(transparentize($brand,0.1));
-	color: white;
+	@extend .botao;
 	padding: $u-h/2 0;
 	margin-bottom: $u-h * 2;
-	background: $brand;
-	border-radius: $rad-bot;
 	.newsletter {
-		text-align: center;
-		color: white;
-		font-weight: bold;
 		@include fs(1);
 	}
 }
