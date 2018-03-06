@@ -56,7 +56,8 @@ h3 {
 }
 
 h4 {
-	@include fs(-1);
+	@include fs(-1,1.2);
+	margin-bottom: $u-h / 4;
 	font-weight: bold;
 }
 

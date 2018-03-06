@@ -7,14 +7,15 @@
         ["Diretor de Relações Institucionais", "Hugo Enrique Hernandez Figueroa", "UNICAMP"],
         ["Diretor de Eventos", "Felipe Rudge Barbosa", "UNICAMP"],
         ["Diretor de Publicações", "Ricardo Elgul Samad", "IPEN"],
-        ["Diretor de Educação", "Diego Rativa", "POLI UPE"]
+        ["Diretor de Educação", "Diego Rativa", "POLI UPE"],
+        ["Diretor de Relacionamento com as Empresas", "Júlio Cesar Rodrigues Fernandes de Oliveira", "JCRFO"]
       ],
       "Conselho Deliberativo" : [
         ["Membro 1", "Eduardo Landulfo", "IPEN"],
         ["Membro 2", "Vilson Rosa de Almeida", "ITA, IEAv e Universidade Brasil"],
         ["Membro 3", "Roberto Ricardo Panepucci", "CTI"],
         ["Membro 4", "Marilde Wiebke Courteille", "ThorLabs"],
-        ["Membro 5", "Júlio César Rodrigues de Oliveira", "JCRFO"],
+        ["Membro 5", "Cícero Lívio Omegna de Souza Filho", "LUXTEC"],
         ["Membro 6", "Marcos Cesar Pontes", "IntegraOptics"],
         ["Membro 7", "Benedito Guimarães Aguiar Neto", "Mackenzie"],
         ["Membro 8", "Carmelo José Albanez Bastos Filho", "UPE / Parqtel"],
@@ -26,11 +27,10 @@
         ["Suplente 3", "Victor Dmitriev", "UFPA"],
         ["Suplente 4", "José Carneiro Maranhão Neto", "PADTEC"],
         ["Suplente 5", "Jandir Miguel Hickmann", "UFRGS"],
-        ["Suplente 6", "Cícero Lívio Omegna de Souza Filho", "LUXTEC"],
-        ["Suplente 7", "Paulo Clóvis Dainese Júnior", "UNICAMP"],
-        ["Suplente 8", "Luciana Reyes Pires Kassab", "FATEC-SP/CEETEPS"],
-        ["Suplente 9", "Darli Augusto de Arruda Mello", "UNICAMP"],
-        ["Suplente 10", "Rafael Euzebio Pereira de Oliveira", "MackGraphe"]
+        ["Suplente 6", "Paulo Clóvis Dainese Júnior", "UNICAMP"],
+        ["Suplente 7", "Luciana Reyes Pires Kassab", "FATEC-SP/CEETEPS"],
+        ["Suplente 8", "Darli Augusto de Arruda Mello", "UNICAMP"],
+        ["Suplente 9", "Rafael Euzebio Pereira de Oliveira", "MackGraphe"]
       ],
       "Conselho Fiscal" : [
         ["Membro 1", "Rodrigo Figueiredo Shiozaki", "UFSCAR"],
