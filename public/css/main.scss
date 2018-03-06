@@ -403,9 +403,15 @@ body.conference {
 	p {
 		@include fs(-1);
 	}
-	img {
-		margin-top: $u-h/3;
-		max-width: 100%;
+	.logos {
+		a {
+			padding: 0;
+			display: block;
+		}
+		img {
+			margin-top: $u-h/3;
+			max-width: 100%;
+		}
 	}
 }
 
