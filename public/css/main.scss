@@ -148,30 +148,6 @@ blockquote {
 	margin-bottom: $u-h;
 }
 
-
-.botao {
-	background: $brand;
-	border-radius: $rad-bot;
-	color: white;
-	& > * {
-		text-align: center;
-		color: white;
-		font-weight: bold;
-	}
-	a {
-		text-decoration: none;
-		&:hover {
-			background: transparent;
-		}
-	}
-	
-	&:hover {
-		background: black;
-	}
-
-}
-
-
 .popin {
 	display: none;
 }
@@ -526,11 +502,33 @@ table ~ .legenda-tabela {
 	}
 }
 
+.botao {
+	background: $brand;
+	border-radius: $rad-bot;
+	color: white;
+	& > * {
+		text-align: center;
+		color: white;
+		font-weight: bold;
+	}
+	a {
+		text-decoration: none;
+		&:hover {
+			background: transparent;
+		}
+	}
+	
+	&:hover {
+		background: black;
+	}
+
+}
+
 .box {
 	@extend .botao;
-	padding: $u-h/2 0;
 	margin-bottom: $u-h * 2;
 	.newsletter {
+		padding: $u-h/2 0;
 		@include fs(1);
 	}
 }
