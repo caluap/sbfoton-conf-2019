@@ -23,6 +23,9 @@ html
 		link(rel="stylesheet",href="/css/pure/grids-responsive-min.css")
 		
 		link(rel="stylesheet",href="/css/main.css")
+
+		if current.path[1] == "new_conf"
+			link(rel="stylesheet",href="/css/new_conf.css")
 		
 		script(src="/js/jquery-3.1.1.min.js")
 
@@ -47,8 +50,12 @@ html
 			if (current.path[0] == "conference" && current.path[1] == "index") {
 				classes += " conference";
 			}
+			// temporário...
+			if (current.path[0] == "conference" && current.path[1] == "new_conf") {
+				classes += " new_conf";
+			}
 		}
-		
+	
 	body(class="#{classes}")
 		//- p #{JSON.stringify(current)}
 		!= yield
