@@ -21,17 +21,36 @@ $c_mix: #006112;
 	padding: 0;
 }
 
-.conteudo.slide {
-  &.slide {
-    min-height: 100vh;
+.slide {
+  min-height: 100vh;
 
-    &.s_intro {
-      background-color: $c_rosa;
-      background-image: url(/img/fundos/s_intro.svg);
-      background-repeat: no-repeat;
-      background-size: 1920px;
-      background-position: top left;
+  &.s_intro {
+    background-color: $c_rosa;
+    background-image: url(/img/fundos/s_intro.svg);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    background-position: top left;
+
+    margin-bottom: $u-h * 30;
+
+    p {
+      @include fs(1.2);
+      // margin-top: calc(#{$u-h * 2} + 30vmin);
     }
-
   }
+}
+
+.center-p {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-p {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: $u-h;
+  padding-top: $u-h * 4;
 }
