@@ -83,3 +83,26 @@ $c_mix: #006112;
     @include fs(1,1);
   }
 }
+
+
+#menu-conf {
+  position: fixed;
+  right: $u-h;
+  top: $u-h * 2/3;
+  display: flex;
+  li {
+    margin-right: $u-h;
+    &:last-child {
+      margin-right: 0;
+    }
+    a {
+      @include fs(1);
+      @include faux-caps;
+      text-decoration: none;
+      font-weight: bold;
+      &:hover {
+        background: transparent;
+      }
+    }
+  }
+}
