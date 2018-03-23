@@ -47,7 +47,7 @@ $c_mix: #006112;
     // background-color: $c_mix;
     // background-image: ; 
     // background-color: black;
-    background-image: url(/img/fundos/s_call_0.svg), linear-gradient(mix($c_mix, $c_laranja), $c_mix);
+    background-image: url(/img/fundos/s_call_0.svg), linear-gradient(darken($c_verde,5%), $c_verde);
     background-repeat: repeat, no-repeat;
     background-size: $u-h * 5, cover;
 
@@ -128,4 +128,8 @@ $c_mix: #006112;
     margin-top: $u-h / 4;
     @include fs(3,1);
   }
+}
+
+.fs1 {
+  @include fs(1);
 }
