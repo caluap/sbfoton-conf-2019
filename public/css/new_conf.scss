@@ -14,7 +14,7 @@ $c_mix: #006112;
   position: absolute;
   left: $u-h;
   top: $u-h * 2/3;
-  width: $u-h * 3;
+  width: calc(#{$u-h * 2} + 3vmax);
 }
 
 .new_conf {
@@ -26,7 +26,11 @@ $c_mix: #006112;
     min-height: 100vh;
 
     &.s_intro {
-      background: $c_rosa;
+      background-color: $c_rosa;
+      background-image: url(/img/fundos/s_intro.svg);
+      background-repeat: no-repeat;
+      background-size: 1920px;
+      background-position: top left;
     }
 
   }
