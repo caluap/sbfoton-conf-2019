@@ -59,3 +59,27 @@ $c_mix: #006112;
   padding-bottom: $u-h;
   padding-top: $u-h * 4;
 }
+
+
+#call-for-papers-overlay {
+  background: $c_verde;
+  color: white;
+  position: absolute;
+  right: $u-h / 2;
+  top: $u-h / 2;
+  
+  padding: $u-h / 4;
+
+  // box-shadow: (-$u-h / 4) (-$u-h / 4) 0 $c_laranja;
+
+
+  p:nth-child(1) {
+    @include fs(4,1);
+    @include faux-caps;
+    padding: 0;
+  }
+  .call-deadline {
+    margin-top: $u-h / 4;
+    @include fs(1,1);
+  }
+}
