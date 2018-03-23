@@ -26,15 +26,20 @@ $c_mix: #006112;
 
   &.s_intro {
     background-color: $c_rosa;
-    background-image: url(/img/fundos/s_intro.svg);
+    background-image: url(/img/fundos/s_intro.svg), url(/img/fundos/s_intro_2.svg);
     background-repeat: no-repeat;
-    background-size: 1920px;
-    background-position: top left;
+    background-size: 1920px, 1920px;
+    background-position: 0 -300px, 100% 0;
 
     margin-bottom: $u-h * 30;
 
     p {
-      @include fs(1.2);
+      @include media-query-a-partir($s-sm) {
+        @include fs(1);
+      }
+      @include media-query-a-partir($s-xl) {
+        @include fs(1.2);
+      }
       // margin-top: calc(#{$u-h * 2} + 30vmin);
     }
   }
