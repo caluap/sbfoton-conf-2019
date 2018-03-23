@@ -44,10 +44,11 @@ html
 			classes = "home";
 		} else {
 			classes = "not-home";
-			if (current.path[1] = "conference") {
+			if (current.path[0] == "conference" && current.path[1] == "index") {
 				classes += " conference";
 			}
 		}
 		
 	body(class="#{classes}")
+		//- p #{JSON.stringify(current)}
 		!= yield
