@@ -14,7 +14,8 @@ $c_mix: #006112;
   position: absolute;
   left: $u-h;
   top: $u-h * 2/3;
-  width: calc(#{$u-h * 2} + 3vmax);
+  width: calc(#{$u-h * 2} + 6vmax);
+  transform: translateX(-8%);
 }
 
 .new_conf {
