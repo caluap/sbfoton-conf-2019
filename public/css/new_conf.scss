@@ -138,31 +138,39 @@ $c_mix: #006112;
 .topics-wrapper {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: $u-h / 4;
-  grid-template-rows: repeat(6, 1fr 5fr);
-  .topic-group {
-    background: red;
-    grid-column: 1 / 7;
+  grid-gap: $u-h / 9;
+  grid-template-rows: repeat(6, 1fr 3fr);
+  .topic-group, .topic {
+    padding: $u-h / 6;
   }
+  .topic-group {
+
+    background: $c_rosa;
+    color: black;
+    
+    
+    @include fs(-1);
+    @include faux-caps;
+    font-weight: bold;
+    grid-column: 1 / 7;
+    &.opt-comm { grid-column: 2 / 5; }
+    &.lasers { grid-column: 4 / 7; }
+    &.int-phot { grid-column: 3 / 6; }
+    &.opt-inst { grid-column: 1 / 6; }
+    &.biophot { grid-column: 2 / 5; }
+    &.sensors { grid-column: 3 / 7; }
+  }
+
   .topic {
-    background: black;
-    &.opt-comm {
-      &.t1 { grid-column: 2; }
-    }
-    &.lasers {
-      &.t1 { grid-column: 4; }
-    }
-    &.int-phot {
-      &.t1 { grid-column: 2; }
-    }
-    &.opt-inst {
-      &.t1 { grid-column: 1; }
-    }
-    &.biophot {
-      &.t1 { grid-column: 2; }
-    }
-    &.sensors {
-      &.t1 { grid-column: 3; }
-    }
+    background: white;
+    color: black;
+
+
+    &.opt-comm.t1 { grid-column: 2; }
+    &.lasers.t1 { grid-column: 4; }
+    &.int-phot.t1 { grid-column: 3; }
+    &.opt-inst.t1 { grid-column: 1; }
+    &.biophot.t1 { grid-column: 2; }
+    &.sensors.t1 { grid-column: 3; }
   }
 }
