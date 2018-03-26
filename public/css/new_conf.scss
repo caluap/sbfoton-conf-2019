@@ -134,3 +134,35 @@ $c_mix: #006112;
 .fs1 {
   @include fs(1);
 }
+
+.topics-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: $u-h / 4;
+  grid-template-rows: repeat(6, 1fr 5fr);
+  .topic-group {
+    background: red;
+    grid-column: 1 / 7;
+  }
+  .topic {
+    background: black;
+    &.opt-comm {
+      &.t1 { grid-column: 2; }
+    }
+    &.lasers {
+      &.t1 { grid-column: 4; }
+    }
+    &.int-phot {
+      &.t1 { grid-column: 2; }
+    }
+    &.opt-inst {
+      &.t1 { grid-column: 1; }
+    }
+    &.biophot {
+      &.t1 { grid-column: 2; }
+    }
+    &.sensors {
+      &.t1 { grid-column: 3; }
+    }
+  }
+}
