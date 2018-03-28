@@ -144,7 +144,7 @@ $c4: #E87866;
 $c5: #769088;
 $c6: #A4957C;
 
-$sep: $u-h / 6;
+$sep: $u-h / 3;
 
 
 .topics-wrapper {
@@ -183,29 +183,22 @@ $sep: $u-h / 6;
     border: 4px solid transparent;
     
     $cft: white;
-    color: $c_mix;
+    color: black;
 
-    &.opt-comm { background: $cft; box-shadow: $sep $sep 0 $c1; }
-    &.lasers { background: $cft; box-shadow: $sep $sep 0 $c2; }
-    &.int-phot { background: $cft; box-shadow: $sep $sep 0 $c3; }
-    &.opt-inst { background: $cft; box-shadow: $sep $sep 0 $c4; }
-    &.biophot { background: $cft; box-shadow: $sep $sep 0 $c5; }
-    &.sensors {background: $cft; box-shadow: $sep $sep 0 $c6; }
+    border-radius: $u-h / 3;
+
+    &.opt-comm { background: $cft; box-shadow: -$sep $sep 0 $c1; }
+    &.lasers { background: $cft; box-shadow: -$sep $sep 0 $c2; }
+    &.int-phot { background: $cft; box-shadow: -$sep $sep 0 $c3; }
+    &.opt-inst { background: $cft; box-shadow: -$sep $sep 0 $c4; }
+    &.biophot { background: $cft; box-shadow: -$sep $sep 0 $c5; }
+    &.sensors {background: $cft; box-shadow: -$sep $sep 0 $c6; }
     
   }
 
   .topics-em-si {
     display: grid;
     grid-gap: #{$sep * 2};
-    // &.g3 {
-    //   grid-template-columns: repeat(3, 1fr);
-    // }
-    // &.g4 {
-    //   grid-template-columns: repeat(4, 1fr);
-    // }
-    // &.g5 {
-    //   grid-template-columns: repeat(5, 1fr);
-    // }
     grid-template-columns: repeat(5, 1fr);
 
     @include media-query-a-partir($s-lg) {
