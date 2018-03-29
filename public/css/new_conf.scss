@@ -44,7 +44,7 @@ $c_mix: #006112;
   }
 
   &.s-call-for-papers {
-    background-image: url(/img/fundos/s_call_0.svg), linear-gradient(darken($c_verde,5%), $c_verde);
+    background-image: url(/img/fundos/s_call_0.svg), linear-gradient($c_verde, darken($c_verde,8%));
     background-repeat: repeat, no-repeat;
     background-size: $u-h * 12, cover;
 
@@ -77,7 +77,7 @@ $c_mix: #006112;
 
 
   &.s-invited-speakers {
-    background: url(/img/fundos/s_invited.svg), linear-gradient(darken($c_laranja,5%), $c_laranja);
+    background: url(/img/fundos/s_invited.svg), linear-gradient(darken($c_laranja,8%), $c_laranja);
     background-size: 100vh, cover;
     * {
       color: white;
@@ -321,4 +321,56 @@ $sep: $u-h / 3;
 
 h1 {
   @include fs(5);
+}
+
+
+.speakers {
+  margin-top: $u-h;
+  padding-bottom: $u-h * 2;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+  @include media-query-a-partir($s-sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include media-query-a-partir($s-md) {
+    grid-template-columns: repeat(3, 1fr);
+    .s3, .s4 {
+      grid-row: 2;
+    }
+  }
+  @include media-query-a-partir($s-xl) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  grid-gap: $u-h / 2;
+  grid-column-gap: $u-h;
+  grid-row-gap: $u-h * 2;
+
+  .speaker {
+    img {
+      width: 100%;
+    }
+
+    .dados-speaker {
+
+      p {
+        @include fs(-1);
+      }
+
+      .nome {
+        font-weight: bold;
+      }
+
+      .filiacao {
+      }
+
+      p + p {
+        margin: 0;
+      }
+    }
+
+  }
 }
