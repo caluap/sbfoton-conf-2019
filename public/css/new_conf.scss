@@ -67,17 +67,12 @@ $c_mix: #006112;
     --p_s3_x_img2: calc(100vw - 45vh);
     --p_s3_y_img2: 55vh;
 
-    background-color: $c_rosa;
-    transition: background-color 3s ease;
+    background-color: white;
     background-image: url(/img/fundos/circulo_rosa.svg), url(/img/fundos/circulo_rosa.svg);
     background-position: var(--p_s3_x_img1) var(--p_s3_y_img1), var(--p_s3_x_img2) var(--p_s3_y_img2);
     background-size: 90vh, 90vh;
     background-repeat: no-repeat;
     will-change: background-position;
-
-    &.entrou {
-      background-color: white;
-    }
 
     margin-bottom: 200vh;
   }
@@ -267,4 +262,29 @@ $sep: $u-h / 3;
   &:hover {
     background: black;
   }
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: $u-h / 2;
+  grid-row-gap: $u-h / 4;
+  .event {
+    display: block;
+    min-height: 5em;
+    padding-bottom: $u-h / 4;
+    border-bottom: 2px solid black;
+    grid-row: 1/2;
+    font-weight: bold;
+  }
+  .date {
+    grid-row: 2/3;
+    @include faux-caps;
+}
+
+}
+
+
+h1 {
+  @include fs(5);
 }

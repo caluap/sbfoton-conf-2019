@@ -113,7 +113,20 @@ ul#menu-conf
 .slide.s-dates
   a(name="dates-and-fees")
   .pure-g
-    .pure-u-1
+    .pure-u-1.pad
+      .separador-1
+      h1 Dates & Fees
+      .dates
+        .event Submission opens
+        .date March 27th
+        .event Regular paper registration deadline
+        .date May 28th
+        .event Regular paper upload deadline
+        .date May 30th
+        .event Regular paper acceptance/rejection notification
+        .date August 3rd
+        .event Regular paper final version upload
+        .date August 27th
 
 script.
   let instances = [];
@@ -131,11 +144,6 @@ script.
         '--p_s3_y_img2': {
           from: '55vh',
           to: '-20vh'
-        }
-      },
-      inside: (instance, percentage, props) => {
-        if (!$('.s-dates').hasClass('entrou')) {
-          $('.s-dates').addClass('entrou');
         }
       }
     }));
