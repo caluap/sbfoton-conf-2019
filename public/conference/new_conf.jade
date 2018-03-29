@@ -127,6 +127,50 @@ ul#menu-conf
         .date August 3rd
         .event Regular paper final version upload
         .date August 27th
+        .t-new_conf
+          table.fees
+            tr
+              th Delegates and Visitors
+              th Early Registration #[br]#[small (before August 6th)]
+              th Standard Registration
+            tr.there-be-prices
+              td FULL SBFoton Society Member
+              td #[span.money R$] 800,00
+              td #[span.money R$] 960,00
+            tr.there-be-prices
+              td FULL Non Member
+              td #[span.money R$] 1.000,00
+              td #[span.money R$] 1.200,00
+            tr.there-be-prices
+              td Student SBFoton Society Member
+              td #[span.money R$] 300,00
+              td #[span.money R$] 360,00
+            tr.there-be-prices
+              td Student Non Member
+              td #[span.money R$] 400,00
+              td #[span.money R$] 480,00
+            tr.there-be-prices
+              td Undergraduate Student #[br] SBFoton Society Member*
+              td #[span.money R$] 150,00
+              td #[span.money R$] 180,00
+            tr.there-be-prices
+              td Undergraduate Non Member*	
+              td #[span.money R$] 200,00
+              td #[span.money R$] 240,00
+            tr.there-be-prices
+              td One day attendance	
+              td #[span.money R$] 400,00
+              td #[span.money R$] 480,00
+            tr.there-be-prices
+              td Short Course
+              td #[span.money R$] 50,00
+              td #[span.money R$] 60,00
+            tr.there-be-prices
+              td Confraternization Dinner
+              td #[span.money R$] 120,00
+              td #[span.money R$] 140,00
+          .legenda-tabela 
+            p Special Undergraduate-group discount*
 
 script.
   let instances = [];
@@ -134,7 +178,7 @@ script.
     basicScroll.create({
       elem: document.querySelector('.s-dates'),
       from: 'top-bottom',
-      to: 'top-top',
+      to: 'bottom-top',
       direct: true,
       props: {
         '--p_s3_y_img1': {

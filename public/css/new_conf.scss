@@ -63,7 +63,7 @@ $c_mix: #006112;
 
   &.s-dates {
     --p_s3_x_img1: -45vh;
-    --p_s3_y_img1: -45h;
+    --p_s3_y_img1: -45vh;
     --p_s3_x_img2: calc(100vw - 45vh);
     --p_s3_y_img2: 55vh;
 
@@ -286,7 +286,31 @@ $sep: $u-h / 3;
     @include fs(0);
     grid-row: 2/3;
     @include faux-caps;
+  }
+
 }
+
+
+.t-new_conf {
+
+  grid-row: 3/4;
+  grid-column: 1/4;
+
+  margin-top: $u-h * 2;
+  background: rgba(255,255,255,0.5);
+  padding: $u-h / 4;
+
+
+	td {
+		border-bottom: 1px solid rgba(0,0,0,0.5);
+	}
+	th {
+		border-bottom: 2px solid black;
+	}
+
+  table ~ .legenda-tabela {
+    margin-bottom: 0;
+  }
 
 }
 
