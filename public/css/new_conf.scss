@@ -46,7 +46,7 @@ $c_mix: #006112;
   &.s-call-for-papers {
     background-image: url(/img/fundos/s_call_0.svg), linear-gradient(darken($c_verde,5%), $c_verde);
     background-repeat: repeat, no-repeat;
-    background-size: $u-h * 5, cover;
+    background-size: $u-h * 12, cover;
 
     color: white;
 
@@ -73,10 +73,16 @@ $c_mix: #006112;
     background-size: 90vh, 90vh;
     background-repeat: no-repeat;
     will-change: background-position;
-
-    margin-bottom: 200vh;
   }
 
+
+  &.s-invited-speakers {
+    background: url(/img/fundos/s_invited.svg), linear-gradient(darken($c_laranja,5%), $c_laranja);
+    background-size: 100vh, cover;
+    * {
+      color: white;
+    }
+  }
 
 }
 
@@ -133,12 +139,9 @@ $c_mix: #006112;
 
 
 .call-for-papers-banner {
-  margin-top: $u-h;
-  border-left: $u-h solid black;
-  margin-bottom: $u-h;
+  margin-top: $u-h*2;
+  margin-bottom: 0 $u-h;
   padding: $u-h;
-  background: transparentize(darkorchid,0.2);
-  mix-blend-mode: screen;
   font-weight: bold;
   color: white;
 
