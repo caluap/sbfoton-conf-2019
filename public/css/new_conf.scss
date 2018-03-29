@@ -27,10 +27,10 @@ $c_mix: #006112;
 
   &.s-intro {
     background-color: $c_rosa;
-    background-image: url(/img/fundos/s_intro.svg), url(/img/fundos/s_intro_2.svg);
+    background-image: url(/img/fundos/circulo_branco.svg), url(/img/fundos/circulo_branco.svg);
     background-repeat: no-repeat;
-    background-size: 1920px, 1920px;
-    background-position: 0 -300px, 100% 0;
+    background-size: 100vh, 100vh;
+    background-position: -50vh -50vh, calc(100vw - 50vh) 50vh;
 
     p {
       @include media-query-a-partir($s-sm) {
@@ -69,9 +69,9 @@ $c_mix: #006112;
 
     background-color: $c_rosa;
     transition: background-color 3s ease;
-    background-image: url(/img/fundos/s_dates_2.svg), url(/img/fundos/s_dates_2.svg), url(/img/fundos/s_dates_3.svg);
-    background-position: var(--p_s3_x_img1) var(--p_s3_y_img1), var(--p_s3_x_img2) var(--p_s3_y_img2), center;
-    background-size: 90vh, 90vh, 200vh;
+    background-image: url(/img/fundos/circulo_rosa.svg), url(/img/fundos/circulo_rosa.svg);
+    background-position: var(--p_s3_x_img1) var(--p_s3_y_img1), var(--p_s3_x_img2) var(--p_s3_y_img2);
+    background-size: 90vh, 90vh;
     background-repeat: no-repeat;
     will-change: background-position;
 
