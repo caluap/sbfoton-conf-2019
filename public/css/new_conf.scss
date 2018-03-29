@@ -133,10 +133,12 @@ $c_mix: #006112;
 
 
 .call-for-papers-banner {
-  margin-top: 0;
+  margin-top: $u-h;
+  border-left: $u-h solid black;
   margin-bottom: $u-h;
   padding: $u-h;
-  background: black;
+  background: transparentize(darkorchid,0.2);
+  mix-blend-mode: screen;
   font-weight: bold;
   color: white;
 
