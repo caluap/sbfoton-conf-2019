@@ -44,17 +44,28 @@ $c_mix: #006112;
   }
 
   &.s-call-for-papers {
-    // background: white;
-    // background-color: $c_mix;
-    // background-image: ; 
-    // background-color: black;
     background-image: url(/img/fundos/s_call_0.svg), linear-gradient(darken($c_verde,5%), $c_verde);
     background-repeat: repeat, no-repeat;
     background-size: $u-h * 5, cover;
 
     color: white;
 
+    a {
+      color: white;
+      text-decoration-color: white;
+      &:hover {
+        background-color: black;
+      }
+    }
+
   }
+
+
+  &.s-dates {
+    background: $c_laranja;
+  }
+
+
 }
 
 .center-p {
@@ -110,12 +121,10 @@ $c_mix: #006112;
 
 
 .call-for-papers-banner {
-  padding: $u-h*5 $u-h $u-h;
-  // background-image: url(/img/fundos/s_call_1.svg), url(/img/fundos/s_call_2.svg);
-  // background-repeat: repeat-x;
-  // background-position: bottom, top;
-  // background-size: $u-h * 6, $u-h * 9;
-  
+  margin-top: $u-h * 2;
+  margin-bottom: $u-h;
+  padding: $u-h;
+  background: black;
   font-weight: bold;
   color: white;
 
@@ -135,6 +144,13 @@ $c_mix: #006112;
   @include fs(1);
 }
 
+.fs0 {
+  @include fs(0);
+}
+
+.fs-1 {
+  @include fs(-1);
+}
 
 
 $c1: #69bba2;
@@ -215,4 +231,23 @@ $sep: $u-h / 3;
     }
   }
 
+}
+
+.saiba-mais {
+  margin-top: $u-h / 2;
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: $u-h / 9;
+  border-radius: 50%;
+  width: $u-h / 2;
+  height: $u-h / 2;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  &:hover {
+    background: black;
+  }
 }
