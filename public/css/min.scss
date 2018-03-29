@@ -40,7 +40,7 @@ $fonte-texto: 'Inter UI';
 }
 
 @function cinza($nivel : 5) {
-	@return mix(#FEFBF9,#0d0c0b,$nivel*10);
+	@return mix(#FEFEFE,#0d0c0b,$nivel*10);
 }
 
 @mixin fs($s : 1, $linha : 1.5) {

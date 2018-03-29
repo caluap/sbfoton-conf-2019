@@ -265,19 +265,25 @@ $sep: $u-h / 3;
 }
 
 .dates {
+  margin-top: $u-h;
+  mix-blend-mode: multiply;
+  
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-column-gap: $u-h / 2;
   grid-row-gap: $u-h / 4;
   .event {
+    padding: $u-h / 6;
     display: block;
     min-height: 5em;
     padding-bottom: $u-h / 4;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid cinza(8);
     grid-row: 1/2;
     font-weight: bold;
   }
   .date {
+    padding: $u-h / 6;
+    @include fs(0);
     grid-row: 2/3;
     @include faux-caps;
 }
