@@ -124,20 +124,19 @@ script.
       to: 'top-top',
       direct: true,
       props: {
-        '--p_s3_y_img2': {
-          from: '0%',
-          to: '300%'
+        '--p_s3_y_img1': {
+          from: '-45vh',
+          to: '30vh'
         },
-        '--p_s3_x_img2': {
-          from: '50%',
-          to: '20%'
+        '--p_s3_y_img2': {
+          from: '55vh',
+          to: '-20vh'
         }
       },
       inside: (instance, percentage, props) => {
-        console.log('viewport is inside from and to')
-      },
-      outside: (instance, percentage, props) => {
-        console.log('viewport is outside from and to')
+        if (!$('.s-dates').hasClass('entrou')) {
+          $('.s-dates').addClass('entrou');
+        }
       }
     }));
   instances.forEach((instance) => {

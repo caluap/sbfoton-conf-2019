@@ -61,18 +61,25 @@ $c_mix: #006112;
   }
 
 
-  --o: .99;
   &.s-dates {
-    opacity: var(--o);
-    will-change: opacity;
-    --p_s3_y_img2: 0%;
-    --p_s3_x_img2: 50%;
-    background-color: white;
-    background-image: url(/img/fundos/s_dates_0.svg), url(/img/fundos/s_dates_1.svg);
-    background-attachment: scroll, scroll;
-    background-position: var(--p_s3_x_img2) var(--p_s3_y_img2), bottom left;
-    background-size: 1920px, 1920px;
+    --p_s3_x_img1: -45vh;
+    --p_s3_y_img1: -45h;
+    --p_s3_x_img2: calc(100vw - 45vh);
+    --p_s3_y_img2: 55vh;
+
+    background-color: $c_rosa;
+    transition: background-color 3s ease;
+    background-image: url(/img/fundos/s_dates_2.svg), url(/img/fundos/s_dates_2.svg), url(/img/fundos/s_dates_3.svg);
+    background-position: var(--p_s3_x_img1) var(--p_s3_y_img1), var(--p_s3_x_img2) var(--p_s3_y_img2), center;
+    background-size: 90vh, 90vh, 200vh;
     background-repeat: no-repeat;
+    will-change: background-position;
+
+    &.entrou {
+      background-color: white;
+    }
+
+    margin-bottom: 200vh;
   }
 
 
