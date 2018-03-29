@@ -61,8 +61,18 @@ $c_mix: #006112;
   }
 
 
+  --o: .99;
   &.s-dates {
-    background: $c_laranja;
+    opacity: var(--o);
+    will-change: opacity;
+    --p_s3_y_img2: 0%;
+    --p_s3_x_img2: 50%;
+    background-color: white;
+    background-image: url(/img/fundos/s_dates_0.svg), url(/img/fundos/s_dates_1.svg);
+    background-attachment: scroll, scroll;
+    background-position: var(--p_s3_x_img2) var(--p_s3_y_img2), bottom left;
+    background-size: 1920px, 1920px;
+    background-repeat: no-repeat;
   }
 
 

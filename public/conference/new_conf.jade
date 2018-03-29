@@ -114,3 +114,32 @@ ul#menu-conf
   a(name="dates-and-fees")
   .pure-g
     .pure-u-1
+
+script.
+  let instances = [];
+  instances.push(
+    basicScroll.create({
+      elem: document.querySelector('.s-dates'),
+      from: 'top-bottom',
+      to: 'top-top',
+      direct: true,
+      props: {
+        '--p_s3_y_img2': {
+          from: '0%',
+          to: '300%'
+        },
+        '--p_s3_x_img2': {
+          from: '50%',
+          to: '20%'
+        }
+      },
+      inside: (instance, percentage, props) => {
+        console.log('viewport is inside from and to')
+      },
+      outside: (instance, percentage, props) => {
+        console.log('viewport is outside from and to')
+      }
+    }));
+  instances.forEach((instance) => {
+    instance.start();
+  });
