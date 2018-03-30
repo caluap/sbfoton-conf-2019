@@ -512,12 +512,20 @@ h1 {
  // melhor colocar essa proporção de redução numa variável
 $pl-r : 0.6;
 
-#logo-rodape {
-  width: 100% * $pl-r;
+#link-logo-rodape {
+  display: block;
+  padding-bottom: $u-h/4;
+  a:hover {
+    background: transparent;
+  }
   & ~ p {
     padding-left: 32.44401438% * $pl-r; // proporção entre (bolinha+margem)/(largura total) no logo
     box-sizing: border-box;
   }
+}
+
+#logo-rodape {
+  width: 100% * $pl-r;
 }
 
 .support {
