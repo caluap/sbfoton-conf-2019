@@ -294,6 +294,9 @@ $sep: $u-h / 3;
 
 .g-t-new_conf {
   @extend .grid-dates;
+  @include media-query($s-sm) {
+    overflow-x: scroll; // quase não precisa, mas é melhor garantir (fica pouca coisa pra fora...)
+  }
 
   .t-new_conf {
     grid-column: 1/4;
