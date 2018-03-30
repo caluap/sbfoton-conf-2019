@@ -100,7 +100,12 @@ $c_mix: #006112;
   }
 
   &.s-rodape {
-    background: cinza(1);
+    background-color: cinza(0);
+    background-image: url(/img/fundos/circulo_branco_fraco.svg), url(/img/fundos/circulo_branco_fraco.svg);
+    background-repeat: no-repeat;
+    background-size: 100vh, 100vh;
+    background-position: calc(100vw - 50vh) -50vh, -50vh calc(100% + 50vh);
+    
     min-height: unset;
     color: white;
     padding-bottom: 0;
@@ -518,7 +523,6 @@ $pl-r : 0.6;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: $u-h / 4;
   a {
-    background: transparentize(cinza(2),0.5);
     padding: 2px;
     text-decoration: none;
   }
@@ -526,9 +530,10 @@ $pl-r : 0.6;
 
 .credits {
   @include fs(-2);
+  @include texto-sombra-0(cinza(0));
   padding: $u-h*4 0 $u-h;
   &, a {
-    color: cinza(5) !important;
+    color: cinza(7) !important;
   }
   a:hover {
     color: white !important;
