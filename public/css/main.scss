@@ -171,7 +171,7 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 20vh;
-	background: url(/img/fundos/s_invited.svg), linear-gradient(darken($c_verde,15%), darken($c_verde,5%));
+	background: url(/img/fundos/s_invited.svg), linear-gradient($c_laranja, darken($c_laranja,15%));
 	background-size: 100vh, cover;
 	// @include texto-sombra-0($conf-color);
 	color: $conf-frente;
