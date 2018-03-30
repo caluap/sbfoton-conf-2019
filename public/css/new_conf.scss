@@ -28,6 +28,8 @@ $c_mix: #006112;
 .slide {
   min-height: 100vh;
 
+  padding-bottom: $u-h * 2;
+
   &.invertido {
     color: white;
     a {
@@ -101,9 +103,9 @@ $c_mix: #006112;
     background: cinza(1);
     min-height: unset;
     color: white;
+    padding-bottom: 0;
   }
 
-  padding-bottom: $u-h * 2;
 
 }
 
@@ -510,7 +512,7 @@ $pl-r : 0.6;
 }
 
 .support {
-  @include fs(-3);
+  @include fs(-2);
   padding-top: $u-h / 2;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -519,5 +521,16 @@ $pl-r : 0.6;
     background: transparentize(cinza(2),0.5);
     padding: 2px;
     text-decoration: none;
+  }
+}
+
+.credits {
+  @include fs(-2);
+  padding: $u-h*4 0 $u-h;
+  &, a {
+    color: cinza(5) !important;
+  }
+  a:hover {
+    color: white !important;
   }
 }
