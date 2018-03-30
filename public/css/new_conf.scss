@@ -347,6 +347,15 @@ $sep: $u-h / 3;
   margin-top: $u-h * 2;
   background: rgba(255,255,255,0.5);
 
+  @include media-query($s-sm) {
+    .fees {
+      @include fs(-3);
+      small, .there-be-prices td:not(:first-child) .money, tr th:not(:first-child) .money {
+        @include fs(-4);
+      }
+      // background: blue;
+    }
+  }
 
 	td {
 		border-bottom: 1px solid rgba(0,0,0,0.5);
