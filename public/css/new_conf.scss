@@ -119,6 +119,7 @@ $c_mix: #006112;
 
 #menu-conf {
   position: fixed;
+  z-index: 10;
   right: $u-h;
   top: $u-h * 2/3;
   display: flex;
@@ -137,6 +138,37 @@ $c_mix: #006112;
       }
     }
   }
+
+  @include media-query($s-lg) {
+    li {
+      &:not(:last-child) {
+        margin-right: $u-h / 2;
+      }
+      a {
+        @include fs(-1);
+      }
+    }
+  }
+  @include media-query($s-md) {
+    right: 0;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    background: $c_rosa;
+    @include sombra-0;
+    li {
+      margin-right: 0 !important;
+      text-align: center;
+      flex-grow: 1;
+      padding-bottom: $u-h / 8;
+      a {
+        @include fs(-4,0);
+        font-weight: normal;
+        // color: white;
+      }
+    }
+  }
+
 }
 
 
@@ -378,7 +410,7 @@ $sep: $u-h / 3;
 
 
 h1 {
-  @include fs(5);
+  @include fs(5,1);
 }
 
 
