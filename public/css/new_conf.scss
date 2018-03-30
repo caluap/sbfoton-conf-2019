@@ -51,10 +51,10 @@ $c_mix: #006112;
 
     p {
       @include media-query-a-partir($s-sm) {
-        @include fs(1);
+        @include fs(0);
       }
       @include media-query-a-partir($s-xl) {
-        @include fs(1.2);
+        @include fs(1);
       }
       // margin-top: calc(#{$u-h * 2} + 30vmin);
     }
@@ -550,4 +550,9 @@ $pl-r : 0.6;
   a:hover {
     color: white !important;
   }
+}
+
+.link-importante {
+  padding: 0 4px;
+  margin: 0 -4px;
 }
