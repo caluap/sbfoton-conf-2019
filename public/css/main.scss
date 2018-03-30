@@ -10,6 +10,14 @@ $conf-color-2: #5e3994;
 $conf-color: #e0543c;//tomato; //rebeccapurple;
 $conf-frente: white;
 
+
+
+
+$c_rosa: #ffd4d5;
+$c_laranja: #f7941e;
+$c_verde: #00a79d;
+$c_mix: #006112;
+
 $rad-bot: 8px;
 
 
@@ -163,9 +171,9 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 20vh;
-	background: transparentize($conf-color,0.4) url('../img/fundo-banner-conf.png');
-	background-size: cover;
-	@include texto-sombra-0($conf-color);
+	background: url(/img/fundos/s_invited.svg), linear-gradient(darken($c_verde,15%), darken($c_verde,5%));
+	background-size: 100vh, cover;
+	// @include texto-sombra-0($conf-color);
 	color: $conf-frente;
 	z-index: 10;
 	overflow-y: scroll;
