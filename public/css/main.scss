@@ -265,22 +265,13 @@ blockquote {
 	position: fixed;
 	right: $u-h/2;
 	top: $u-h/2;
-	background: $conf-color;
-	padding: $u-h / 4;
-	@include sombra-1;
-	@include fs(0,1.2);
-	transition: opacity 3s ease;
-	opacity: 1;
-	text-decoration: none;
-	color: white;
-	&:hover {
-		background: black;
-	}
-	i {
-		padding-left: 4px;
-	}
-	.ano {
 
+	img {
+		width: $u-h * 3;
+	}
+
+	&:hover {
+		background: transparent;
 	}
 	z-index: 9;
 }
