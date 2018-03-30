@@ -233,6 +233,23 @@ script.
   let instances = [];
   instances.push(
     basicScroll.create({
+      elem: document.querySelector('.s-intro'),
+      from: 'bottom-bottom',
+      to: 'bottom-top',
+      direct: true,
+      props: {
+        '--p_s1_y_img1': {
+          from: '-50vh',
+          to: '0vh'
+        },
+        '--p_s1_y_img2': {
+          from: '50vh',
+          to: '0vh'
+        }
+      }
+    }));
+  instances.push(
+    basicScroll.create({
       elem: document.querySelector('.s-dates'),
       from: 'top-bottom',
       to: 'bottom-top',
@@ -257,11 +274,11 @@ script.
       props: {
         '--p_s5_y_img1': {
           from: '0vh',
-          to: '-75vh'
+          to: '-50vh'
         },
         '--p_s5_y_img2': {
           from: '-20vh',
-          to: '50vh'
+          to: '30vh'
         }
       }
     }));

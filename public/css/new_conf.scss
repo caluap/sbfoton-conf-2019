@@ -41,11 +41,13 @@ $c_mix: #006112;
   }
 
   &.s-intro {
+    --p_s1_y_img1: -50vh;
+    --p_s1_y_img2: 50vh;
     background-color: $c_rosa;
     background-image: url(/img/fundos/circulo_branco.svg), url(/img/fundos/circulo_branco.svg);
     background-repeat: no-repeat;
     background-size: 100vh, 100vh;
-    background-position: -50vh -50vh, calc(100vw - 50vh) 50vh;
+    background-position: -50vh var(--p_s1_y_img1), calc(100vw - 50vh) var(--p_s1_y_img2);
 
     p {
       @include media-query-a-partir($s-sm) {
