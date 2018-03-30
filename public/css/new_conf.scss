@@ -508,3 +508,16 @@ $pl-r : 0.6;
     box-sizing: border-box;
   }
 }
+
+.support {
+  @include fs(-3);
+  padding-top: $u-h / 2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: $u-h / 4;
+  a {
+    background: transparentize(cinza(2),0.5);
+    padding: 2px;
+    text-decoration: none;
+  }
+}
