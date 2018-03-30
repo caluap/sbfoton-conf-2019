@@ -150,6 +150,9 @@ $c_mix: #006112;
 
   p:nth-child(1) {
     @include fs(8,1);
+    @include media-query($s-sm) {
+      @include fs(4,1);
+    }
     @include faux-caps;
     padding: 0;
   }
