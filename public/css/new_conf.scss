@@ -14,6 +14,9 @@ $c_mix: #006112;
   position: absolute;
   left: $u-h;
   top: $u-h * 2/3;
+  @include media-query($s-sm) {
+    top: $u-h * 3/2;
+  }
   width: calc(#{$u-h * 2} + 6vmax);
   transform: translateX(-8%);
 }
@@ -99,8 +102,10 @@ $c_mix: #006112;
   min-height: 100vh;
   display: flex;
   align-items: flex-end;
-  padding-bottom: $u-h;
-  padding-top: $u-h * 4;
+  @include media-query-a-partir($s-sm) {
+    padding-bottom: $u-h;
+  }
+  padding-top: $u-h * 5;
 }
 
 
@@ -248,14 +253,15 @@ $sep: $u-h / 3;
   }
 
   .topic {
-    // background: white;
     @include fs(-1);
     border: 4px solid transparent;
     
     $cft: white;
     color: black;
 
-    border-radius: $u-h / 3;
+    border-radius: $u-h / 2;
+    position: relative;
+    left: $sep;
 
     &.opt-comm { background: $cft; box-shadow: -$sep $sep 0 $c1; }
     &.lasers { background: $cft; box-shadow: -$sep $sep 0 $c2; }
