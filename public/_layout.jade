@@ -24,7 +24,7 @@ html
 		
 		link(rel="stylesheet",href="/css/main.css")
 
-		if current.path[1] == "new_conf"
+		if current.path[0] == "conference" && current.path[1] == "index"
 			link(rel="stylesheet",href="/css/new_conf.css")
 		
 		script(src="/js/jquery-3.1.1.min.js")
@@ -49,10 +49,6 @@ html
 		} else {
 			classes = "not-home";
 			if (current.path[0] == "conference" && current.path[1] == "index") {
-				classes += " conference";
-			}
-			// temporário...
-			if (current.path[0] == "conference" && current.path[1] == "new_conf") {
 				classes += " new_conf";
 			}
 		}
