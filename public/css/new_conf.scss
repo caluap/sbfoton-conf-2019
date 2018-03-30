@@ -100,11 +100,13 @@ $c_mix: #006112;
   }
 
   &.s-rodape {
+    --p_s5_y_img1: -50vh;
+    --p_s5_y_img2: calc(100% + 50vh);
     background-color: cinza(0);
     background-image: url(/img/fundos/circulo_branco_fraco.svg), url(/img/fundos/circulo_branco_fraco.svg);
     background-repeat: no-repeat;
     background-size: 100vh, 100vh;
-    background-position: calc(100vw - 50vh) -50vh, -50vh calc(100% + 50vh);
+    background-position: calc(100vw - 50vh) var(--p_s5_y_img1), -50vh var(--p_s5_y_img2);
     
     min-height: unset;
     color: white;

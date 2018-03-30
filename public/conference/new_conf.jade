@@ -173,29 +173,6 @@ ul#menu-conf
           .legenda-tabela 
             p Special Undergraduate-group discount*
 
-script.
-  let instances = [];
-  instances.push(
-    basicScroll.create({
-      elem: document.querySelector('.s-dates'),
-      from: 'top-bottom',
-      to: 'bottom-top',
-      direct: true,
-      props: {
-        '--p_s3_y_img1': {
-          from: '-45vh',
-          to: '30vh'
-        },
-        '--p_s3_y_img2': {
-          from: '55vh',
-          to: '-20vh'
-        }
-      }
-    }));
-  instances.forEach((instance) => {
-    instance.start();
-  });
-
 
 
 .slide.s-invited-speakers
@@ -248,3 +225,46 @@ script.
   .pure-g.pad
     .pure-u-1
       p.credits This website and the event’s visual identity were created by #[a(href="http://www.preface.com.br/",target="_blank") Preface&nbsp;design].
+
+
+
+
+script.
+  let instances = [];
+  instances.push(
+    basicScroll.create({
+      elem: document.querySelector('.s-dates'),
+      from: 'top-bottom',
+      to: 'bottom-top',
+      direct: true,
+      props: {
+        '--p_s3_y_img1': {
+          from: '-45vh',
+          to: '30vh'
+        },
+        '--p_s3_y_img2': {
+          from: '55vh',
+          to: '-20vh'
+        }
+      }
+    }));
+  instances.push(
+    basicScroll.create({
+      elem: document.querySelector('.s-rodape'),
+      from: 'top-bottom',
+      to: 'bottom-middle',
+      direct: true,
+      props: {
+        '--p_s5_y_img1': {
+          from: '0vh',
+          to: '-75vh'
+        },
+        '--p_s5_y_img2': {
+          from: '-20vh',
+          to: '50vh'
+        }
+      }
+    }));
+  instances.forEach((instance) => {
+    instance.start();
+  });
