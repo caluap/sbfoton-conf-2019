@@ -488,14 +488,7 @@ table ~ .legenda-tabela {
 	padding-top: $u-h;
 	margin-bottom: $u-h * 2;
 	position: relative;
-	&:before {
-		content: "";
-		position: absolute;
-		left: 0;
-		top: $u-h * 2/3;
-		right: percentage(2/3);
-		border-top: 2px solid white;
-	}
+	color: cinza(6);
 	@include fs(-2);
 }
 
