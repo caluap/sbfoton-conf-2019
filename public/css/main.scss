@@ -88,12 +88,43 @@ h4 {
 	text-align: center;
 }
 
+.grid-socios {
+	margin-top: $u-h;
+	display: grid;
+	grid-gap: $u-h / 2;
+	grid-template-columns: 1fr 1fr 1fr;
+	.bloco-destaque.info {
+		margin-top: 0;
+		padding: $u-h/4 $u-h/2;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		.anuidade {
+			padding-top: $u-h / 2;
+			position: relative;
+			&:after {
+				content: "";
+				position: absolute;
+				width: $u-h * 3;
+				top: $u-h/8;
+				left: 50%;
+				transform: translateX(-50%);
+				border-bottom: 1px solid cinza(8);
+				mix-blend-mode: multiply;
+			}
+		}
+	}
+}
 
 .c-blocos-destaque {
 	.bloco-destaque {
 		margin-top: $u-h;
 		&.info {
 			background: $light-brand;
+		}
+		.sub-socios {
+			@include fs(-2,1);
+			font-weight: 300;
 		}
 		&.acao {
 			// border: 2px solid cinza(9);
@@ -149,10 +180,10 @@ blockquote {
 .logo {
 	img {
 		max-width: 240px;
-		@include media-query-a-partir {
-			position: relative;
-			left: -12px;
-		}
+		// @include media-query-a-partir {
+		// 	position: relative;
+		// 	left: -12px;
+		// }
 	}
 	margin-bottom: $u-h;
 }
@@ -532,5 +563,37 @@ table ~ .legenda-tabela {
 	.newsletter {
 		padding: $u-h/2 0;
 		@include fs(1);
+	}
+}
+
+.grid-logos {
+	display: grid;
+	grid-gap: $u-h / 2;
+	grid-template-columns: repeat(3, 1fr);
+	@include media-query($s-sm) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	h3 {
+		grid-column: 1 / span 3;
+		@include media-query($s-sm) {
+			grid-column: 1 / span 2;
+		}
+	}
+
+	.logo {
+		img { 
+			width: 100%;
+		}
+		&.l1 {
+			grid-column: 1 / 2;
+		}
+		&.l2 {
+			grid-column: 2 / 3;
+		}
+	}
+
+	& > * {
+		// border: 1px solid red;
 	}
 }
