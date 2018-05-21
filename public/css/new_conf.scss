@@ -226,6 +226,22 @@ $c_mix: #006112;
   }
 }
 
+.link-destacado {
+  margin-top: $u-h;
+  margin-bottom: $u-h * 2;
+  padding: $u-h / 2 $u-h * 2;
+  text-align: center;
+  // border: 2px solid white;
+  background: rgba(0,0,0,0.3);
+  border-radius: 6px;
+  @include fs(1);
+  display: inline-block;
+  text-decoration: none;
+  &:hover {
+    border-color: black;
+  }
+}
+
 .fs1 {
   @include fs(1);
 }
