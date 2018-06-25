@@ -573,3 +573,9 @@ $pl-r : 0.6;
   padding: 0 4px;
   margin: 0 -4px;
 }
+
+.crossed {
+  text-decoration: line-through;
+  opacity: 0.5;
+  font-weight: normal;
+}
