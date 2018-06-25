@@ -1,0 +1,179 @@
+include /_mixins
+
+
+.popin
+  .conteudo(onclick="window.location='/conference/'")
+    .pure-g
+      .pure-u-1
+        //- h1 sbfoton #[br] conference #[br] 2018
+        img#logo-conf(src="/img/sbfoton_conf_2018.svg")
+        .separador-1
+        p.where-when
+          | Águas de Lindoia, #[br]
+          | October 8—10th
+        a(href="/conference/")
+          | Registration will be open in July
+  .fundo-botao-popin
+    button#fecha-popin about&nbsp;sbfoton
+
+a.conference-call(href="/conference/") #[img(src="/img/sbfoton_conf_2018.svg", alt="SBFOTON Conference 2018")]
+
+
+.conteudo
+  .pure-g
+    .pure-u-1
+      .logo
+        img(src="img/logo.svg")
+      div
+        p A Sociedade Brasileira de Ótica e Fotônica, SBFoton, é uma associação, sem fins lucrativos, que tem como principal objetivo a criação no Brasil de um meio ambiente propício ao desenvolvimento da pesquisa e inovação em Fotônica. Um aspecto inovador que nossa Sociedade traz para a comunidade brasileira é dar ênfase não só às atividades acadêmicas e centros de pesquisa, mas a inclusão de atividades industriais e empresariais inovadoras que estejam contribuindo para desenvolvimento desse importante e novo ramo do conhecimento tecnológico.  Para isso, fornecerá aos seus associados informações, cursos e eventos para aumentar suas capacitações e a interação entre interessados em fotônica.
+
+.separador-2
+
+.conteudo
+  .pure-g.box
+    a.pure-u-1.newsletter(href="https://sbfoton.us17.list-manage.com/subscribe?u=2bd4f3c0e83d0ffc9c3c06a75&id=bbfc6aba78",target="_blank") Clique para assinar a nossa newsletter.
+  .pure-g
+    .pure-u-1
+      h2 Filiação
+      p Pessoas físicas e jurídicas com interesse em ótica e fotônica podem se filiar à SBFoton. Para as pessoas físicas existem dois tipos de filiação, Sócio Efetivo e Aspirante. Os #[strong Sócios Efetivos] são os pesquisadores, professores e profissionais de empresas e os #[strong Aspirantes], os estudantes de graduação, mestrado e doutorado. As empresas podem se filiar à SBFoton como #[strong Sócio Mantenedor Média/Grande Empresa] (faturamento anual maior do que um milhão de reais) e #[strong Sócio Mantenedor Micro/Pequena Empresa] (faturamento anual menor do que um milhão de reais. Todos os quatro tipos de associados terão descontos proporcionais aos valores das suas anuidades nas inscrições dos eventos.
+      p As anuidades, até 31 de Maio de 2019, são:
+  .pure-g.centraliza
+    .pure-u-1.c-blocos-destaque.grid-socios
+      .bloco-destaque.info
+        h4 Sócios Efetivos
+        p.anuidade R$&#8239;150,00
+      .bloco-destaque.info
+        h4 Sócios Efetivos #[br] #[span.sub-socios filiados à IEEE Photonic Society e/ou The Optical Society] 
+        p.anuidade R$&#8239;135,00
+      .bloco-destaque.info
+        h4 Aspirantes
+        p.anuidade R$&#8239;50,00
+      .bloco-destaque.info
+        h4 Aspirantes #[br] #[span.sub-socios filiados à IEEE Photonic Society e/ou The Optical Society]
+        p.anuidade R$&#8239;45,00
+      .bloco-destaque.info
+        h4 Mantenedores #[br] #[span.sub-socios Média/Grande Empresa]
+        p.anuidade R$&#8239;5.000,00
+      .bloco-destaque.info
+        h4 Mantenedores #[br] #[span.sub-socios Micro/Pequena Empresa]
+        p.anuidade R$&#8239;2.000,00
+
+
+.conteudo
+  .pure-g
+    .separador-visivel-3
+    .pure-u-1
+      p Para a filiação à SBFoton precisa-se preencher um dos seguintes formulários e fazer o depósito da anuidade correspondente na conta bancária da SBFoton:
+
+.conteudo
+  .pure-g.centraliza.c-blocos-destaque
+    .pure-u-1-2.pad-1-2
+      a.bloco-destaque.acao(href="https://goo.gl/forms/J0nsQRzoiJijfvEj1") Pessoa #[br.only-sm] Física
+    .pure-u-1-2.pad-1-2
+      a.bloco-destaque.acao(href="https://goo.gl/forms/URrJs4CUYPng0RXK2") Pessoa #[br.only-sm] Jurídica
+
+
+.separador-1   
+.conteudo
+  .pure-g
+    .pure-u-1     
+      h3 Dados da conta bancária da SBFoton para o depósito da anuidade:
+      blockquote
+        | Banco do Brasil #[br]
+        | Agência: 2447-3 #[br]
+        | Conta Corrente: 57784-7 #[br]
+        | CNPJ: 28.898.556/0001-66
+      p Enviar o comprovante de depósito bancário para #[a(href="mailto:sbfoton@sbfoton.org.br") sbfoton@sbfoton.org.br].
+
+
+.separador-2
+
+.conteudo
+  .pure-g
+    .pure-u-1
+      h2 Direção
+      - each item, key in Membros
+        h3 #{key}
+        .c-membros
+          - each membro in item
+            .membro
+              h4 #{membro[0]} 
+              p #{membro[1]} #[br] #{membro[2]}
+
+
+.separador-2
+
+.conteudo#rodape
+  .pure-g
+    .pure-u-md-1-2.pure-u-1
+      h3 Contato
+      p 
+        | Rua Dr. Ricardo Benetton Martins, 1000 #[br]
+        | Parque II do Polo de Alta Tecnologia #[br]
+        | 13086-902 Campinas SP #[br]#[br]
+        | #[a(href="mailto:sbfoton@sbfoton.org.br") sbfoton@sbfoton.org.br]
+  .separador-1
+  .pure-g
+    .pure-u-1
+      .grid-logos
+        h3 Apoio
+        .logo.l1
+          a(href="https://www.thorlabs.com/", target="_blank") #[img(src="img/logos/recorte/thorlabs.png")]
+        .logo.l2
+          a(href="http://www.idea-ip.com/", target="_blank") #[img(src="img/logos/recorte/idea.png")]
+        h3 Sociedades Irmãs
+        .logo.l1 
+          a(href="https://www.photonicssociety.org/", target="_blank") #[img(src="img/logos/recorte/ips.png")]
+        .logo.l2
+          a(href="https://www.osa.org/", target="_blank") #[img(src="img/logos/recorte/osa.png")]
+
+
+
+script.
+  $(document).ready(function(){
+
+
+    // from https://stackoverflow.com/questions/12049620/how-to-get-get-variables-value-in-javascript
+
+    var $_GET = {};
+    if(document.location.toString().indexOf('?') !== -1) {
+      var query = document.location
+        .toString()
+        // get the query string
+        .replace(/^.*?\?/, '')
+        // and remove any existing hash string (thanks, @vrijdenker)
+        .replace(/#.*$/, '')
+        .split('&');
+
+      for(var i=0, l=query.length; i<l; i++) {
+        var aux = decodeURIComponent(query[i]).split('=');
+        $_GET[aux[0]] = aux[1];
+      }
+    }
+    if ($_GET['f'] === undefined) {      
+      // para borrar fundo
+      $('body').addClass('popado');
+      $('.popin').addClass('popin-visivel');
+
+      // esconde popin
+      function esconde_popin() {
+        $('.popin').css('display','none');
+        $('body').removeClass('popado');
+      }
+
+      $(document).on('click', function(event) {
+        if ($(event.target).closest('.fundo-botao-popin').length) {
+          esconde_popin();
+        }
+      });
+
+      $('#fecha-popin').click(esconde_popin);
+
+    } else {
+
+    }
+
+
+
+
+  });
