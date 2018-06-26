@@ -1,0 +1,22 @@
+mixin menu(pagina_atual)
+  #menu-geral(class="#{pagina_atual == 'home' ? 'menu-na-home' : ''}")
+    //- unless pagina_atual == "home"
+    #logo-menu-geral
+      a(href="/") #[img(src="img/sbfoton_conf_2018.svg")]
+    #c-menu
+      input#toggle(type="checkbox")
+      label.toggle-container(for="toggle")
+        - for (var i = 1; i <= 4; i++)
+          span.toggle-enfeite(id='toggle-#{i}')
+      .fundo-tela-quando-menu
+      .fundo-menu
+      //- (class="#{pagina_atual == 'home' ? 'menu-nao-fixado' : ''}")
+      ul#menu
+        each link_menu in menu
+          - if (!link_menu.rodape_only)
+            - if (pagina_atual == link_menu.titulo)
+              li.nav-item.nav-atual #[a(href="#{link_menu.link}") #{link_menu.titulo}]
+            - else
+              li.nav-item #[a(href="#{link_menu.link}") #{link_menu.titulo}]
+    a#link-sociedade(href="./sbfoton.html") #[img(src="img/logo_sbfoton/mono.svg")]
+      

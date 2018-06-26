@@ -608,3 +608,92 @@ table ~ .legenda-tabela {
 		// border: 1px solid red;
 	}
 }
+
+
+
+
+
+//////////// 
+
+
+
+
+$c_rosa: #ffd4d5;
+$c_laranja: #f7941e;
+$c_verde: #00a79d;
+$c_mix: #006112;
+
+
+#menu-geral {
+
+	a {
+		text-decoration: none;
+		&:hover {
+			background: unset;
+		}
+	}
+
+	background: $c_rosa;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+
+	width: $u-h * 4;
+	box-sizing: border-box;
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	
+	
+	#logo-menu-geral {
+		margin: $u-h / 2;
+		img {
+			width: $u-h * 3;
+		}
+	}
+
+	#c-menu {
+
+		margin-top: -$u-h; // compensação para que mais ou menos centre.
+
+		#toggle, .toggle-container {
+			display: none;
+		}
+
+		li {
+
+			
+			a {
+				display: block;
+				padding: $u-h / 2;
+				color: rgba(0,0,0,0.75);
+				&:hover {
+					background: white;
+					color: black;
+				}
+			}
+			
+			&:first-child {
+				border-top: 1px solid white;
+			}
+			border-bottom: 1px solid white;
+		}
+
+	}
+
+	#link-sociedade {
+		padding: $u-h / 2;
+		opacity: 0.4;
+		&:hover {
+			background: white;
+			opacity: 1;
+		}
+		img {
+			width: 100%;
+		}
+	}
+	
+
+}
