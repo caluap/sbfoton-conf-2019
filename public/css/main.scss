@@ -698,3 +698,13 @@ $c_mix: #006112;
 	
 
 }
+
+
+body.home {
+	min-height: 100vh;
+	box-sizing: border-box;
+	background-image: url(../img/fundos/circulo_rosa.svg), url(../img/fundos/circulo_rosa.svg);
+	background-position: calc(-25vw + #{$u-h * 4}) -25vw, 75vw calc(100vh - 25vw);
+	background-size: 50vw, 50vw;
+	background-repeat: no-repeat;	
+}
