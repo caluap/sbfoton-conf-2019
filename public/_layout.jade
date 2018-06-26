@@ -23,9 +23,10 @@ html
 		link(rel="stylesheet",href="/css/pure/grids-responsive-min.css")
 		
 		link(rel="stylesheet",href="/css/main.css")
+		link(rel="stylesheet",href="/css/new_conf.css")
 
-		if current.path[0] == "conference" && current.path[1] == "index"
-			link(rel="stylesheet",href="/css/new_conf.css")
+		//- if current.path[0] == "conference" && current.path[1] == "index"
+		//- 	link(rel="stylesheet",href="/css/new_conf.css")
 		
 		script(src="/js/jquery-3.1.1.min.js")
 		script(src="/js/basicScroll.min.js")
@@ -38,6 +39,10 @@ html
 		meta(name="theme-color", content="#ffffff")
 		script(src="https://use.fontawesome.com/ac4ebc58e7.js")
 		
+		script.
+			document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=2"></' + 'script>')
+
+
 		//- script(src="js/jquery.sticky-kit.js")
 
 		title sbfoton / Sociedade Brasileira de Ótica e Fotônica
