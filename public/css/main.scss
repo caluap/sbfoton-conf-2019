@@ -628,6 +628,8 @@ $w-menu: $u-h * 4;
 
 #menu-geral {
 
+	// border-right: 1px solid transparent;
+
 	a {
 		text-decoration: none;
 		&:hover {
@@ -635,7 +637,9 @@ $w-menu: $u-h * 4;
 		}
 	}
 
-	background: $c_rosa;
+	// background: #ffe96b;
+	// background: #ff6b6b;
+	background: #3e597c;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -670,10 +674,13 @@ $w-menu: $u-h * 4;
 			a {
 				display: block;
 				padding: $u-h / 2;
-				color: rgba(0,0,0,0.75);
+				color: white;
+				opacity: 0.75;
+				// color: rgba(0,0,0,0.75);
 				&:hover {
 					background: white;
 					color: black;
+					opacity: 1;
 				}
 			}
 			
@@ -691,10 +698,14 @@ $w-menu: $u-h * 4;
 		line-height: 0;
 		&:hover {
 			background: white;
+			background: black;
 			opacity: 1;
 		}
 		img {
-			width: 100%;
+			$ajuste-opt : 3px;
+			width: calc(100% + #{$ajuste-opt});
+			position: relative;
+			left: -$ajuste-opt;
 		}
 	}
 	
@@ -705,14 +716,27 @@ $w-menu: $u-h * 4;
 body.home {
 	min-height: 100vh;
 	box-sizing: border-box;
-	background-image: url(../img/fundos/circulo_rosa.svg), url(../img/fundos/circulo_rosa.svg);
-	background-position: calc(-25vw + #{$w-menu}) -25vw, 75vw calc(100vh - 25vw);
-	background-size: 50vw, 50vw;
-	background-repeat: no-repeat;	
-
-
 
 	// considerando o menu vertical!
 	padding: 0 0 0 $w-menu;
+	
+}
 
+
+.s-hero {
+	background-image: url(../img/fundos/circulo_rosa.svg), url(../img/fundos/circulo_rosa.svg);
+	background-position: -25vw -25vw, calc(75vw - #{$w-menu}) calc(100vh - 25vw);
+	background-size: 50vw, 50vw;
+	background-repeat: no-repeat;	
+}
+
+
+.slide-destaques {
+	// border-top: 1px solid rgba(255,255,255,0.2);
+	$l : 25vw / 62 / 2;
+	background: $c_rosa;
+	background-image: url(../img/fundos/circulo_branco_fraco.svg), url(../img/fundos/circulo_branco_fraco.svg);
+	background-position: calc(75vw - #{$w-menu}) -25vw, -25vw calc(100vh - 25vw);
+	background-size: 50vw, 50vw;
+	background-repeat: no-repeat;	
 }
