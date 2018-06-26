@@ -623,6 +623,8 @@ $c_laranja: #f7941e;
 $c_verde: #00a79d;
 $c_mix: #006112;
 
+$w-menu: $u-h * 4;
+
 
 #menu-geral {
 
@@ -639,7 +641,7 @@ $c_mix: #006112;
 	top: 0;
 	bottom: 0;
 
-	width: $u-h * 4;
+	width: $w-menu;
 	box-sizing: border-box;
 
 	display: flex;
@@ -650,7 +652,7 @@ $c_mix: #006112;
 	#logo-menu-geral {
 		margin: $u-h / 2;
 		img {
-			width: $u-h * 3;
+			width: $w-menu - $u-h;
 		}
 	}
 
@@ -704,7 +706,13 @@ body.home {
 	min-height: 100vh;
 	box-sizing: border-box;
 	background-image: url(../img/fundos/circulo_rosa.svg), url(../img/fundos/circulo_rosa.svg);
-	background-position: calc(-25vw + #{$u-h * 4}) -25vw, 75vw calc(100vh - 25vw);
+	background-position: calc(-25vw + #{$w-menu}) -25vw, 75vw calc(100vh - 25vw);
 	background-size: 50vw, 50vw;
 	background-repeat: no-repeat;	
+
+
+
+	// considerando o menu vertical!
+	padding: 0 0 0 $w-menu;
+
 }
