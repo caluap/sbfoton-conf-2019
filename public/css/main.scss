@@ -844,3 +844,10 @@ body.home {
 	}
 
 }
+
+
+div.slide.s-rodape.invertido {
+	$s : 40vw;
+	background-position: #{-$s/2} center, calc(100% + #{$s/2}) center;
+	background-size: $s, $s;
+}
