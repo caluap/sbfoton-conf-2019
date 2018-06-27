@@ -728,7 +728,8 @@ body.home {
 
 
 .s-hero {
-	background-image: url(../img/fundos/circulo_rosa.svg), url(../img/fundos/circulo_rosa.svg);
+	background-color: $c_rosa;
+	background-image: url(../img/fundos/circulo_branco.svg), url(../img/fundos/circulo_branco.svg);
 	background-position: -25vw -25vw, calc(75vw - #{$w-menu}) calc(100vh - 25vw);
 	background-size: 50vw, 50vw;
 	background-repeat: no-repeat;	
@@ -737,15 +738,19 @@ body.home {
 
 .slide-destaques {
 	$l : 25vw / 62 / 2;
-	background: $c_rosa;
-	background-image: url(../img/fundos/circulo_branco_medio.svg), url(../img/fundos/circulo_branco_medio.svg);
+	background: white;
+	background-image: url(../img/fundos/circulo_rosa.svg), url(../img/fundos/circulo_rosa.svg);
 	background-position: calc(75vw - #{$w-menu}) -25vw, -25vw calc(100vh - 25vw);
 	background-size: 50vw, 50vw;
 	background-repeat: no-repeat;	
 
-	h1 {
-		opacity: 0.6;
+	h1, h3 {
+		color: $c_verde;
 		mix-blend-mode: multiply;
+	}
+
+	h3 {
+		font-weight: 900;
 	}
 
 	padding: $u-h;
@@ -765,6 +770,7 @@ body.home {
 			
 			
 			&.g-text {
+				background: $c_rosa;
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
