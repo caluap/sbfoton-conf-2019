@@ -746,7 +746,7 @@ body.home {
 
 	h1, h3 {
 		color: $c_verde;
-		mix-blend-mode: multiply;
+		// mix-blend-mode: multiply;
 	}
 
 	h3 {
@@ -760,22 +760,31 @@ body.home {
 	.grade {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		grid-gap: $u-h/2;
+		grid-gap: $u-h/8;
 	
 		.g-item {
 			background: white;
-			padding: $u-h * 3/2;
+			padding: $u-h;
 
 			border-radius: $r;
 			
 			
 			&.g-text {
-				background: $c_rosa;
-				display: flex;
+				background: #198b5c;
+				background: #15878f;
+				
+				p, h3, a { color: white; }
+
 				flex-direction: column;
 				justify-content: center;
 				p {
-					opacity: 0.6;
+					color: rgba(255,255,255,0.8);
+				}
+				a {
+					text-decoration-color: unset;
+					&:hover {
+						background: rgba(0,0,0,0.3);
+					}
 				}
 			}
 			
@@ -837,6 +846,12 @@ body.home {
 
 			&.span-2 {
 				grid-column: span 2;
+			}
+
+			&.span-1 {
+				p {
+					@include fs(-1);
+				}
 			}
 
 			&.g-blank {
