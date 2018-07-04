@@ -308,7 +308,7 @@ blockquote {
 
 .conference-call {
 	position: fixed;
-	right: $u-h/2;
+	left: $u-h/2;
 	top: $u-h/2;
 
 	img {
@@ -723,7 +723,9 @@ body {
 	box-sizing: border-box;
 
 	// considerando o menu vertical!
-	padding: 0 0 0 $w-menu;
+	&:not(.sbfoton) {
+		padding: 0 0 0 $w-menu;
+	}
 	
 }
 

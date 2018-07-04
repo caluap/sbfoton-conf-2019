@@ -1,22 +1,6 @@
 include /_mixins
 
-
-.popin
-  .conteudo(onclick="window.location='/conference/'")
-    .pure-g
-      .pure-u-1
-        //- h1 sbfoton #[br] conference #[br] 2018
-        img#logo-conf(src="/img/sbfoton_conf_2018.svg")
-        .separador-1
-        p.where-when
-          | Águas de Lindoia, #[br]
-          | October 8—10th
-        a(href="/conference/")
-          | Registration will be open in July
-  .fundo-botao-popin
-    button#fecha-popin about&nbsp;sbfoton
-
-a.conference-call(href="/conference/") #[img(src="/img/sbfoton_conf_2018.svg", alt="SBFOTON Conference 2018")]
+a.conference-call(href="/") #[img(src="/img/sbfoton_conf_2018.svg", alt="SBFOTON Conference 2018")]
 
 
 .conteudo
@@ -126,54 +110,3 @@ a.conference-call(href="/conference/") #[img(src="/img/sbfoton_conf_2018.svg", a
           a(href="https://www.photonicssociety.org/", target="_blank") #[img(src="img/logos/recorte/ips.png")]
         .logo.l2
           a(href="https://www.osa.org/", target="_blank") #[img(src="img/logos/recorte/osa.png")]
-
-
-
-script.
-  $(document).ready(function(){
-
-
-    // from https://stackoverflow.com/questions/12049620/how-to-get-get-variables-value-in-javascript
-
-    var $_GET = {};
-    if(document.location.toString().indexOf('?') !== -1) {
-      var query = document.location
-        .toString()
-        // get the query string
-        .replace(/^.*?\?/, '')
-        // and remove any existing hash string (thanks, @vrijdenker)
-        .replace(/#.*$/, '')
-        .split('&');
-
-      for(var i=0, l=query.length; i<l; i++) {
-        var aux = decodeURIComponent(query[i]).split('=');
-        $_GET[aux[0]] = aux[1];
-      }
-    }
-    if ($_GET['f'] === undefined) {      
-      // para borrar fundo
-      $('body').addClass('popado');
-      $('.popin').addClass('popin-visivel');
-
-      // esconde popin
-      function esconde_popin() {
-        $('.popin').css('display','none');
-        $('body').removeClass('popado');
-      }
-
-      $(document).on('click', function(event) {
-        if ($(event.target).closest('.fundo-botao-popin').length) {
-          esconde_popin();
-        }
-      });
-
-      $('#fecha-popin').click(esconde_popin);
-
-    } else {
-
-    }
-
-
-
-
-  });

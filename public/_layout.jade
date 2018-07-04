@@ -56,6 +56,9 @@ html
 		var classes = "";
 		if (current.path.length == 1) {
 			classes = "home";
+			if (current.path[0] == "sbfoton") {
+				classes += " sbfoton";
+			}
 		} else {
 			classes = "not-home";
 			if (current.path[0] == "conference" && current.path[1] == "index") {
