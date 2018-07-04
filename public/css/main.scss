@@ -876,3 +876,55 @@ div.slide.s-rodape.invertido {
 	background-position: center 30vh;
 	background-size: 80vw;
 }
+
+
+
+
+
+
+#reg-plus {
+	margin-top: $u-h * 2;
+	height: calc(100% - #{$u-h * 2});
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
+
+  a {
+		@include fs(4);
+		color: mix(white, $c_menu, 90%); // só para dar uma azuladinha
+
+    text-decoration: none;
+		background: $c_menu;
+		padding: $u-h/3 $u-h;
+
+		border-radius: 4px;
+
+    &:hover {
+			color: white;
+      background: black;
+    }
+	}
+	
+	#reg {
+		p {
+			margin-top: $u-h / 2;
+			opacity: 0.7;
+			mix-blend-mode: multiply;
+			@include fs(0);
+			text-align: center;
+		}
+	}
+
+	#plus {
+		width: 100%;
+		text-align: right;
+		p {
+			position: relative;
+			bottom: -$u-h;
+			@include fs(9);
+		}
+	}
+
+}
