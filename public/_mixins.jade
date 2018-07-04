@@ -1,8 +1,13 @@
 mixin menu(pagina_atual)
   #menu-geral(class="#{pagina_atual == 'home' ? 'menu-na-home' : ''}")
     //- unless pagina_atual == "home"
+    -
+      var lvl = '';
+      if (current.path[1] == 'index') {
+        lvl = '../'
+      }
     #logo-menu-geral
-      a(href="/") #[img(src="img/sbfoton_conf_2018.svg")]
+      a(href="/") #[img(src="#{lvl}img/sbfoton_conf_2018.svg")]
     #c-menu
       input#toggle(type="checkbox")
       label.toggle-container(for="toggle")
@@ -15,10 +20,10 @@ mixin menu(pagina_atual)
         each link_menu in menu
           - if (!link_menu.rodape_only)
             - if (pagina_atual == link_menu.titulo)
-              li.nav-item.nav-atual #[a(href="#{link_menu.link}") #{link_menu.titulo}]
+              li.nav-item.nav-atual #[a #{link_menu.titulo}]
             - else
-              li.nav-item #[a(href="#{link_menu.link}") #{link_menu.titulo}]
-    a#link-sociedade(href="./sbfoton.html") #[img(src="img/logo_sbfoton/mono-invertido.svg")]
+              li.nav-item #[a(href="#{lvl}#{link_menu.link}") #{link_menu.titulo}]
+    a#link-sociedade(href="#{lvl}sbfoton.html") #[img(src="#{lvl}img/logo_sbfoton/mono-invertido.svg")]
 
 
 mixin rodape(pagina_atual)

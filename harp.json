@@ -46,15 +46,15 @@
 
 
 		"menu" : [
-      { "titulo": "Tech Sessions", "link": "/tech_sessions/" },
-			{ "titulo": "Plenaries", "link": "/plenaries.html" },
-			{ "titulo": "Short Courses", "link": "/short_courses.html" },
-			{ "titulo": "Workshop", "link": "/workshop.html" },
-			{ "titulo": "Venue", "link": "/venue/" },
-			{ "titulo": "About", "link": "/about.html" },
-			{ "titulo": "Registration", "link": "/registration.html", "rodape_only": true },
-			{ "titulo": "Student Paper Competition", "link": "/student_paper_competition.html", "rodape_only": true },
-			{ "titulo": "IEEE Xplore Digital Library", "link" : "/ieee_xplore_digital_library.html", "rodape_only": true }
+      { "titulo": "Tech Sessions", "link": "tech_sessions/" },
+			{ "titulo": "Plenaries", "link": "plenaries.html" },
+			{ "titulo": "Short Courses", "link": "short_courses.html" },
+			{ "titulo": "Workshop", "link": "workshop.html" },
+			{ "titulo": "Venue", "link": "venue/" },
+			{ "titulo": "About", "link": "about.html" },
+			{ "titulo": "Registration", "link": "registration.html", "rodape_only": true },
+			{ "titulo": "Student Paper Competition", "link": "student_paper_competition.html", "rodape_only": true },
+			{ "titulo": "IEEE Xplore Digital Library", "link" : "ieee_xplore_digital_library.html", "rodape_only": true }
 		],
 		"sub_menu_venue" : [
 			{ "titulo" : "Hotel information & Booking", "link" : "/venue/" },
