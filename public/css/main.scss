@@ -744,6 +744,30 @@ body {
 }
 
 
+.s-default {
+	padding-top: $u-h * 2;
+	@extend .s-hero;
+
+
+	&.s-var-1 {
+		background-position: calc(75vw - #{$w-menu}) -25vw, -25vw calc(100vh - 25vw);
+	}
+	&.s-var-2 {
+		background-position: -25vw -25vw, calc(75vw - #{$w-menu}) -25vw;
+	}
+	&.s-var-3 {
+		background-position: calc(75vw - #{$w-menu}) calc(100vh - 25vw), -25vw calc(100vh - 25vw);
+	}
+	&.s-var-4 {
+		background-position: calc(75vw - #{$w-menu}) -25vw, -25vw calc(100vh - 25vw);
+	}
+
+	background-color: mix(
+			mix($c_rosa, $c_laranja, 20%), white, 40%
+		);
+}
+
+
 .slide-destaques {
 	$l : 25vw / 62 / 2;
 	background: $c_rosa;
