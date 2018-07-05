@@ -111,6 +111,12 @@ $fonte-texto: 'Inter UI';
 				clear: both;
 				height: $u-h * $i;
 			}
+			.separador-#{$i}-half {
+				width: 100%;
+				border: none;
+				clear: both;
+				height: $u-h * ($i - 0.5);
+			}
 			.separador-visivel-#{$i} {
 				width: 100%;
 				border: none;

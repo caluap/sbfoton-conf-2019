@@ -763,7 +763,7 @@ body {
 	}
 
 	background-color: mix(
-			mix($c_rosa, $c_laranja, 20%), white, 40%
+			mix($c_rosa, $c_verde, 40%), white, 40%
 		);
 }
 
@@ -911,6 +911,22 @@ div.slide.s-rodape.invertido {
 
 
 
+.reg-but {
+	
+	@include fs(4);
+	color: mix(white, $c_menu, 90%); // só para dar uma azuladinha
+
+	text-decoration: none;
+	background: $c_menu;
+	padding: $u-h/3 $u-h;
+
+	border-radius: 4px;
+
+	&:hover {
+		color: white;
+		background: black;
+	}
+}
 
 
 #reg-plus {
@@ -923,19 +939,7 @@ div.slide.s-rodape.invertido {
 	justify-content: space-between;
 
   a {
-		@include fs(4);
-		color: mix(white, $c_menu, 90%); // só para dar uma azuladinha
-
-    text-decoration: none;
-		background: $c_menu;
-		padding: $u-h/3 $u-h;
-
-		border-radius: 4px;
-
-    &:hover {
-			color: white;
-      background: black;
-    }
+		@extend .reg-but;
 	}
 	
 	#reg {
@@ -958,4 +962,12 @@ div.slide.s-rodape.invertido {
 		}
 	}
 
+}
+
+
+.lista-padrao {
+	list-style: square;
+	margin-top: $u-h / 4;
+	margin-bottom: $u-h / 2;
+	margin-left: $u-h / 4;
 }
