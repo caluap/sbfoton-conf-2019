@@ -525,13 +525,18 @@ table {
 	}
 }
 
-table ~ .legenda-tabela {
-	margin-top: -$u-h * 2;
-	padding-top: $u-h;
-	margin-bottom: $u-h * 2;
-	position: relative;
-	color: cinza(6);
-	@include fs(-2);
+table {
+	&, & ~ .legenda-tabela {
+		mix-blend-mode: multiply;
+	}
+	& ~ .legenda-tabela {
+		margin-top: -$u-h * 2;
+		padding-top: $u-h;
+		margin-bottom: $u-h * 2;
+		position: relative;
+		color: cinza(6);
+		@include fs(-2);
+	}
 }
 
 

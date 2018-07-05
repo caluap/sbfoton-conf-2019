@@ -50,15 +50,15 @@ $c_mix: #006112;
     background-position: -50vh var(--p_s1_y_img1), calc(100vw - 50vh) var(--p_s1_y_img2);
   }
 
-  &.s-intro p, &.s-hero p {
-    @include media-query-a-partir($s-sm) {
-      @include fs(0);
-    }
-    @include media-query-a-partir($s-xl) {
-      @include fs(1);
-    }
+  // &.s-intro p, &.s-hero p {
+    // @include media-query-a-partir($s-sm) {
+      // @include fs(0);
+    // }
+    // @include media-query-a-partir($s-xl) {
+      // @include fs(1);
+    // }
     // margin-top: calc(#{$u-h * 2} + 30vmin);
-  }
+  // }
 
   &.s-call-for-papers {
     background-image: url(/img/fundos/s_call_0.svg), linear-gradient($c_verde, darken($c_verde,8%));
@@ -383,7 +383,7 @@ $sep: $u-h / 3;
     // background: orchid;
     grid-template-columns: repeat(5, 1fr);
   }
-  @include media-query-a-partir($s-xl) {
+  @include media-query-a-partir($s-xxxl) {
     grid-template-columns: repeat(8, 1fr);
   }
 }
