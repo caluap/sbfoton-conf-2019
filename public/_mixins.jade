@@ -3,7 +3,7 @@ mixin menu(pagina_atual)
     //- unless pagina_atual == "home"
     -
       var lvl = '';
-      if (current.path[1] == 'index') {
+      if (current.path.length > 1) {
         lvl = '../'
       }
     #logo-menu-geral
