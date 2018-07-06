@@ -1100,6 +1100,10 @@ div.slide.s-rodape.invertido {
 	.c-membros {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
+		@include media-query($s-sm) {
+			grid-template-columns: repeat(1, 1fr);
+
+		}
 		grid-gap: $u-h;
 
 		// background: blue;
