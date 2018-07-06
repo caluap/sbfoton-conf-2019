@@ -140,6 +140,9 @@ body.home .slide {
     min-height: calc(100vh - #{$u-h});
   }
   padding-top: $u-h * 5;
+  @include media-query($s-sm) {
+    padding-top: $u-h * 1;
+  }
 }
 
 

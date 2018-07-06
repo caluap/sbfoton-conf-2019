@@ -639,8 +639,8 @@ $w-menu: $u-h * 4;
 		display: none;
 	}
 	position: fixed;
-	right: $u-h / 3;
-	top: $u-h / 6;
+	right: $u-h / 5;
+	top: 1px;
 	@include fs(2);
 	font-family: Fontawesome;
 	background: transparent;
@@ -667,8 +667,8 @@ $w-menu: $u-h * 4;
 		&:after {
 			content: "\f00d";
 			position: absolute;
-			right: $u-h / 3;
-			top: $u-h / 6;
+			right: $u-h / 5;
+			top: 1px;
 			color: white;
 			mix-blend-mode: normal;
 		}
@@ -803,6 +803,19 @@ body {
 	background-repeat: no-repeat;	
 }
 
+
+
+
+#logo-home {
+
+	margin-top: $u-h * 2;
+	width: 100%;
+	max-width: 320px;
+	@include media-query-a-partir($s-sm) {
+		display: none;
+	}
+	
+}
 
 .s-default {
 	padding-top: $u-h * 2;
