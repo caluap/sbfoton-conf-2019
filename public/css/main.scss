@@ -845,7 +845,11 @@ body {
 	background-image: url(../img/fundos/circulo_branco_medio.svg), url(../img/fundos/circulo_branco_medio.svg);
 	background-position: calc(75vw - #{$w-menu}) -25vw, -25vw calc(100vh - 25vw);
 	background-size: 50vw, 50vw;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+
+	@include media-query($s-sm) {
+		background-image: none;
+	}
 
 	h1 {
 		color: white;
@@ -866,6 +870,11 @@ body {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-gap: $u-h/8;
+
+		@include media-query($s-sm) {
+			grid-template-columns: repeat(1, 1fr);
+			grid-gap: $u-h / 4;
+		}
 	
 		.g-item {
 			background: white;
@@ -951,6 +960,9 @@ body {
 
 			&.span-2 {
 				grid-column: span 2;
+				@include media-query($s-sm) {
+					grid-column: span 1;
+				}
 			}
 
 			&.span-1 {
@@ -1030,6 +1042,18 @@ div.slide.s-rodape.invertido {
 			position: relative;
 			bottom: -$u-h;
 			@include fs(9);
+		}
+	}
+
+
+
+	@include media-query($s-sm) {
+		align-items: center;
+		a {
+			@include fs(2);
+		}
+		#plus {
+			display: none;
 		}
 	}
 
