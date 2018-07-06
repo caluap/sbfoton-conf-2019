@@ -635,6 +635,9 @@ $w-menu: $u-h * 4;
 	display: none;
 }
 #hamburger {
+	@include media-query-a-partir($s-sm) {
+		display: none;
+	}
 	position: fixed;
 	right: $u-h / 3;
 	top: $u-h / 6;
