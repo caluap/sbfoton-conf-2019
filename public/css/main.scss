@@ -1047,6 +1047,13 @@ div.slide.s-rodape.invertido {
 	margin-top: $u-h;
 	margin-bottom: $u-h;
 	display: flex;
+
+	@include media-query($s-sm) {
+		flex-direction: column;
+		li {
+			margin-bottom: $u-h / 2;
+		}
+	}
 	li {
 		margin-right: $u-h * 2/3;
 		&:last-child {
