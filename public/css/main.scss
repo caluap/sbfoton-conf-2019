@@ -986,12 +986,16 @@ div.slide.s-rodape.invertido {
 			@include fs(-1);
 			@include faux-caps;
 			text-decoration: none;
-			font-weight: bold;
-			opacity: 0.5;
+			font-weight: 500;
+			opacity: 0.4;
 			mix-blend-mode: multiply;
 			@at-root .sub-menu li.nav-atual a, &:hover {
 				background: unset;
 				opacity: 1;
+			}
+			@at-root .sub-menu li.nav-atual a {
+				@include fs(0);
+				font-weight: 700;
 			}
 		}
 	}
