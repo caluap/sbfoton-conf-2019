@@ -14,4 +14,12 @@ include /_mixins
         li #[a(href="organizing_committee.html") Organizing Committee]
         li.nav-atual #[a Technical Program Committee]
 
+  .pure-g
+    .pure-u-1
+      .chairs
+        .chair
+          .c-membros
+            each autor in technical_program_committee
+              +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+
 +rodape('About')

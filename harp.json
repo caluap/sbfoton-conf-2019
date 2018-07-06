@@ -50,6 +50,13 @@
       "International Liaison": ["fulano3"]
     },
 
+    "technical_program_committee" : [
+      "fulano1", "fulano2", "fulano3", "fulano4",
+      "fulano1", "fulano2", "fulano3", "fulano4",
+      "fulano1", "fulano2", "fulano3", "fulano4",
+      "fulano1", "fulano2", "fulano3", "fulano4"
+    ],
+
 
     "autores" : {
       "fulano1": {
