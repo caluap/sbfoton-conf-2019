@@ -631,6 +631,46 @@ $c_menu : #4772aa;
 
 $w-menu: $u-h * 4;
 
+#toggle {
+	display: none;
+}
+#hamburger {
+	position: fixed;
+	right: $u-h / 3;
+	top: $u-h / 6;
+	@include fs(2);
+	font-family: Fontawesome;
+	background: transparent;
+	&:after {
+		content: '\f0c9';
+	}
+}
+#toggle:not(:checked) {
+	@include media-query($s-sm) {
+		& ~ #menu-geral {
+			display: none !important;
+		}
+	}
+}
+#toggle:checked {
+	& ~ #hamburger {
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background: black;
+		mix-blend-mode: multiply;
+		opacity: 0.8;
+		&:after {
+			content: "\f00d";
+			position: absolute;
+			right: $u-h / 3;
+			top: $u-h / 6;
+			color: white;
+			mix-blend-mode: normal;
+		}
+	}
+}
 
 #menu-geral {
 
@@ -648,11 +688,19 @@ $w-menu: $u-h * 4;
 	background: $c_menu;
 	position: fixed;
 	left: 0;
+
+	z-index: 100;
 	top: 0;
 	bottom: 0;
 
 	width: $w-menu;
 	box-sizing: border-box;
+
+	@include media-query($s-sm) {
+		// right: 0;
+		right: 50%;
+		width: unset;
+	}
 
 	display: flex;
 	justify-content: space-between;
@@ -668,7 +716,9 @@ $w-menu: $u-h * 4;
 
 	#c-menu {
 
-		margin-top: -$u-h; // compensação para que mais ou menos centre.
+		@include media-query-a-partir($s-sm) {
+			margin-top: -$u-h; // compensação para que mais ou menos centre.
+		}
 
 		#toggle, .toggle-container {
 			display: none;
@@ -686,6 +736,10 @@ $w-menu: $u-h * 4;
 
 				@include fs(0,1.3);
 				text-transform: lowercase;
+				
+				@include media-query($s-sm) {
+					@include fs(-1,1.3);
+				}
 
 				@at-root #menu-geral #c-menu .nav-atual a, &:hover {
 					background: white;
@@ -730,6 +784,9 @@ body {
 	// considerando o menu vertical!
 	&:not(.sbfoton) {
 		padding: 0 0 0 $w-menu;
+		@include media-query($s-sm) {
+			padding-left: 0;
+		}
 	}
 	
 }

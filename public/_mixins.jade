@@ -1,6 +1,7 @@
 mixin menu(pagina_atual)
+  input#toggle(type="checkbox")
+  label#hamburger(for="toggle")
   #menu-geral(class="#{pagina_atual == 'home' ? 'menu-na-home' : ''}")
-    //- unless pagina_atual == "home"
     -
       var lvl = '';
       if (current.path.length > 1) {
@@ -9,7 +10,6 @@ mixin menu(pagina_atual)
     #logo-menu-geral
       a(href="/") #[img(src="#{lvl}img/sbfoton_conf_2018.svg")]
     #c-menu
-      input#toggle(type="checkbox")
       label.toggle-container(for="toggle")
         - for (var i = 1; i <= 4; i++)
           span.toggle-enfeite(id='toggle-#{i}')
