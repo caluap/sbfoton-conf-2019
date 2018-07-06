@@ -825,6 +825,17 @@ body {
 	background-color: mix(
 			mix($c_rosa, $c_verde, 40%), white, 40%
 		);
+	background-color: $c_rosa;
+}
+
+
+.s-default, .s-hero {
+	@include media-query($s-sm) {
+		&, &.s-var-1, &.s-var-2, &.s-var-3, &.s-var-4 {
+			background-position: center -45vw, center calc(100vh - 45vw);
+			background-size: 90vw, 90vw;
+		}
+	}
 }
 
 
