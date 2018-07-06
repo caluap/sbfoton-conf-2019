@@ -3,6 +3,11 @@ include /_mixins
 +menu('About')
 
 
+-
+  var lvl = '';
+  if (current.path.length > 1) {
+    lvl = '../'
+  }
 //- .conteudo
 
 .slide.s-default.s-var-2.pad
@@ -14,7 +19,18 @@ include /_mixins
         li.nav-atual #[a Organizing Committee]
         li #[a(href="tech_program_committee.html") Technical Program Committee]
   .pure-g
-    .pure-u-1.pure-u-sm-3-4.pure-u-lg-2-3.pure-u-xl-1-2
-      p ...
+    .pure-u-1
+      .chairs
+        each categoria, nome_categoria in organizing_committee
+          .chair
+            h3 #{nome_categoria}
+            .c-membros
+              each autor, indice in categoria
+                .membro
+                  img(src="#{lvl}#{autores[autor].imagem}")
+                  p.nome #{autores[autor].nome}
+                  p.instituicao #[a(href="#{autores[autor].instituicao.url}") #{autores[autor].instituicao.nome}]
+                  p.bio #{autores[autor].biografia}
+                  //- p #{indice}
 
 +rodape('About')

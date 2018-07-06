@@ -43,6 +43,58 @@
 
 
 
+    "organizing_committee" : {
+      "General Chairs": ["fulano1","fulano3","fulano2"],
+      "Technical Program Chairs": ["fulano4","fulano1"],
+      "MTT-S Chapter Chair — South Brazil section": ["fulano2"],
+      "International Liaison": ["fulano3"]
+    },
+
+
+    "autores" : {
+      "fulano1": {
+				"nome":"Caluã de Lacerda Pataca",
+				"imagem":"img/perfis/testes/pessoa1.jpg",
+				"instituicao": {
+					"nome":"Universidade Estadual de Campinas",
+					"url":"http://www.unicamp.br/"
+				},
+				"biografia":"Duis mollit eu nisi tempor dolor voluptate in proident dolore enim elit nostrud. Deserunt magna nulla excepteur cupidatat reprehenderit esse Lorem culpa. Labore commodo occaecat nostrud dolor exercitation adipisicing quis ipsum do enim mollit nostrud consequat. Consequat anim et pariatur aliqua tempor voluptate quis officia dolor laboris. Nisi enim velit sit duis magna non consectetur ad culpa sit aute. Lorem voluptate eu commodo do ut reprehenderit aliqua in adipisicing eu sit mollit sunt.",
+				"links":[]
+			},
+      "fulano2": {
+				"nome":"Blai Guimarães Pataca",
+				"imagem":"img/perfis/testes/pessoa2.jpg",
+				"instituicao": {
+					"nome":"Universidade Estadual de Campinas",
+					"url":"http://www.unicamp.br/"
+				},
+				"biografia":"Duis mollit eu nisi tempor roident dolore  elit nostrud. Deserunt magna nulla excepteur cupidatat reprehenderit esse Lorem culpa. Labore commodo occaecat nostrud dolor exercitation adipisicing quis ipsum do enim mollit nostrud consequat. Consequat anim et pariatur aliqua tempor voluptate quis officia dolor laboris. Nisi enim velit sit duis magna non consectetur ad culpa sit aute. Lorem voluptate eu commodo do ut reprehenderit aliqua in adipisicing eu sit mollit sunt.",
+				"links":[]
+			},
+      "fulano3": {
+				"nome":"Ana Paula K. Guimarães",
+				"imagem":"img/perfis/testes/pessoa3.jpg",
+				"instituicao": {
+					"nome":"Universidade Estadual de Campinas",
+					"url":"http://www.unicamp.br/"
+				},
+				"biografia":"Nisi consectetur id officia sit. Est est veniam nisi mollit adipisicing enim ullamco sunt qui elit eu aute eu sint. Lorem et eu dolore magna cillum ex dolor enim sit.",
+				"links":[]
+			},
+      "fulano4": {
+				"nome":"John Doe",
+				"imagem":"img/perfis/testes/pessoa4.jpg",
+				"instituicao": {
+					"nome":"Universidade Estadual de Campinas",
+					"url":"http://www.unicamp.br/"
+				},
+				"biografia":"Occaecat sint mollit non amet excepteur qui commodo laborum eiusmod ex Lorem pariatur irure. Aute eiusmod quis veniam voluptate laboris incididunt labore excepteur nostrud eu sint ad. Ea aute non reprehenderit velit id ullamco cupidatat ullamco. Occaecat ad quis labore ea Lorem pariatur aliqua pariatur eu eu quis eiusmod minim. Cupidatat ut cupidatat deserunt in non consequat esse elit nostrud quis.",
+				"links":[]
+			}
+    },
+
+
 
 
 		"menu" : [

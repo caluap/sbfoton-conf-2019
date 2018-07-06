@@ -974,7 +974,7 @@ div.slide.s-rodape.invertido {
 
 .sub-menu {
 	margin-top: $u-h;
-	margin-bottom: $u-h * 2;
+	margin-bottom: $u-h;
 	display: flex;
 	li {
 		margin-right: $u-h * 2/3;
@@ -996,6 +996,67 @@ div.slide.s-rodape.invertido {
 			@at-root .sub-menu li.nav-atual a {
 				@include fs(0);
 				font-weight: 700;
+			}
+		}
+	}
+}
+
+
+.chairs {
+	// background: green;
+
+	.chair {
+		& + .chair {
+			margin-top: $u-h * 3;
+		}
+	}
+
+	h3 {
+	 @include fs(2);
+	 color: $c_verde;
+	 mix-blend-mode: multiply;
+	 font-weight: 900;
+	 margin: $u-h 0;
+	}
+
+	.c-membros {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: $u-h;
+
+		// background: blue;
+
+		.membro {
+			background: transparent;
+			padding: 0;
+
+
+			img {
+				// border-radius: 50%;
+				// margin: 0 auto;
+				width: 100%;
+				// height: $u-h * 3;
+				// object-fit: cover;
+				// display: block;
+			}
+
+			.nome {
+				@include faux-caps;
+				@include fs(-1,1.2);
+				margin-top: $u-h / 4;
+				// text-align: 
+				font-weight: 500;
+			}
+			.instituicao {
+				margin-top: $u-h / 8;
+				a {
+					@include fs(-2,1);
+				}
+			}
+
+			.bio {
+				@include fs(-2);
+				hyphens: auto;
 			}
 		}
 	}
