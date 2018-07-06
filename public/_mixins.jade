@@ -56,3 +56,18 @@ mixin rodape(pagina_atual)
     .pure-g.pad
       .pure-u-1
         p.credits This website and the event’s visual identity were created by #[a(href="http://www.preface.com.br/",target="_blank") Preface&nbsp;design].
+
+
+
+mixin membro(img, nome, instituicao, bio)
+  -
+    var lvl = '';
+    if (current.path.length > 1) {
+      lvl = '../'
+    }
+  .membro
+    - if (img)
+      img(src="#{lvl}#{img}")
+    p.nome #{nome}
+    p.instituicao #[a(href="#{instituicao.url}") #{instituicao.nome}]
+    p.bio #{bio}

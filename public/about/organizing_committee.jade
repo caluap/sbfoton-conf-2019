@@ -26,11 +26,6 @@ include /_mixins
             h3 #{nome_categoria}
             .c-membros
               each autor, indice in categoria
-                .membro
-                  img(src="#{lvl}#{autores[autor].imagem}")
-                  p.nome #{autores[autor].nome}
-                  p.instituicao #[a(href="#{autores[autor].instituicao.url}") #{autores[autor].instituicao.nome}]
-                  p.bio #{autores[autor].biografia}
-                  //- p #{indice}
+                +membro(autores[autor].imagem, autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
 
 +rodape('About')
