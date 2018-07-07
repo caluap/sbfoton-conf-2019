@@ -56,6 +56,7 @@ h2 {
 }
 
 h2.conf {
+	@include fs(4,1);
 	color: $c_laranja;
 	mix-blend-mode: multiply;
 }
@@ -666,8 +667,6 @@ $w-menu: $u-h * 4;
 
 #menu-geral {
 
-	// border-right: 1px solid transparent;
-
 	a {
 		text-decoration: none;
 		&:hover {
@@ -689,7 +688,6 @@ $w-menu: $u-h * 4;
 	box-sizing: border-box;
 
 	@include media-query($s-sm) {
-		// right: 0;
 		right: 50%;
 		width: unset;
 	}
@@ -722,9 +720,11 @@ $w-menu: $u-h * 4;
 			a {
 				display: block;
 				padding: $u-h / 2;
+				@include media-query($s-sm) {
+					padding: $u-h / 3;
+				}
 				color: white;
 				opacity: 0.75;
-				// color: rgba(0,0,0,0.75);
 
 				@include fs(0,1.3);
 				text-transform: lowercase;
@@ -740,10 +740,6 @@ $w-menu: $u-h * 4;
 				}
 			}
 			
-			&:first-child {
-				// border-top: 1px solid white;
-			}
-			// border-bottom: 1px solid white;
 		}
 
 	}
