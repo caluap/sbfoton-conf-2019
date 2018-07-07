@@ -11,26 +11,33 @@ include /_mixins
       h1 Plenaries
 
       .c-plenaries
+        - var i = 1;
         each data, i_data in plenaries 
-          .dia-plenaria
-            p.data-plenaria= i_data
+          .plen-dia
+            p.plen-data= i_data
             each plenaria in data
               .plenaria
-                p= plenaria.horario
-                p= salas[plenaria.sala].nome
                 - var trabalho = trabalhos[plenaria.trabalho]
-                p= trabalho.titulo
-                p= trabalho.resumo
-                ul
-                  each tema in trabalho.temas
-                    li= tema
-                each nome_autor in trabalho.autores
-                  - var autor = autores[nome_autor]
-                  p= autor.nome
-                  unless autor.imagem == ""
-                    img(src="#{autor.imagem}")
-                  p= autor.instituicao.nome
-                  p= autor.biografia
+                .plen-trab
+                  p.plen-ind= i
+                  p.plen-titulo= trabalho.titulo
+                  p.plen-horario #{plenaria.horario}&nbsp; / &nbsp;#{salas[plenaria.sala].nome}
+                  //- p.plen-sala= salas[plenaria.sala].nome
+                  p.plen-resumo= trabalho.resumo
+                  ul.plen-temas
+                    each tema in trabalho.temas
+                      li= tema
+                .plen-autores
+                  h3 Presented by
+                  each nome_autor in trabalho.autores
+                    .plen-autor
+                      - var autor = autores[nome_autor]
+                      unless autor.imagem == ""
+                        img.plen-a-img(src="#{autor.imagem}")
+                      p.plen-a-nome= autor.nome
+                      p.plen-a-inst= autor.instituicao.nome
+                      p.plen-a-bio= autor.biografia
+                  - i++;
 
 
 +rodape('Plenaries')
