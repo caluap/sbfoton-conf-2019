@@ -10,5 +10,23 @@ include /_mixins
     .pure-u-1
       h1 Short courses
 
+      .c-trabalhos
+        - var i = 1;
+        each data, i_data in short_courses 
+          .trab-dia
+            p.trab-data= i_data
+            each short_course in data
+              - var trabalho = trabalhos[short_course.trabalho]
+              .trabalho
+                +trabalho(i, trabalho.titulo, short_course.horario, salas[short_course.sala].nome, trabalho.resumo, trabalho.temas)
+                .trab-autores
+                  h3 Presented by
+                  each nome_autor in trabalho.autores
+                    - var autor = autores[nome_autor]
+                    +autor("", autor.nome, autor.instituicao, "")
+                  - i++;
+
+
+
 
 +rodape('Short Courses')
