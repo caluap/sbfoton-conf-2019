@@ -1217,7 +1217,7 @@ div.slide.s-rodape.invertido {
 				position: absolute;
 				left: 0;
 				top: 0;
-				border-top: 3px solid black;
+				border-top: 4px solid black;
 				mix-blend-mode: multiply;
 				opacity: 0.5;
 				@include media-query($s-sm) {
@@ -1240,10 +1240,10 @@ div.slide.s-rodape.invertido {
 			.trab-autores {
 				// background: blue;
 				padding-left: $u-h;
-				border-left: 2px solid #fa9e6a;
-				@include media-query($s-sm) {
+				// border-left: 1px solid #fa9e6a;
+				@include media-query($s-md) {
 					padding-left: 0;
-					border: none;
+					// border: none;
 				}
 			}
 
@@ -1260,8 +1260,9 @@ div.slide.s-rodape.invertido {
 				mix-blend-mode: multiply;
 				@include fs(9);
 				@include media-query($s-sm) {
-					@include fs(5);
+					@include fs(6);
 					font-weight: bold;
+					margin-bottom: -$u-h / 2;
 				}
 			}
 

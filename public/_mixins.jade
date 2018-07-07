@@ -71,3 +71,12 @@ mixin membro(img, nome, instituicao, bio)
     p.nome #{nome}
     p.instituicao #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
     p.bio #{bio}
+
+
+mixin autor(img, nome, instituicao, bio)
+  .trab-autor
+    unless img == ""
+      img.trab-a-img(src="#{img}")
+    p.trab-a-nome= nome
+    p.trab-a-inst #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
+    p.trab-a-bio= bio
