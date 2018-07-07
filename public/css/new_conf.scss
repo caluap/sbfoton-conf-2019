@@ -373,6 +373,14 @@ $sep: $u-h / 3;
   }
 }
 
+.mini-saiba-mais {
+  @extend .saiba-mais;
+  display: block;
+  @include fs(-3);
+  width: $u-h / 3;
+  height: $u-h / 3;
+}
+
 .grid-dates {
   display: grid;
   grid-column-gap: $u-h / 2;

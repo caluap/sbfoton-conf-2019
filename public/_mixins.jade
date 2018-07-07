@@ -73,14 +73,29 @@ mixin membro(img, nome, instituicao, bio)
     p.bio #{bio}
 
 
-mixin autor(img, nome, instituicao, bio)
+mixin autor(img, nome, instituicao, bio, max = true)
   .trab-autor
     unless img == ""
       img.trab-a-img(src="#{img}")
     p.trab-a-nome= nome
     p.trab-a-inst #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
     unless bio == ""
-      p.trab-a-bio= bio
+      -
+        const BIO_PEQUENA = 256
+        var bio_com_brs = bio.replace("\n","<br><br>");
+        var short_bio = "";
+        if (bio_com_brs.length > BIO_PEQUENA) {
+          short_bio = bio_com_brs.substr(0, BIO_PEQUENA);
+          // corta no último espaço
+          short_bio = short_bio.substr(0, Math.min(short_bio.length, short_bio.lastIndexOf(" ")));
+        }
+      - if (short_bio == "" || !max) {
+        p.trab-a-bio= bio_com_brs
+      - } else {
+        p.trab-a-bio.
+          #{short_bio + "..."}
+          #[a(href="#", onclick="$(this).parent().html('#{bio_com_brs}'); return false;") #[i.fa.fa-plus-circle] ]
+      - }
 
 mixin trabalho(i, titulo, horario, sala, resumo, temas)
   .trab-trab
