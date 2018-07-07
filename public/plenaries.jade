@@ -10,5 +10,27 @@ include /_mixins
     .pure-u-1
       h1 Plenaries
 
+      .c-plenaries
+        each data, i_data in plenaries 
+          .dia-plenaria
+            p.data-plenaria= i_data
+            each plenaria in data
+              .plenaria
+                p= plenaria.horario
+                p= salas[plenaria.sala].nome
+                - var trabalho = trabalhos[plenaria.trabalho]
+                p= trabalho.titulo
+                p= trabalho.resumo
+                ul
+                  each tema in trabalho.temas
+                    li= tema
+                each nome_autor in trabalho.autores
+                  - var autor = autores[nome_autor]
+                  p= autor.nome
+                  unless autor.imagem == ""
+                    img(src="#{autor.imagem}")
+                  p= autor.instituicao.nome
+                  p= autor.biografia
+
 
 +rodape('Plenaries')

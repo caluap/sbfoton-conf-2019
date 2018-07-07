@@ -42,6 +42,21 @@
     },
 
 
+    "trabalhos" : {
+			"trabalho1" : {
+				"titulo" : "Um trabalho qualquer",
+				"resumo" : "All hospitals in the province of Styria (Austria) are well equipped with sophisticated Information Technology, which provides all-encompassing on-screen patient information. Previous research made on the theoretical properties, advantages and disadvantages, of reading from paper vs. reading from a screen has resulted in the assumption that reading from a screen is slower, less accurate and more tiring. However, recent flat screen technology, especially on the basis of LCD, is of such high quality that obviously this assumption should now be challenged. As the electronic storage and presentation of information has many advantages in addition to a faster transfer and processing of the information, the usage of electronic screens in clinics should outperform the traditional hardcopy in both execution and preference ratings.",
+				"temas" : ["calabouços", "armários", "dançarinos"],
+				"autores" : ["fulano1", "fulano2", "fulano3"]
+			},
+			"trabalho2" : {
+				"titulo" : "Outro trabalho qualquer",
+				"resumo" : "This study took part in a County hospital Styria, Austria, with 111 medical professionals, working in a real-life setting. They were each asked to read original and authentic diagnosis reports, a gynecological report and an internal medical document, on both screen and paper in a randomly assigned order. Reading comprehension was measured by the Chunked Reading Test, and speed and accuracy of reading performance was quantified. In order to get a full understanding of the clinicians' preferences, subjective ratings were also collected.",
+				"temas" : ["dançarinos", "armários", "dançarinos"],
+				"autores" : ["fulano1"]
+      }
+    },
+
 
     "organizing_committee" : {
       "General Chairs": ["fulano1","fulano3","fulano2"],
@@ -56,6 +71,53 @@
       "fulano1", "fulano2", "fulano3", "fulano4",
       "fulano1", "fulano2", "fulano3", "fulano4"
     ],
+
+
+
+    "plenaries" : {
+			"Monday, August 28th" : [
+				{
+					"horario" : "09:10—10:00",
+					"sala" : "pentagono",
+					"trabalho" : "trabalho1"
+				},
+				{
+					"horario" : "12:10—13:00",
+					"sala" : "pentagono",
+					"trabalho" : "trabalho2"
+				}
+			],
+			"Tuesday, August 29th" : [
+				{
+					"horario" : "09:10—10:00",
+					"sala" : "pentagono",
+					"trabalho" : "trabalho1"
+				},{
+					"horario" : "10:00—10:50",
+					"sala" : "pentagono",
+					"trabalho" : "trabalho2"
+        }
+      ]
+    },
+    
+
+
+
+
+		"salas" : {
+			"pentagono" : {
+				"nome": "Pentágono Room"
+			},
+			"ametista" : {
+				"nome": "Ametista Room"
+			},
+			"safira" : {
+				"nome": "Safira Room"
+			},
+			"turmalina" : {
+				"nome": "Turmalina Room"
+			}
+		},
 
 
     "autores" : {
