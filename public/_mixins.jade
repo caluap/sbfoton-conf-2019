@@ -81,7 +81,7 @@ mixin autor(img, nome, instituicao, bio, max = true)
     p.trab-a-inst #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
     unless bio == ""
       -
-        const BIO_PEQUENA = 256
+        const BIO_PEQUENA = 128
         var bio_com_brs = bio.replace("\n","<br><br>");
         var short_bio = "";
         if (bio_com_brs.length > BIO_PEQUENA) {
