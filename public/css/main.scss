@@ -1246,9 +1246,13 @@ div.slide.s-rodape.invertido {
 				left: 0;
 				top: $u-h / 2;
 				font-weight: 300;
-				// opacity: 0.6;
+				color: $c_laranja;
 				mix-blend-mode: multiply;
-				@include fs(6);
+				@include fs(8);
+				@include media-query($s-sm) {
+					@include fs(5);
+					font-weight: bold;
+				}
 			}
 
 			.trab-titulo {
