@@ -1107,7 +1107,7 @@ div.slide.s-rodape.invertido {
 }
 
 .h-caps {
-	@include fs(2);
+	@include fs(2,1);
 	color: $c_verde;
 	mix-blend-mode: multiply;
 	font-weight: 900;
@@ -1220,6 +1220,9 @@ div.slide.s-rodape.invertido {
 				border-top: 3px solid black;
 				mix-blend-mode: multiply;
 				opacity: 0.5;
+				@include media-query($s-sm) {
+					width: 100%;
+				}
 			}
 			// background: rgba(255,0,0,0.2);
 
@@ -1274,6 +1277,7 @@ div.slide.s-rodape.invertido {
 			.trab-temas {
 				margin-top: $u-h / 3;
 				display: flex;
+				flex-wrap: wrap;
 				li {
 					font-style: italic;
 					mix-blend-mode: multiply;
