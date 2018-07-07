@@ -1221,7 +1221,11 @@ div.slide.s-rodape.invertido {
 			// background: rgba(255,0,0,0.2);
 
 			display: grid;
-			grid-template-columns: 2fr 1fr;
+			grid-template-columns: 3fr 2fr;
+			@include media-query($s-md) {
+				grid-template-columns: 1fr;
+				padding-left: 0;
+			}
 			grid-gap: $u-h * 2;
 
 			.plen-trab {
@@ -1233,6 +1237,9 @@ div.slide.s-rodape.invertido {
 
 			.plen-ind {
 				position: absolute;
+				@include media-query($s-md) {
+					position: static;
+				}
 				left: 0;
 				top: $u-h / 2;
 				font-weight: 300;
