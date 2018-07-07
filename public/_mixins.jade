@@ -69,5 +69,5 @@ mixin membro(img, nome, instituicao, bio)
     - if (img)
       img(src="#{lvl}#{img}")
     p.nome #{nome}
-    p.instituicao #[a(href="#{instituicao.url}") #{instituicao.nome}]
+    p.instituicao #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
     p.bio #{bio}
