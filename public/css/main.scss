@@ -629,13 +629,16 @@ $w-menu: $u-h * 4;
 		display: none;
 	}
 	position: fixed;
-	right: $u-h / 5;
-	top: 1px;
-	@include fs(2);
-	font-family: Fontawesome;
+	right: 0;
+	top: 0;
+	@include fs(0);
+	font-weight: 500;
 	background: transparent;
+	transform-origin: bottom right;
+	transform: rotateZ(-90deg) translateX(40%);
 	&:after {
-		content: '\f0c9';
+		content: 'menu';
+		@include faux-caps;
 	}
 }
 #toggle:not(:checked) {
@@ -654,9 +657,12 @@ $w-menu: $u-h * 4;
 		background: black;
 		mix-blend-mode: multiply;
 		opacity: 0.8;
+		transform: none;
 		&:after {
+			font-family: Fontawesome;
 			content: "\f00d";
 			position: absolute;
+			@include fs(3);
 			right: $u-h / 5;
 			top: 1px;
 			color: white;
