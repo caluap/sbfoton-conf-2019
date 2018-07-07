@@ -1144,6 +1144,12 @@ div.slide.s-rodape.invertido {
 	.c-membros {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
+		@include media-query($s-lg) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+		@include media-query($s-md) {
+			grid-template-columns: repeat(2, 1fr);
+		}
 		@include media-query($s-sm) {
 			grid-template-columns: repeat(1, 1fr);
 
@@ -1158,23 +1164,19 @@ div.slide.s-rodape.invertido {
 
 
 			img {
-				// border-radius: 50%;
-				// margin: 0 auto;
 				width: 100%;
-				// height: $u-h * 3;
-				// object-fit: cover;
-				// display: block;
 			}
 
 			.nome {
 				@include faux-caps;
-				@include fs(-1,1.2);
+				@include fs(0,1.2);
 				margin-top: $u-h / 4;
-				// text-align: 
 				font-weight: 500;
 			}
 			.instituicao {
 				margin-top: $u-h / 8;
+				mix-blend-mode: multiply;
+				opacity: 0.7;
 				a {
 					@include fs(-2,1);
 				}
