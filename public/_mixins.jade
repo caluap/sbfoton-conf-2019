@@ -79,14 +79,20 @@ mixin autor(img, nome, instituicao, bio)
       img.trab-a-img(src="#{img}")
     p.trab-a-nome= nome
     p.trab-a-inst #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
-    p.trab-a-bio= bio
+    unless bio == ""
+      p.trab-a-bio= bio
 
 mixin trabalho(i, titulo, horario, sala, resumo, temas)
   .trab-trab
-    p.trab-ind= i
+    if i > 0
+      p.trab-ind= i
+    else
+      p.trab-ind= " "
     p.trab-titulo= titulo
     p.trab-horario #{horario}&nbsp; / &nbsp;#{sala}
-    p.trab-resumo= resumo
-    ul.trab-temas
-      each team in temas
-        li= tema
+    unless resumo == ""
+      p.trab-resumo= resumo
+    unless temas.length == 0
+      ul.trab-temas
+        each tema in temas
+          li= tema
