@@ -629,8 +629,8 @@ $w-menu: $u-h * 4;
 		display: none;
 	}
 	position: fixed;
-	right: 0;
-	top: 0;
+	right: 3px;
+	top: 6px;
 	@include fs(0);
 	font-weight: 500;
 	background: transparent;
@@ -654,10 +654,18 @@ $w-menu: $u-h * 4;
 		top: 0;
 		right: 0;
 		bottom: 0;
-		background: black;
-		mix-blend-mode: multiply;
-		opacity: 0.8;
 		transform: none;
+		&:before {
+			content: "";
+			position: absolute;
+			background: black;
+			mix-blend-mode: multiply;
+			opacity: 0.8;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+		}
 		&:after {
 			font-family: Fontawesome;
 			content: "\f00d";
