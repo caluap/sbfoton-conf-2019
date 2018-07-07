@@ -1207,7 +1207,10 @@ div.slide.s-rodape.invertido {
 
 		.trabalho {
 			position: relative;
-			margin-top: $u-h;
+			margin-top: $u-h * 2;
+			&:nth-child(2) { //o first é o título do dia
+				margin-top: $u-h * 1;
+			}
 			padding-left: $u-h * 2;
 			padding-top: $u-h / 2;
 
@@ -1268,7 +1271,7 @@ div.slide.s-rodape.invertido {
 
 			.trab-titulo {
 				@include fs(4,1);
-				font-weight: 900;
+				font-weight: 500;
 				color: $c_laranja;
 				mix-blend-mode: multiply;
 			}
