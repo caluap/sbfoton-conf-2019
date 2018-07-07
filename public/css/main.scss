@@ -1106,6 +1106,13 @@ div.slide.s-rodape.invertido {
 	}
 }
 
+.h-caps {
+	@include fs(2);
+	color: $c_verde;
+	mix-blend-mode: multiply;
+	font-weight: 900;
+}
+
 
 .chairs {
 	// background: green;
@@ -1117,11 +1124,8 @@ div.slide.s-rodape.invertido {
 	}
 
 	h3 {
-	 @include fs(2);
-	 color: $c_verde;
-	 mix-blend-mode: multiply;
-	 font-weight: 900;
-	 margin: $u-h 0;
+		@extend .h-caps;
+		margin: $u-h 0;
 	}
 
 	.c-membros {
@@ -1197,9 +1201,8 @@ div.slide.s-rodape.invertido {
 		}
 
 		.trab-data {
-			@include fs(1);
+			@extend .h-caps;
 			@include faux-caps;
-			font-weight: 300;
 		}
 
 		.trabalho {
