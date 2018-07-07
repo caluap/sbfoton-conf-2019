@@ -1188,21 +1188,21 @@ div.slide.s-rodape.invertido {
 	}
 }
 
-.c-plenaries {
+.c-trabalhos {
 	margin-top: $u-h;
-	.plen-dia {
+	.trab-dia {
 
-		& + .plen-dia {
+		& + .trab-dia {
 			margin-top: $u-h * 4;
 		}
 
-		.plen-data {
+		.trab-data {
 			@include fs(1);
 			@include faux-caps;
 			font-weight: 300;
 		}
 
-		.plenaria {
+		.trabalho {
 			position: relative;
 			margin-top: $u-h;
 			padding-left: $u-h * 2;
@@ -1228,14 +1228,14 @@ div.slide.s-rodape.invertido {
 			}
 			grid-gap: $u-h * 2;
 
-			.plen-trab {
+			.trab-trab {
 				// background: red;
 			}
-			.plen-autores {
+			.trab-autores {
 				// background: blue;
 			}
 
-			.plen-ind {
+			.trab-ind {
 				position: absolute;
 				@include media-query($s-md) {
 					position: static;
@@ -1248,23 +1248,23 @@ div.slide.s-rodape.invertido {
 				@include fs(6);
 			}
 
-			.plen-titulo {
+			.trab-titulo {
 				@include fs(4,1);
 				font-weight: 900;
 			}
 
-			.plen-horario {
+			.trab-horario {
 				@include fs(-1);
 				mix-blend-mode: multiply;
 				opacity: 0.7;
 			}
 
-			.plen-resumo {
+			.trab-resumo {
 				@include fs(-1);
 				hyphens: auto;
 			}
 
-			.plen-temas {
+			.trab-temas {
 				margin-top: $u-h / 3;
 				display: flex;
 				li {
@@ -1278,22 +1278,22 @@ div.slide.s-rodape.invertido {
 				}
 			}
 
-			.plen-autores {
-				.plen-autor {
+			.trab-autores {
+				.trab-autor {
 					margin-top: $u-h / 2;
 					margin-bottom: $u-h;
-					.plen-a-img {
+					.trab-a-img {
 						border-radius: 50%;
 					}
 
-					.plen-a-nome {
+					.trab-a-nome {
 						@extend .template-nome-autor;
 					}
-					.plen-a-inst {
+					.trab-a-inst {
 						@extend .template-instituicao;
 					}
 
-					.plen-a-bio {
+					.trab-a-bio {
 						@extend .template-bio;
 					}
 

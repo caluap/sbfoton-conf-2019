@@ -10,33 +10,33 @@ include /_mixins
     .pure-u-1
       h1 Plenaries
 
-      .c-plenaries
+      .c-trabalhos
         - var i = 1;
         each data, i_data in plenaries 
-          .plen-dia
-            p.plen-data= i_data
+          .trab-dia
+            p.trab-data= i_data
             each plenaria in data
-              .plenaria
+              .trabalho
                 - var trabalho = trabalhos[plenaria.trabalho]
-                .plen-trab
-                  p.plen-ind= i
-                  p.plen-titulo= trabalho.titulo
-                  p.plen-horario #{plenaria.horario}&nbsp; / &nbsp;#{salas[plenaria.sala].nome}
-                  //- p.plen-sala= salas[plenaria.sala].nome
-                  p.plen-resumo= trabalho.resumo
-                  ul.plen-temas
+                .trab-trab
+                  p.trab-ind= i
+                  p.trab-titulo= trabalho.titulo
+                  p.trab-horario #{plenaria.horario}&nbsp; / &nbsp;#{salas[plenaria.sala].nome}
+                  //- p.trab-sala= salas[plenaria.sala].nome
+                  p.trab-resumo= trabalho.resumo
+                  ul.trab-temas
                     each tema in trabalho.temas
                       li= tema
-                .plen-autores
+                .trab-autores
                   h3 Presented by
                   each nome_autor in trabalho.autores
-                    .plen-autor
+                    .trab-autor
                       - var autor = autores[nome_autor]
                       unless autor.imagem == ""
-                        img.plen-a-img(src="#{autor.imagem}")
-                      p.plen-a-nome= autor.nome
-                      p.plen-a-inst #[a(href="#{autor.instituicao.url}", target="_blank") #{autor.instituicao.nome}]
-                      p.plen-a-bio= autor.biografia
+                        img.trab-a-img(src="#{autor.imagem}")
+                      p.trab-a-nome= autor.nome
+                      p.trab-a-inst #[a(href="#{autor.instituicao.url}", target="_blank") #{autor.instituicao.nome}]
+                      p.trab-a-bio= autor.biografia
                   - i++;
 
 
