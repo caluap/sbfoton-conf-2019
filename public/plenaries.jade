@@ -16,17 +16,9 @@ include /_mixins
           .trab-dia
             p.trab-data= i_data
             each plenaria in data
+              - var trabalho = trabalhos[plenaria.trabalho]
               .trabalho
-                - var trabalho = trabalhos[plenaria.trabalho]
-                .trab-trab
-                  p.trab-ind= i
-                  p.trab-titulo= trabalho.titulo
-                  p.trab-horario #{plenaria.horario}&nbsp; / &nbsp;#{salas[plenaria.sala].nome}
-                  //- p.trab-sala= salas[plenaria.sala].nome
-                  p.trab-resumo= trabalho.resumo
-                  ul.trab-temas
-                    each tema in trabalho.temas
-                      li= tema
+                +trabalho(i, trabalho.titulo, plenaria.horario, salas[plenaria.sala].nome, trabalho.resumo, trabalho.temas)
                 .trab-autores
                   h3 Presented by
                   each nome_autor in trabalho.autores
