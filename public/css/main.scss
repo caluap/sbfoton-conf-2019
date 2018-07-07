@@ -1282,6 +1282,10 @@ div.slide.s-rodape.invertido {
 				font-weight: 500;
 				color: $c_laranja;
 				mix-blend-mode: multiply;
+				hyphens: auto;
+				@include media-query($s-sm) {
+					@include fs(2,1.2);
+				}
 			}
 
 			.trab-horario {
