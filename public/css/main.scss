@@ -1110,7 +1110,7 @@ div.slide.s-rodape.invertido {
 	@include fs(2,1);
 	color: $c_verde;
 	mix-blend-mode: multiply;
-	font-weight: 900;
+	font-weight: 500;
 }
 
 
@@ -1156,7 +1156,7 @@ div.slide.s-rodape.invertido {
 }
 
 .template-instituicao {
-	margin-top: $u-h / 8;
+	margin-top: -4px;
 	mix-blend-mode: multiply;
 	opacity: 0.7;
 	a {
@@ -1232,13 +1232,19 @@ div.slide.s-rodape.invertido {
 				grid-template-columns: 1fr;
 				padding-left: 0;
 			}
-			grid-gap: $u-h * 2;
+			grid-gap: $u-h;
 
 			.trab-trab {
 				// background: red;
 			}
 			.trab-autores {
 				// background: blue;
+				padding-left: $u-h;
+				border-left: 2px solid #fa9e6a;
+				@include media-query($s-sm) {
+					padding-left: 0;
+					border: none;
+				}
 			}
 
 			.trab-ind {
@@ -1247,11 +1253,12 @@ div.slide.s-rodape.invertido {
 					position: static;
 				}
 				left: 0;
-				top: $u-h / 2;
+				top: 4px;
 				font-weight: 300;
 				color: $c_laranja;
+				opacity: 0.6;
 				mix-blend-mode: multiply;
-				@include fs(8);
+				@include fs(9);
 				@include media-query($s-sm) {
 					@include fs(5);
 					font-weight: bold;
@@ -1261,6 +1268,8 @@ div.slide.s-rodape.invertido {
 			.trab-titulo {
 				@include fs(4,1);
 				font-weight: 900;
+				color: $c_laranja;
+				mix-blend-mode: multiply;
 			}
 
 			.trab-horario {
@@ -1295,6 +1304,7 @@ div.slide.s-rodape.invertido {
 					margin-bottom: $u-h;
 					.trab-a-img {
 						border-radius: 50%;
+						max-width: $u-h * 3;
 					}
 
 					.trab-a-nome {
