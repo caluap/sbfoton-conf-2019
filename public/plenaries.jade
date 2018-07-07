@@ -35,7 +35,7 @@ include /_mixins
                       unless autor.imagem == ""
                         img.plen-a-img(src="#{autor.imagem}")
                       p.plen-a-nome= autor.nome
-                      p.plen-a-inst= autor.instituicao.nome
+                      p.plen-a-inst #[a(href="#{autor.instituicao.url}", target="_blank") #{autor.instituicao.nome}]
                       p.plen-a-bio= autor.biografia
                   - i++;
 

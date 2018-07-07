@@ -170,23 +170,6 @@ blockquote {
 	@include fs(-1);
 }
 
-.c-membros {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	@include media-query($s-sm) {
-		grid-template-columns: 1fr 1fr;
-	}
-	grid-gap: $u-h/2;
-	margin: $u-h/2 0 $u-h;
-	.membro {
-		h5 {
-			color: cinza(3);
-		}
-		background: cinza(9.5);
-		@include fs(-2);
-		padding: $u-h/2;
-	}
-}
 
 .logo {
 	img {
@@ -1156,40 +1139,54 @@ div.slide.s-rodape.invertido {
 		}
 		grid-gap: $u-h;
 
-		// background: blue;
-
-		.membro {
-			background: transparent;
-			padding: 0;
-
-
-			img {
-				width: 100%;
-			}
-
-			.nome {
-				@include faux-caps;
-				@include fs(0,1.2);
-				margin-top: $u-h / 4;
-				font-weight: 500;
-			}
-			.instituicao {
-				margin-top: $u-h / 8;
-				mix-blend-mode: multiply;
-				opacity: 0.7;
-				a {
-					@include fs(-2,1);
-				}
-			}
-
-			.bio {
-				@include fs(-2);
-				hyphens: auto;
-			}
-		}
 	}
 }
 
+.template-nome-autor {
+
+	@include faux-caps;
+	@include fs(0,1.2);
+	margin-top: $u-h / 4;
+	font-weight: 500;
+
+}
+
+.template-instituicao {
+	margin-top: $u-h / 8;
+	mix-blend-mode: multiply;
+	opacity: 0.7;
+	a {
+		@include fs(-2,1);
+	}
+}
+
+.template-bio {
+
+	@include fs(-2);
+	hyphens: auto;
+}
+
+
+.membro {
+	background: transparent;
+	padding: 0;
+
+
+	img {
+		width: 100%;
+	}
+
+	.nome {
+		@extend .template-nome-autor;
+	}
+	.instituicao {
+		@extend .template-instituicao;
+	}
+
+	.bio {
+		@extend .template-bio;
+	}
+}
 
 .c-plenaries {
 	margin-top: $u-h;
@@ -1271,6 +1268,28 @@ div.slide.s-rodape.invertido {
 					&:last-child {
 						margin-right: 0;
 					}
+				}
+			}
+
+			.plen-autores {
+				.plen-autor {
+					margin-top: $u-h / 2;
+					margin-bottom: $u-h;
+					.plen-a-img {
+						border-radius: 50%;
+					}
+
+					.plen-a-nome {
+						@extend .template-nome-autor;
+					}
+					.plen-a-inst {
+						@extend .template-instituicao;
+					}
+
+					.plen-a-bio {
+						@extend .template-bio;
+					}
+
 				}
 			}
 		}
