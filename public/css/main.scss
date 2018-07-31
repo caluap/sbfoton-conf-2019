@@ -449,8 +449,7 @@ body.conference {
 	}
 }
 
-.buleted {
-	list-style-type: disc;
+.lista-generica {
 	margin: $u-h/4 0;
 	@include media-query($s-md) {
 		list-style-position: inside;
@@ -461,9 +460,41 @@ body.conference {
 			grid-template-columns: 1fr 1fr;
 			grid-row-gap: $u-h/4;
 			grid-column-gap: $u-h;
-		}
-	
+		}	
 	}
+	
+	p {
+		margin-left: 1ex;
+		margin: $u-h / 4 1ex;
+	}
+
+	.li-forte {
+		font-weight: bold;
+	}
+}
+
+.lista-numerada {
+	@extend .lista-generica;
+
+	list-style: none;
+	counter-reset: contador-lista;
+	li {
+		counter-increment: contador-lista;
+		&:before {
+			font-weight: normal;
+			@include fs(-2);
+			// só funciona com listas de até 9 itens
+			margin-left: -2ex;
+			margin-right: 1ex;
+			content: counter(contador-lista) "";
+		}
+	}
+
+}
+
+.buleted {
+	list-style-type: disc;
+	@extend .lista-generica;
 }
 
 
@@ -1126,6 +1157,8 @@ div.slide.s-rodape.invertido {
 	color: $c_verde;
 	mix-blend-mode: multiply;
 	font-weight: 500;
+	margin-bottom: $u-h / 2;
+	margin-top: $u-h * 2;
 }
 
 
