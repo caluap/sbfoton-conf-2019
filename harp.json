@@ -59,10 +59,10 @@
 
 
     "organizing_committee" : {
-      "General Chairs": ["fulano1","fulano3","fulano2"],
-      "Technical Program Chairs": ["fulano4","fulano1"],
-      "MTT-S Chapter Chair — South Brazil section": ["fulano2"],
-      "International Liaison": ["fulano3"]
+      "General Chairs": ["alexandre_pohl","daniel_pataca"],
+      "Administrative Chairs": ["andre_de_souza","stenio_ranzini"],
+      "Technical Program Chairs": ["monica_rocha", "vilson_de_almeida","carmelo_filho","felipe_barbosa","yara_gobato"],
+      "International Laison": ["hugo_figueroa"]
     },
 
     "technical_program_committee" : [
@@ -152,43 +152,175 @@
       "fulano1": {
 				"nome":"Caluã de Lacerda Pataca",
 				"imagem":"img/perfis/testes/pessoa1.jpg",
-				"instituicao": {
+				"instituicao": [{
 					"nome":"Universidade Estadual de Campinas",
 					"url":"http://www.unicamp.br/"
-				},
+				}],
 				"biografia":"Duis mollit eu nisi tempor dolor voluptate in proident dolore enim elit nostrud. Deserunt magna nulla excepteur cupidatat reprehenderit esse Lorem culpa. Labore commodo occaecat nostrud dolor exercitation adipisicing quis ipsum do enim mollit nostrud consequat. Consequat anim et pariatur aliqua tempor voluptate quis officia dolor laboris. Nisi enim velit sit duis magna non consectetur ad culpa sit aute. Lorem voluptate eu commodo do ut reprehenderit aliqua in adipisicing eu sit mollit sunt.",
 				"links":[]
 			},
       "fulano2": {
 				"nome":"Blai Guimarães Pataca",
 				"imagem":"img/perfis/testes/pessoa2.jpg",
-				"instituicao": {
+				"instituicao": [{
 					"nome":"Universidade Estadual de Campinas",
 					"url":"http://www.unicamp.br/"
-				},
+				}],
 				"biografia":"Duis mollit eu nisi tempor roident dolore  elit nostrud. Deserunt magna nulla excepteur cupidatat reprehenderit esse Lorem culpa. Labore commodo occaecat nostrud dolor exercitation adipisicing quis ipsum do enim mollit nostrud consequat. Consequat anim et pariatur aliqua tempor voluptate quis officia dolor laboris. Nisi enim velit sit duis magna non consectetur ad culpa sit aute. Lorem voluptate eu commodo do ut reprehenderit aliqua in adipisicing eu sit mollit sunt.",
 				"links":[]
 			},
       "fulano3": {
 				"nome":"Ana Paula K. Guimarães",
 				"imagem":"img/perfis/testes/pessoa3.jpg",
-				"instituicao": {
+				"instituicao": [{
 					"nome":"Universidade Estadual de Campinas",
 					"url":"http://www.unicamp.br/"
-				},
+				}],
 				"biografia":"Nisi consectetur id officia sit. Est est veniam nisi mollit adipisicing enim ullamco sunt qui elit eu aute eu sint. Lorem et eu dolore magna cillum ex dolor enim sit.",
 				"links":[]
 			},
       "fulano4": {
 				"nome":"John Doe",
 				"imagem":"img/perfis/testes/pessoa4.jpg",
-				"instituicao": {
+				"instituicao": [{
 					"nome":"Universidade Estadual de Campinas",
 					"url":"http://www.unicamp.br/"
-				},
+				}],
 				"biografia":"Occaecat sint mollit non amet excepteur qui commodo laborum eiusmod ex Lorem pariatur irure. Aute eiusmod quis veniam voluptate laboris incididunt labore excepteur nostrud eu sint ad. Ea aute non reprehenderit velit id ullamco cupidatat ullamco. Occaecat ad quis labore ea Lorem pariatur aliqua pariatur eu eu quis eiusmod minim. Cupidatat ut cupidatat deserunt in non consequat esse elit nostrud quis.",
 				"links":[]
+			},
+
+			"fulano": {
+				"nome": "",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "",
+					"url": ""
+				}],
+				"biografia": "",
+				"links":[]
+			},
+
+			
+			"hugo_figueroa": {
+				"nome": "Prof. Hugo Enrique Hernandez Figueroa",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "Unicamp",
+					"url": ""
+				}],
+				"biografia": "He graduated in Electrical Engineering (1982) and majored in Mathematics (1983) by the Federal University of Rio Grande do Sul, obtained a Master's Degree in Electrical Engineering (1986) and a Master's Degree in Computer Science (1988) by the Pontifical Catholic University of Rio de Janeiro. He obtained his doctorate in physics from the Imperial College of Science Technology and Medicine, London, UK (1992). Professor at the State University of Campinas (UNICAMP) since 1995, he reached Full Professor in 2005. Fellow of the Optical Society of America (OSA), 2011. Senior Member of the IEEE, 2000. Area Coordinator of FAPESP : Engineering I since 2014. His lines of research focus on the following topics: integrated photonics, optical fibers, antennas, microwave, computational electromagnetism, optical communications and telecommunications. Associate Editor (Nanofotónica) of the IEEE Photonics Journal (2011-2017).",
+				"links":[]
+			},
+			
+			"yara_gobato": {
+				"nome": "Prof. Yara Galvão Gobato",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UFSCar",
+					"url": ""
+				}],
+				"biografia": "She holds a degree in Physics from the University of São Paulo (1986), a Master's degree in Physics from the University of São Paulo (1989) and a Ph.D. in Physics from the Ecole Normale Superieurie and Université Paris 6, Paris, France (1993). Currently holds the position of Associate Professor 4 of the Federal University of São Carlos. He was responsible for the assembly of laboratories with several experimental techniques for the development of several research projects at the Physics Department of UFSCAR: photoluminescence, electroluminescence, transport, magneto-optical and magneto-transport. She was coordinator of the Post-Graduation Program of Physics of UFSCAR in the period of 2012-2014. She is currently vice-coordinator of the Postgraduate Program in Physics at UFSCAR. He has experience in the area of ​​Condensed Matter Physics, working mainly in the following research topics: optical and magneto-optical properties and transport and magneto-transport, semiconductor nanostructures, 2Ds materials, semiconductor devices, valleytronics and spintronics. He participated in the organization of several national and international conferences. She coordinated 3 regular FAPESP projects, was a principal researcher for 2 FAPESP Thematic projects and coordinated 4 CNPQ Universal notices. It has several international scientific collaborations. He directed 16 students of scientific initiation, 11 of master's and 7 of doctorate resulting in several publications in international journals",
+				"links":[]
+			},
+			
+			"felipe_barbosa": {
+				"nome": "Prof. Felipe Rudge Barbosa",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "Unicamp",
+					"url": ""
+				}],
+				"biografia": "He holds a bachelor's degree in Physics from the Pontifical Catholic University of Rio de Janeiro (1976), a Master's degree in Physics (M.Sc.) from the State University of Campinas (1979) and a Ph.D. in Electrical Engineering by the State University of Campinas (1992). He is a collaborating professor at the Faculty of Electrical Engineering and Computing, State University of Campinas (FEEC-Unicamp); and senior researcher at INCT-Namitec, at the Information Technology Center - MCT / CTI, in Campinas, SP. He has extensive experience in the academic and business environments, in the areas of Electrical Engineering and Condensed Matter Physics, with emphasis on Lasers, Optical Fibers and their applications, and Telecommunications Systems. He works in R & D and technological innovation, with teaching and consulting activities as a specialist in optical communications systems, metropolitan optical networks and access, photonic switching, semiconductor devices, optical and optoelectronic components, and precision opto-mechanics. Has dozens of papers published in national and international conferences and periodicals. He is a member of SBF, SBrT, member and advisor of SBMO, ITU-T consultant, and member of OSA and IEEE ComSoc. Received two professional awards. Currently a CNPq DTI-1 Fellow.",
+				"links":[]
+			},
+			
+			"carmelo_filho": {
+				"nome": "Prof. Carmelo José Albanez Bastos Filho",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UPE",
+					"url": ""
+				}],
+				"biografia": "Carmelo JA Bastos Filho is currently the Chief Scientist of the Electrotechnical Technology Park of the State of Pernambuco, an associate professor at the Polytechnic School of Pernambuco, University of Pernambuco (UPE), professor of the graduation in Computer Engineering at the UPE , a permanent member of the UPE's Computer Engineering Graduate Program, a permanent member of the UPE's Systems Engineering Graduate Program, a permanent member of the Post-Graduation Program in Electrical Engineering at UFPE, a collaborator of the postgraduate degree in Computer Science from the Florida Institute of Technology. He was the coordinator of the UPE / Alcatel-Lucent / FITec IP Network Engineering Specialization / Residency Program, vice-coordinator of the Specialization in Digital TV and Communications Networks of the UPE. He was the general coordinator of Post-Graduation at the University of Pernambuco in 2015. After completing his doctorate, his thesis was chosen by CAPES as the best thesis of Brazil in the area of ​​Engineering IV in 2005. He is an advisor to the Brazilian Society of Computational Intelligence, member of the Brazilian Society of Optics and Photonics (SBFOTON), member of the Brazilian Society of Microbes and Optoelectronics (SBMO) and Senior Member of the IEEE. He has been a Research Productivity Scholar at CNPq since 2008 and has been promoted to a 1D level scholarship in 2018. In 2006, 2008 and 2018 he received the outstanding research award from the Polytechnic School of Pernambuco. In 2009, he received the outstanding award in research from the University of Pernambuco. In 2017, he received the outstanding award in Innovation by the Polytechnic School of the University of Pernambuco. He has published 64 full papers in journals, 1 book, 15 book chapters and 182 full papers in conference proceedings. He is a lecturer at UPE. He coordinated several research projects funded by CNPq / Universal, FACEPE, FINEP, CHESF (R & D ANEEL), Ericsson, Alcatel-Lucent and Fiat-Chrysler.",
+				"links":[]
+			},
+
+			"vilson_de_almeida": {
+				"nome": "Prof. Vilson Rosa de Almeida",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "IEAv",
+					"url": ""
+				},{
+					"nome": "Universidade Brasil",
+					"url": ""
+				}],
+				"biografia": "Specialized in the areas of Photonics and Electronic Engineering, for Aerospace applications and in Biomedical Engineering, with emphasis on: Silicon Photonics, Integrated Optics, Fiber Optic Sensors, Micro / Nano-Devices and Micro / Nano-Sensors, Microwaves (RF) and Optoelectronics. He holds a degree from the Instituto Tecnológico de Aeronáutica (ITA) in Electronic Engineering with distinction Magna Cum Laude (1997), as well as a degree from the Air Force Academy (AFA) in Aeronautical Sciences with a degree in Military Aviation (1987) Electronics and Computing (1998) and PhD from Cornell University in Electrical and Computer Engineering (2004). Has experience in the design, design, manufacture and characterization of devices in Photonics Integrated in Silicon, from Sensors to Fiber Optics, especially for Aerospace Applications. Accredited at ITA Post-Graduation and in the Photonics Division of the Institute of Advanced Studies (IEAv), both belonging to DCTA-COMAer. Member of the Evaluation Committee of Graduate Programs of CAPES - Engenharias III (Triennial 2010-2012, Quadrennial 2013-2016). Member of the Deliberative Council of the Brazilian Society of Photonics (SBFoton). Member of the \"Physics in the Enterprise\" Area Committee (FEM), of the Brazilian Society of Physics (SBF) Advisor to FAPESP in PIPE Projects and scholarships in general. CNPq Scholarship for Technological Development Productivity and Innovative Extension - DT, level 1D. International recognition for relevant scientific contributions, by triplicating the list of the 100 most cited articles of the 40-year history of the renowned international journal Optics Letters; the articles of the researcher ran the positions of # 16, 60 and 80 among the most cited, characterizing him as the most cited Brazilian and with the highest number of ranked articles.",
+				"links":[]
+			},
+
+			"monica_rocha": {
+				"nome": "Prof. Mônica de Lacerda Rocha",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "USP",
+					"url": ""
+				}],
+				"biografia": "She graduated in Electronic and Telecommunications Engineering from the Pontifícia Universidade Católica de Minas Geras, 1980. She holds a Master's degree in Electrical Engineering from the State University of Campinas, 1984. After two periods abroad (British Telecom Laboratoris, England), she concluded A Ph.D. in Electrical Engineering from the State University of Campinas in 1999. She worked with a researcher in the Microwave area at the Aerospace Technical Center (CTA) from 1985 to 1986 and as a Telecommunication researcher at the Telecommunication Research and Development Center (CPqD), from 1987 to 2006. She is currently a member of the University of São Paulo as a Ph.D. Professor at the São Carlos School of Engineering, Department of Electrical and Computer Engineering (2006 to present). She works in the area of ​​Electrical Engineering, with emphasis on Telecommunications. Her work focuses mainly on technologies associated with optical transmission systems and optical networks.",
+				"links":[]
+			},
+			
+			"stenio_ranzini": {
+				"nome": "Stenio Magalhães Ranzini",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "",
+					"url": ""
+				}],
+				"biografia": "Graduated in Electrical and Electronic Engineering from the University of São Paulo (USP) with enphasis in telecommunications. During this time he developed research works based on intelligent systems (Neuro-Fuzzy). After completing the course, he began working at CPqD, in the area of Optical Communications - Photonics, in the DSP group. The works developed were in the area of optical technologies of high rates. During the period that he worked at CPqD, he completed his master's degree at UNICAMP with the study and development of a chip to compensate for fiber optic nonlinearities. She is currently a PhD student at the Technical University of Denmark (DTU).",
+				"links":[]
+			},
+			
+			"andre_de_souza": {
+				"nome": "André Luiz Nunes de Souza",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "Fundação CPqD",
+					"url": ""
+				}],
+				"biografia": "He holds a degree in Electrical Engineering from the State University of Campinas (2013) with a sandwich diploma in General Engineering from École Centrale de Lyon (ECL), France (\"Diplôme d'Ingénieur\" equivalent to \"Master Scientifique\" level). During graduation in Brazil, he did an 11-month internship at CPqD on the study and development of signal processing algorithms for high-speed optical communications. During the two years he was in France, he participated in two research groups in partnership with companies (Volx Holds and Groupe SEB). He works as a researcher since August / 2015 at CPqD in the study and development of signal processing algorithms for telecommunications and is completing a master's degree in optical communications at Unicamp.",
+				"links":[]
+			},
+			
+			"daniel_pataca": {
+				"nome": "Prof. Daniel Moutinho Pataca",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UNIP",
+					"url": ""
+				}],
+				"biografia": "He holds a degree in Electronic and Telecommunications Engineering from PUC MG (1981), a Masters and PhD in Electrical Engineering from UNICAMP, 1984 and 1996 respectively. He has experience in microwaves, optoelectronics, IP networks, planning and development of telecommunications services, digital TV and optical communications. He is currently a researcher at CPqD, where research optical communications systems, and he is a full professor at Universidade Paulista — UNIP where teaches electrical engineering disciplines.",
+				"links":[]
+			},
+			
+			"alexandre_pohl": {
+				"nome": "Prof. Alexandre Pohl",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UTFPR",
+					"url": ""
+				}],
+				"biografia": "He graduated in Physics from the State University of Campinas (1982), where he also obtained the title of master (Physics, 1987). He received his doctorate from the Technical University of Braunschweig, Germany, in Electrical Engineering (1994) and postdoctoral studies at the University of Sydney, Australia (2007). He is currently a professor at the Federal Technological University of Paraná, where he teaches disciplines related to the areas of photonics and telecommunications and leads a research group focusing on telecommunications and optical communications. He has worked in technological development with companies, research institutes and universities, whose collaboration has resulted in the development of software, innovative prototypes and various articles refereed in periodicals and annals of national and international conferences. He is a member of the Brazilian Microwave and Optoelectronic Society (SBMO), a senior member of the Brazilian Telecommunications Society (SBrT), where he served as vice president of Finance between 2012 and 2015, member of the Brazilian Society of Optics and Photonics (SBFoton) and senior member of The Optical Society (OSA). He was a member of the University Council (2010-2013), the Research and Graduate Council of UTFPR (2014-2017) and director of Research and Post-Graduation of UTFPR Campus Curitiba between 2014 and 2017. He is a Development Productivity Scholarship Technological and Innovative Extension, level 1D, of CNPq,",
+				"links":[]
 			}
+
+
+
+
+
+
+
     },
 
 

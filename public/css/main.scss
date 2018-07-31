@@ -1174,7 +1174,8 @@ div.slide.s-rodape.invertido {
 	margin-top: -4px;
 	mix-blend-mode: multiply;
 	opacity: 0.7;
-	a {
+	&, a {
+		margin-top: $u-h/4;
 		@include fs(-2,1);
 	}
 }

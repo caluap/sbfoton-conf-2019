@@ -57,9 +57,26 @@ mixin rodape(pagina_atual)
       .pure-u-1
         p.credits This website and the event’s visual identity were created by #[a(href="http://www.preface.com.br/",target="_blank") Preface&nbsp;design].
 
+mixin bio(bio, classe, limite, max = true)
+  -
+    var bio_com_brs = bio.replace(/&/g, "&amp;").replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/"/g, "&quot;").replace("\n","<br><br>");
+    var short_bio = "";
+  -
+    if (bio_com_brs.length > limite) {
+      short_bio = bio_com_brs.substr(0, limite);
+      // corta no último espaço
+      short_bio = short_bio.substr(0, Math.min(short_bio.length, short_bio.lastIndexOf(" ")));
+    }
+  - if (short_bio == "" || !max) {
+    p(class=classe)= bio_com_brs
+  - } else {
+    p(class=classe).
+      #{short_bio + "..."}
+      #[a(href="#", onclick="$(this).parent().html(\"#{bio_com_brs}\"); return false;") #[i.fa.fa-plus-circle] ]
+  - }
 
 
-mixin membro(img, nome, instituicao, bio)
+mixin membro(img, nome, instituicoes, bio, max = true)
   -
     var lvl = '';
     if (current.path.length > 1) {
@@ -69,8 +86,13 @@ mixin membro(img, nome, instituicao, bio)
     - if (img)
       img(src="#{lvl}#{img}")
     p.nome #{nome}
-    p.instituicao #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
-    p.bio #{bio}
+      each instituicao in instituicoes
+        - if (instituicao.url)
+          p.instituicao #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
+        - else if (instituicao.nome)
+          p.instituicao #{instituicao.nome}
+    unless bio == ""
+      +bio(bio, "bio", 128*4, max)
 
 
 mixin autor(img, nome, instituicao, bio, max = true)
@@ -80,22 +102,7 @@ mixin autor(img, nome, instituicao, bio, max = true)
     p.trab-a-nome= nome
     p.trab-a-inst #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
     unless bio == ""
-      -
-        const BIO_PEQUENA = 128
-        var bio_com_brs = bio.replace("\n","<br><br>");
-        var short_bio = "";
-        if (bio_com_brs.length > BIO_PEQUENA) {
-          short_bio = bio_com_brs.substr(0, BIO_PEQUENA);
-          // corta no último espaço
-          short_bio = short_bio.substr(0, Math.min(short_bio.length, short_bio.lastIndexOf(" ")));
-        }
-      - if (short_bio == "" || !max) {
-        p.trab-a-bio= bio_com_brs
-      - } else {
-        p.trab-a-bio.
-          #{short_bio + "..."}
-          #[a(href="#", onclick="$(this).parent().html('#{bio_com_brs}'); return false;") #[i.fa.fa-plus-circle] ]
-      - }
+      +bio(bio, "trab-a-bio", 128, max)
 
 mixin trabalho(i, titulo, horario, sala, resumo, temas)
   .trab-trab
