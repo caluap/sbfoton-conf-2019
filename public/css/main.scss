@@ -533,7 +533,7 @@ table {
 
 		.there-be-prices td:not(:first-child), tr th:not(:first-child) {
 			// text-align: right;
-			font-feature-settings: 'tnum';
+			font-feature-settings: 'tnum', 'ss01';
 			
 			.invisible-zeros {
 				opacity: 0;
@@ -546,8 +546,29 @@ table {
 	}
 }
 
+.sub-row-header {
+	background: $c_laranja;
+	color: white;
+	mix-blend-mode: normal;
+	td {
+		padding-left: $u-h/6;
+		padding-bottom: 5px;
+		@include faux-caps;
+		@include fs(-1,1);
+	}
+	// color: white;
+}
+
+span.note {
+	color: $c_verde;
+	// font-weight: bold;
+	vertical-align: super;
+	@include fs(-2);
+	font-feature-settings: 'case';
+}
+
 table {
-	&, & ~ .legenda-tabela {
+	& ~ .legenda-tabela {
 		mix-blend-mode: multiply;
 	}
 	& ~ .legenda-tabela {
