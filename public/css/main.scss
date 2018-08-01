@@ -648,7 +648,7 @@ $c_rosa: #ffd4d5;
 $c_laranja: #f7941e;
 $c_verde: #00a79d;
 $c_mix: #006112;
-$c_menu : #4772aa;
+$c_menu : mix(black,#4772aa, 30%);
 
 $w-menu: $u-h * 4;
 
@@ -789,7 +789,8 @@ $w-menu: $u-h * 4;
 				opacity: 0.75;
 
 				&.registration_link {
-					background: $c_laranja;
+					color: $c_laranja;
+					background: mix(black,$c_menu);
 					opacity: 1;
 				}
 				
