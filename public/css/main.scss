@@ -1362,11 +1362,13 @@ div.slide.s-rodape.invertido {
 				@include fs(-1);
 				hyphens: auto;
 				// max-width: 60ch;
-				&.resumo-p {
-					@include fs(1);
-				}
-				&.resumo-m {
-					@include fs(0);
+				@include media-query-a-partir($s-sm) {
+					&.resumo-p {
+						@include fs(1);
+					}
+					&.resumo-m {
+						@include fs(0);
+					}
 				}
 			}
 
@@ -1396,6 +1398,7 @@ div.slide.s-rodape.invertido {
 
 					.trab-a-nome {
 						@extend .template-nome-autor;
+						max-width: 30ch;
 					}
 					.trab-a-inst {
 						@extend .template-instituicao;
