@@ -95,7 +95,7 @@
 				"titulo" : "​SHG in nanoparticles or molecules",
 				"resumo" : "",
 				"temas" : [],
-				"autores" : ["pierre_francois_breve"]
+				"autores" : ["pierre_francois_brevet"]
       }
 			
 			,"PL-WED-01" : {
@@ -300,9 +300,9 @@
 			},
 			
 			
-			"pierre_francois_breve": {
-				"nome": "Pierre François-Breve",
-				"imagem": "",
+			"pierre_francois_brevet": {
+				"nome": "Pierre François-Brevet",
+				"imagem": "img/speakers/pierre_francois_brevet.jpg",
 				"instituicao": [{
 					"nome": "University of Lyon / FR",
 					"url": ""
