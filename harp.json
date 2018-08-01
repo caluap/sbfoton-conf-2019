@@ -65,7 +65,7 @@
 
 			,"PL-MON-02" : {
 				"titulo" : "Semiconductor Nanowires for Optoelectronics Applications",
-				"resumo" : "",
+				"resumo" : "Semiconductors have played an important role in the development of information and communications technology, solar cells, solid state lighting. Nanowires are considered as building blocks for the next generation electronics and optoelectronics. In this talk, I will introduce the importance of nanowires and their potential applications and discuss about how these nanowires can be synthesized and how the shape, size and composition of the nanowires influence their structural and optical properties. I will present results on axial and radial heterostructures and how one can engineer the optical properties to obtain high performance lasers, THz detectors and solar cells. Use of nanowires for artificial photosynthesis and engineering of neuronal networks will be discussed. Future prospects of the semiconductor nanowires will be discussed. ",
 				"temas" : [],
 				"autores" : ["chennupati_jagadish"]
 			}
@@ -79,7 +79,7 @@
 
 			,"PL-TUE-01" : {
 				"titulo" : "Photonics as a Key Enabling Technology: From Novel Light Sources to Clinical Diagnostic by Optical Imaging",
-				"resumo" : "",
+				"resumo" : "Photonics, the technology that deals with the generation, detection, harnessing and applications of photons, has been recognized as a key enabling technology (KET), as it is everywhere around us: from materials processing to everyday products like DVD players and mobile phones. To raise global awareness of how light-based science and technologies promote sustainable development and provide solutions to global challenges in a variety of themes, 2015 was declared as the International Year of Light by the United Nations and May 16th was declared the International Day of Light. <br><br>In this talk, I will give an introduction of some photonics developments going beyond KET to point out its economic impact. Then, I will describe how a novel type of coherent optical source, known as random laser, can be used as a platform for applications that goes from sensors to optical sources for bioimaging. To conclude, I will demonstrate how photons can be exploited for diagnostic by optical imaging in optical coherence tomography, demonstrating its ability in clinical use in dentistry and dermatology.",
 				"temas" : [],
 				"autores" : ["anderson_gomes"]
       }
@@ -100,21 +100,21 @@
 			
 			,"PL-WED-01" : {
 				"titulo" : "Photonic integration, the next path for access networks.",
-				"resumo" : "",
+				"resumo" : "Photonics integration has been promising to be the revolution and the next step for optics.however, It has been lagging its appearance and eminence due to essentially two main lines: the constant evolution of electronics and the complexity/price of light driven components. To work around these evidences, the standard bodies have been fully engaged in opening the requirements and developing integrated visions on the network models targeting simplification and application driven solutions based on whichever optics solution best suits the objective. This has been moving the price of optics down and nowadays we can find, for example in access, optics that was costing several tens of dollars, down to a couple of dollars in a time window of less than 8 years (which is the case, for example of GPON BOSA). The revolution has not occurred yet in terms of mass deployment essentially due to the fact that there was no uniform service model set with conditions for a global usage of the technology. Platforms initiated essentially in EU arose the benefit but the model initiated has kicked off the ecosystem through open MPW (shared runs), shared PDK (platforms and models), software houses, packaging houses, and associations which manage the whole process (like Jeppix, Triplex, Lionx, ePix, etc).",
 				"temas" : [],
 				"autores" : ["antonio_teixeira"]
 			}
 
 			,"PL-WED-02" : {
 				"titulo" : "Photonic Techniques for Life Sciences",
-				"resumo" : "",
+				"resumo" : "Light-tissue interactions are the basis for all the photonic techniques developed for Life Sciences. The possible diversity on light parameters, as wavelength, irradiance, energy, pulse width, results in the broad range of applications, from diagnostics to therapeutics. Depending on the optical properties of the target tissue, as well as the aimed tissue interaction, the light delivery and irradiation parameters can be designed. In CEPOF-USP, we have been working on the development and validation of optical techniques for medical diagnostics and treatment. In this talk, we will discuss examples, showing the research path from the proof-of-concept up to clinical translation. Fluorescence-based detection techniques, imaging and spectroscopy, have been assembled and tested at clinical trials to evaluate their diagnostic efficacy and clinical feasibility on skin cancer. Photodynamic therapy (PDT) is a local treatment modality that is based on the use of a photosensitized molecule, light and oxygen that produces oxygen reactive species, resulting in cell death. For antimicrobial inactivation, we have been working on defining safe PDT protocols, including best photosensitizer type and delivery, and irradiation strategies customized for each infection site. For cancer treatment, we also investigate new protocols for improved response. In this case, we will discuss the strategies that we have been studying for melanoma, and present the results of a multicenter clinical study for implementing PDT for basal cell carcinoma in Brazil. ",
 				"temas" : [],
 				"autores" : ["cristina_kurachi"]
       }
 			
 			,"PL-WED-03" : {
 				"titulo" : "PIX4LIFE : an open-access pilot line for silicon-nitride photonics enabling visible light applications",
-				"resumo" : "",
+				"resumo" : "“PIX4life is an European-funded initiative, which will mature a state of the art silicon nitride (SiN) photonics pilot line for life science applications in the visible range and pave the way to make it accessible as an enabler for product development by a broad range of industrial customers. <br><br> The PIX4life pilot line aims to offer an open-access manufacturing platform for photonic integrated circuits, specially targeting life-science applications at visible wavelength ranges (400-850 nm). Chip fabrication will be done either at imec (Leuven – Belgium) or LioniX (Enschede – Netherlands) through dedicated wafer runs, or most often by multi-project wafer (MPW) runs, where many users will be able to share wafer space, and thus the fabrication cost. PIX4life will also offer all kinds of additional services like photonic integration consultancy, circuit design, chip testing and packaging. All provided services are open to external customers, irrespective of their nature. More information can be obtained at <a href=\"www.pix4life.eu/\" target=\"_blank\">www.pix4life.eu/</a>”",
 				"temas" : [],
 				"autores" : ["jacobus_swart"]
 			}
@@ -157,6 +157,10 @@
 					"horario" : "09:50 to 10:35",
 					"sala" : "auditorium",
 					"trabalho" : "PL-MON-02"
+				},{
+					"horario" : "11:45 to 12:30",
+					"sala" : "auditorium",
+					"trabalho" : "PL-MON-04"
 				}
 			],
 			"Tuesday, October 9th" : [
