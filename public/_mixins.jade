@@ -18,11 +18,15 @@ mixin menu(pagina_atual)
       //- (class="#{pagina_atual == 'home' ? 'menu-nao-fixado' : ''}")
       ul#menu
         each link_menu in menu
+          -
+            var classes_adicionais = ""
+            if (typeof(link_menu.classes_adicionais) !== 'undefined')
+              classes_adicionais += " " + link_menu.classes_adicionais
           - if (!link_menu.rodape_only)
             - if (pagina_atual == link_menu.titulo)
-              li.nav-item.nav-atual #[a #{link_menu.titulo}]
+              li.nav-item.nav-atual #[a(class="#{classes_adicionais}") #{link_menu.titulo}]
             - else
-              li.nav-item #[a(href="#{lvl}#{link_menu.link}") #{link_menu.titulo}]
+              li.nav-item(class="#{classes_adicionais}") #[a(class="#{classes_adicionais}", href="#{lvl}#{link_menu.link}") #{link_menu.titulo}]
     a#link-sociedade(href="#{lvl}sbfoton.html") #[img(src="#{lvl}img/logo_sbfoton/mono-invertido.svg")]
 
 

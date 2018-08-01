@@ -133,17 +133,17 @@ body.home .slide {
 
 .bottom-p {
   box-sizing: border-box;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-
+  
   @include media-query-a-partir($s-sm) {
     min-height: calc(100vh - #{$u-h});
   }
   padding-top: $u-h * 5;
   @include media-query($s-sm) {
+    // min-height: 100vh;
     padding-top: $u-h * 1;
   }
 
@@ -154,11 +154,14 @@ body.home .slide {
     color: $brand;
   }
   h2 {
-    @include fs(7,1.2);
+    @include fs(7,1.1);
     margin-bottom: $u-h;
-    font-weight: 900;
+    font-weight: 500;
     color: $c_laranja;
     mix-blend-mode: multiply;
+    @include media-query($s-sm) {
+      @include fs(4,1.2);
+    }
   }
   
   p {
