@@ -200,7 +200,533 @@
 				"biografia": "",
 				"links":[]
 			},
+			
+			
+			
+			"alaide_mammana": {
+				"nome": "Alaide Pellegrini Mammana",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UNESP/RC",
+					"url": ""
+				}],
+				"biografia": "She holds a Bachelor's Degree in Physics from the Institute of Physics of the University of São Paulo (1962), Specialist in Nuclear Engineering from the IEA / CNEN / USP (1963), PhD in Sciences from the Polytechnic School of the University of São Paulo (1972). She was Director-President of the Brazilian Association of Informatics (ABINFO), and is currently a member of its Board of Directors; was a researcher at the Foundation for Support to Information Technology Training (FACTI) and researcher at the Renato Archer Research Center (CenPRA), coordinating the area of ​​information desks; is Director of the Latin American Chapter of the Society for Information Display (SID); is the coordinator of the Brazilian Network of Information Displays (BrDisplay) and the Ibero-American Network of Information Displays (LatinDisplay); is a member of the Brazilian Academy of Military Engineering, being its President since December 2012 and having been its Vice President and member of its Superior Council; is a member of the Technical-Scientific Council of the Advanced Research Center Wernher von Braun. He was Vice-President of the Brazilian Vacuum Society and member of its Councils. She is a guest lecturer in the Master's Degree and Doctorate in Human Development and Technologies, at UNESP-Rio Claro. It operates in the technologies of thin displays of information (displays), its devices, materials, processes and equipment; in nanostructured materials and devices; in devices for human-machine interaction (tablets, touch screens, etc.); in related technologies (intelligent windows, lighting systems for displays - BLUs, including special lamps etc.); in photonics technology and its various applications (communications, medicine) and in the prospecting and feasibility studies of new technologies. His work covers research, development and manufacture of prototypes and small series. Worked in the organization of several events, having coordinated 25 congresses InfoDisplay, LatinDIsplay and DisplayEscolas.",
+				"links":[]
+			},
+			
+			"marcos_franco": {
+				"nome": "Marcos Antonio Ruggieri Franco",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "IEAv / CTA",
+					"url": ""
+				}],
+				"biografia": "Researcher of the Institute of Advanced Studies (IEAv) and Professor at the Institute of Technology of Aeronautics (ITA). BS in physics at the Pontifical Catholic University of São Paulo (1983), Master in Physics from the University of São Paulo (1991) and Ph.D. in Electrical Engineering from the University of São Paulo (1999). Coordinator of the Computational Electromagnetic Laboratory of IEAv. The main research areas are: Applied electromagnetic, Computational modeling of Electromagnetic devices, optical fibres, fiber optic sensors, integrated optics, photonic crystal fibers, microstructured optical fibres, wave propagation, microwave, terahertz and finite element method.",
+				"links":[]
+			},
+			
+			"joao_sakamoto": {
+				"nome": "João Marcos Salvi Sakamoto",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "IEAv / CTA",
+					"url": ""
+				}],
+				"biografia": "Received his doctor's degree in Electronic Engineering at the Instituto Tecnológico de Aeronáutica Technological Institute of Aeronautics in 2012. His research interests are optic sensors, fiber optic sensors, lasers, optical interferometry, and laser ultrasonics.",
+				"links":[]
+			},
+			
+			"cicero_martelli": {
+				"nome": "Cícero Martelli",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UTFPR",
+					"url": ""
+				}],
+				"biografia": "He holds a bachelor's degree in Industrial Electrical Engineering (2002) and a master's degree in Industrial Informatics with an emphasis on opto-electronics (2003) from the Universidade Tecnológica Federal do Paraná. In 2008 he completed a PhD in Engineering at the Interdisciplinary Photonics Laboratories / Optical Fiber Technology Center and School of Electrical and Information Engineering at the University of Sydney. It is of interest in the following areas: optical fibers, optical devices for communication, optical sensors, high power lasers, fiber optic lasers, laser light materials processing, non-linear optics, electro-optic coupling and molecular self- .",
+				"links":[]
+			},
+			
+			"cristiano_cordeiro": {
+				"nome": "Cristiano Monteiro de Barros Cordeiro",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UNICAMP",
+					"url": ""
+				}],
+				"biografia": "Professor at the Institute of Physics of UNICAMP (State University of Campinas) since 2008 and coordinator of LaFE, Laboratory of Special Fibers of Unicamp. Academic training was held at PUC-Rio (bachelor in Physics and Masters) and UNICAMP (Ph.D. in Physics-2003). His postdoctoral fellowship was held in the area of photonic crystal fibers / microstructured optical fibers at the University of Bath, England. On his return to Brazil he began the research area in special optical fibers at UNICAMP. His area of expertise includes the following topics: photonic crystal fiber, special optical fibers with new features, fiber optic sensors and devices, proposal / design and manufacture of special silica and polymer fibers and use of additive manufacturing for the production of samples with interest in optics and photonics.",
+				"links":[]
+			},
+			
+			"patricia_da_ana": {
+				"nome": "Patricia Aparecida da Ana",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UFABC",
+					"url": ""
+				}],
+				"biografia": "She holds a bachelor's degree in Dentistry from the School of Dentistry of University of São Paulo (2002), a PhD in Science from the University of São Paulo (2007) and a postdoctoral degree from the Institute of Energy and Nuclear Research (2010). She is currently a lecturer at the Federal University of ABC (UFABC), at the Biomedical Engineering graduation course, coordinator of the postgraduate course in Biomedical Engineering at UFABC and deputy coordinator of the UFABC Multiusers Center SBC campus. She is a professor of the post-graduation courses in Biotechnocience and Biomedical Engineering at UFABC, as well as she is collaborative researcher at IPEN-CNEN/SP. She has experience in research in the area of &#8203;&#8203;Dentistry and Biomedical Engineering, with emphasis on biophotonics and its applications in oral hard tissues, working mainly in the following subjects: laser therapy at high and low intensities, vibrational spectroscopy, fluorescence, optical coherence tomography, and applications of these techniques, associated or not to new biomaterials, in the characterization, diagnosis and treatment of pathologies that affect oral hard tissues.",
+				"links":[]
+			},
+			
+			"denise_zezell": {
+				"nome": "Denise Maria Zezell",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "IPEN / USP",
+					"url": ""
+				}],
+				"biografia": "She holds a Bachelor's degree (1984), a Master's degree (1987) and a PhD (1991) in Physics from the State University of Campinas and a specialization in Medical Physics from the International Center for Theoretical Physics-Trieste, Italy (1988 and 1990). She received a postdoctoral degree from the International Center for Theoretical Physics-Trieste, Italy (1992) and the IPEN / CNEN-SP Lasers and Applications Center (1992-1995). She is a researcher at the Energy and Nuclear Research Institute of the National Nuclear Energy Commission since 1996, of which she was Deputy Manager of the Lasers and Applications Center in 2008. From 2009 to 2013 she was Coordinator of the Master Program in Lasers in Dentistry at IPEN , together with FOUSP. From 2013 to 2015 she was Vice-Coordinator of the Master's and Doctoral Program in Nuclear Technology at USP. He was a member of the Medical Physics Committee of the Brazilian Society of Physics in the period 2008-2014. She was Vice-President of the Brazilian Association of Lasers in Dentistry from 2010-2014. Participated in the Quadrennial Evaluation Committee of the Capes- CA de Engenharias II 2013-2016. Since 2017 it has been designated OSA Traveling Lecturer, member of the Specialized Training Council of CNEN-headquarters and publisher for Biophotonics of the Brazilian Society of Photonics. Area of ​​Physical, Biophotonic performance in the study of the Optical and Spectroscopic properties of biological tissues mainly by micro-FTIR and fluorescence, aiming the development of new diagnostic and therapeutic processes for clinical applications of lasers in dentistry and medicine. Recently it has been dedicated to the search of biomarkers for the determination of the effects of the ionizing radiation in biological tissues and the study of the early diagnosis of skin tumors by vibrational spectroscopy (optical biopsy by FTIR).",
+				"links":[]
+			},
+			
+			"tania_centeno": {
+				"nome": "Tania Mezzadri Centeno",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "Tania Mezzadri Centeno",
+					"url": ""
+				}],
+				"biografia": "Graduate at Tecnólogo Em Processamento de Dados from Universidade Federal do Paraná (1985), master's at Electric Engineering from Universidade Tecnológica Federal do Paraná (1994) and ph.d. at Doctorat En Informatique from Universite de Toulouse III (Paul Sabatier) (1998). He is currently professor associado at Universidade Tecnológica Federal do Paraná. Has experience in Computer Science, focusing on Graphical Processing (Graphics), acting on the following subjects: reconstrução 3d, imagens tomográficas, prototipagem rápida, segmentação de imagens and modelos médicos.",
+				"links":[]
+			},
+			
+			"isabel_carvalho": {
+				"nome": "Isabel Cristina S. Carvalho",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "PUC-RJ",
+					"url": ""
+				}],
+				"biografia": "She holds a degree in Physics from the Federal University of Rio de Janeiro (1979), a Masters in Physics - University of British Columbia (1984) and a PhD in Physics from the Pontifical Catholic University of Rio de Janeiro (1991). He is currently an associate professor at the Pontifical Catholic University of Rio de Janeiro. Has experience in the field of Physics, with emphasis on Prop. Optics and Spectroscopy. of Mat. Condens; Other Inter. of Mat. with Rad. and Part., working mainly in the following subjects: glasses, fiber optics, polarization, frequency doubling and plasmonics.",
+				"links":[]
+			},
+			
+			"alvaro_damiao": {
+				"nome": "Álvaro José Damião",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "ITA",
+					"url": ""
+				},{
+					"nome": "IEAv-CTA",
+					"url": ""
+				}],
+				"biografia": "Bachelor's at Physic from Universidade Estadual de Campinas (1977), master's at Physic from Universidade Estadual de Campinas (1982) and doctorate at Physic from Universidade Estadual de Campinas (2002). Has experience in Physic, focusing on Optics, acting on the following subjects: thin films, metrology, optics, among others.",
+				"links":[]
+			},
+			
+			"liliane_ventura": {
+				"nome": "Liliane Ventura ",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "SEL-EESC-USP",
+					"url": ""
+				}],
+				"biografia": "Associate Professor A3 of the Department of Electrical Engineering of the School of Engineering of São Carlos, University of São Paulo. CERTIFICA-LIO, has a degree in Physics from the University of São Paulo (IFQSC - 1987), a master's degree in solid state physics from the University of São Paulo (IFQSC - 1990), a Ph.D. in Physics Applied to Ophthalmology by the University of São Paulo (IFSC -1995), postdoctoral degree in Ophthalmology (FMRP / USP - 1996), postdoctoral degree in Electrical Engineering (EESC / USP - 2001) and Free Teaching in Electrical Engineering ), by EESC-USP. She is currently an Associate Professor in the Electrical Engineering Department of EESC at the University of São Paulo. Has experience in the area of ​​Biomedical Engineering, with emphasis on Ophthalmic Instrumentation; is a consultant to the CB49 standards committee of ABNT and INMETRO for subjects related to sunglasses. Current research is focused on the analysis of the conformity of sunglasses and for studies of the parameters of these analyzes for nationalization of the Brazilian standard for sunglasses protection. Elaborator and Technical Coordinator of the EESC-USP - ARC-IBM Convention of San Jose (CA) - USA. Scholarship of Productivity in Technological Development and Innovative Extension of CNPq.",
+				"links":[]
+			},
 
+			"silvana_pereira": {
+				"nome": "Silvana Pereira",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "TU Delft",
+					"url": ""
+				}],
+				"biografia": "Silvania Pereira studied physics at the State University of Campinas, Brazil. After her graduation she went to the United States where she joined the quantum optics group of professor Jeff Kimble at the University of Texas at Austin and later at Caltech, Pasadena. The subject of her Ph.D. thesis was quantum fluctuations in nonlinear processes. In 1994 she was awarded a Humboldt Fellowship and went to the University of Constance, Germany in the group of Prof. Jürgen Mlynek. The subject of her work was quantum tomography of nonclassical states of light. In 1996 she went to the Netherlands where she joined the group of Prof. Han Woerdman at the University of Leiden as a post-doc fellow. There she worked with quantum noise and polarization properties of semiconductor microlasers. In 2000 she was granted an individual  fellowship \"Stimuleringsfonds\" from the FOM Foundation, the Netherlands, and since then she holds a permanent position at the Optics Research Group at the Delft University of Technology. The subjects of her work at this moment are optical scatterometry, beam shaping and aberration retrieval with applications in wafer metrology, optical mastering, adaptive optics and high resolution imaging. This work is done in collaboration with the industry and national/international universitites.",
+				"links":[]
+			},
+			
+			"leonardo_ambrosio": {
+				"nome": "Leonardo Ambrosio",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "USP SC",
+					"url": ""
+				}],
+				"biografia": "Leonardo A. Ambrosio received the B.Sc., M.Sc. and the Ph.D. degrees in Electrical Engineering from University of Campinas, School of Electrical and Computer Engineering, Campinas, Brazil, in 2002, 2005 and 2009, respectively. Between 2009 and 2013 he was a postdoctoral Fellow with the Department of Microwaves and Optics at the School of Electrical and Computer Engineering, University of Campinas (Unicamp), and developed part of his research at the University of Pennsylvania, Philadelphia, USA. His research interests include Photonics, light-scattering problems for optical trapping and manipulation, metamaterials and plasmonics for optical nano-circuits and microstructures light fields and modelling of non-diffracting beams envisioning applications in biomedical optics, telecommnications and atom guiding. ORCID: 0000-0003-0404-9509.",
+				"links":[]
+			},
+			
+			"luiz_barbosa": {
+				"nome": "Luiz Carlos Barbosa ",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UNICAMP",
+					"url": ""
+				}],
+				"biografia": "Bachelor's at Fisica from Universidade Estadual de Campinas (1972), master's at Production Engineering from Universidade de São Paulo (1976) and doctorate at Mechanical Engineering from Universidade Estadual de Campinas (1981). Has experience in Physics, focusing on Physics Of The Condensed State Of Substance, acting on the following subjects: amplificação óptica, vidros dopados com quantum dots, vidros teluritos dopados com ïons de terras raras, fibras ópticas and amplifier device",
+				"links":[]
+			},
+			
+			"rogerio_nogueira": {
+				"nome": "Rogerio Nunes Nogueira",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "IT Aveiro",
+					"url": ""
+				}],
+				"biografia": "Has Ph.D. at Doutoramento by Universidade de Aveiro (2005) . Currently is Outro (especifique) of Instituto de Telecomunicações. Has experience in the area of Physics , with emphasis on Áreas Clássicas de Fenomenologia e suas Aplicações.",
+				"links":[]
+			},
+			
+			"newton_frateschi": {
+				"nome": "Newton Cesario Frateschi",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UNICAMP",
+					"url": ""
+				}],
+				"biografia": "Holds a bachelor's degree in Physics from the State University of Campinas (1984), a Master's degree in Physics from the State University of Campinas (1986), a Master's Degree in Electrical Engineering - University of Southern California (1989) and a Ph.D. in Electrical Engineering - University of Southern California 1993). He was director of the UNICAMP Semiconductor Component Center 2005-2010, associate director of the Gleb Wataghin Institute of Physics (IFGW) of UNICAMP 2010-2014 and director of the Institute of Physics Gleb Wataghin (IFGW) of UNICAMP 2014-2017. He is currently the Executive Director of the Innovation Agency of UNICAMP - INOVA. He has experience in the field of Physics and Electrical Engineering, with emphasis on Materials and Components Semiconductors, working mainly on the following topics: semiconductor laser, optoelectronic integration, electro-absorption modulators, optical amplifiers, microcavity laser with active nanostructured region, etc.",
+				"links":[]
+			},
+			
+			"ricardo_samad": {
+				"nome": "Ricardo Elgul Samad",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "IPEN",
+					"url": ""
+				}],
+				"biografia": "Graduated in Physics in 1993, obtained his Master's degree in Solid State Physics in 1997, and completed his PhD in Solid State Physics in 2006, all by the Institute of Physics of USP. He is currently Researcher at the Center for Lasers and Applications Institute of Energy and Nuclear Research (IPEN-CNEN / SP). He has published 48 articles in specialized journals that have more than 300 citations, 3 chapters of books and more than 90 papers in annals of events, in addition to having submitted 1 patent application. Since his Scientific Initiation he has been working in the development and application of solid state lasers, and his doctorate has started research activities with ultra-short pulse lasers. It is currently working with ultra-short pulse applications with emphasis on the interaction of these with matter, such as laser ablation and soldering, ultra-short pulsed plasma generation, and material modification resulting from extreme states of temperature and pressure generated by ultrashort pulses. It also aims, through harmonic generation techniques, to enable new sources of light in the region of deep UV and soft X-rays, with pulses of durations that can be less than 1 femtosecond.",
+				"links":[]
+			},
+			
+			"niklaus_wetter": {
+				"nome": "Niklaus Ursus Wetter",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "IPEN",
+					"url": ""
+				}],
+				"biografia": "Holds a bachelor's degree in Physics from the Eidgenoessische Technische Hochschule Zuerich - ETH (1988 - Switzerland) and PhD in Nuclear Technology from the Institute for Nuclear and Energy Research (1993). He is currently a researcher at the National Nuclear Energy Commission at IPEN / SP and a post-graduate professor at the University of São Paulo - USP. From 2009 to 2013 he was assistant manager of the Lasers and Applications Center of IPEN / SP. In 2013 he was appointed manager of the Lasers and Applications Center of IPEN / SP at USP. Since 2014 he has been the president of the Foundation for Support and Promotion of Technological Innovation, Research and Teaching at IPEN / SP. He is a specialist in lasers development and operates in the following segments: Diode lasers, solid state lasers, lasers applications in life sciences, lasers in nuclear applications, optical spectroscopy and materials and processes for active media for general optics. Since 2008 develops light sources in disordered materials, also known as Random Lasers, for purposes of optical device applications. It has 6 patent applications, more than 100 international articles with more than 1000 quotes and factor h of 22.",
+				"links":[]
+			},
+			
+			"karcius_assis": {
+				"nome": "Karcius Day Rosario Assis",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UFBA",
+					"url": ""
+				}],
+				"biografia": "He holds a degree in Electrical Engineering from the Federal University of Paraíba (1997), current UFCG, a Master's degree in Electrical Engineering from the Federal University of Espírito Santo (2000) and a PhD in Electrical Engineering from the State University of Campinas (2004). He was postdoctoral fellow at the University of Bristol-UK from 02/2015 to 01/2016. He was a Visiting Fellow at the University of Essex-UK in March 2018. He was an adjunct professor at the Federal University of ABC and currently is an associate professor at the Polytechnic School of the Federal University of Bahia; Department of Electrical Eng. - Reviewer of the European Journal of Operational Research (0377-2217) and - IEEE Communications Letters. He has experience in Electrical and Computer Engineering, with emphasis on Telecommunication Systems and Computer Systems; working mainly in the following topics: telecommunications, optical networks, optimization and network planning.",
+				"links":[]
+			},
+			
+			"joaquim_filho": {
+				"nome": "Joaquim Ferreira Martins Filho",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UFPE",
+					"url": ""
+				}],
+				"biografia": "Joaquim F. Martins Filho was born in Recife, Brazil, in 1966. He received the B.Sc. degree in Electronics Engineering from the Federal University of Pernambuco (UFPE), in Recife, in 1989, and the M.Sc. degree in Physics from the same institution in 1991. He received his PhD degree in Electronics Engineering from the University of Glasgow, Scotland, in 1995. Between 1995 and 1998 he was a visiting professor at the Physics Department of UFPE. In 1998 he joined the Photonics Group, Department of Electronics and Systems of UFPE, in Recife, where he currently is the Head of Department and a full professor. He was the coordinator of the Post-Graduate Program (MSc and PhD) in Electrical Engineering of UFPE from 2003 to 2007. His research interests are in devices, subsystems, transmission systems and networking for optical communications and optical sensors. He has supervised 8 PhD theses and 17 MSc dissertations. In 2005 he received a prize from the Brazilian Ministry of Education and the Ministry of Science for the supervision of the best PhD thesis of Brazil in Electrical Engineering, authored by his former PhD student Carmelo Bastos-Filho, about thulium doped fiber amplifiers. He has coordinated several research projects financed by state and federal agencies as well as by industries like SIEMENS-Brazil, PARKS and PADTEC. He also took part in other research projects sponsored by ERICSSON-Brazil and CHESF. He has authored more than 100 papers and 1 international patent. Along his career he has given contributions on non-linear short pulse propagation in optical fibers, ultrafast optical pulse generation from mode-locked semiconductor quantum well lasers, erbium doped fiber amplifiers, thulium doped fiber amplifiers, in physical impairments aware routing and wavelength assignment algorithms for optical networks, in the use of computational intelligence techniques for the optimization of optical networks, and in the development of fiber-optic sensor systems for the monitoring of: corrosion, leakage current in insulator strings of high power transmission lines, and dissolved gases in transformer oil. Prof. Joaquim Martins-Filho is a Senior Member of the IEEE (The Institute of Electrical and Electronics Engineers), Senior Member of OSA (The Optical Society), Member of SBMO (Brazilian Microwave and Optoelectronics Society), Member of SBFoton (Brazilian Photonics and Optics Society) and SBrT (Brazilian Telecommunication Society), as well as a Research Fellow of the National Research Council of Brazil (CNPq). He was a member of the Editorial Board of the journal ISRN Communications and Networking from 2009 to 2013. He was a member of the Engineering, Science and Technology Board of FACEPE (Foundation for Science and Technology Development of the State of Pernambuco, Brazil) from 2009 to 2013.",
+				"links":[]
+			},
+			
+			"fernando_guiomar": {
+				"nome": "Fernando Pedro Pereira Guiomar",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "IT",
+					"url": ""
+				}],
+				"biografia": "Fernando Guiomar received the M.Sc. degree in Electronics and Telecommunications Engineering in December of 2009, and the Ph.D. degree in Electrical Engineering in September 2015, both from University of Aveiro, Portugal. From October 2015 to October 2017 he has worked with the OptCom group of Politecnico di Torino (in collaboration CISCO Photonics Italy srl), as a post-doctoral researcher under the framework of a Marie Skłodowska-Curie (MSC) Individual Fellowship, project Flex-ON (653412), where he developed flexible modulation and digital signal processing subsystems for elastic optical networks. During the secondment stage of his MSC fellowship, he has worked as a contractor for CISCO Optical GmbH, Nuremberg, Germany, for a period of 5 months. He is currently a research assistant at Instituto de Telecomunicações, Aveiro, being the scientific responsible for the ORCIP project (http://www.orcip.pt/), where he is working on deployment of an in-campus testbed infrastructure that will allow the scientific community and industry to test, measure and certificate advanced optical and radio systems. Fernando Guiomar is a member of OSA and IEEE and he has co-authored more than 70 scientific publications in leading international journals and conferences. He is also the co-author of two patent applications on the areas of linear and nonlinear equalization of optical fiber impairments. In 2016, he has received the Photonics21 Student Innovation Award, distinguishing industrial-oriented research with high impact in Europe.",
+				"links":[]
+			},
+			
+			"antonio_teixeira_2": {
+				"nome": "Antonio Teixeira",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UA",
+					"url": ""
+				}],
+				"biografia": "has Ph.D. at Eng Eletrotecnica by Universidade de Aveiro (1999) . Has experience in the area of Electric Engineering , with emphasis on Telecomunicações.",
+				"links":[]
+			},
+			
+			"rafael_figueiredo": {
+				"nome": "Rafael Figueiredo",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "CPqD",
+					"url": ""
+				}],
+				"biografia": "Received the Technologist degree in Telecommunications and the M.Sc. and Ph.D. degrees in Electrical Engineering from University of Campinas (Unicamp), Campinas/SP - Brazil, in 2007, 2010, and 2015, respectively. From August 2010 to December 2013 he was a Teaching Assistant at School of Technology (FT-Unicamp) and from June 2015 to July 2016 he was a postdoc fellow at Department of Communications - School of Electrical and Computer Engineering (DECOM/FEEC-Unicamp). He is a founding member of the FEEC-Unicamp Graduate Student Association (APOGEEU) and of the Brazilian Society of Optics and Photonics (SBFoton). Since August 2016 he is a researcher at CPqD, working on research and development projects in the areas of optical transmissions and amplification. He is currently an internship supervisor, coordinator of a project for optical amplifiers development, and technical leader of the optical communications platform.",
+				"links":[]
+			},
+			
+			"andrea_chiuchiarelli": {
+				"nome": "Andrea Chiuchiarelli",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UFMG",
+					"url": ""
+				}],
+				"biografia": "Holds a degree in Electronic Engineering from the Università degli Studi dell'Aquila (2005) and a doctorate in Tecnologie Innovative from Scuola Superiore Sant'Anna di Studi Università e Perfezionamento, Pisa, Italy (2010). He was a Visiting Researcher in the Department of Optics and Telecommunications (DECOM) of the Faculty of Electrical Engineering and Computing (FEEC) of Unicamp - State University of Campinas, from January 2013 to November 2014, and holds a Young Talent Attraction (BJT), granted by CNPq. Since November 2014 he is a senior researcher at CPqD - Telecommunications Research and Development Foundation. He has experience in electrical engineering, with emphasis on telecommunications systems, optical communications, coherent optical systems, fiber optic access networks, high-capacity optical systems for data center interconnection. He is co-author of more than 40 scientific articles published in the main periodicals and annals of congress in the area of ​​Optical Communications.",
+				"links":[]
+			},
+			
+			"hartmut_bartelt": {
+				"nome": "Hartmut Bartelt",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "FSU, Jena",
+					"url": ""
+				}],
+				"biografia": "",
+				"links":[]
+			},
+			
+			"giovani_farias": {
+				"nome": "Giovanni Beninca de Farias",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "CPqD",
+					"url": ""
+				}],
+				"biografia": "Has obtained his MSc and PhD degree from the Institut National Polytechnique de Grenoble (Grenoble INP), France, in 2010 and 2013, respectively. During his PhD, he was engaged as a researcher in the CEA-Leti, Grenoble, France, from 2010 to 2013. During this period, its research interests were advanced modulation formats for optical communication, digital processing and silicon photonics transmitters. He is currently a senior researcher in the Fundação CPqD, Brazil, where he is engaged in the design and characterization of integrated photonics components for next-generation 400G and 1Tb optical comunications. He is also manager of the integrated photonics team in CPqD, coordinating the acitivites, defining the technological roadmap and staff training. He is engaged as technical coordinator of the project \"Integrated device technology for submarine amplification and transmission\", funded by BNDES, PadTec and executed by CPqD. He acts actively on technological development to the industry, having two main technological transfers ongoing, namely \"Integrated photonic circuit and packaging for submarine optical amplifier\" and \"Ultra-compact and narrow linewdith tunable external-cavity laser\". He has more than 15 papers in journals and major conferences in optical communications, as well as 7 patents in the field of optical communications.",
+				"links":[]
+			},
+			
+			"uiara_de_moura": {
+				"nome": "Uiara Celine de Moura",
+				"imagem": "img/speakers/uiara_de_moura.jpg",
+				"instituicao": [{
+					"nome": "CPqD",
+					"url": ""
+				}],
+				"biografia": "Holds a degree in Electrical Engineering, Electronic Emphasis (2010) and Master's (2014) in Electrical Engineering, both from the School of Engineering of São Carlos, University of São Paulo (EESC-USP). She completed her PhD in Electrical Engineering from the State University of Campinas (UNICAMP) in 2017. She has been hired at the Center for Research and Development in Telecommunications (CPqD) since 2011, where she has participated in research and development projects for optical amplifiers based on EDFA technologies , Raman and hybrid, applied to dynamic optical networks. He is currently part of the integrated photonics team, working on the design of passive and active devices in Silicon.",
+				"links":[]
+			},
+			
+			"rubens_luis": {
+				"nome": "Dr. Rubens S. Luís",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "National Institute of Information and Communications Technology (NICT), Japan",
+					"url": ""
+				}],
+				"biografia": "Received the Graduate and M.Sc. degrees in electrical and computer engineering from Instituto Superior Tecnico, Technical University of Lisbon, Lisbon, Portugal, in 2000 and 2003, respectively, and the Ph.D. degree in electrical engineering from the University of Aveiro, Aveiro, Portugal, in 2007. Since 2016, he has been with the Photonic Network System Laboratory, National Institute of Information and Communications Technology, Tokyo, Japan, where he researches advanced coherent transmission systems using spatial division multiplexing and optical packet switching.",
+				"links":[]
+			},
+			
+			"karcius_assis": {
+				"nome": "Prof. Karcius D. R. Assis",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UFBA",
+					"url": ""
+				}],
+				"biografia": "He holds a degree in Electrical Engineering from the Federal University of Paraíba (1997), current UFCG, a Master's degree in Electrical Engineering from the Federal University of Espírito Santo (2000) and a PhD in Electrical Engineering from the State University of Campinas (2004). He was postdoctoral fellow at the University of Bristol-UK from 02/2015 to 01/2016. He was a Visiting Fellow at the University of Essex-UK in March 2018. He was an adjunct professor at the Federal University of ABC and currently is an associate professor at the Polytechnic School of the Federal University of Bahia; Department of Electrical Eng. - Reviewer of the European Journal of Operational Research (0377-2217) and - IEEE Communications Letters. He has experience in Electrical and Computer Engineering, with emphasis on Telecommunication Systems and Computer Systems; working mainly in the following topics: telecommunications, optical networks, optimization and network planning.",
+				"links":[]
+			},
+			
+			"davies_monteiro": {
+				"nome": "Prof. Davies William de Lima Monteiro",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UFMG",
+					"url": ""
+				}],
+				"biografia": "He holds a degree in Physics from the Federal University of Espírito Santo (1994), a Master's degree in Physics from the same University (1997) and a PhD in Microelectronics / Adaptive Optics from Delft University of Technology (2002). He is currently an associate professor in the Department of Electrical Engineering at the Federal University of Minas Gerais and a postgraduate professor in Electrical Engineering at UFMG and UFAM at the Federal University of Amazonas. He works in the area of microelectronics, and coordinates the Optronics and Applied Microtechnologies (OptMA_lab) laboratory, focusing mainly on the following topics: adaptive and applied optics; sensors, integrated circuits and silicon processes; MEMS / microtechnology and photovoltaic cells. Member of the Advisory Committee of Microelectronics (CA-ME) of CNPq. General Chairman for the Chip on the Mountains 2016 international event.",
+				"links":[]
+			},
+			
+			"darli_mello": {
+				"nome": "Prof. Dr. Darli Augusto de Arruda Mello",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "Unicamp",
+					"url": ""
+				}],
+				"biografia": "Darli Mello studied Electrical Engineering at the RWTH?Aachen, Germany, and at the State University of Campinas (UNICAMP), Brazil, where he graduated in 2000. In 2002 he received the M. Sc. degree from the Institute for Communications Engineering (LNT) at the Munich University of Technology (TUM), Germany. During his master studies he carried out both experimental and theoretical work at the Siemens research labs in Munich. In 2006 he received the Ph.D. degree from UNICAMP after research stays at the TUM and at the California Institute of Technology (Caltech). After his Ph.D. studies he spent one year with Padtec Optical Components and Systems as a senior technology engineer. From August 2008 to March 2014 he was with the Electrical Engineering Department (ENE) of the University of Brasilia (UnB) as Assistant Professor. He is now an Assistant Professor at the Communications Department (DECOM) of the School of Electrical and Computer Engineering (FEEC), University of Campinas (Unicamp). His main reseach interests are optical transmission and networking. Darli Mello was part of subcommittee N3 of OFC (Network Architectures, Techno-Economics and Design Tradeoffs) from 2013 to 2016. (Source: Lattes Curriculum)",
+				"links":[]
+			},
+			
+			"niklaus_weter": {
+				"nome": "Dr. Niklaus Ursus Wetter",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "Instituto de Pesquisas Energéticas e Nucleares",
+					"url": ""
+				}],
+				"biografia": "Niklaus Ursus Wetter graduated in Physics at the Swiss Federal Institute of Technology in Zürich (Eidgenössische Technische Hochschule Zürich) in 1988 and received his PhD in 1993 from the Institute for Energetic and Nuclear Research at the University of São Paulo (IPEN/SP). He is head of the Laser Development Lab at the center of Lasers and Applications (CLA) of IPEN/SP and Division Head of Laser Materials Development. His research interests are diode-pumped solid-state Lasers (DPSSL) with emphasis on spatial and spectral control and resonator design. He has a tradition in working with fluoride solid-state laser materials, especially YLiF4, but he also researches new laser materials and is specialized in material spectroscopy and computer simulation. The development of tailored light sources, especially for medical and dental application, is another area of interest. Since 2008 he develops light sources in disordered materials for applications in photonic devices. Since 2013 he is the director of the Center for Lasers and Applications at IPEN/SP in the University of São Paulo. He has six patents and his articles have been cited more than 1200 times and his h-factor is 22. ",
+				"links":[]
+			},
+			
+			"roberto_panepucci": {
+				"nome": "Dr. Roberto Ricardo Panepucci",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "Centro de Tecnologia de Informação \"Renato Archer\"",
+					"url": ""
+				}],
+				"biografia": "Roberto Panepucci received his Ph.D. from the University of Illinois at Urbana-Champaign in 1996, following an M.S. (1990) and B.S. (1989) degrees from Universidade de Sao Paulo (USP). He was a post-doc at the Device Research Lab at UNICAMP in Brazil, working on III-V optoelectronics. Dr. Panepucci joined the Cornell Nanofabrication Facility (CNF) in 1999 and soon after he joined Galayor Networks, a start-up developing silicon photonics devices. Joined Cornell´s Nanophotonics Group , where he further developed silicon-based integrated optic devices. Dr. Panepucci was associate professor at FIU in 2003, and received his Tenure in 2009, when soon after he took the position of Senior researcher at CTI where he now heads the IC Design Division. He has experience in silicon photonic integrated circuits and micro/nanosystem fabrication. (Source: Lattes Curriculum)",
+				"links":[]
+			},
+			
+			"cristiano_cordeiro": {
+				"nome": "Prof. Dr. Cristiano Monteiro de Barros Cordeiro",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "Unicamp",
+					"url": ""
+				}],
+				"biografia": "Dr. Cristiano M. B. Cordeiro has been an active researcher in the field of Optics and Photonics for the last 15 years having published 60+ papers in international journals in collaboration with colleagues from Brazil and abroad, in particular England, Australia, Spain, Portugal, Canada, Colombia and Sweden. Member of the Brazilian Academy of Science from 2011 to 2015 his work was cited more than 1500 times (Web of Science) with an h-factor of 19. Cordeiro is, since 2008, Assistant Professor in the Institute of Physics of the State University of Campinas (UNICAMP), Campinas, Brazil, with PhD (2003) in the same University, and postdoc from University of Bath, England. He is head of the Specialty Optical Fiber & Photonics Materials Laboratory (LaFE) at UNICAMP whose main research areas are the development and application of new types of optical fibers (such as photonic crystal fibers and micro/nanofibers) and how to extend its functionalities. Cristiano coordinates or participates in a number of different research projects funded by Fapesp, Capes, CNPq, FINEP and the TBE Company involving areas such as optical devices and sensors, telecommunications and nanophotonics. He was directly involved in the proposal and organization of several scientific events, from grad/undergrad Schools to high level International Conferences including the 1st Workshop on Specialty Optical Fibers and their Applications (WSOF2008). In 2010 he acted as a Guest Editor of the ?Special Issue on Photonic Crystal-Based Sensors? in the IEEE Sensors Journal. (Source: Lattes Curriculum)",
+				"links":[]
+			},
+			
+			"helio_waldman": {
+				"nome": "Helio Waldman",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "Unicamp",
+					"url": ""
+				},{
+					"nome": "UFABC",
+					"url": ""
+				}],
+				"biografia": "He holds a degree in Electronic Engineering from the Instituto Tecnológico de Aeronáutica (1966), a Master's degree in Electrical Engineering - Stanford University (1968) and a PhD in Electrical Engineering - Stanford University (1971). He is currently retired from the Federal University of ABC Foundation, a professor at the Federal University of ABC Foundation and retired from the State University of Campinas. He has experience in the area of ​​Electrical Engineering, with emphasis in Telecommunications, working mainly in the following subjects: optical networks, wdm, optical communications, wavelength allocation and route allocation",
+				"links":[]
+			},
+			
+			"denise_zezell": {
+				"nome": "Denise Maria Zezell",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "IPEN-SP",
+					"url": ""
+				}],
+				"biografia": "Denise Maria Zezell is graduated in Physics from the State University of Campinas (UNICAMP) Brazil, in 1984, where she received the M.Sc. and the Ph.D. degree (1991) for the study of optical properties of hematoporphyrin during Photodynamic Therapy of Tumors. Denise Maria Zezell participated in several courses in Medical Physics at the International Centre for Theoretical Physics (ICTP, UNESCO) in Trieste, Italy.  She is Senior Researcher at the Center for Lasers and Applications, at Nuclear and Energy Research Institute (IPEN-CNEN/SP) since 1992, where she was Vice-head of Graduation Program (2010-2014) and responsible for the Laboratory of Biophotonics and was vice-head of the laser applications division (2008, 2013). She was responsible for research project grants from Procad, Pro-equipamentos/CAPES,  and RHAE/CNPq, as well as participates as a Principal Investigator at the Center for Optics and Photonics, National Institute of Photonics and Biophotonics , Millennium Institute and Nanophotonics Network . She is referee for multidisciplinary scientific journals, including Journal of Biomedical Optics, Analyst, Journal of Endodontics, Lasers in Surgery and Medicine, Lasers in Medical Sciences, as well as several other Applied Physics, Medical and Dental journals. One of her patents is the pharmaceutical photosensitive composition and method for the treatment of skin and tumor cutaneous lesion in mammals. Main research activities are in Biophotonics, in the physical and chemical characterization of biological tissues irradiated by laser, aiming the development of new diagnostic and therapeutic methods in Medicine and Dentistry. Infrared thermography and micro-FTIR and Optical Coherence Tomography are the main techniques used. She authored or co-authored more than 130 journal papers, 2 patents, 1 book, 25 book chapters, and over 280 conference papers. ",
+				"links":[]
+			},
+			
+			"giovanni_farias": {
+				"nome": "Dr. Giovanni Benincá de Farias",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "Fundação CPqD",
+					"url": ""
+				}],
+				"biografia": "He obtained his MSc and PhD degree from the Institut National Polytechnique de Grenoble (Grenoble INP), France, in 2010 and 2013, respectively. During his PhD, he was engaged as a researcher in the CEA-Leti, Grenoble, France, from 2010 to 2013. During this period, its research interests were advanced modulation formats for optical communication, digital processing and silicon photonics transmitters. He is currently a senior researcher in the Fundação CPqD, Brazil, where he is engaged in the design and characterization of integrated photonics components for next-generation 400G and 1Tb optical comunications. He is also manager of the integrated photonics team in CPqD, coordinating the acitivites, defining the technological roadmap and staff training. He is engaged as technical coordinator of the project \"Integrated device technology for submarine amplification and transmission\", funded by BNDES, PadTec and executed by CPqD. He acts actively on technological development to the industry, having two main technological transfers ongoing, namely \"Integrated photonic circuit and packaging for submarine optical amplifier\" and \"Ultra-compact and narrow linewdith tunable external-cavity laser\". He has more than 15 papers in journals and major conferences in optical communications, as well as 7 patents in the field of optical communications.",
+				"links":[]
+			},
+			
+			"jacobus_swart": {
+				"nome": "Jacobus Willibrordus Swart",
+				"imagem": "img/speakers/jacobus_swart.jpg",
+				"instituicao": [{
+					"nome": "UNICAMP / IMEC",
+					"url": ""
+				}],
+				"biografia": "He holds a BS in Electrical Engineering from the University of São Paulo (1975), a PhD in Electrical Engineering from the University of São Paulo (1981) and a postdoctoral degree from the Catholic University of Leuven, Belgium (1983) and the Research Triangle Institute, USA (1991) . He has been a full professor at the State University of Campinas since May 1997. After retiring in June 2013, he holds the position of collaborating professor at FEEC / UNICAMP. He has experience in Electrical Engineering, with emphasis on Materials and Semiconductor Components, working mainly on the following topics: integrated circuits of Si and GaAs, CMOS, HBT, thin films, plasma and nanoelectronic corrosion. He was director of the CCS / UNICAMP from 1998 to 2005 and director of the ITC from 2007 to 2011. He was president of the Brazilian Society of Microelectronics for two administrations. He was a member of the CNPq CA-EE for two administrations and was also a member of the CNPq CD for 4 years. He is Distinguished Lecturer, chair of chapters in Region 9 (Latin America) and Board of Governors member of the IEEE Electron Device Society. He is an IEEE Fellow. He coordinated the ICTI Brazil program of the MCTI from 2007 to 2013 and coordinated the NAMITEC research network since 2001, initially within the Millennium Institute program and later by the INCT program of CNPq. ",
+				"links":[]
+			},
+			
+			"cristina_kurachi": {
+				"nome": "Cristina Kurachi",
+				"imagem": "img/speakers/cristina_kurachi.jpg",
+				"instituicao": [{
+					"nome": "IFSC/USP",
+					"url": ""
+				}],
+				"biografia": "She is currently a professor at the University of São Paulo and researcher at CNPq PQ1D. He holds a bachelor's degree in odontology from the University of São Paulo (1996), a master's degree in materials science and engineering from the University of São Paulo (2000) and a doctorate in materials science and engineering from the University of São Paulo (2005). Has experience in the field of Biophotonics, with emphasis on light interaction with biological systems, optical diagnosis and photodynamic therapy, applied to cancer and infected tissues. The lines of research involve the development of biomedical instrumentation and clinical protocols applying photonic techniques.",
+				"links":[]
+			},
+			
+			"antonio_teixeira": {
+				"nome": "António Jesus Luís Teixeira",
+				"imagem": "img/speakers/antonio_teixeira.jpg",
+				"instituicao": [{
+					"nome": "University of Aveiro",
+					"url": ""
+				}],
+				"biografia": "Dr. Antonio Teixeira, got his PhD from University of Aveiro in 1999, partly developed at the University of Rochester. He holds an EC in management and leadership from MIT Sloan School. He has been a professor at the University of Aveiro from 1999, being actually Associate professor with “Agregação”. He has worked from 2009-13 in Nokia Siemens Networks and in Coriant (2013/14) as a standardization expert in the field of optical access (In FSAN, ITU-T, IEEE 802.3). From 2014, he is the Dean of the University of Aveiro Doctoral School managing 48 PhD programs and 1300 students. He has published more than 350 papers (more than 100 in journals), has edited a book and contributed to several other. Holds 8 patents, and tutored successfully more than 60 MsC’s and 14 PhD’s, having participated in more than 35 projects (national, European and international). In 2014 he co-founded PICadvanced Lda, a startup focused on providing solutions based on optical assemblies targeting biotech and optical networking (including access networks). He has served the ECOC TPC from 2008-15 in the SC for subsystems, having chaired it in 2010/11/15. He has served the access subcommittee in OFC from 2011-14, and has been General Chair of ICTON 09, Networks 2014. He is a Senior Member of OSA and a member of IEEE and IEEE standards association.",
+				"links":[]
+			},
+			
+			"raouf_el_mallawany": {
+				"nome": "Raouf El-Mallawany",
+				"imagem": "img/speakers/raouf_el_mallawany.jpg",
+				"instituicao": [{
+					"nome": "PD Menoufia University / EG",
+					"url": ""
+				}],
+				"biografia": "He served as a research group leader for semiconducting tellurite glasses at Menofia Univ., Egypt.  He published more than 90 international articles, taught physics for undergraduates & postgraduates for nearly 4 decades and supervised and examined 25 Ph.D. & M.Sc. thesis at 9 Egyptian & Arab Universities. Also, cooperated with 15 American, European and Asian Universities in the experimental & theoretical contribution in optical, electrical, thermal, elastic and vibrational aspects in condensed matter physics “Semiconducting Glasses”.",
+				"links":[]
+			},
+			
+			"anderson_gomes": {
+				"nome": "Anderson Stevens Leonidas Gomes",
+				"imagem": "img/speakers/anderson_gomes.jpg",
+				"instituicao": [{
+					"nome": "DF UFPE/BR",
+					"url": ""
+				}],
+				"biografia": "He graduated (Licenciatura, 1978) and Masters in Physics (1982) in the Department of Physics of the Federal University of Pernambuco. He received his doctorate in Physics from the Imperial College of Science, Technology and Medicine, University of London (1986), and postdoctoral degree from Brown University (1992). He is a Full Professor in the Department of Physics at UFPE, where he has been a permanent professor since 1990. His scientific activities are in the field of nanophotonics, biophotonics, non-linear optics and optical communications. He co-authored more than 220 scientific articles (Factor H: 28) and supervised more than 20 master's dissertations and 16 doctoral theses. He is a Fellow of the Optical Society of America, where he was President of the International Council (2011-2012). He is also a member of the Brazilian Society of Physics and the Brazilian Society for the Advancement of Science. He has served on scientific committees at CNPq, FACEPE and CAPES. He was a member of the CA-CNPq, of the Superior Council of FACEPE and coordinated the area of ​​Physics and Astronomy of CAPES from 2008 to 2010. He acts as arbiter of several international journals in his area of ​​knowledge (Optics Letters, Optics Express, Physical Review, J Biomedical Optics, Electronics Letters, etc.). He is Associate Editor of the Advances in Optics and Photonics magazine, Optical Society of America. He has acted as scientific coordinator or president of several national and international conferences in Brazil. In 2010, he was admitted to the National Order of Scientific Merit, Class Commander in the Physical Sciences area (Decree of December 27, 2010). He is an IA researcher at CNPq. In 2010, he served as Secretary of State for Science, Technology and the Environment of Pernambuco, and was Secretary of Education of Pernambuco, from January 2011 to December 2012. He is a designated member of the Scientific Technical Council of Basic Education of CAPES ( from 2015). He was elected titular member of the Brazilian Academy of Sciences in December of 2015.",
+				"links":[]
+			},
+			
+			"jarbas_neto": {
+				"nome": "Jarbas Caiado de Castro Neto",
+				"imagem": "img/speakers/jarbas_neto.jpg",
+				"instituicao": [{
+					"nome": "IFSC",
+					"url": ""
+				},{
+					"nome": "USP",
+					"url": ""
+				}],
+				"biografia": "He holds a degree in Physics from the University of São Paulo (1976), a Master's degree in Physics from the University of São Paulo (1977) and a Ph.D. in Physics - Massachussetts Institute of Technology (1981). He is a professor of physics at the Institute of Physics of São Carlos at the University of São Paulo. He designed and set up the IFSC Optics Group in 1982, which now has around 250 participants, including 8 professors, dozens of postdocs and students of IC, masters and doctorate. In 1984, he set up the Precision Optics workshop at the IFSC, the only one of its kind in the country, which was the birthplace of several cases of entrepreneurship and innovations in Optics at regional and national level. It has already undertaken more than 10 innovative technology companies, including Opto Eletrônica S / A, which in 2010 had 400 employees and revenues of 100 million reais. Already developed several precision optical equipment, for ophthalmology and for defense and space. Thousands of Brazilian ophthalmologists use the equipment they developed at Opto, in particular the retinal treatment lasers that have already saved the vision of more than one million Brazilians. He coordinated the development of the MUX satellite camera of the CBERS program, which now provides INPE with the best land search images. He has experience in the field of Physics, with emphasis on optics, working mainly in the following subjects: optical instrumentation, lasers, optical innovations in ophthalmology, optical system for space and defense and entrepreneurship.",
+				"links":[]
+			},
+			
+			"harry_junior": {
+				"nome": "Harry Westfahl Junior",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "LNLS",
+					"url": ""
+				}],
+				"biografia": "LNLS’ Scientific Director,  has a Ph.D. on Physics from the Universidade Estadual de Campinas (1998), post-docs at University of Illinois at Urbana-Champaing (2000) and at the Ames Laboratory of DOE (2001). Has experience in synchrotron radiation science and condensed matter physics, with emphasis in polymers and magnetic materials.",
+				"links":[]
+			},
+			
+			"chennupati_jagadish": {
+				"nome": "Chennupati Jagadish",
+				"imagem": "img/speakers/chennupati_jagadish.jpg",
+				"instituicao": [{
+					"nome": "Australian National University",
+					"url": ""
+				}],
+				"biografia": "Professor Jagadish is a Distinguished Professor and Head of Semiconductor Optoelectronics and Nanotechnology Group in the Research School of Physics and Engineering, Australian National University. He has served as Vice-President and Secretary Physical Sciences of the Australian Academy of Science during 2012-2016. He is currently serving as President of IEEE Photonics Society and President of Australian Materials Research Society. Prof. Jagadish is an Editor/Associate editor of 6 Journals (EIC-Progress in Quantum Electronics), 3 book series and serves on editorial boards of 19 other journals. He has published more than 880 research papers (600 journal papers), holds 5 US patents, co-authored a book, co-edited 11 books and edited 12 conference proceedings and 15 special issues of Journals. He won the 2000 IEEE Millennium Medal and received Distinguished Lecturer awards from IEEE NTC, IEEE LEOS and IEEE EDS. He is a Fellow of the Australian Academy of Science, Australian Academy of Technological Sciences and Engineering, The World Academy of Sciences, US National Academy of Inventors, Indian National Science Academy, Indian Academy of Sciences, Andhra Pradesh Akademi of Science, IEEE, APS, MRS, OSA, AVS, ECS, SPIE, AAAS, FEMA, APAM, IoP (UK), IET (UK), IoN (UK) and the AIP. He received Peter Baume Award from the ANU in 2006, the Quantum Device Award from ISCS in 2010, IEEE Photonics Society Distinguished Service Award in 2010, IEEE Nanotechnology Council Distinguished Service Award in 2011 and Electronics and Photonics Division Award of the Electrochemical Society in 2012, 2013 Walter Boas Medal, 2015 IEEE Pioneer Award in Nanotechnology, 2015 IEEE Photonics Society Engineering Achievement Award, 2016 MRSI Silver Jubilee Anniversary Medal, 2016 Distinguished Fellow of Chinese Academy of Sciences, 2016 OSA Nick Holonyak Jr Award, 2017 Welker Award and 2017 IUMRS Somiya Award. He has received Australia’s highest civilian honor, AC, Companion of the Order of Australia, as part of 2016 Australia day honors from the Governor General of Australia for his contributions to physics and engineering, in particular nanotechnology.",
+				"links":[]
+			},
+
+			"carlos_lee": {
+				"nome": "Carlos Lee",
+				"imagem": "img/speakers/carlos_lee.jpg",
+				"instituicao": [{
+					"nome": "EPIC",
+					"url": ""
+				}],
+				"biografia": "Carlos Lee is director general at EPIC (European Photonics Industry Consortium), Europe’s photonics industry association. As part of the EPIC mission, Carlos works closely with industrial photonic companies to ensure a vibrant and competitive ecosystem by maintaining a strong network and acting as a catalyst and facilitator for technological and commercial advancement. He brings with him a strong background in microelectronics which was acquired through several management positions held at the international association SEMI. He has been responsible in Europe for the SEMI International Standards program, managed technical and executive programs, and together with the advisory board advocated for a more competitive semiconductor and photovoltaic manufacturing industry. Carlos has a BBA in Finance and an MBA in Leadership & Change Management from United Business Institutes.",
+				"links":[]
+			},
+
+
+
+
+
+
+
+
+
+			"negada_da_sbfoton_mesmo":[],
 			
 			"hugo_figueroa": {
 				"nome": "Prof. Hugo Enrique Hernandez Figueroa",
