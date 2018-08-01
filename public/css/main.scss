@@ -1303,6 +1303,7 @@ div.slide.s-rodape.invertido {
 				position: absolute;
 				@include media-query($s-md) {
 					position: static;
+					max-width: 50%; // bug estranho que causa scroll horizontal quando vc redimensiona (mas não quando a tela começa pequena!)
 				}
 				left: 0;
 				top: 4px;
