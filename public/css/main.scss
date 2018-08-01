@@ -1346,6 +1346,13 @@ div.slide.s-rodape.invertido {
 			.trab-resumo {
 				@include fs(-1);
 				hyphens: auto;
+				// max-width: 60ch;
+				&.resumo-p {
+					@include fs(1);
+				}
+				&.resumo-m {
+					@include fs(0);
+				}
 			}
 
 			.trab-temas {
@@ -1382,6 +1389,7 @@ div.slide.s-rodape.invertido {
 					.trab-a-bio {
 						@extend .template-bio;
 						margin-top: $u-h / 6;
+						max-width: 40ch;
 					}
 
 				}

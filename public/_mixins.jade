@@ -117,7 +117,14 @@ mixin trabalho(i, titulo, horario, sala, resumo, temas)
     p.trab-titulo= titulo
     p.trab-horario #{horario}&nbsp; / &nbsp;#{sala}
     unless resumo == ""
-      p.trab-resumo!= resumo
+      -
+        var classes_adicionais = ""
+        if (resumo.length < 200) {
+          classes_adicionais += " resumo-p"
+        } else if (resumo.length < 400) {
+          classes_adicionais += " resumo-m"
+        }
+      p.trab-resumo(class="#{classes_adicionais}")!= resumo
     unless temas.length == 0
       ul.trab-temas
         if temas
