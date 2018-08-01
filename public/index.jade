@@ -17,62 +17,65 @@ include /_mixins
     .pure-u-1.pure-u-sm-1-4.pure-u-lg-1-3.pure-u-xl-1-2
       #reg-plus
         #reg
-          a(href="registration.html") Registration
+          a#reg-but(href="registration.html") Registration
           p from July 1st to August 8th
         #plus
-          //- p ↓
+          .notice
+            h3 Venue has changed!
+            p The event will be hosted #[br] at CPqD, Campinas. 
+            p Read about it #[a(href="venue/") here].
+          //- p.seta ↓
           //- ⭝
-
-//- .slide.pad.slide-destaques
-  .separador-1
-  h1 Featured guests & notices
-  .separador-1
-  .grade
-    .g-item.g-img
-      img(src="img/speakers/anderson_gomes.jpg")
-      .dados-speaker
-        p.nome Dr. Anderson Stevens Leônidas Gomes
-        p.filiacao DF UFPE / Brazil
-    .g-item.g-text.span-2
-      h3 Workshops by WTON
-      br
-      p Nibh vitae vestibulum aptent ut fusce eleifend mollis tristique mus parturient adipiscing sapien ut parturient posuere. Nibh vitae vestibulum aptent ut fusce eleifend mollis tristique mus parturient adipiscing sapien ut parturient posuere.
-    .g-item.g-img
-      img(src="img/speakers/antonio_teixeira.jpg")
-      .dados-speaker
-        p.nome Dr. António Luis Jesus Teixeira
-        p.filiacao Universidade de Aveiro / Portugal
-    .g-item.g-text.span-1
-      p We have moved the conference to Universidade Estadual de Campinas, in Campinas, São Paulo.
-      br
-      p #[a.fs-1(href="sbfoton/") About Unicamp]
-    .g-item.g-img
-      img(src="img/speakers/carlos_lee.jpg")
-      .dados-speaker
-        p.nome Dr. Carlos Lee
-        p.filiacao EPIC members drive the photonics revolution
-    .g-item.g-text.span-2
-      h3 About SBFOTON
-      br
-      p The Brazilian Photonics Society has begun its activities on May 24th, 2017 with the main objective to work for increasing the importance and awareness of optics and photonics in Brazil and South America.
-      br
-      p #[a.fs-1(href="sbfoton/") Learn more about the society]
-    .g-item.g-img
-      img(src="img/speakers/chennupati_jagadish.jpg")
-      .dados-speaker
-        p.nome Dr. Chennupati Jagadish
-        p.filiacao Australian National University / Australia
-    .g-item.g-text.span-2
-      h3 Another feature
-      br
-      p Lobortis malesuada diam orci a aptent adipiscing dui odio habitasse a sed vestibulum adipiscing velit vestibulum semper sem phasellus nibh.
-      br
-      p #[a.fs-1(href="sbfoton/") Another feature]
-    .g-item.g-img
-      img(src="img/speakers/cristina_kurachi.jpg")
-      .dados-speaker
-        p.nome Dra. Cristina Kurachi
-        p.filiacao IFSC USP / Brazil
+  //- .slide-destaques
+    .separador-1
+    h1 Featured guests & notices
+    .separador-1
+    .grade
+      .g-item.g-img
+        img(src="img/speakers/anderson_gomes.jpg")
+        .dados-speaker
+          p.nome Dr. Anderson Stevens Leônidas Gomes
+          p.filiacao DF UFPE / Brazil
+      .g-item.g-text.span-2
+        h3 Workshops by WTON
+        br
+        p Nibh vitae vestibulum aptent ut fusce eleifend mollis tristique mus parturient adipiscing sapien ut parturient posuere. Nibh vitae vestibulum aptent ut fusce eleifend mollis tristique mus parturient adipiscing sapien ut parturient posuere.
+      .g-item.g-img
+        img(src="img/speakers/antonio_teixeira.jpg")
+        .dados-speaker
+          p.nome Dr. António Luis Jesus Teixeira
+          p.filiacao Universidade de Aveiro / Portugal
+      .g-item.g-text.span-1
+        p We have moved the conference to Universidade Estadual de Campinas, in Campinas, São Paulo.
+        br
+        p #[a.fs-1(href="sbfoton/") About Unicamp]
+      .g-item.g-img
+        img(src="img/speakers/carlos_lee.jpg")
+        .dados-speaker
+          p.nome Dr. Carlos Lee
+          p.filiacao EPIC members drive the photonics revolution
+      .g-item.g-text.span-2
+        h3 About SBFOTON
+        br
+        p The Brazilian Photonics Society has begun its activities on May 24th, 2017 with the main objective to work for increasing the importance and awareness of optics and photonics in Brazil and South America.
+        br
+        p #[a.fs-1(href="sbfoton/") Learn more about the society]
+      .g-item.g-img
+        img(src="img/speakers/chennupati_jagadish.jpg")
+        .dados-speaker
+          p.nome Dr. Chennupati Jagadish
+          p.filiacao Australian National University / Australia
+      .g-item.g-text.span-2
+        h3 Another feature
+        br
+        p Lobortis malesuada diam orci a aptent adipiscing dui odio habitasse a sed vestibulum adipiscing velit vestibulum semper sem phasellus nibh.
+        br
+        p #[a.fs-1(href="sbfoton/") Another feature]
+      .g-item.g-img
+        img(src="img/speakers/cristina_kurachi.jpg")
+        .dados-speaker
+          p.nome Dra. Cristina Kurachi
+          p.filiacao IFSC USP / Brazil
 
 
 

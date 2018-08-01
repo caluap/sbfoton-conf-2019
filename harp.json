@@ -966,7 +966,7 @@
 			{ "titulo": "Plenaries", "link": "plenaries.html" },
 			{ "titulo": "Short Courses", "link": "short_courses.html" },
 			{ "titulo": "Workshop", "link": "workshop.html" },
-			{ "titulo": "Venue", "link": "venue/" },
+			{ "titulo": "Venue *", "link": "venue/" },
 			{ "titulo": "About", "link": "about/" },
 			{ "titulo": "Student Paper Competition", "link": "student_paper_competition.html", "rodape_only": true },
 			{ "titulo": "IEEE Xplore Digital Library", "link" : "ieee_xplore_digital_library.html", "rodape_only": true }
