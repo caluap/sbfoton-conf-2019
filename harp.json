@@ -54,7 +54,80 @@
 				"resumo" : "This study took part in a County hospital Styria, Austria, with 111 medical professionals, working in a real-life setting. They were each asked to read original and authentic diagnosis reports, a gynecological report and an internal medical document, on both screen and paper in a randomly assigned order. Reading comprehension was measured by the Chunked Reading Test, and speed and accuracy of reading performance was quantified. In order to get a full understanding of the clinicians' preferences, subjective ratings were also collected.",
 				"temas" : ["dançarinos", "armários", "dançarinos"],
 				"autores" : ["fulano1"]
+			},
+			
+			"PL-MON-01" : {
+				"titulo" : "Photonics as enabler for Economy, Technology, Leadership",
+				"resumo" : "",
+				"temas" : [],
+				"autores" : ["carlos_lee"]
+			}
+
+			,"PL-MON-02" : {
+				"titulo" : "Semiconductor Nanowires for Optoelectronics Applications",
+				"resumo" : "",
+				"temas" : [],
+				"autores" : ["chennupati_jagadish"]
+			}
+			
+			,"PL-MON-04" : {
+				"titulo" : "Case study of a optoelectronics medical equipment manufacture in Brazil",
+				"resumo" : "In my presentation I will discuss a case of one of my company, Opto Eletronica SA. The company started in 1986 became in 2014 a 40U$ millions business, with approximately 400 employee, and manufacture large line of high tech equipments for ophthalmology, including lasers, fundus cameras, microscopes, etc. The business model will be discussed.",
+				"temas" : [],
+				"autores" : ["jarbas_neto"]
       }
+
+			,"PL-TUE-01" : {
+				"titulo" : "Photonics as a Key Enabling Technology: From Novel Light Sources to Clinical Diagnostic by Optical Imaging",
+				"resumo" : "",
+				"temas" : [],
+				"autores" : ["anderson_gomes"]
+      }
+
+			,"PL-TUE-02" : {
+				"titulo" : "Technological Glasses for Radiation Shielding",
+				"resumo" : "",
+				"temas" : [],
+				"autores" : ["raouf_el_mallawany"]
+      }
+			
+			,"PL-TUE-04" : {
+				"titulo" : "​SHG in nanoparticles or molecules",
+				"resumo" : "",
+				"temas" : [],
+				"autores" : ["pierre_francois_breve"]
+      }
+			
+			,"PL-WED-01" : {
+				"titulo" : "Photonic integration, the next path for access networks.",
+				"resumo" : "",
+				"temas" : [],
+				"autores" : ["antonio_teixeira"]
+			}
+
+			,"PL-WED-02" : {
+				"titulo" : "Photonic Techniques for Life Sciences",
+				"resumo" : "",
+				"temas" : [],
+				"autores" : ["cristina_kurachi"]
+      }
+			
+			,"PL-WED-03" : {
+				"titulo" : "PIX4LIFE : an open-access pilot line for silicon-nitride photonics enabling visible light applications",
+				"resumo" : "",
+				"temas" : [],
+				"autores" : ["jacobus_swart"]
+			}
+			
+			,"trab_generico" : {
+				"titulo" : "",
+				"resumo" : "",
+				"temas" : [],
+				"autores" : []
+      }
+
+
+
     },
 
 
@@ -75,28 +148,46 @@
 
 
     "plenaries" : {
-			"Monday, August 28th" : [
+			"Monday, October 8th" : [
 				{
-					"horario" : "09:10—10:00",
-					"sala" : "pentagono",
-					"trabalho" : "trabalho1"
-				},
-				{
-					"horario" : "12:10—13:00",
-					"sala" : "pentagono",
-					"trabalho" : "trabalho2"
+					"horario" : "09:05 to 09:50",
+					"sala" : "auditorium",
+					"trabalho" : "PL-MON-01"
+				},{
+					"horario" : "09:50 to 10:35",
+					"sala" : "auditorium",
+					"trabalho" : "PL-MON-02"
 				}
 			],
-			"Tuesday, August 29th" : [
+			"Tuesday, October 9th" : [
 				{
-					"horario" : "09:10—10:00",
-					"sala" : "pentagono",
-					"trabalho" : "trabalho1"
+					"horario" : "09:00 to 09:45",
+					"sala" : "auditorium",
+					"trabalho" : "PL-TUE-01"
 				},{
-					"horario" : "10:00—10:50",
-					"sala" : "pentagono",
-					"trabalho" : "trabalho2"
-        }
+					"horario" : "09:45 to 10:30",
+					"sala" : "auditorium",
+					"trabalho" : "PL-TUE-02"
+				},{
+					"horario" : "11:45 to 12:30",
+					"sala" : "auditorium",
+					"trabalho" : "PL-TUE-04"
+				}
+      ],
+			"Wednesday, October 10th" : [
+				{
+					"horario" : "09:00 to 09:45",
+					"sala" : "auditorium",
+					"trabalho" : "PL-WED-01"
+				},{
+					"horario" : "09:45 to 10:30",
+					"sala" : "auditorium",
+					"trabalho" : "PL-WED-02"
+				},{
+					"horario" : "11:00 to 11:45",
+					"sala" : "auditorium",
+					"trabalho" : "PL-WED-03"
+				}
       ]
     },
     
@@ -144,6 +235,9 @@
 			},
 			"turmalina" : {
 				"nome": "Turmalina Room"
+			},
+			"auditorium" : {
+				"nome": "Auditorium"
 			}
 		},
 
@@ -202,6 +296,16 @@
 			},
 			
 			
+			"pierre_francois_breve": {
+				"nome": "Pierre François-Breve",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "University of Lyon / FR",
+					"url": ""
+				}],
+				"biografia": "",
+				"links":[]
+			},
 			
 			"alaide_mammana": {
 				"nome": "Alaide Pellegrini Mammana",

@@ -116,5 +116,6 @@ mixin trabalho(i, titulo, horario, sala, resumo, temas)
       p.trab-resumo= resumo
     unless temas.length == 0
       ul.trab-temas
-        each tema in temas
-          li= tema
+        if temas
+          each tema in temas
+            li= tema
