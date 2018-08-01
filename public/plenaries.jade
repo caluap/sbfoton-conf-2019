@@ -17,6 +17,7 @@ include /_mixins
             p.trab-data= i_data
             each plenaria in data
               - var trabalho = trabalhos[plenaria.trabalho]
+              a.trab-codigo(name="#{plenaria.trabalho}")
               .trabalho
                 +trabalho(i, trabalho.titulo, plenaria.horario, salas[plenaria.sala].nome, trabalho.resumo, trabalho.temas)
                 .trab-autores

@@ -26,12 +26,74 @@ include /_mixins
             p Read about it #[a(href="venue/") here].
           //- p.seta ↓
           //- ⭝
+  .slide-destaques
+    .separador-1
+    h1 Featured guests
+    .separador-1
+    .grade#featured-guests
+      a.g-item.g-img(href="plenaries.html#PL-TUE-01")
+        img(src="img/speakers/anderson_gomes.jpg")
+        .dados-speaker
+          p.nome Dr. Anderson Stevens Leônidas Gomes
+          p.filiacao DF UFPE / Brazil
+      a.g-item.g-img(href="plenaries.html#PL-WED-01")
+        img(src="img/speakers/antonio_teixeira.jpg")
+        .dados-speaker
+          p.nome Dr. António Luis Jesus Teixeira
+          p.filiacao Universidade de Aveiro / Portugal
+      a.g-item.g-img(href="plenaries.html#PL-MON-01")
+        img(src="img/speakers/carlos_lee.jpg")
+        .dados-speaker
+          p.nome Dr. Carlos Lee
+          p.filiacao EPIC members drive the photonics revolution
+      a.g-item.g-img(href="plenaries.html#PL-MON-02")
+        img(src="img/speakers/chennupati_jagadish.jpg")
+        .dados-speaker
+          p.nome Dr. Chennupati Jagadish
+          p.filiacao Australian National University / Australia
+      a.g-item.g-img(href="plenaries.html#PL-WED-02")
+        img(src="img/speakers/cristina_kurachi.jpg")
+        .dados-speaker
+          p.nome Dra. Cristina Kurachi
+          p.filiacao IFSC USP / Brazil
+      a.g-item.g-img(href="plenaries.html#PL-MON-04")
+        img(src="img/speakers/jarbas_neto.jpg")
+        .dados-speaker
+          p.nome Jarbas Caiado de Castro Neto
+          p.filiacao IFSC USP / Brazil
+      a.g-item.g-img(href="plenaries.html#PL-TUE-02")
+        img(src="img/speakers/raouf_el_mallawany.jpg")
+        .dados-speaker
+          p.nome Raouf El-Mallawany
+          p.filiacao PD Menoufia University / EG
+      .g-item.g-empty
+      .g-item.g-empty
+      .g-item.g-empty
+      a.g-item.g-img(href="plenaries.html#PL-TUE-04")
+        img(src="img/speakers/pierre_francois_brevet.jpg")
+        .dados-speaker
+          p.nome Pierre François-Brevet
+          p.filiacao University of Lyon / FR
+      a.g-item.g-img(href="plenaries.html#PL-WED-03")
+        img(src="img/speakers/jacobus_swart.jpg")
+        .dados-speaker
+          p.nome Jacobus Willibrordus Swart
+          p.filiacao Unicamp / IMEC
+
+  script.
+    //https://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order
+    var g = document.querySelector('#featured-guests');
+    for (var i = g.children.length; i >= 0; i--) {
+      g.appendChild(g.children[Math.random()*i | 0]);
+    }
+
+
   //- .slide-destaques
     .separador-1
     h1 Featured guests & notices
     .separador-1
     .grade
-      .g-item.g-img
+      a.g-item.g-img(href="plenaries.html#PL-TUE-01")
         img(src="img/speakers/anderson_gomes.jpg")
         .dados-speaker
           p.nome Dr. Anderson Stevens Leônidas Gomes
@@ -40,7 +102,7 @@ include /_mixins
         h3 Workshops by WTON
         br
         p Nibh vitae vestibulum aptent ut fusce eleifend mollis tristique mus parturient adipiscing sapien ut parturient posuere. Nibh vitae vestibulum aptent ut fusce eleifend mollis tristique mus parturient adipiscing sapien ut parturient posuere.
-      .g-item.g-img
+      a.g-item.g-img(href="plenaries.html#PL-WED-01")
         img(src="img/speakers/antonio_teixeira.jpg")
         .dados-speaker
           p.nome Dr. António Luis Jesus Teixeira
@@ -49,7 +111,7 @@ include /_mixins
         p We have moved the conference to Universidade Estadual de Campinas, in Campinas, São Paulo.
         br
         p #[a.fs-1(href="sbfoton/") About Unicamp]
-      .g-item.g-img
+      a.g-item.g-img(href="plenaries.html#PL-MON-01")
         img(src="img/speakers/carlos_lee.jpg")
         .dados-speaker
           p.nome Dr. Carlos Lee
@@ -60,7 +122,7 @@ include /_mixins
         p The Brazilian Photonics Society has begun its activities on May 24th, 2017 with the main objective to work for increasing the importance and awareness of optics and photonics in Brazil and South America.
         br
         p #[a.fs-1(href="sbfoton/") Learn more about the society]
-      .g-item.g-img
+      a.g-item.g-img(href="plenaries.html#PL-MON-02")
         img(src="img/speakers/chennupati_jagadish.jpg")
         .dados-speaker
           p.nome Dr. Chennupati Jagadish
@@ -71,11 +133,12 @@ include /_mixins
         p Lobortis malesuada diam orci a aptent adipiscing dui odio habitasse a sed vestibulum adipiscing velit vestibulum semper sem phasellus nibh.
         br
         p #[a.fs-1(href="sbfoton/") Another feature]
-      .g-item.g-img
+      a.g-item.g-img(href="plenaries.html#PL-WED-02")
         img(src="img/speakers/cristina_kurachi.jpg")
         .dados-speaker
           p.nome Dra. Cristina Kurachi
           p.filiacao IFSC USP / Brazil
+
 
 
 

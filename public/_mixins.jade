@@ -99,14 +99,18 @@ mixin membro(img, nome, instituicoes, bio, max = true)
       +bio(bio, "bio", 128*4, max)
 
 
-mixin autor(img, nome, instituicao, bio, max = true)
+mixin autor(img, nome, instituicoes, bio, max = true)
   .trab-autor
     unless img == ""
       img.trab-a-img(src="#{img}")
     p.trab-a-nome= nome
-    p.trab-a-inst #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
+    each instituicao in instituicoes
+      - if (instituicao.url != '')
+        p.trab-a-inst #[a(href="#{instituicao.url}", target="_blank") #{instituicao.nome}]
+      - else
+        p.trab-a-inst #[a #{instituicao.nome}]
     unless bio == ""
-      +bio(bio, "trab-a-bio", 128, max)
+      +bio(bio, "trab-a-bio", 256, max)
 
 mixin trabalho(i, titulo, horario, sala, resumo, temas)
   .trab-trab

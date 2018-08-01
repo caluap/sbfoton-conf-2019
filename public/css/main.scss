@@ -906,16 +906,15 @@ body {
 
 .slide-destaques {
 
-	padding-top: $u-h;
+	padding-top: $u-h * 2;
 
 	@include media-query($s-sm) {
 		background-image: none;
 	}
 
 	h1 {
-		color: white;
-		font-weight: bold;
-		@include texto-sombra-0(mix($c_rosa,black,70%));
+		color: $c_verde;
+		// font-weight: bold;
 	}
 	
 	h3 {
@@ -924,16 +923,16 @@ body {
 	}
 
 
-	$r : $u-h / 6;
+	$r : $u-h / 4;
 
 	.grade {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		grid-gap: $u-h/8;
+		grid-gap: $u-h/4;
 
 		@include media-query($s-sm) {
 			grid-template-columns: repeat(1, 1fr);
-			grid-gap: $u-h / 3;
+			grid-gap: $u-h / 2;
 		}
 	
 		.g-item {
@@ -947,9 +946,22 @@ body {
 			border-radius: $r;
 			
 			
+			&.g-empty {
+				background: transparent;
+				position: relative;
+				&:after {
+					content: "";
+					position: absolute;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					top: 0;
+					border: 2px solid transparentize($c_verde,0.5);
+					border-radius: $r;
+				}
+			}
 			&.g-text {
-				// background: #198b5c;
-				background: #15878f;
+				// background: #15878f;
 				
 				p, a { color: white; }
 
@@ -967,6 +979,24 @@ body {
 			}
 			
 			&.g-img {
+
+				@at-root {
+					a.g-img:hover {
+						&:after {
+							content: "";
+							position: absolute;
+							left: 0;
+							right: 0;
+							top: 0;
+							bottom: 0;
+							// background: transparentize($c_rosa,0);
+							mix-blend-mode: multiply;
+							border: 2px solid $c_verde;
+							border-radius: $r;
+						}
+					}
+				}
+
 
 				img {
 					border-radius: $r;
@@ -1286,9 +1316,15 @@ div.slide.s-rodape.invertido {
 			margin-top: $u-h * 4;
 		}
 
+		.trab-codigo {
+			visibility: hidden;
+		}
+
 		.trab-data {
 			@extend .h-caps;
 			@include faux-caps;
+			color: $c_verde;
+			font-weight: bold;
 		}
 
 		.trabalho {
@@ -1313,13 +1349,16 @@ div.slide.s-rodape.invertido {
 					width: 100%;
 				}
 			}
-			// background: rgba(255,0,0,0.2);
 
 			display: grid;
 			grid-template-columns: 3fr 2fr;
 			@include media-query($s-md) {
 				grid-template-columns: 1fr;
 				padding-left: 0;
+			}
+			@include media-query-a-partir($s-xxl) {
+				grid-template-columns: 3fr 2fr 2fr;
+
 			}
 			grid-gap: $u-h;
 
@@ -1345,7 +1384,7 @@ div.slide.s-rodape.invertido {
 				left: 0;
 				top: 4px;
 				font-weight: 300;
-				color: $c_laranja;
+				color: $c_verde;
 				opacity: 0.6;
 				mix-blend-mode: multiply;
 				@include fs(9);
@@ -1358,8 +1397,9 @@ div.slide.s-rodape.invertido {
 
 			.trab-titulo {
 				@include fs(3,1.2);
-				font-weight: 500;
-				color: $c_laranja;
+				font-weight: 300;
+				opacity: 0.9;
+				// color: $c_verde;
 				mix-blend-mode: multiply;
 				// hyphens: auto;
 				@include media-query($s-sm) {
@@ -1376,7 +1416,6 @@ div.slide.s-rodape.invertido {
 			.trab-resumo {
 				@include fs(-1);
 				hyphens: auto;
-				// max-width: 60ch;
 				@include media-query-a-partir($s-sm) {
 					&.resumo-p {
 						@include fs(1);
