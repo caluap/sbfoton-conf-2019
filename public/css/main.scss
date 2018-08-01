@@ -57,7 +57,7 @@ h2 {
 
 h2.conf {
 	@include fs(4,1);
-	color: $c_laranja;
+	color: $c_verde;
 	mix-blend-mode: multiply;
 }
 
@@ -1467,5 +1467,14 @@ div.slide.s-rodape.invertido {
 				}
 			}
 		}
+	}
+}
+
+
+.soon {
+	margin-top: $u-h * 1;
+	@include fs(3);
+	&:after {
+		content: "...soon";
 	}
 }
