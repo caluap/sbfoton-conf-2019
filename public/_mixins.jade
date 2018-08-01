@@ -113,7 +113,7 @@ mixin trabalho(i, titulo, horario, sala, resumo, temas)
     p.trab-titulo= titulo
     p.trab-horario #{horario}&nbsp; / &nbsp;#{sala}
     unless resumo == ""
-      p.trab-resumo= resumo
+      p.trab-resumo!= resumo
     unless temas.length == 0
       ul.trab-temas
         if temas
