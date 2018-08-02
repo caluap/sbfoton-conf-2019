@@ -1216,16 +1216,6 @@ div.slide.s-rodape.invertido {
 
 }
 
-$extra_b : $u-h/4;
-
-.bordinha_extra {
-	display: block;
-	position: absolute;
-	bottom: -1px;
-	width: $extra_b;
-	color: transparent;
-	border-bottom: 1px solid black;
-}
 
 .lista-padrao {
 	list-style: square;
@@ -1235,11 +1225,9 @@ $extra_b : $u-h/4;
 }
 
 .sub-menu {
-
 	margin-top: $u-h;
 	margin-bottom: $u-h;
 	display: flex;
-	width: 100%;
 
 	@include media-query($s-sm) {
 		flex-direction: column;
@@ -1248,54 +1236,39 @@ $extra_b : $u-h/4;
 		}
 	}
 	li {
-		a {
-			padding-right: $u-h * 2/3/2;
-			padding-left: $u-h * 2/3/2;
-		}
-		&:last-child:after {
-			content: "_";
-			@extend .bordinha_extra;
-			right: -$extra_b;
-		}
-		&:first-child:before {
-			content: "_";
-			@extend .bordinha_extra;
-			left: -$extra_b;
+		margin-right: $u-h * 2/3;		
+		@include media-query($s-sm) {
+			margin-right: 0;
 		}
 		&:last-child {
 			margin-right: 0;
 		}
-		position: relative;
-		margin-bottom: -3px;
 
 		a {
 			@include fs(-1);
 			@include faux-caps;
 			text-decoration: none;
 			font-weight: 500;
-			color: rgba(0,0,0,0.4);
+			opacity: 0.4;
 			mix-blend-mode: multiply;
-			border-bottom: 1px solid black;
-			padding-bottom: $u-h/12;
-			padding-top: $u-h/6;
-
 			@at-root .sub-menu li.nav-atual a, &:hover {
 				background: unset;
-				color: rgba(0,0,0,1);
+				opacity: 1;
 			}
 			@at-root .sub-menu li.nav-atual a {
 				@include fs(0);
-				font-weight: 700;
-				border: 1px solid black;
-				border-bottom: none;
-				padding-left: $u-h/4;
-				padding-right: $u-h/4;
-				
-				border-top-right-radius: 3px;
-				border-top-left-radius: 3px;
+				mix-blend-mode: normal;
+				background: black;
+				text-align: center;
+				color: white;
+				border-radius: 4px;
+				padding: $u-h/4 $u-h/2;
 
-				position: relative;
-				bottom: -1px;
+				@include media-query($s-sm) {
+					width: 100%;
+					display: block;
+					box-sizing: border-box;
+				}
 			}
 		}
 	}
