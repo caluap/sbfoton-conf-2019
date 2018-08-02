@@ -16,10 +16,13 @@ include /_mixins
 
   .pure-g
     .pure-u-1
-      .chairs
-        .chair
-          .c-membros
-            each autor in technical_program_committee
-              +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+      each v_autores, tema in technical_program_committee
+        .chairs
+          h3= tema
+          .chair
+            .c-membros
+              each autor in v_autores
+                +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+        .separador-2
 
 +rodape('About')
