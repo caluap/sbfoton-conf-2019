@@ -138,12 +138,14 @@
       "International Laison": ["hugo_figueroa"]
     },
 
-    "technical_program_committee" : [
-      "fulano1", "fulano2", "fulano3", "fulano4",
-      "fulano1", "fulano2", "fulano3", "fulano4",
-      "fulano1", "fulano2", "fulano3", "fulano4",
-      "fulano1", "fulano2", "fulano3", "fulano4"
-    ],
+    "technical_program_committee" : {
+			"Optical Communication" : ["uiara_de_moura", "giovanni_farias", "hartmut_bartelt","andrea_chiuchiarelli","rafael_figueiredo","antonio_teixeira","fernando_guiomar","joaquim_filho","karcius_assis"],
+			"Lasers" : ["niklaus_wetter","ricardo_samad","newton_frateschi","rogerio_nogueira"],
+			"Integrated Photonics" : ["luiz_barbosa","leonardo_ambrosio","giovani_farias","roberto_panepucci"],
+			"Optics and Instrumentation" : ["leonardo_ambrosio","silvania_pereira","liliane_ventura","alvaro_damiao"],
+			"Biophotonics" : ["isabel_carvalho","tania_centeno","denise_zezell","patricia_da_ana"],
+			"Sensors, Image and Illumination" : ["cristiano_cordeiro", "cicero_martelli","joao_sakamoto","marcos_franco"]
+		},
 
 
 
@@ -435,8 +437,8 @@
 				"links":[]
 			},
 
-			"silvana_pereira": {
-				"nome": "Silvana Pereira",
+			"silvania_pereira": {
+				"nome": "Silvania Pereira",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "TU Delft",
