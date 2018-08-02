@@ -144,7 +144,7 @@
 			"Integrated Photonics" : ["luiz_barbosa","leonardo_ambrosio","giovani_farias","roberto_panepucci"],
 			"Optics and Instrumentation" : ["leonardo_ambrosio","silvania_pereira","liliane_ventura","alvaro_damiao"],
 			"Biophotonics" : ["isabel_carvalho","tania_centeno","denise_zezell","patricia_da_ana"],
-			"Sensors, Image and Illumination" : ["cristiano_cordeiro", "cicero_martelli","joao_sakamoto","marcos_franco"]
+			"Sensors, Image and Illumination" : ["cristiano_cordeiro", "cicero_martelli","joao_sakamoto","marcos_franco","jonas_osorio","marcelo_werneck"]
 		},
 
 
@@ -834,6 +834,30 @@
 
 
 			"negada_da_sbfoton_mesmo":[],
+
+
+
+			"jonas_osorio": {
+				"nome": "Jonas Henrique Osório",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "XLIM Research Institute",
+					"url": ""
+				}],
+				"biografia": "Bachelor, Master and Ph.D. in Physics from the Institute of Physics \"Gleb Wataghin\" (IFGW) of the State University of Campinas (Unicamp). From 2009 to 2017 he worked in the Laboratory of Special Fibers (LaFE - IFGW - Unicamp) under the guidance of Prof. Dr. Cristiano M. B. Cordeiro. During his postgraduate studies, he studied at Tufts University (under the guidance of Prof. Dr. Fiorenzo G. Omenetto) and at the University of Bath (under the guidance of Prof. Dr. Jonathan C. Knight). He is currently a postdoctoral researcher at the XLIM Institute, University of Limoges, France (under the supervision of Prof. Dr. Fetah Benabid). He has experience working with special optical fibers, long-time networks, Bragg networks, microfibers (tapers) and sensors based on optical fibers. The current research area includes the study of hollow optical fibers capable of transmitting signals in the ultraviolet region. He is currently a Postdoctoral Research Scientist at XLIM, France.",
+				"links":[]
+			},
+
+			"marcelo_werneck": {
+				"nome": "Marcelo Martins Werneck",
+				"imagem": "",
+				"instituicao": [{
+					"nome": "UFRJ",
+					"url": ""
+				}],
+				"biografia": "He was born in Petrópolis, Rio de Janeiro, and graduated in Electronic Engineering from Pontifical Catholic University of Rio de Janeiro (PUC) in 1975. He obtained his MSc by the Biomedical Engineering Program of COPPE, Federal University of Rio de Janeiro (UFRJ) in 1977. In 1978 he joined the Department of Electronics and Computation at UFRJ where he has been an Associate Professor since 1978. His PhD was obtained from the University of Sussex in the United Kingdom in 1985. He is currently coordinator of the Laboratory of Instrumentation and Photonics of the Electrical Engineering Program of COPPE where he develops researches in the area of instrumentation and transducers to fiber optics. He is currently a Full Professor at COPPE and has developed research in the areas of Electrical and Photonic Engineering, working mainly on the following topics: Electronic instrumentation and fiber optic sensors.",
+				"links":[]
+			},
 			
 			"hugo_figueroa": {
 				"nome": "Prof. Hugo Enrique Hernandez Figueroa",
