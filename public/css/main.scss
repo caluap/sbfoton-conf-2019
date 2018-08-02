@@ -1539,3 +1539,21 @@ div.slide.s-rodape.invertido {
 		content: "...soon";
 	}
 }
+
+.c-group-leader {
+	width: 100% + #{$u-h/2} + 2px;
+	padding: $u-h/4;
+	position: relative;
+	left: -$u-h/4;
+	border: 1px solid transparentize($c_mix, 0.7);
+	// box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	border-radius: $u-h/6;
+}
+
+.group-leader {
+	color: $c_mix;
+	@include faux-caps;
+	@include fs(-3);
+	font-weight: bold;
+	margin-bottom: -$u-h/6;
+}

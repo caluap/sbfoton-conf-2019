@@ -136,7 +136,16 @@
       "Administrative Chairs": ["andre_de_souza","stenio_ranzini"],
       "Technical Program Chairs": ["monica_rocha", "vilson_de_almeida","carmelo_filho","felipe_barbosa","yara_gobato"],
       "International Laison": ["hugo_figueroa"]
-    },
+		},
+		
+		"group_leaders" : {
+			"Optical Communication" : "andrea_chiuchiarelli",
+			"Lasers" : "niklaus_wetter",
+			"Integrated Photonics" : "roberto_panepucci",
+			"Optics and Instrumentation" : "silvania_pereira",
+			"Biophotonics" : "denise_zezell",
+			"Sensors, Image and Illumination" : "marcos_franco"
+		},
 
     "technical_program_committee" : {
 			"Optical Communication" : ["uiara_de_moura", "giovanni_farias", "hartmut_bartelt","andrea_chiuchiarelli","rafael_figueiredo","antonio_teixeira","fernando_guiomar","joaquim_filho","karcius_assis"],

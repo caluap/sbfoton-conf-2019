@@ -22,7 +22,14 @@ include /_mixins
           .chair
             .c-membros
               each autor in v_autores
-                +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+                - if (group_leaders[tema] == autor) {
+                  div.c-group-leader
+                    p.group-leader Group Leader
+                    +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+                - } else {
+                  div
+                    +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+                - }
         .separador-2
 
 +rodape('About')
