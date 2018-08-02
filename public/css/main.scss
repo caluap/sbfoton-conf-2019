@@ -547,7 +547,7 @@ table {
 }
 
 .sub-row-header {
-	background: mix($c_rosa,cinza(3),20%);
+	background: mix($c_rosa,cinza(0),10%);
 	color: white;
 	mix-blend-mode: normal;
 	td {
@@ -576,7 +576,7 @@ table {
 		padding-top: $u-h;
 		margin-bottom: $u-h * 2;
 		position: relative;
-		color: cinza(6);
+		color: cinza(4);
 		@include fs(-2);
 	}
 }
