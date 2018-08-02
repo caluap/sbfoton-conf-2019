@@ -779,6 +779,14 @@ $w-menu: $u-h * 4;
 			display: none;
 		}
 
+		#menu {
+			@media screen and ( max-height: 480px) {
+				overflow-y: scroll;
+				max-height: calc(100vh - 200px);
+				border-bottom: 2px solid mix($c_menu, black);
+			}
+		}
+
 		li {
 
 			
@@ -951,8 +959,20 @@ body {
 		grid-template-columns: repeat(4, 1fr);
 		grid-gap: $u-h/4;
 
+
+
+		@include media-query($s-lg) {
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: $u-h / 2;
+		}
+
 		@include media-query($s-sm) {
 			grid-template-columns: repeat(1, 1fr);
+			grid-gap: $u-h / 2;
+		}
+
+		@include media-query-a-partir($s-xxl) {
+			grid-template-columns: repeat(6, 1fr);
 			grid-gap: $u-h / 2;
 		}
 	
