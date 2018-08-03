@@ -1000,6 +1000,9 @@ body {
 					border: 2px solid transparentize($c_verde,0.5);
 					border-radius: $r;
 				}
+				@include media-query($s-sm) {
+					display: none;
+				}
 			}
 			&.g-text {
 				// background: #15878f;
