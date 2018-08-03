@@ -596,7 +596,7 @@
 					"nome": "FSU, Jena",
 					"url": ""
 				}],
-				"biografia": "",
+				"biografia": "He studied Physics at the Universities of Karlsruhe and Erlangen-Nuremberg. After his doctorate and postdoctorate work, he was employed at Siemens AG’s research centre Erlangen. In 1994, he was appointed as Professor for Modern Optics and now works at the Leibniz Institute of Photonic Technology in the area of fibre optics. From 1999 to 2006, he headed the Institute as scientific director and has been the deputy director since 2006. ",
 				"links":[]
 			},
 			
@@ -623,7 +623,7 @@
 			},
 			
 			"rubens_luis": {
-				"nome": "Dr. Rubens S. Luís",
+				"nome": "Rubens S. Luís",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "National Institute of Information and Communications Technology (NICT), Japan",
@@ -633,19 +633,8 @@
 				"links":[]
 			},
 			
-			"karcius_assis": {
-				"nome": "Prof. Karcius D. R. Assis",
-				"imagem": "",
-				"instituicao": [{
-					"nome": "UFBA",
-					"url": ""
-				}],
-				"biografia": "He holds a degree in Electrical Engineering from the Federal University of Paraíba (1997), current UFCG, a Master's degree in Electrical Engineering from the Federal University of Espírito Santo (2000) and a PhD in Electrical Engineering from the State University of Campinas (2004). He was postdoctoral fellow at the University of Bristol-UK from 02/2015 to 01/2016. He was a Visiting Fellow at the University of Essex-UK in March 2018. He was an adjunct professor at the Federal University of ABC and currently is an associate professor at the Polytechnic School of the Federal University of Bahia; Department of Electrical Eng. - Reviewer of the European Journal of Operational Research (0377-2217) and - IEEE Communications Letters. He has experience in Electrical and Computer Engineering, with emphasis on Telecommunication Systems and Computer Systems; working mainly in the following topics: telecommunications, optical networks, optimization and network planning.",
-				"links":[]
-			},
-			
 			"davies_monteiro": {
-				"nome": "Prof. Davies William de Lima Monteiro",
+				"nome": "Davies William de Lima Monteiro",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "UFMG",
@@ -656,7 +645,7 @@
 			},
 			
 			"darli_mello": {
-				"nome": "Prof. Dr. Darli Augusto de Arruda Mello",
+				"nome": "Darli Augusto de Arruda Mello",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "Unicamp",
@@ -667,7 +656,7 @@
 			},
 			
 			"niklaus_weter": {
-				"nome": "Dr. Niklaus Ursus Wetter",
+				"nome": "Niklaus Ursus Wetter",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "Instituto de Pesquisas Energéticas e Nucleares",
@@ -678,7 +667,7 @@
 			},
 			
 			"roberto_panepucci": {
-				"nome": "Dr. Roberto Ricardo Panepucci",
+				"nome": "Roberto Ricardo Panepucci",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "Centro de Tecnologia de Informação \"Renato Archer\"",
@@ -689,7 +678,7 @@
 			},
 			
 			"cristiano_cordeiro": {
-				"nome": "Prof. Dr. Cristiano Monteiro de Barros Cordeiro",
+				"nome": "Cristiano Monteiro de Barros Cordeiro",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "Unicamp",
@@ -725,7 +714,7 @@
 			},
 			
 			"giovanni_farias": {
-				"nome": "Dr. Giovanni Benincá de Farias",
+				"nome": "Giovanni Benincá de Farias",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "Fundação CPqD",
@@ -869,7 +858,7 @@
 			},
 			
 			"hugo_figueroa": {
-				"nome": "Prof. Hugo Enrique Hernandez Figueroa",
+				"nome": "Hugo Enrique Hernandez Figueroa",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "Unicamp",
@@ -880,7 +869,7 @@
 			},
 			
 			"yara_gobato": {
-				"nome": "Prof. Yara Galvão Gobato",
+				"nome": "Yara Galvão Gobato",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "UFSCar",
@@ -891,7 +880,7 @@
 			},
 			
 			"felipe_barbosa": {
-				"nome": "Prof. Felipe Rudge Barbosa",
+				"nome": "Felipe Rudge Barbosa",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "Unicamp",
@@ -902,7 +891,7 @@
 			},
 			
 			"carmelo_filho": {
-				"nome": "Prof. Carmelo José Albanez Bastos Filho",
+				"nome": "Carmelo José Albanez Bastos Filho",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "UPE",
@@ -913,7 +902,7 @@
 			},
 
 			"vilson_de_almeida": {
-				"nome": "Prof. Vilson Rosa de Almeida",
+				"nome": "Vilson Rosa de Almeida",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "IEAv",
@@ -927,7 +916,7 @@
 			},
 
 			"monica_rocha": {
-				"nome": "Prof. Mônica de Lacerda Rocha",
+				"nome": "Mônica de Lacerda Rocha",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "USP",
@@ -960,7 +949,7 @@
 			},
 			
 			"daniel_pataca": {
-				"nome": "Prof. Daniel Moutinho Pataca",
+				"nome": "Daniel Moutinho Pataca",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "UNIP",
@@ -971,7 +960,7 @@
 			},
 			
 			"alexandre_pohl": {
-				"nome": "Prof. Alexandre Pohl",
+				"nome": "Alexandre Pohl",
 				"imagem": "",
 				"instituicao": [{
 					"nome": "UTFPR",
