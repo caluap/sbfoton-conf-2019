@@ -710,6 +710,7 @@ $w-menu: $u-h * 4;
 		right: 0;
 		bottom: 0;
 		transform: none;
+		z-index: 1;
 		&:before {
 			content: "";
 			position: absolute;
