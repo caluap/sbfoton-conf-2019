@@ -755,6 +755,7 @@ $w-menu: $u-h * 4;
 
 	@include media-query($s-sm) {
 		right: 50%;
+		min-width: $u-h * 6;
 		width: unset;
 	}
 
@@ -765,6 +766,7 @@ $w-menu: $u-h * 4;
 	
 	#logo-menu-geral {
 		margin: $u-h / 2;
+		text-align: center;
 		img {
 			width: $w-menu - $u-h;
 		}
@@ -784,7 +786,11 @@ $w-menu: $u-h * 4;
 			@media screen and ( max-height: 480px) {
 				overflow-y: scroll;
 				max-height: calc(100vh - 200px);
+				background: rgba(255,255,255,0.1);
 				border-bottom: 2px solid mix($c_menu, black);
+				li + li {
+					border-top: 1px solid rgba(255,255,255,0.2);
+				}
 			}
 		}
 
@@ -843,6 +849,7 @@ $w-menu: $u-h * 4;
 		padding: $u-h / 2;
 		opacity: 0.4;
 		line-height: 0;
+		text-align: center;
 		&:hover {
 			background: white;
 			background: black;
@@ -853,6 +860,12 @@ $w-menu: $u-h * 4;
 			width: calc(100% + #{$ajuste-opt});
 			position: relative;
 			left: -$ajuste-opt;
+		}
+
+		@media  screen and (max-height: 480px), screen and (max-width: $s-sm) {
+			img {
+				max-width: $u-h * 4;
+			}
 		}
 	}
 	
