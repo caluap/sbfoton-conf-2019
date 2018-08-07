@@ -119,6 +119,14 @@
 				"autores" : ["jacobus_swart"]
 			}
 			
+			
+			,"PL-WED-04" : {
+				"titulo" : "Project Management for Optics & Photonics Product Development and Technology Transfer",
+				"resumo" : "The innovation with Optics and Photonics products  is a multidisciplinary task, that demands a structured management and best working practices. Under the point of view of a product development center, are presented  project workflows and the management of innovation for solutions with Optics and Photonics for the Industry. <br><br> Cases studies of success and also pitfalls in the context of a Brazilian product developer, illustrates the experience in the real world of the industry and market competition in the field of  Photonics. Recommendations based at the lessons learned and proposals to enhance the performance of innovation process are  presented to exchange experiences and give support to  the improvement of knowledge for product development in the Optics and Photonics market. The cases are related to sensors, LED an OLED light sources, photovoltaic s, displays and  touch screen solutions. <br><br>With the approach of innovation, the plenary talk explore the connection of the development process with technology transfer, supply chain development and questions of intellectual propriety in the context of  Brazilian and International applications.",
+				"temas" : [],
+				"autores" : ["manuel_steidle"]
+			}
+			
 			,"trab_generico" : {
 				"titulo" : "",
 				"resumo" : "",
@@ -202,6 +210,10 @@
 					"horario" : "11:00 to 11:45",
 					"sala" : "auditorium",
 					"trabalho" : "PL-WED-03"
+				},{
+					"horario" : "11:45 to 12:30",
+					"sala" : "auditorium",
+					"trabalho" : "PL-WED-04"
 				}
       ]
     },
@@ -307,6 +319,18 @@
 					"url": ""
 				}],
 				"biografia": "",
+				"links":[]
+			},
+
+
+			"manuel_steidle": {
+				"nome": "Manuel Steidle",
+				"imagem": "img/speakers/manuel_steidle.jpg",
+				"instituicao": [{
+					"nome": "CERTI",
+					"url": ""
+				}],
+				"biografia": "He holds a degree in Mechanical Engineering from the Federal University of Santa Catarina (1990) and a Master's Degree in Business Administration - Fachhochschule Niederrhein (1995). Currently Associate Researcher - Experience Solutions Technology and Associate Researcher at CERTI Foundation. He is the director of Mechatronics at CERTI (Brazil) and was the Brazilian Coordinator of PodiTrodi EU-BR collaborative project. Has experience in the area of product development, with emphasis on Engineering, working mainly on the following topics: sensing, devices and memory.",
 				"links":[]
 			},
 			
