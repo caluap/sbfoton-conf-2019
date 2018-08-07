@@ -770,6 +770,26 @@ $w-menu: $u-h * 4;
 		img {
 			width: $w-menu - $u-h;
 		}
+
+		.date-logo {
+			@include fs(-1,1.3);
+			@include faux-caps;
+			display: block;
+			opacity: 0.7;
+			margin-top: $u-h/3;
+			color: white;
+		}
+
+
+		@media screen and ( max-height: 480px) {
+			img {
+				width: $w-menu - $u-h*2;
+			}
+			.date-logo {
+				@include fs(-3,1.3);
+				margin-top: $u-h/5;
+			}
+		}
 	}
 
 	#c-menu {
@@ -782,8 +802,8 @@ $w-menu: $u-h * 4;
 			display: none;
 		}
 
-		#menu {
-			@media screen and ( max-height: 480px) {
+		@media screen and ( max-height: 480px) {
+			#menu {
 				overflow-y: scroll;
 				max-height: calc(100vh - 200px);
 				background: rgba(255,255,255,0.1);
