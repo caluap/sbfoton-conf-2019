@@ -833,7 +833,7 @@ $w-menu: $u-h * 4;
 					padding-bottom: $u-h / 3;
 				}
 
-				@media screen and (max-height: 560px) and (min-width: $s-sm) {
+				@media screen and (max-height: 600px) and (min-width: $s-sm) {
 					padding-top: $u-h / 4;
 					padding-bottom: $u-h / 4;
 					@include fs(-1,1.3);
