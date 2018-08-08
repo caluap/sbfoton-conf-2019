@@ -69,6 +69,13 @@
 				"temas" : [],
 				"autores" : ["chennupati_jagadish"]
 			}
+
+			,"PL-MON-03" : {
+				"titulo" : "Sirius, the new Brazilian Synchrotron Light Source",
+				"resumo" : "———",
+				"temas" : [],
+				"autores" : ["harry_junior"]
+			}
 			
 			,"PL-MON-04" : {
 				"titulo" : "Case study of a optoelectronics medical equipment manufacture in Brazil",
@@ -176,6 +183,10 @@
 					"horario" : "09:50 to 10:35",
 					"sala" : "auditorium",
 					"trabalho" : "PL-MON-02"
+				},{
+					"horario" : "11:00 to 11:45",
+					"sala" : "auditorium",
+					"trabalho" : "PL-MON-03"
 				},{
 					"horario" : "11:45 to 12:30",
 					"sala" : "auditorium",
@@ -816,7 +827,7 @@
 			
 			"harry_junior": {
 				"nome": "Harry Westfahl Junior",
-				"imagem": "",
+				"imagem": "img/speakers/harry_junior.jpg",
 				"instituicao": [{
 					"nome": "LNLS",
 					"url": ""
