@@ -1501,7 +1501,7 @@ div.slide.s-rodape.invertido {
 				color: $c_verde;
 				opacity: 0.6;
 				mix-blend-mode: multiply;
-				@include fs(9);
+				@include fs(10);
 				@include media-query($s-sm) {
 					@include fs(6);
 					font-weight: bold;
@@ -1575,7 +1575,8 @@ div.slide.s-rodape.invertido {
 					.trab-a-bio {
 						@extend .template-bio;
 						margin-top: $u-h / 6;
-						max-width: 40ch;
+						max-width: 44ch;
+						hyphens: manual;
 					}
 
 				}
