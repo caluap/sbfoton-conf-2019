@@ -110,7 +110,7 @@ mixin autor(img, nome, instituicoes, bio, max = true)
       - else
         p.trab-a-inst #[a #{instituicao.nome}]
     unless bio == ""
-      +bio(bio, "trab-a-bio", 256, max)
+      +bio(bio, "trab-a-bio", 128*3, max)
 
 mixin trabalho(i, titulo, horario, sala, resumo, temas)
   .trab-trab
