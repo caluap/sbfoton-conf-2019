@@ -59,42 +59,42 @@
 			"PL-MON-01" : {
 				"titulo" : "Photonics as enabler for Economy, Technology, Leadership",
 				"resumo" : "My views on a successful industry association",
-				"temas" : [],
+				"temas" : ["Innovation"],
 				"autores" : ["carlos_lee"]
 			}
 
 			,"PL-MON-02" : {
 				"titulo" : "Semiconductor Nanowires for Optoelectronics Applications",
 				"resumo" : "Semiconductors have played an important role in the development of information and communications technology, solar cells, solid state lighting. Nanowires are considered as building blocks for the next generation electronics and optoelectronics. <br><br>In this talk, I will introduce the importance of nanowires and their potential applications and discuss about how these nanowires can be synthesized and how the shape, size and composition of the nanowires influence their structural and optical properties. I will present results on axial and radial heterostructures and how one can engineer the optical properties to obtain high performance lasers, THz detectors and solar cells. Use of nanowires for artificial photosynthesis and engineering of neuronal networks will be discussed. Future prospects of the semiconductor nanowires will be discussed. ",
-				"temas" : [],
+				"temas" : ["Research"],
 				"autores" : ["chennupati_jagadish"]
 			}
 
 			,"PL-MON-03" : {
 				"titulo" : "Sirius, the new Brazilian Synchrotron Light Source",
 				"resumo" : "———",
-				"temas" : [],
+				"temas" : ["Innovation"],
 				"autores" : ["harry_junior"]
 			}
 			
 			,"PL-MON-04" : {
 				"titulo" : "Case study of a optoelectronics medical equipment manufacture in Brazil",
 				"resumo" : "In my presentation I will discuss a case of one of my company, Opto Eletronica SA. The company started in 1986 became in 2014 a 40U$ millions business, with approximately 400 employee, and manufacture large line of high tech equipments for ophthalmology, including lasers, fundus cameras, microscopes, etc. The business model will be discussed.",
-				"temas" : [],
+				"temas" : ["Innovation"],
 				"autores" : ["jarbas_neto"]
       }
 
 			,"PL-TUE-01" : {
 				"titulo" : "Photonics as a Key Enabling Technology: From Novel Light Sources to Clinical Diagnostic by Optical Imaging",
 				"resumo" : "Photonics, the technology that deals with the generation, detection, harnessing and applications of photons, has been recognized as a key enabling technology (KET), as it is everywhere around us: from materials processing to everyday products like DVD players and mobile phones. To raise global awareness of how light-based science and technologies promote sustainable development and provide solutions to global challenges in a variety of themes, 2015 was declared as the International Year of Light by the United Nations and May 16th was declared the International Day of Light. <br><br>In this talk, I will give an introduction of some photonics developments going beyond KET to point out its economic impact. Then, I will describe how a novel type of coherent optical source, known as random laser, can be used as a platform for applications that goes from sensors to optical sources for bioimaging. To conclude, I will demonstrate how photons can be exploited for diagnostic by optical imaging in optical coherence tomography, demonstrating its ability in clinical use in dentistry and dermatology.",
-				"temas" : [],
+				"temas" : ["Research"],
 				"autores" : ["anderson_gomes"]
       }
 
 			,"PL-TUE-02" : {
 				"titulo" : "Technological Glasses for Radiation Shielding",
 				"resumo" : "",
-				"temas" : [],
+				"temas" : ["Research"],
 				"autores" : ["raouf_el_mallawany"]
       }
 			
@@ -108,21 +108,21 @@
 			,"PL-WED-01" : {
 				"titulo" : "Photonic integration, the next path for access networks.",
 				"resumo" : "Photonics integration has been promising to be the revolution and the next step for optics.however, It has been lagging its appearance and eminence due to essentially two main lines: the constant evolution of electronics and the complexity/price of light driven components. To work around these evidences, the standard bodies have been fully engaged in opening the requirements and developing integrated visions on the network models targeting simplification and application driven solutions based on whichever optics solution best suits the objective. This has been moving the price of optics down and nowadays we can find, for example in access, optics that was costing several tens of dollars, down to a couple of dollars in a time window of less than 8 years (which is the case, for example of GPON BOSA). The revolution has not occurred yet in terms of mass deployment essentially due to the fact that there was no uniform service model set with conditions for a global usage of the technology. Platforms initiated essentially in EU arose the benefit but the model initiated has kicked off the ecosystem through open MPW (shared runs), shared PDK (platforms and models), software houses, packaging houses, and associations which manage the whole process (like Jeppix, Triplex, Lionx, ePix, etc).",
-				"temas" : [],
+				"temas" : ["Research"],
 				"autores" : ["antonio_teixeira"]
 			}
 
 			,"PL-WED-02" : {
 				"titulo" : "Photonic Techniques for Life Sciences",
 				"resumo" : "Light-tissue interactions are the basis for all the photonic techniques developed for Life Sciences. The possible diversity on light parameters, as wavelength, irradiance, energy, pulse width, results in the broad range of applications, from diagnostics to therapeutics. Depending on the optical properties of the target tissue, as well as the aimed tissue interaction, the light delivery and irradiation parameters can be designed. In CEPOF-USP, we have been working on the development and validation of optical techniques for medical diagnostics and treatment. <br><br>In this talk, we will discuss examples, showing the research path from the proof-of-concept up to clinical translation. Fluorescence-based detection techniques, imaging and spectroscopy, have been assembled and tested at clinical trials to evaluate their diagnostic efficacy and clinical feasibility on skin cancer. Photodynamic therapy (PDT) is a local treatment modality that is based on the use of a photosensitized molecule, light and oxygen that produces oxygen reactive species, resulting in cell death. For antimicrobial inactivation, we have been working on defining safe PDT protocols, including best photosensitizer type and delivery, and irradiation strategies customized for each infection site. For cancer treatment, we also investigate new protocols for improved response. In this case, we will discuss the strategies that we have been studying for melanoma, and present the results of a multicenter clinical study for implementing PDT for basal cell carcinoma in Brazil. ",
-				"temas" : [],
+				"temas" : ["Research"],
 				"autores" : ["cristina_kurachi"]
       }
 			
 			,"PL-WED-03" : {
 				"titulo" : "PIX4LIFE : an open-access pilot line for silicon-nitride photonics enabling visible light applications",
 				"resumo" : "“PIX4life is an European-funded initiative, which will mature a state of the art silicon nitride (SiN) photonics pilot line for life science applications in the visible range and pave the way to make it accessible as an enabler for product development by a broad range of industrial customers. <br><br> The PIX4life pilot line aims to offer an open-access manufacturing platform for photonic integrated circuits, specially targeting life-science applications at visible wavelength ranges (400-850 nm). Chip fabrication will be done either at imec (Leuven – Belgium) or LioniX (Enschede – Netherlands) through dedicated wafer runs, or most often by multi-project wafer (MPW) runs, where many users will be able to share wafer space, and thus the fabrication cost. PIX4life will also offer all kinds of additional services like photonic integration consultancy, circuit design, chip testing and packaging. All provided services are open to external customers, irrespective of their nature. More information can be obtained at <a href=\"www.pix4life.eu/\" target=\"_blank\">www.pix4life.eu/</a>”",
-				"temas" : [],
+				"temas" : ["Innovation"],
 				"autores" : ["jacobus_swart"]
 			}
 			
@@ -130,7 +130,7 @@
 			,"PL-WED-04" : {
 				"titulo" : "Project Management for Optics & Photonics Product Development and Technology Transfer",
 				"resumo" : "The innovation with Optics and Photonics products  is a multidisciplinary task, that demands a structured management and best working practices. Under the point of view of a product development center, are presented  project workflows and the management of innovation for solutions with Optics and Photonics for the Industry. <br><br> Cases studies of success and also pitfalls in the context of a Brazilian product developer, illustrates the experience in the real world of the industry and market competition in the field of  Photonics. Recommendations based at the lessons learned and proposals to enhance the performance of innovation process are  presented to exchange experiences and give support to  the improvement of knowledge for product development in the Optics and Photonics market. The cases are related to sensors, LED an OLED light sources, photovoltaic s, displays and  touch screen solutions. <br><br>With the approach of innovation, the plenary talk explore the connection of the development process with technology transfer, supply chain development and questions of intellectual propriety in the context of  Brazilian and International applications.",
-				"temas" : [],
+				"temas" : ["Innovation"],
 				"autores" : ["manuel_steidle"]
 			}
 			
@@ -353,7 +353,7 @@
 					"nome": "University of Lyon / FR",
 					"url": ""
 				}],
-				"biografia": "",
+				"biografia": "Received a PhD in molecular beam spectroscopy from the University of Lyon in 1988. After a postdoctoral research at the University of Edinburgh, he moved to the Ecole polytechnique fédérale de Lausanne where he is currently studying liquid/liquid interfaces by laser spectroscopic techniques, like surface second harmonic generation.",
 				"links":[]
 			},
 			
@@ -832,7 +832,7 @@
 					"nome": "LNLS",
 					"url": ""
 				}],
-				"biografia": "LNLS’ Scientific Director,  has a Ph.D. on Physics from the Universidade Estadual de Campinas (1998), post-docs at University of Illinois at Urbana-Champaing (2000) and at the Ames Laboratory of DOE (2001). Has experience in synchrotron radiation science and condensed matter physics, with emphasis in polymers and magnetic materials.",
+				"biografia": "LNLS’ Scientific Director,  has a Ph.D. on Physics from Universidade Estadual de Campinas (1998), post-docs at University of Illinois at Urbana-Champaing (2000) and at the Ames Laboratory of DOE (2001). Has experience in synchrotron radiation science and condensed matter physics, with emphasis in polymers and magnetic materials.",
 				"links":[]
 			},
 			
