@@ -1168,6 +1168,80 @@ div.slide.s-rodape.invertido {
 
 
 
+.slide.logos-rodape {
+	padding-top: $u-h;
+	min-height: unset;
+
+	background: cinza(10);
+
+	h4,h3 {
+		font-weight: 400;
+	}
+	h4 {
+		margin-top: $u-h/4;
+		margin-bottom: $u-h/3;
+		color: cinza(6);
+	}
+	h3 {
+		color: cinza(3);
+		margin-bottom: $u-h/4;
+	}
+
+	.logo-category {
+		& + .logo-category {
+			margin-top: $u-h/2;
+			position: relative;
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -$u-h * 2/3;
+				border-top: 1px solid cinza(8);
+			}
+		}
+		.logo-container {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			margin-bottom: $u-h/4;
+		}
+		.conf-logo {
+			margin-right: $u-h;
+			&:last-child {
+				margin-right: 0;
+			}
+			&:hover {
+				background: none;
+			}
+			img {
+
+				// pequeno ajuste ótico
+				position: relative;
+				left: -3px;
+
+				margin-bottom: $u-h;
+				mix-blend-mode: multiply;
+				$s : $u-h * 1.3;
+				height: $s;
+				&.adj1 {
+					height: $s * .8;
+				}
+				&.adj2 {
+					height: $s * .6;
+				}
+			}
+		}
+
+		.logo-subcategory {
+
+		}
+
+	}
+
+}
+
+
 
 .reg-but {
 	
