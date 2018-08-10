@@ -72,7 +72,7 @@
 
 			,"PL-MON-03" : {
 				"titulo" : "Sirius, the new Brazilian Synchrotron Light Source",
-				"resumo" : "———",
+				"resumo" : "—",
 				"temas" : ["Innovation"],
 				"autores" : ["harry_junior"]
 			}
@@ -93,7 +93,7 @@
 
 			,"PL-TUE-02" : {
 				"titulo" : "Technological Glasses for Radiation Shielding",
-				"resumo" : "",
+				"resumo" : "—",
 				"temas" : ["Research"],
 				"autores" : ["raouf_el_mallawany"]
       }
@@ -1021,7 +1021,7 @@
       { "titulo": "Tech Sessions", "link": "tech_sessions/" },
 			{ "titulo": "Plenaries", "link": "plenaries.html" },
 			{ "titulo": "Short Courses", "link": "short_courses.html" },
-			{ "titulo": "Workshop", "link": "workshop.html" },
+			{ "titulo": "Student Competition", "link": "student_competition.html" },
 			{ "titulo": "Venue *", "link": "venue/" },
 			{ "titulo": "About", "link": "about/" },
 			{ "titulo": "Student Paper Competition", "link": "student_paper_competition.html", "rodape_only": true },
