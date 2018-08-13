@@ -93,7 +93,7 @@
 
 			,"PL-TUE-02" : {
 				"titulo" : "Technological Glasses for Radiation Shielding",
-				"resumo" : "—",
+				"resumo" : "",
 				"temas" : ["Research"],
 				"autores" : ["raouf_el_mallawany"]
       }
@@ -103,6 +103,13 @@
 				"resumo" : "",
 				"temas" : [],
 				"autores" : ["pierre_francois_brevet"]
+      }
+			
+			,"PL-TUE-05" : {
+				"titulo" : "Photonics/Microelectronics Convergence in Telecommunications",
+				"resumo" : "",
+				"temas" : [],
+				"autores" : ["julio_de_oliveira"]
       }
 			
 			,"PL-WED-01" : {
@@ -195,17 +202,21 @@
 			],
 			"Tuesday, October 9th" : [
 				{
-					"horario" : "09:00 to 09:45",
+					"horario" : "09:00 to 09:40",
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-01"
 				},{
-					"horario" : "09:45 to 10:30",
+					"horario" : "09:40 to 10:20",
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-02"
 				},{
-					"horario" : "11:45 to 12:30",
+					"horario" : "11:30 to 12:10",
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-04"
+				},{
+					"horario" : "12:10 to 12:50",
+					"sala" : "auditorium",
+					"trabalho" : "PL-TUE-05"
 				}
       ],
 			"Wednesday, October 10th" : [
@@ -332,7 +343,18 @@
 				"biografia": "",
 				"links":[]
 			},
-
+			
+			
+			"julio_de_oliveira": {
+				"nome": "Júlio Cesar Rodrigues Fernandes de Oliveira",
+				"imagem": "img/speakers/julio_de_oliveira.jpg",
+				"instituicao": [{
+					"nome": "Idea!",
+					"url": ""
+				}],
+				"biografia": "R&D executive and team leader with history of innovation, building technology ecosystems to achieve high technology goals at optical communications field. Bachelor, Electrical Eng., 2003, UFCG-Brazil; Master, Electrical Eng. (Photonics), UNICAMP-Brazil, 2004, and Ph.D, UNICAMP-Brazil, Electrical Eng. (Photonics), 2007. From 2004 to 2014 took, researcher and general manager positions at optical communications systems and photonics devices divisions at CPqD Foundation. Founder and CEO of BrPhotonics, 2014, a high-tech startup with accelerated growth in optical communications area developing high end products, LASERs, Modulators, ASICs. Founder of PI-TEC Product Technologies, 2017, and JCRFO Technical Consultancy, 2017, companies acting at high end telecom and Datacom markets, developing deep submicron ASICs and highly integrated photonics devices. Over 15 years of experience in optical communications field, lead 12 optical communications R&D projects (more than USD50M budget), producing 15 patents (INPI), 140+ papers and 20 technological products currently in optical communications market.",
+				"links":[]
+			},
 
 			"manuel_steidle": {
 				"nome": "Manuel Steidle",
