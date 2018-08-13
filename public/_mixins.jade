@@ -99,10 +99,10 @@ mixin bio(bio, classe, limite, max = true)
       short_bio = short_bio.substr(0, Math.min(short_bio.length, short_bio.lastIndexOf(" ")));
     }
   - if (short_bio == "" || !max) {
-    p(class=classe)= bio_com_brs
+    p(class=classe) !{bio_com_brs}
   - } else {
     p(class=classe).
-      #{short_bio + "..."}
+      !{short_bio + "..."}
       #[a(href="#", onclick="$(this).parent().html(\"#{bio_com_brs}\"); return false;") #[i.fa.fa-plus-circle] ]
   - }
 
@@ -147,15 +147,17 @@ mixin trabalho(i, titulo, horario, sala, resumo, temas)
       p.trab-ind= " "
     p.trab-titulo= titulo
     p.trab-horario #{horario}&nbsp; / &nbsp;#{sala}
-    unless resumo == ""
-      -
-        var classes_adicionais = ""
-        if (resumo.length < 200) {
-          classes_adicionais += " resumo-p"
-        } else if (resumo.length < 400) {
-          classes_adicionais += " resumo-m"
-        }
-      p.trab-resumo(class="#{classes_adicionais}")!= resumo
+    -
+      if (resumo.length == 0) {
+        resumo = '—'
+      }
+      var classes_adicionais = ""
+      if (resumo.length < 200) {
+        classes_adicionais += " resumo-p"
+      } else if (resumo.length < 400) {
+        classes_adicionais += " resumo-m"
+      }
+    p.trab-resumo(class="#{classes_adicionais}")!= resumo
     unless temas.length == 0
       ul.trab-temas
         if temas
