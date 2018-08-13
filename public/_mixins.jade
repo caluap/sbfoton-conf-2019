@@ -31,37 +31,38 @@ mixin menu(pagina_atual)
 
 
 mixin rodape(pagina_atual)
+  -
+    var lvl = '';
+    if (current.path.length > 1) {
+      lvl = '../'
+    }
 
 
   .slide.logos-rodape.pad
     .logo-category
       h3 Organizer
       .logo-container
-        #[a.conf-logo(href="http://www.sbfoton.org.br/", target="_blank") #[img.adj1(src="img/logo_sbfoton/cor.svg", alt="SBFoton")]]
+        #[a.conf-logo(href="http://www.sbfoton.org.br/", target="_blank") #[img.adj1(src="#{lvl}img/logo_sbfoton/cor.svg", alt="SBFoton")]]
     .logo-category
       h3 Sponsors
       .logo-subcategory
         h4 Gold
         .logo-container
-          #[a.conf-logo(href="https://www.keysight.com/", target="_blank") #[img(src="img/logos/keysight.svg", alt="Keysight Technologies")]]
+          #[a.conf-logo(href="https://www.keysight.com/", target="_blank") #[img(src="#{lvl}img/logos/keysight.svg", alt="Keysight Technologies")]]
       .logo-subcategory
         h4 Bronze
         .logo-container
-          #[a.conf-logo(href="https://www.cpqd.com.br/en/", target="_blank") #[img(src="img/logos/cpqd.svg", alt="CPqD")]]
-          #[a.conf-logo(href="http://www.idea-ip.com/", target="_blank") #[img(src="img/logos/idea.png", alt="Idea!")]]
-          #[a.conf-logo(href="https://www.thorlabs.com/", target="_blank") #[img.adj2(src="img/logos/thorlabs.png", alt="ThorLabs")]]
+          #[a.conf-logo(href="https://www.cpqd.com.br/en/", target="_blank") #[img(src="#{lvl}img/logos/cpqd.svg", alt="CPqD")]]
+          #[a.conf-logo(href="http://www.idea-ip.com/", target="_blank") #[img(src="#{lvl}img/logos/idea.png", alt="Idea!")]]
+          #[a.conf-logo(href="https://www.thorlabs.com/", target="_blank") #[img.adj2(src="#{lvl}img/logos/thorlabs.png", alt="ThorLabs")]]
     .logo-category
       h3 Support
       .logo-container
-        #[a.conf-logo(href="https://www.photonicssociety.org/", target="_blank") #[img(src="img/logos/ips.jpg", alt="IPS")]]
-        #[a.conf-logo(href="http://www.capes.gov.br/", target="_blank") #[img.adj2(src="img/logos/capes-horizontal.svg", alt="CAPES")]]
-        //- #[a.conf-logo(href="http://www.fapesp.br/", target="_blank") #[img.adj2(src="img/logos/fapesp.svg", alt="FAPESP")]]
+        #[a.conf-logo(href="https://www.photonicssociety.org/", target="_blank") #[img(src="#{lvl}img/logos/ips.jpg", alt="IPS")]]
+        #[a.conf-logo(href="http://www.capes.gov.br/", target="_blank") #[img.adj2(src="#{lvl}img/logos/capes-horizontal.svg", alt="CAPES")]]
+        //- #[a.conf-logo(href="http://www.fapesp.br/", target="_blank") #[img.adj2(src="#{lvl}img/logos/fapesp.svg", alt="FAPESP")]]
 
-  -
-    var lvl = '';
-    if (current.path.length > 1) {
-      lvl = '../'
-    }
+
   .slide.s-rodape.invertido
     .pure-g.pad
       .separador-2
