@@ -32,6 +32,10 @@ body {
 	padding-top: 4 * $u-h;
 }
 
+.pequeno {
+	@include fs(-1);
+}
+
 p + p, blockquote + p, ol + p, ul + p {
 	margin-top: $u-h/2;
 }
@@ -1705,4 +1709,27 @@ div.slide.s-rodape.invertido {
 	height: 100%;
 	width: 100%;
 	position:absolute;
+}
+
+
+#hotels {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	@include media-query-a-partir($s-xxxl) {
+		grid-template-columns: repeat(6, 1fr);
+	}
+	@include media-query($s-xl) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	@include media-query($s-lg) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	@include media-query($s-sm) {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	grid-column-gap: $u-h/2;
+	grid-row-gap: $u-h * 2;
+
+	.hotel {
+	}
 }
