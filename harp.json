@@ -43,18 +43,6 @@
 
 
     "trabalhos" : {
-			"trabalho1" : {
-				"titulo" : "RF Circuit Design Using Electromagnetic Simulation Tool",
-				"resumo" : "All hospitals in the province of Styria (Austria) are well equipped with sophisticated Information Technology, which provides all-encompassing on-screen patient information. Previous research made on the theoretical properties, advantages and disadvantages, of reading from paper vs. reading from a screen has resulted in the assumption that reading from a screen is slower, less accurate and more tiring. However, recent flat screen technology, especially on the basis of LCD, is of such high quality that obviously this assumption should now be challenged. As the electronic storage and presentation of information has many advantages in addition to a faster transfer and processing of the information, the usage of electronic screens in clinics should outperform the traditional hardcopy in both execution and preference ratings.",
-				"temas" : ["calabouços", "armários", "dançarinos"],
-				"autores" : ["fulano1", "fulano2", "fulano3"]
-			},
-			"trabalho2" : {
-				"titulo" : "Radar Antennas — An Insight of the Radar Function Through Its Antennas",
-				"resumo" : "This study took part in a County hospital Styria, Austria, with 111 medical professionals, working in a real-life setting. They were each asked to read original and authentic diagnosis reports, a gynecological report and an internal medical document, on both screen and paper in a randomly assigned order. Reading comprehension was measured by the Chunked Reading Test, and speed and accuracy of reading performance was quantified. In order to get a full understanding of the clinicians' preferences, subjective ratings were also collected.",
-				"temas" : ["dançarinos", "armários", "dançarinos"],
-				"autores" : ["fulano1"]
-			},
 			
 			"PL-MON-01" : {
 				"titulo" : "Photonics as enabler for Economy, Technology, Leadership",
@@ -72,7 +60,7 @@
 
 			,"PL-MON-03" : {
 				"titulo" : "Sirius, the new Brazilian Synchrotron Light Source",
-				"resumo" : "—",
+				"resumo" : "This will a talk about Sirius, the new Brazilian Synchrotron Light Source, the largest and most complex scientific infrastructure ever built in the country and one of the first 4th-generation Synchrotron Light Sources in the World. It is planned to put Brazil in a leading position in the production of Synchrotron Light and is designed to be the brightest of all the equipment in its energy class. Synchrotron Light Sources are the most sophisticated example of an open and multidisciplinary research infrastructure and is a key tool for the resolution of issues important to the Brazilian academic and industrial communities. The versatility of a Synchrotron Light Source enables the development of research in strategic areas such as energy, food, environment, health, defense and many others. That is why this technology becomes increasingly popular around the world. It is also the reason why countries with strong, technology-based economies already either have one or more Synchrotron Light Sources, or are building them.",
 				"temas" : ["Innovation"],
 				"autores" : ["harry_junior"]
 			}
@@ -82,7 +70,183 @@
 				"resumo" : "In my presentation I will discuss a case of one of my company, Opto Eletronica SA. The company started in 1986 became in 2014 a 40U$ millions business, with approximately 400 employee, and manufacture large line of high tech equipments for ophthalmology, including lasers, fundus cameras, microscopes, etc. The business model will be discussed.",
 				"temas" : ["Innovation"],
 				"autores" : ["jarbas_neto"]
-      }
+			}
+			
+			,"OS-C-MON-01-01": {
+				"titulo" : "Invited Paper – CD Estimation in FMFs Using the Auto-Correlation of the Signal Power Waveform",
+				"resumo" : "The exhaustion of the capacity of conventional optical systems based on standard single-mode fibers (SSMF) requires new solutions cope with the exponential traffic increase. In this scenario, transmission by few-mode fibers (FMFs) appears as a strong candidate. These systems require adaptive digital signal processing (DSP) algorithms with multiple inputs and multiple outputs (MIMO) at the receiver in order to recover the signals multiplexed signals in the various spatial and polarization modes. However, the proper functioning of these equalizers requires the pre-compensation of the chromatic dispersion (CD) of the receiver using static filters. Since the DSP algorithms in mode-multiplexing systems are of slow convergence, the typical scanning algorithms become difficult to apply. In this work, we investigate the applicability of the algorithm based on the power auto-correlation function to estimate the CD in FMF systems. The results indicate an algorithm vulnerability with the increase of the inter-mode crosstalk level",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-C-MON-01-02": {
+				"titulo" : "Deterministic Jitter Effects in High Order Modulation for 400G and 600G Single-Carrier Transmission",
+				"resumo" : "We evaluated, in a simulated back-to-back 400G and 600G scenario, the effects of deterministic jitter in comparison to penalties inflicted by phase noise from laser linewidth, considering 64QAM and 256QAM single carrier systems. While phase noise is a relevant parameter for such modulation formats in general, deterministic jitter is shown to be dominant on systems with both high baud rate and high order modulation formats",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-C-MON-01-03": {
+				"titulo" : "Roll-off factor control to increase the energy efficiency of a Nyquist-WDM pulse-shaping filter",
+				"resumo" : "We investigate the effect of adjusting the excess in bandwidth (roll-off factor) of a pulse-shaping filter on the performance of a long haul (N-WDM) 21 x 256 Gb/s PM-16QAM coherent system. After calibrating a simulator with the results obtained experimentally, taken with a roll-off set to 0.1, we varied the roll-off value from 0.1 to 1.0 in the simulation setup and verified its impact on the transmission in a linear regime. The simulated results were, then, combined with data obtained from the literature relating the number of taps of a FIR filter to its energy consumption. Within a given transmitted reach and as long as the system operates within the FEC limit, it is demonstrated that a less stringent specification for the roll-off can lead to a reduction on energy consumption without compromising the system performance. Such a geometric pulse-shaping technique allowed us to establish a 3-D figure of merit based on the resolution of the filter, given by the number of taps, the correspondent roll-off factor and the energy consumption.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-C-MON-01-04": {
+				"titulo" : "Impact analysis of the use of the power mask spectrum information in the adaptive control of optical amplifiers",
+				"resumo" : "One of the significant challenges in the dynamic optical networks is the adaptive control of operating point (ACOP) of optical amplifiers. The ACOP approaches aim to autonomously define the gain of the amplifier after changes in the amplifier input power. The ACOP approaches proposed so far use the amplifier power mask to define the gains. The full power mask has information about gain and noise figure for each channel considered in characterization. However, most of these approaches consider a simplified version of the power mask that stores just the worst ripple and worst noise figure among all channels for each operating point. In this paper, we analyze the impact of using the full power mask, instead of the simplified power mask, in one of the first proposed ACOP approaches. We also used the nonlinear interference model in all analyzed cases to evaluate the impact of the non-linear effects for each operating point. The results show that it is possible to achieve results for the compact power mask that are close to the ones obtained from the full power mask for a cascade of amplifiers. These results suggest that the more straightforward approach using the worst ripple and the worst noise figure among all channels for each operating point can present adequate results if small OSNR and ripple penalties are acceptable.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-I-MON-04-01 ": {
+				"titulo" : "Invited Paper - Active Photonic Integrated Circuits based on the Silicon-On-Insulator Platform",
+				"resumo" : "Photonic integration is still looking for a killer application where the industry will coalesce in leveraging the know-how from the microelectronics industry and enable low cost fiber-to-the-chip integration. Key to the deployment of active photonics is the ability to include low-cost light sensing, light sources and non-reciprocal devices in a packaging platform enabling the full range of functionalities expected of fiber-optics systems to become available on-chip. In this talk I will review the early work, as well as the latest developments, in establishing a high-volume integrated circuit process for photonic active devices",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-I-MON-04-02": {
+				"titulo" : "Design and optimization of subwavelength silicon photonics edge coupler for cleaved fibers",
+				"resumo" : "We propose a fiber-chip edge coupler based on a subwavelength grating in silicon-on-insulator (SOI) platform for coupling to cleaved and high numerical aperture (HNA) optical fibers (mode field diameter of 6.3 um). Its robustness to fabrication errors and high tolerance to fiber misalignment (+-1.5 um for a 1 dB of excess loss) make it suitable for high-volume production, being a potential candidate for data center applications. Simulation results show a 1 dB bandwidth higher than 200 nm, a polarization dependent loss lower than 0.5 dB, and minimum coupling losses of 1.47 and 1.39 dB for TE and TM modes, respectively, considering a 204 um-long mode converter.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-MON-04-03": {
+				"titulo" : "All-fiber graphene electro-optic modulators with different dielectric materials",
+				"resumo" : "We present a comparison of all-fiber graphene electro-absorption optical modulators built onto a side-polished optical fiber using different dielectric materials such as aluminum oxide (Al2O3), hafnium oxide (HfO2) and hexagonal boron nitride (h-BN). Although HfO2 model resulted a higher modulation depth with a thinner dielectric thickness, in the device comparison, the best results were obtained by h-BN model. For a PMMA superstrate thickness of 100 and 700 nm, the analysis presents a modulation depth of 11.9 dB/mm and 12.9 dB/mm, drive voltage of 70.8 and 13.8 V and cutoff frequency of 6.1 and 1.3 GHz, respectively. Considering a required modulation depth, the h-BN thickness is 2.3 times smaller than required for Al2O3 modulator.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-I-MON-04-04": {
+				"titulo" : "Graphene-based electro-optical modulators integrated into polymer waveguides with three dielectric materials",
+				"resumo" : "This work presents an analysis of electro-optical modulators integrated into polymer waveguides, which operates over electro-absorption effect through graphene. This study focus in three different dielectric materials for the capacitive structure in the device such as silicon nitride, Si3N4, hafnium oxide, HfO2 and hexagonal boron nitride, hBN. By varying the thickness of the dielectric material, it was possible to improve the extinction ratio, modulation frequency and reduce the switching voltages requirements. By considering a bottom cladding, it was possible to increase the light interaction with the graphene and obtain higher modulation frequencies. In the case of the device with HfO2, it was possible to obtain the highest extinction rate of 0.117 dB/µm with a dielectric thickness of 50 nm. For the model with the hBN thickness layer of 50 nm, the maximum operation frequency was 35 GHz, considering a device length of 27 µm. The condition with the minimum voltage requirements was obtained with HfO2, which the value switching was between 2.5 and 5 V. Although the results with Si3N4 are not the best, it is a good option when the device project try to match all the design requirements.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-B-MON-02-01": {
+				"titulo" : "Invited Paper - Biophotonics and lasers shining light into diseases: IPEN experience",
+				"resumo" : "Biophotonics is an exciting interdisciplinary research field, which studies the interaction of photons with biological structures, imaging and sensing cells and tissues. The interaction of light with matter results in reflection, absorption, scattering or transmission of the beam, which can provide information about the molecule or tissue structure. Since 1992 Biophotonics and lasers research at IPEN is providing to the society a wide range of applications from fundamental medical research to diagnosis, therapy and surgery. Prevention of dental caries and dental erosion with lasers: Dental caries is a common oral disease which, viewed simply, is characterized by a demineralization of the dental hard tissue caused by acids generated in the oral biofilm. Although a remarkable decline in the incidence of dental caries worldwide has been documented, it is still the most prevalent disease during childhood and adolescence. On account of the widespread use of fluoride, lasers have been tested to improve dental enamel properties in order to enhance its resistance to demineralization. We evaluated the effect of combining laser irradiation (Nd:YAG and Er,Cr:YSGG) with fluoride on an enamel microstructure and demineralization by FTRaman and FTIR Spectroscopy. Demineralization promoted reduction in organic contents; Nd:YAG laser irradiation promoted loss of carbonate and organic content, while Er,Cr:YSGG did not produce significant changes in the relative band intensities of organic and inorganic contents of the enamel. In lased samples, almost no effects caused by pH-cycling on enamel were observed. Our group showed that laser treatment and its association with fluoride can interfere with the demineralization dynamics, reducing its effects over the enamel. X-Ray diffraction at Synchrotron source provided information on the crystalline changes in the hydroxyapatite and new phase formed after laser irradiation, elucidation the physical reasons for the treatment success. A clinical trial with 100 children irradiated with Nd:YAG laser in combination with professional fluoride application, demonstrated that after 1 year , the lesion incidence (any amount of demineralization) in the laser treated group was ~ 39% lower when compared with children fluoride treated only. Diagnosis of skin cancer: Nonmelanoma skin cancers represent 95% of cutaneous neoplasms. Among them, squamous cell carcinoma (SCC) is the more aggressive form and shows a pattern of possible metastatic profile. 5-aminolevulinic acid (ALA) and its methylated ester (MAL) are the most common topical agents used in photodynamic therapy (PDT) as precursors of the photosensitizer protoporphyrin IX (PpIX). The induction of newly PpIX depends on incubation time of each photosensitizer in the tissue and the presence of high intralesional porphyrin levels is an important parameter for the PDT effectiveness. We used laser-induced fluorescence (LIF) spectroscopy to evaluate the optimum time to light exposure of PDT mediated by ALA (20% w/w) and MAL (10% w/w) to treat malignant lesions precursors of cutaneous squamous cell carcinoma induced in mice. The therapeutic effects obtained by optimized ALA- and MAL-PDT were assessed 10 and 20 days after treatments. Higher PpIX levels were evidenced in the lesions photosensitized by ALA than MAL and according to LIF measurements the PDT irradiation was performed, respectively, at 300 and 330 minutes after ALA and MAL incubation. Histopathological analysis evidenced necrosis and epithelial atrophy after 10 days of PDT using both prodrugs, as well as reepitelization and collagen deposition at 20 days. Thus, despite the distinct concentration of ALA and MAL used in the formulation of each photosensitizing cream, PDT mediated by both photosensitizing agents obtained similar therapeutic outcomes. Besides, we used Fourier transform infrared spectroscopy (FTIR) spectroscopy to assess the biochemical changes in normal skin caused by squamous cell carcinoma induced by multi-stage chemical carcinogenesis in mice. Changes in the absorption intensities and shifts were observed in the vibrational modes associated to proteins, indicating changes in secondary conformation in the neoplastic tissue. Hierarchical cluster analysis was performed to evaluate the potential of the technique to differentiate the spectra of neoplastic and normal skin tissue, so that the accuracy obtained for this classification was 86.4%, while multivariate analysis of the spectra second derivative had 95,7%. Photodynamic therapy of skin cancer: Photodynamic therapy (PDT) has become a promising alternative for treatment of skin lesions such as squamous cell carcinoma. We propose a non-invasive method to monitor the effects of PDT by using the optical attenuation coefficient (OAC) calculated from optical coherence tomography (OCT) images. We conducted a study on mice with chemically induced neoplastic lesions and performed PDT on these lesions using local developed photosensitizers cream (PI 0705591-9). The response of neoplastic lesions to therapy was monitored using, at the same time, macroscopic clinical visualization, histopathological analysis, OCT imaging, and OCT-based attenuation coefficient measurement. Results with all four modalities demonstrated a positive response to treatment. The attenuation coefficient was found to be 1.4 higher in skin lesions than in healthy tissue and it decreased after therapy, demonstrating that the OAC is a potential tool to noninvasively assess the evolution of skin neoplastic lesions with time after treatment. Other examples will be discussed, such as Femtosencond laser as coadjutant treatment of burned skin, Optical Coherence Tomography monitoring head and neck vascular malformations and hemangiomas, Infrared Thermography determining safety laser irradiation conditions in Dentistry, Lasers in bone regeneration, etc. Acknowledgements This study was supported by CEPID/FAPESP 05/51689-2, CAPES/PROCAD 88881.068505/2014-01, CNPq/INCT 465763/2014-6 and PQ 309902/2017-7.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-B-MON-02-02": {
+				"titulo" : "Synthesis of hybrid AuFe nanoparticles by Photoreduction and Methyl Aminoluvinate",
+				"resumo" : "The nanohybrid gold/iron (AuFe) system is particularly interesting for biomedical applications such as targeted drug delivery, hyperthermia and photodynamic therapy (PDT) mainly due to its magnetic combined to the plasmonic properties. In this study, we aimed to synthesize nanohybrids to be used as a vehicle to deliver Methyl Aminoluvinate (MAL) for selective and efficient PDT. MAL is a prodrug that is metabolized to protoporphyrin IX (PpIX), photosensitizer in PDT. The nanohybrids were synthesized by photoreduction of solutions containing iron powder, polyethylene glycol (PEG), chloroauric acid (HAuCl4) and MAL as a reducing agent in water solution. The products were characterized by UV-Vis, zeta potential and transmission electron microscopy. The synthesized nanoparticles had the optical properties of metallic nanoparticles and the magnetic properties of iron nanoparticles. Their characteristic absorption bands, in the visible light range, became become broader and red‐shifted in the presence of iron nanoparticles. Cell viability of cancer cell lines in the presence of nanohybrids studies were performed.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-B-MON-02-03": {
+				"titulo" : "Biochemical characterization of skin burn wound healing using ATR-FTIR",
+				"resumo" : "—",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-B-MON-02-04": {
+				"titulo" : "K-means and Hierarchical Cluster Analysis as segmentation algorithms for FTIR hyperspectral images",
+				"resumo" : "Fourier Transform Infrared (FTIR) spectroscopy is a rapid and label-free analytical technique whose potential as a diagnostic tool has been well demonstrated. The combination of spectroscopy and microscopy technologies enable wide-field scanning of a sample, providing a hyperspectral image with tens of thousands of spectra in a few minutes. In order to increase the information content of FTIR images, different clustering algorithms have been proposed as segmentation methods. However, systematic comparative tests of these techniques are still missing. Thus, the present paper aims to compare the ability of K-means Cluster Analysis (KMCA) and Hierarchical Cluster Analysis (HCA) as clustering algorithms to reconstruct FTIR hyperspectral images. Spectra for cluster analysis were acquired from healthy cutaneous tissue and the pseudo-color reconstructed images were compared to standard histopathology in order to assess the number of clusters required by both methods to correctly identify the morphological skin components (stratum corneum, epithelium, dermis and hypodermis).",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-O-MON-05-01": {
+				"titulo" : "Development and Optical Characterization of Supersonic Gas Targets for High-Intensity Laser Plasma Studies",
+				"resumo" : "Laser particle acceleration is a rapid growing field due to the compactness and smaller cost when compared to traditional accelerators, as well as the potential for new applications resulting from the unique characteristics of the beams generated. Frequently, laser acceleration techniques require laser intensities higher than 100's of PW/cm² and high-density gas targets, with specific profiles. In the effort to implement laser electron acceleration in our laboratories, we report the development of submillimetric, supersonic gas nozzles, the implementation of optical techniques for the determination of the gas jets density profiles, and the characterization of laser-induced plasmas obtained at laser intensities surpassing 10¹⁶ W/cm². The characterization techniques employed include plasma spectroscopy, interferograms and Schlieren images.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-O-MON-05-02": {
+				"titulo" : "Multilayer Perceptron Models for Band Diagram Prediction in bi-dimensional Photonic Crystals",
+				"resumo" : "We modeled Multilayer Perceptron (MLP) Artificial Neural Network for predicting band diagrams (BD) of bi-dimensional photonic crystals. Datasets for MLP training were created by relating geometric and material properties to BDs of triangular- and square-lattice photonic crystals. We demonstrate that fast-training MLP models are able to estimate accurate BDs and existing photonic band gaps through rapid computations.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-O-MON-05-03": {
+				"titulo" : "Magnetic and Fiber Bragg Grating Characterization of 3D Printed Magnetic Samples",
+				"resumo" : "Magnetic 3D printed samples have been simultaneously studied with an optical Fiber Bragg Grating (FBG) and a Vibrating Sample Magnetometer (VSM). The samples were manufactured with a 3D desktop printer, using a ferromagnetic Polylactic Acid (PLA) filament. Both the shape and printing filling fraction of the samples were varied. We directly measured the magnetic force between the printed unit and a permanent magnet using a FBG. This result was compared with the calculated magnetic force, obtained through VSM and gaussmeter data. The filament saturation magnetization was evaluated to be 34.60 Am2/kg, indicating a magnetite content of around 35%. The obtained magnetic hysteresis curve exhibits a soft magnetic behavior, meaning that the printed unit does not present magnetic character in the absence of external stimulus.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-O-MON-05-04": {
+				"titulo" : "Gradient Refractive Index Polymer Rod",
+				"resumo" : "The present paper is related to this process of fabrication of a gradient refractive index polymer rod for use as a medium of image transmission and for preparing a polymeric optical fiber by melt spinning. It is used to the technique of external chemical deposition or what is denominated in the field of optical fibers of Outside Vapor-Phase Oxidation",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-O-MON-05-05": {
+				"titulo" : "Rigid Endoscope of the Microstructured Optical Fiber",
+				"resumo" : "Construct and fabricate microstructured optical fibers from medium-melting glass and equipment capable of manufacturing optical fibers for endoscopes. The manufacture of rigid endoscopes, adequate resolution and low cost, favors the introduction of endoscopy systems with single-use or disposable instruments.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-L-MON-03-01": {
+				"titulo" : "Invited Paper - Narrow linewidth (<100kHz) and high output power (>16dBm) external cavity lasers for coherent optical communications",
+				"resumo" : "In this paper, the design methodology and main experimental results of an External Cavity Laser (ECL) with narrow linewidth (<100kHz) is presented. The ECL is based on a wavelength-selective mirror controlled by voltage. Among other features, the device presents high optical output power (>16dBm) and potential to achieve 40nm tunability in C-band. System performance of 16-QAM transmission is better than commercial reference Integrated Tunable Laser Assembly (ITLA). The device is compact, suitable for small-form factor transceivers and modules.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-L-MON-03-02": {
+				"titulo" : "Characterization of Below Threshold Harmonics Generated in Argon by Ultrashort Laser Pulses",
+				"resumo" : "This work reports studies of the generation of below threshold harmonics by ultrashort laser pulses in gas nozzles in vacuum. Odd harmonics of the laser, ranging from the 3rd up to the 9th, were generated in the UV and VUV regions, and the frequency conversion occurred in flowing gas. The harmonics were spectrally characterized, and the orders of the nonlinear processes were determined, showing that for the higher order harmonics competing processes decrease the energy coupling into the new frequencies. Also, the conversion efficiencies were estimated, showing that a few percent of the laser pulses energy are converted into the harmonics.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-L-MON-03-03": {
+				"titulo" : "SERS activity of Co, Ni and Bi nanoparticles",
+				"resumo" : "Plasmonic activity of Co, Ni and Bi nanoparticles was investigated, with emphasis on Surface-Enhanced Raman Scattering (SERS). Nanoparticles were produced via laser ablation synthesis in water, and characterized through UV-Vis optical absorption, dynamic light scattering (DLS), and transmission electron microscopy (TEM). The studied materials present localized surface plasmon resonances (LSPR) extending from the ultraviolet to the visible and near infrared, and SERS activity was demonstrated using proline as a probe molecule. The results were compared to those using gold nanoparticle substrates under similar experimental conditions, and demonstrate that all tested nanoparticles show promising potential for the development of SERS-based sensors, which may be of interest for applications involving organic and biologically important molecules.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-L-MON-03-04": {
+				"titulo" : "Roughness as Entanglement Witness: The two Coupled Cavity Mode",
+				"resumo" : "In this work we investigate the entanglement dynamics of two coupled superconducting cavities, whose excitation levels can be 0 or 1, thus representing the implementation of a two qubit system. We use the Concurrence as a measure of entanglement between the two systems and compare it to the Roughness of the system, which indicates the degree of classicality of a given quantum state. Although the Concurrence values are not directly related with the Roughness of each subsystem alone, we found evidence of correlation between the two functions when considering a generalized sum of Roughness over the two subsystems, whereas the minimum of one of them occurs for the maximum of the other. Based on the behaviour of the two functions, we use them to propose a new Quantum Resource Quantifier.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-S-MON-06-01": {
+				"titulo" : "Invited Paper - Minimalist Optical Fiber Design: capillary-like fibers",
+				"resumo" : "Microstructured optical fibers with ultra-simplified designs are investigated. Guiding mechanism can be achieved in an embedded or surface germanium-doped core or in the hollow part of capillaries. Fiber wall thickness and/or stress induced birefringence can be modified with external stimuli. Results showing this interesting platform for sensing of parameters such as pressure, temperature, refractive index and directional curvature will be presented.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-S-MON-06-02": {
+				"titulo" : "Magnetic and Fiber Bragg Grating Characterization of 3D Printed Magnetic Samples",
+				"resumo" : "Magnetic 3D printed samples have been simultaneously studied with an optical Fiber Bragg Grating (FBG) and a Vibrating Sample Magnetometer (VSM). The samples were manufactured with a 3D desktop printer, using a ferromagnetic Polylactic Acid (PLA) filament. Both the shape and printing filling fraction of the samples were varied. We directly measured the magnetic force between the printed unit and a permanent magnet using a FBG. This result was compared with the calculated magnetic force, obtained through VSM and gaussmeter data. The filament saturation magnetization was evaluated to be 34.60 Am2/kg, indicating a magnetite content of around 35%. The obtained magnetic hysteresis curve exhibits a soft magnetic behavior, meaning that the printed unit does not present magnetic character in the absence of external stimulus.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-S-MON-06-03": {
+				"titulo" : "On the role of silver nanoparticles shape for SERS of Rhodamine",
+				"resumo" : "This work shows the photoinduced shape conversion of spherical silver nanoparticles produced by laser ablation in liquids. Photoexcitation for shape conversion employed a combination of blue and white LEDs. Photoconversion used hydrogen peroxide as oxidizing agent under different sodium citrate capping conditions of nanoparticles. Rhodamine 6G was the molecule probe for following the influence of shape conversion in the efficiency of surface enhanced Raman scattering.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-S-MON-06-04": {
+				"titulo" : "Design and Application of Optical Fiber Sensors for Force Myography",
+				"resumo" : "The force myography (FMG) is a method for retrieving the hand movements by assessing the radial forces exerted by the forearm muscles. In this context, optical fiber transducers based on different principles (microbending, LPFG, specklegram, and hetero-core structure) are evaluated for the measurement of FMG signals. Furthermore, the microbending transducer was applied on gesture recognition for the real-time control of a virtual prosthetic hand. The sensor presented ~0.05 N-1 sensitivity for a 20 N range and was successfully implemented on the classification of 4 postures, providing a low-cost and reliable approach for controlling multi-grasp bionic hands.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
 
 			,"PL-TUE-01" : {
 				"titulo" : "Photonics as a Key Enabling Technology: From Novel Light Sources to Clinical Diagnostic by Optical Imaging",
@@ -110,7 +274,145 @@
 				"resumo" : "",
 				"temas" : [],
 				"autores" : ["julio_de_oliveira"]
-      }
+			}
+			
+
+
+			,"OS-C-TUE-01-01": {
+				"titulo" : "Invited Paper - On the use of high-order MIMO for crosstalk mitigation in multi-core fiber based SDM systems",
+				"resumo" : "We review our latest contributions towards the development of long-distance transmission systems using homogeneous single-mode multi-core fibers supported by high-order MIMO for crosstalk mitigation. These include the use of high-order MIMO to mitigate the crosstalk impact assisted by inter-core skew compensation to manage the temporal extent of the system impulse response.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-C-TUE-01-02": {
+				"titulo" : "Recursive Blind Phase Search Architecture for Phase Recovery at High Error Rates",
+				"resumo" : "We propose a phase recovery architecture suitable for channels with low phase noise and high additive noise. The algorithm replaces window filters of the blind phase search (BPS) algorithm by forgetting factors. Simulations and experimental results indicate that the proposed algorithm achieves equivalent performance as BPS and better performance than decision-directed (DD) algorithm at a potentially lower complexity.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-C-TUE-01-03": {
+				"titulo" : "Linear spectral conversion for all-optical synchronization of O-OFDM QPSK subcarriers",
+				"resumo" : "Two spectral conversion techniques, configured for providing all-optical clock recovery and synchronization of subcarriers, are compared in an all-optical orthogonal frequency division multiplexing (O-OFDM) quadrature phase shift keying (QPSK) system. For that, the performance of the optical inverse fast Fourier transform (O-IFFT) and optical fast Fourier transform (O-FFT) operations were evaluated in a simulated setup. These operations are required for all-optical multiplexing and demultiplexing of O-OFDM subcarriers, respectively. Both clock recovery techniques perform a spectral conversion but one is based on the nonlinear effect of four wave missing and the other, on linear optical filtering. As far as we know, only the first method has already been reported for O-OFDM applications. We demonstrate that both methods presented similar performances and therefore, considering aspects of compactness, simplicity and energy consumption, we are lead to conclude that the linear technique is more suitable for an O-OFDM system built up by an integrated photonics design.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-C-TUE-01-04": {
+				"titulo" : "Approach for 10 Gb/s Silicon Integrated Optical Receiver for GPON",
+				"resumo" : "This paper presents our development of an integrated optical receiver based on active silicon photonic ICs for GPON solutions. The receiver core was fabricated and characterized for rates up to 10 Gb/s. The optical core is composed of a triplexer filter with integrated Ge photodetectors in downstream reception. This approach was characterized in two levels: one focused on device, characterized through optical-electric band (OE), followed by a systemic level study, focusing on performance in data transmission through eye diagram.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-C-TUE-04-01": {
+				"titulo" : "Invited Paper - The Impending Optical Network Capacity Crunch",
+				"resumo" : "Since the turn of the century, when the Internet traffic became dominant in the communication networks, the average growth rate of the traffic has been about 40%/year, which doubles the traffic every two years, thus multiplying it by a factor of one thousand in twenty years. The main strategy to absorb this unusual growth rate has been bandwidth mining through successive generations of WDM equipment with increasing number of wavelengths, but this approach is nearing exhaustion now. It is estimated that the current traffic growth rate, which remains unabated, will lead to a capacity crunch in the optical fiber networks in the next decade. The paper will discuss the implications of this impending crunch, the strategies that are foreseen to face it, and the research efforts to address the issues and propose solutions.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-C-TUE-04-02": {
+				"titulo" : "A Routing and Spectrum Assignment Heuristic for Elastic Optical Networks under Incremental Traffic",
+				"resumo" : "In Spectrum-sliced Elastic Optical (SLICE) networks based on orthogonal frequency division multiplexing (OFDM), several signals can be overlapping into the same fiber optical link, each signal modulated by tightly packed orthogonal sub-carriers that can be adjacently allocated to satisfy different bandwidth requirements. The finer granularity of all optical OFDM-based bandwidth allocation is more efficient than the networks based on wavelength division multiplexing (WDM). However, the routing is more difficult because of the spectrum assignment. Then the problem is known as the routing and spectrum assignment (RSA). To solve the RSA, we propose a heuristic algorithm to minimize the maximum load and balance the traffic load over the network while minimizing the number of hops between a source-destination pair. We compare the proposed algorithm with the simpler shortest path allocation algorithm in an incremental traffic simulation, then we do a study of the traffic blocking characteristics of the routing algorithms while the traffic is incremented to the point of saturating or capacity of the network. The results show that the proposed heuristic algorithm can indeed minimize the maximum load on the network, balance the traffic among all links and save resources for future requests. Furthermore, the analysis of the blocking characteristics show that the proposed heuristic can postpone traffic blocking, in some circumstances.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-C-TUE-04-03": {
+				"titulo" : "ONSIM: The Optical Network Simulator for Hybrid Switching Paradigms",
+				"resumo" : "The elastic optical network (EON) was proposed as a solution to avoid the spectrum waste in conventional WDM networks, since it improves the network utilization. However, the elastic optical network is still based on an optical circuit switching (OCS) paradigm, which tends to waste bandwidth resources due to idle times of the reservation process. Hybrid solutions, including the optical packet switching (OPS) paradigm have been proposed in optical networks designed for specific applications, for instance data center optical networks, and offers a better efficiency in the resource usage. Therefore, to allow future studies we present an adaptation of Optical Network Simulator (ONSim) to work on hybrid switching paradigms. As an example, we analyze blocking probability in this context, considering specifically the operation of a hybrid OCS/OPS optical network with different proportions of traffic",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-C-TUE-04-04": {
+				"titulo" : "A Proposed BSR Heuristic Considering Physical Layer Awareness",
+				"resumo" : "In Elastic Optical Networks (EON), the problem of routing and spectrum Allocation (RSA) has been solved along the years through the use of optimization techniques or heuristics, with the aim of minimizing the use of network resources or maximizing the capacity for future requests. The effects of the physical layer in the RSA problem are of fundamental importance given that there is a distance limitation with the required bit rate and modulation format used to transmit the signal. On considering the linear and non-linear noise effects, it is possible to include quality of transmission (QoT) in the optimization process. In this paper, we propose a modification to a traditional heuristic for the RSA problem in Elastic Optical networks to consider both effects of the physical layer. The proposed modification takes into account the channel input power and SNR Margin to choose all modulation formats and to assign resources. The main goal is to increase the spectral efficiency and throughput of the channels by mitigating blockages in the physical layer. Simulations were performed for various topologies, and the results suggest advantages in terms of number of blocked channels and spectrum usage of the new proposal in relation to the traditional BSR heuristics.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-I-TUE-02-01": {
+				"titulo" : "Side-lobe level reduction in 1D photonic array antennas",
+				"resumo" : "Photonic array antennas have been proposed to improve radiation features and to enable dynamic beam steering and beam forming. In CMOS-compatible photonic array antennas, fabrication constraints, however, limit the minimum separation distance between radiation element to several wavelengths, which results in the presence of strong side-lobes known as grating lobes. These grating lobes represent a critical impairment that prevents the adoption of these sparse array antennas in applications where crosstalk and security faults must be avoided. In this work, we numerically analyze the side-lobe level (SLL) reduction of 1D sparse antenna arrays under beam steering operation when the radiating elements are arranged non-uniformly (the separation between radiation elements is increased geometrically). The proposed method has a single parameter and, therefore, can be easily optimized. Furthermore, the approach may be extended to higher dimensions. Preliminary results reveal a worst-case side-lobe level reduction of approximately 5~dB for a 5-element array with a total length of 6 wavelengths.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-I-TUE-02-02": {
+				"titulo" : "All-optical Drifting and Locking of a Microring Resonator Resonance",
+				"resumo" : "In this paper, we report on the experimental observation of the thermal effects leading to an all-optically induced drifting and locking of the resonant wavelength of a silicon microring resonator. Moreover, we show that fluctuations in the wavelength of a laser may lead to the optical drifting effect, whereby the resonance of the device is locked to a non-resonant wavelength of a high-power laser tuned near the resonant wavelength. This effect is important as it may lead to a failure mechanism that could arise in system-to-system communications and can be considered a potential candidate to the all-optically tuning and stability of a microring-resonator resonance.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-I-TUE-02-03": {
+				"titulo" : "Demonstration of broadband and polarization-insensitive silicon photonics 3 dB splitter compatible with CMOS process",
+				"resumo" : "We demonstrate a broadband and polarization insensitive 3~dB power splitter compatible with CMOS process. The simulation results show low insertion loss in the wavelength range from 1460 to 1640 nm for both TE and TM polarization. The fabricated device has a maximum insertion loss of 0.5 dB and 0.07 dB for TE and TM polarization, respectively, from 1520 to 1580 nm wavelength.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-I-TUE-02-04": {
+				"titulo" : "3D numerical analysis of the acousto-optical modulation in a double-core optical fiber",
+				"resumo" : "The modulation of a double-core fiber using a flexural acoustic wave is numerically demonstrated. The stress caused by the acoustic wave in the fiber is calculated, as well as the power transfer between the cores and the modulated transmission spectrum. The results show that the presented methodology is promising for simulation of fibers with more cores and complex geometries.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-I-TUE-02-05": {
+				"titulo" : "Modeling and trade-off analysis of a capacitive silicon Mach-Zehnder modulator for telecom applications",
+				"resumo" : "This paper presents a capacitive modulator design and modeling using poly-si and silicon technologies. We propose a methodology involving the entire modulator design process, from the optical design, charge distribution calculation and small-signal RF analysis. Thus, in the case of silicon photonics modulators, the paper proposes means to optimize the trade-offs among several figures of merit. It is shown that high bandwidth operation (>30GHz) can be achieved by sacrificing a little the modulation efficiency.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"SC-C-TUE-01": {
+				"titulo" : "Short Course:  Integrated Optics Design using COMSOL",
+				"resumo" : "We will open with a general vision of the passive integrated optics area. Next, the theoretical fundamentals and numerical methods used to design integrated waveguides and components will be discussed. After a brief break, COMSOL hands-on design techniques will be presented in detail, staring with a worked example, next, an exercise will be passed to the students to be solved by them with the instructors' help. Finally, the COMSOL design of a modern practical component will be presented, leaving the details to be completed as a homework activity, and also, suggested research projects will be briefly discussed",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-L-TUE-03-01": {
+				"titulo" : "Invited Paper - Advances in Random Lasers",
+				"resumo" : "Random lasers hold the premise for cheap, coherent light sources that can be miniaturized and molded into any shape with several other added benefits such as speckle-free imaging; however, they require improvements specifically in terms of efficiency and lower threshold. Here we demonstrate strategies to overcome these limits and demonstrate random lasers that have overall efficiencies of 50%, comparable to bulk lasers, as well as random lasing at the Anderson localization transition with low threshold due to the enhanced light-matter interaction.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-L-TUE-03-02": {
+				"titulo" : "Pressure measurement by low coherence speckle interferometry membrane shaping with tunable diode lasers",
+				"resumo" : "Non-contact evaluation of object deformation is of great importance in several industrial and scientific processes. In this work the demonstrate that low-coherence digital speckle pattern interferometry can be employed for pressure measurement by the analysis of a 0.4-mm thickness, 55-mm diameter circular aluminum membrane submitted to a pressure differential ranging from 0 to 90 kPa. The membrane deformation was measured with a tunable red diode laser emitting simultaneously two wavelengths. The resulting speckle image of the membrane appeared covered with interference fringes which correspond to the contour lines of the studied surface. By means of conventional fringe pattern evaluation methods like 4-stepping and unwrapping methods the membrane deformation was determined. The experimental results were compared with the ones obtained by a numerical algorithm. The possibility of calculating the elasticity modulus of the membrane material from the coefficients of the calibration curve is also pointed out. These results indicate that the proposed method is a viable alternative for pressure measurement in industry and reference laboratories",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-L-TUE-03-03": {
+				"titulo" : "Microstructured Light Fields for Optical Trapping: Zero Order Continuous Vector Frozen Waves in the Rayleigh Regime",
+				"resumo" : "This paper investigates, for the first time in the literature, the optical forces exerted by a new class of nondiffracting beams on Rayleigh (dipole) scatterers, envisioning applications e.g. in optical trapping and micromanipulation, atom guiding, particle sorting and so on. Such microstructured light fields can be designed to provide a wide variety of longitudinal intensity patterns along the optical (longitudinal) axis and on the micrometer scale, being constructed from a continuous superposition of Bessel beams. Coined \"continuous vector Frozen Waves\" (CVFWs), here we focus on their linear polarized zero-order versions, studying radial and longitudinal optical forces in situations involving different paraxiality conditions, including absorbing characteristics and distinct refractive indices of the scatterers. Power requirements reveal that the strength and spatial profile of the optical forces here found are within those expected for an effective trapping and manipulation of very small dielectric particles.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"OS-L-TUE-03-04": {
+				"titulo" : "Analytical Descriptions of Finite-Energy Bessel Beams in the Generalized Lorenz-Mie Theory",
+				"resumo" : "The present work is a first attempt to introduce physical or finite energy axially symmetric fields, under the paraxial approximation, into the theoretical framework of the generalized Lorenz-Mie theory. Based on analytical descriptions in terms of a discrete superposition of Bessel-Gauss beams, we derive the beam shape coefficients of a particular class of axially symmetric beams, viz. truncated zero-order scalar Bessel beams. The analyticity of the present approach is interesting from the perspective that it avoids, from the very outset, extensive computational optimization processes involved in ABCD optical systems or the introduction of non-physical ideal (infinite energy) solutions of Maxwell's equations. As an example of application, optical forces exerted on spherical nano and microparticles are calculated and compared with those forces as evaluated with ideal scalar Bessel beams. Since it can be readily extended so as to encompass other types of axially symmetric truncated beams, we envision the present approach as a fast computational technique for immediate implementation in the analysis of light scattering by nano- and micro-particles.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+			,"SC-L-TUE-02": {
+				"titulo" : "Short Course: Diode Pumped Solid State Lasers and other ultra-high efficiency Lasers",
+				"resumo" : "The lecture will focus on laser architectures and laser resonators for DPSSLs and Random lasers. The first part of the lecture will be about different diode laser architectures, their characteristics and ways to scaling diode-pumped solid-state lasers to high powers whilst retaining some attractive features such as good beam quality and high laser efficiency. We will then enter diode pumped random lasers and see how to achieve up to 50% efficiency using Levy statistics or small beam divergence and low threshold by using samples that operate in the limit to Anderson localization.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+
+
+
 			
 			,"PL-WED-01" : {
 				"titulo" : "Photonic integration, the next path for access networks.",
@@ -141,12 +443,201 @@
 				"autores" : ["manuel_steidle"]
 			}
 			
-			,"trab_generico" : {
-				"titulo" : "",
-				"resumo" : "",
-				"temas" : [],
-				"autores" : []
-      }
+			,"OS-C-WED-01-01": {
+				"titulo" : "Invited Paper - LiFi - Light Fidelity",
+				"resumo" : "This presentation will address the concept of \"1-Eye-Fi\", about the possibility of communicating data with the human eye, mainly for medical diagnosis, through an intelligent intraocular lens as well as a Microelectronic CMOS Optical Receiver with robustness to saturation by light and high sensitivity).",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-C-WED-01-02": {
+				"titulo" : "Using an Adapted Differential Evolution Algorithm to Generate Flat Optical Frequency Combs",
+				"resumo" : "The generation of Optical Frequency Combs (OFC) by a Dual-Parallel Mach-Zehnder Modulator (DPMZM) is discussed. An adapted Differential Evolution (DE) algorithm is proposed in order to identify optimum input parameters for the modulator so that flat OFC can be generated with a certain number of comb lines. OFC with up to 25 lines are simulated and the algorithm results are discussed.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-C-WED-01-03": {
+				"titulo" : "Recursive Least Squares Feed-Forward Filtering Impact on Semiconductor Optical Amplifier Electro-Optical Space Switching Performance",
+				"resumo" : "The switching performance improvement of an electro-optical space switch based on a semiconductor optical amplifier (SOA) through the implementation of feed-forward filtering is experimentally evaluated. The acquired and post-processed data encompass the SOA operating under practical conditions, ranging its bias current, switching technique, and optical link. The implemented feed-forward filtering method was based on the recursive least squares (RLS) algorithm, aiming to evaluate its capacity to adapt to the SOA operational conditions, mitigating both the nonlinear SOA dynamic behavior and signal-to-noise degradation. The results showed a strong dependency on the quantity of symbols per switching cycle and the possibility to achieve a modest improvement in the system overall bit error rate, specially due to noise degradation mitigation. Considering the small computational power requirement of this approach, its application could be a possible solution to improve the commutation rates of networks that already include post-processing stages.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-C-WED-01-04": {
+				"titulo" : "Equivalent Circuit Elements Influence on the Performance of Electro-Optical Space Switches Based on Semiconductor Optical Amplifier",
+				"resumo" : "The electro-optical dynamic operation and performance of space switches based on semiconductor optical amplifiers (SOAs) is analyzed through computational simulations of its electric equivalent circuit. The employed circuit is well established in the literature and allows the emulation of the device behavior under several operational condition, permitting the individual impact evaluation of each SOA element in its overall performance according with the chosen characterization metrics. The results show a trade-off between the switching commutation rate and guard-time, evidencing the necessity of a careful design to achieve the desired performance, confirming previous experimental results.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-WED-04-01": {
+				"titulo" : "Graphene-based four-port THz circulator",
+				"resumo" : "We propose an approach for the design of graphene based four-port circulator for THz region. The device presents a three-layer structure consisting of the layers of graphene, silica SiO2 silicon Si. The in-plane figure of the circulator consists of a circular graphene resonator and two waveguides laterally coupled to it. The device is magnetized by an external DC magnetic field normal to the plane of the resonator. The working principle of the device is based on the dipole resonance of the magnetized graphene resonator. Numerical calculations demonstrate the isolation greater than -15 dB and the insertion loss better then -3.5 dB within the bandwidth of about 4.65 % and the central frequency 5.17 THz for DC magnetic field of 0.8 T and Fermi energy eF = 0:15 eV.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-WED-04-02": {
+				"titulo" : "Analysing the Functioning Mechanisms and Potential Improvements Concerning Graphene-Assisted Electro-Optical Modulators",
+				"resumo" : "Silicon photonics-based optical modulators embedded with graphene have been demonstrated operating in bandwidths ranging from 2.7 to 30 GHz. This paper examines the role that device's geometry, resistance and capacitance optimization play in increasing electro-optical bandwidth and reducing energy per bit consumption, as well as the limits concerning these improvements. Recent works report devices reaching tens of GHz of bandwidth while sporting compact footprints (µm2 range, against todays mm2 areas) and demanding low energy per bit values (sub-pJ range) for high-speed applications in the C-band of telecommunications (1550 nm).",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-WED-04-03": {
+				"titulo" : "Evaluating the Optimal Figure of Merit through Silica linked Gold Nanorod Dimer Resonances",
+				"resumo" : "The optical features in gold nanorod (AuNR) dimer linked end-to-end by thin silica junction have been investigated qualitatively. Mathematical simulations were used on the discussion of the AuNR dimer for various silica junction lengths and NR aspect ratios contribution to local environment changes. The light-dimer interactions were evaluated by the use of finite element method (FEM) with COMSOL Multiphysics. Computational methods, focused on the assessment of the LSPR spectral peak position and spatial distribution of electromagnetic field enhancement near the AuNR dimer, were used to ascribe the behavior of crucial parameters as figure of merit and bulk sensitivity which determine the LSPR sensor performance. We find the plasmon peak position of end to end connected Au nanorod dimer exhibited red shift by at least 60 nm from single Au nanorod. Our results indicates that Au dimers connected by silica cylinder shows higher sensitivity 717 nm/RIU as compared to single AuNR with lower sensitivity 300 nm/RIU. In addition, silica bridge dimer exhibited higher figure of merit 16.9. Our results introduce new perspectives on the use of silica connected AuNR dimer in LSPR sensing applications.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-WED-04-04": {
+				"titulo" : "Materials Dispersions Effects on Dielectric Nanophotonics Devices",
+				"resumo" : "The effects of the material dispersion can be quantified either by the Abbe number or Group Velocity Dispersion (GVD). However, we show that these traditional techniques are not well suitable to quantify the materials dispersion' effects on optical quantities in dielectric nanophotonic devices. Here, we apply classical electrodynamic theory to show that the complete description of materials dispersion properties leads to an additional term related with the materials' group indexes, which usually increases some quantities, but not others. Based on that, we define ratio factor capable of exactly quantifying the materials dispersion's effects on any optical quantity at a specific wavelength. We also find that a conservative estimative can be easily done by the ratio between the highest-index material' group index and its refractive index ((n_g^M)⁄n_M ). We believe that the results presented here may be useful during the modeling and simulation of nanophotonic devices.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-WED-04-05": {
+				"titulo" : "Foundry Polymer-Based Inverted-Rib Waveguides",
+				"resumo" : "This manuscript presents preliminary results of the development of polymer inverted-rib waveguides based on high-volume CMOS foundry. The 150 mm wafers were fabricated at The CEITEC S.A. facilities. Photomask design and manufacturing, as well as wafer post-processing were carried out at CTI Renato Archer. As preliminary results, spectral filters based on integrated ring resonators with free spectral range (FSR) of 1 nm are presented",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-WED-02-01": {
+				"titulo" : "Study of the fabrication of pedestal based - optical waveguides for applications in nonlinear optics",
+				"resumo" : "In this work we present all the steps for the fabrication of pedestal based - optical waveguides which use different materials with high optical nonlinearities as core layer. We show all processes to which a silicon substrate is subjected up to the moment of obtaining a final device, as well as the characterization of these guides. With the pedestal technology, it is possible to use novel materials that are highly inert to chemical etchants or alloys composed of heavy metal elements since that this technique does not require etching of the core material itself. Lateral confinement of the light bean in pedestal technology is performed through the fabrication of pedestal by Reactive Ion Etching on the lower cladding. In this case, the last step is the deposition of the core layer and the etching of this layer is no longer necessary. In addition, the ability to explore nonlinear light interaction with different materials, which have been explored very little due to fabrication process difficulties, are of great interest, since these materials have different optical properties, which could be leveraged to achieve better dispersion engineering than that obtained with current state of the art materials such as silicon and silicon nitride, for example. As mentioned, this is mainly possible due to the fact that the etching for the definition of the sidewalls is done before the deposition of the core layer and not after, which means it is not necessary to perform an etching process in the core of the waveguide. In the present work we present the fabrication of pedestal based-optical waveguides using Aluminum Nitride and Titanium oxynitride films as core layer due to the fact that these materials present a great interest for the fabrication of Nonlinear Optics integrated devices.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-WED-02-02": {
+				"titulo" : "Nonreciprocal graphene-based THz dividers",
+				"resumo" : "In this paper, we suggest and analyze nonreciprocal graphene-based dividers operating in THz region. The developed componenets divide the input signal between two or three output ports and, in addition, they possess isolation properties, i.e. the source of signal connected to the input port is protected against possible unwanted reflections in the output ports. The dividers consist of a circular graphene resonator and waveguides coupled to it. These elements are placed on a two-layer dielectric substrate of silica and silicon. The graphene resonator is magnetized normally to its plane by a DC magnetic field. The physical principle of the devices is based on the dipole resonance of the magnetized graphene resonator. Numerical simulations demonstrate that the division of the signal between two output ports in the two-way divider is -4 dB and the isolation of the input port from the output ones is better than -15 dB in the frequency band of 4%. The central frequency of the divider is 7.4THz, the biasing DC magnetic field is 0.6 T. We present also the characteristics of the three-way divider. The division of input power between output ports 2, 4, and 5 are around - 6 dB and isolation of the ports 3 and 6 in relation to the input port is approximately - 25 dB at the central frequency 7.41 THz.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-WED-02-03": {
+				"titulo" : "Design and post-process of an integrated CMOS-MEMS IR emitter with an embedded detector",
+				"resumo" : "This paper presents the design and post-process of a CMOS-MEMS IR emitter implemented in standard AMS 0.35µm CMOS process. The IR emitter is based on thermal heating of a chain of tungsten vias implemented on the Back-End-Of-Line. This heating element is protected from oxidation by SiO2 and thermally isolated from the substrate. The IR light emitted from the heating element is directed through a waveguide made of SiO2 and air used as core and cladding layers, respectively. The waveguide is connected to a photodiode used as detector, implemented in the Front-End-Of-Line. The post-process used to isolate the thermal emitter and create the waveguide was done through a maskless post-process that selectively etched of the SiO2 layers and used the aluminum film as a sacrificial material. The release of both emitter and waveguide was confirmed by visual inspection using optical and electronic microscopes.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-WED-02-04": {
+				"titulo" : "Radiation Diagram Control of Graphene Dipoles by Chemical Potential",
+				"resumo" : "This work presents a method of controlling the radiation diagram of a graphene dipole by the chemical potential. The dipole analyzed has rectangular geometry with power supply by voltage source in the center, where each arm of the dipole is maintained to a different chemical potential. The geometry analyzed by the two-dimensional moments method, with an equivalent surface impedance. Calculations of main radiative properties of the antenna are presented as a function of the chemical potential. The results show that the greater the difference between the chemical potentials, the greater the displacement of the main lobe of the radiation diagram.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-I-WED-02-05": {
+				"titulo" : "Mach Zehnder modulator modeling based on imec-ePixFab ISIPP25G SiPhotonics",
+				"resumo" : "This paper presents the design of a modulator using a silicon photonics technology known as ePixFab ISIPP25G. By modeling a Mach Zehnder architecture, to achieve high modulation rates, and employing physical parameters and data for silicon waveguides taken from standard libraries, we demonstrate that, for a bit rate of 20 Gb/s, it is possible to dimensioning a modulator with a figure of merit equal to 0.95 V.cm to induce intensity modulation. In addition, to ensure the modulation format, an amplifier with a gain of 26 dB was inserted into the external circuit of the device. Finally, when configuring the AWG with pulse width equal to 25% of the period (square wave), it was possible to calculate the capacitive time constant (τ = 0.423 ps) and observe that the modulator achieves maximum modulation intensity by varying the voltage between 0 and 9.5 V on each arm of the structure. For this, the rise (10% to 90%) and fall (90% to 10%) times of the real modulation signal were calculated, where tr = 26.5 ps and tf = 10.8 ps were measured, respectively.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-C-WED-05-01": {
+				"titulo" : "Invited Paper -  Grooming Benefits on Designing of EON Networks: An Exact Formulation",
+				"resumo" : "This work proposes a new Mixed Integer Linear Programming (MILP) formulation for traffic grooming, routing and spectrum allocation to be used in the design of Elastic Optical Networks (EON). In order to compare our method with classic Routing and Spectrum Allocation (RSA) formulation without grooming, the evaluation of the benefits of exact traffic grooming and RSA formulation are presented over three small networks. For each network, the objective function is set as minimizing the maximum slot index among all fibers. Then, the collected results show the benefits of traffic grooming in EON networks. Due to the NP characteristic of the MILP proposed, we propose a heuristic algorithm for large networks, and the benefits of the grooming using this algorithm are investigated.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-C-WED-05-02": {
+				"titulo" : "An Evolutionary Method to Optimize OSNR Margin in Elastic Optical Channels Subject to Non-Linear Physical Impairments",
+				"resumo" : "This paper proposes a metaheuristic optimization method based on Particle Swarm Optimization (PSO) that can be conveniently used to determine launch power profiles of elastic optical channels subject to nonlinear physical impairments. The method focuses on optimizing the overall OSNR margin of heterogeneous connections in a single-link network. The evolutionary method is contrasted to an analytical process widely used for WDM channels and shows a disruptive behavior to what is expected as well as a relevant gain in terms of additional propagated spans when applied to flexible-grid links.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-C-WED-05-03": {
+				"titulo" : "Fairness and Efficiency in a Elastic Optical Network under Heavy Traffic",
+				"resumo" : "The development of the Elastic Optical Networks paradigm brings to the table the discussion of methods and policies to use the optical spectrum more efficiently. This work discusses the use of spectrum partitions to seek the most impartial operation in a single-link EON under heavy traffic.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-C-WED-05-04": {
+				"titulo" : "Analysis of Multichannel Signal Transmission using a flexible spectral allocation method in Elastic Optical Networks",
+				"resumo" : "A flexible spectral allocation method is proposed and evaluated considering the impact of the number of channels on the required spectral bandwidth. The performance of elastic optical networks (EONs) is examined using a multilevel modulation format and coherent transmission. Network design parameters such as spectral bandwidth and channel symbol error rate (SER) are adopted as metrics for analysis. Transmission of quadrature phase shift-keying (QPSK) signals modulated at 56 and 100 Gbps is simulated and results for B-B, 50 and 200km are discussed",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-P-WED-03-01": {
+				"titulo" : "Graphene loop antenna for THz band",
+				"resumo" : "A loop graphene antenna with reconfigurable operation band is proposed. The antenna consists of a ring graphene element excited by a photomixer. By modifying the chemical potential of graphene, the device can operate at multiple frequencies in THz band. The maximum of the antenna total efficiency occurs near to its second resonance frequency. The fractional bandwidth of the proposed device can be changed from 4.44% (2.2-2.3 THz) to 21.11% (2.67-3.3 THz). The loop antenna is also compared with a graphene dipole antenna.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-P-WED-03-02": {
+				"titulo" : "Plasmonic Nanoantennas For Solar Cells With Improved Efficiency",
+				"resumo" : "This work shows a theoretical nanoantennas study about organic solar cells, occasioning the increase in the efficiency of light absorption. The unitary organic solar cells formed by a reflector silver block, an active layer formed by the semiconductor P3HT:PCBM and a nanostructure, also made of silver. The numerical analysis of the device is made through the Finite Element Method; the materials are analysed from the relative permittivity. Firstly, we executed the validation of the nanostructure through the numerical method. Then, we apply the geometric optimization process in the other nanoantenna models. This optimization process was based on nanostructures geometrical parameters preserving its superficial area. Since were considered four new models of nanoantennas with different geometrical parameters, which means, square nanoantennas, 6-pointed Stars, 8-pointed Stars and 16-pointed Stars. It was observed, from the efficiency of integrated absorption for different incidence angles and light polarization and plasmonic decay that the nanoantennas, the 16-pointed Stars, gave better performance compared to the other models.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-P-WED-03-03": {
+				"titulo" : "THz Electro-Absorption Modulator",
+				"resumo" : "This paper discusses the feasibility of electro-absorption modulator to operate at THz spectral region, using high losses materials and alloys that are usually applied for telecommunication engineering. Low loss structure based on slot waveguide is proposed for propagating THz waves. The numerical simulated results show that the maximum carrier amplitude reduces to half of the input value in less than 10λ_THz long with a silicon quantum efficiency higher than 90%.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-P-WED-03-04": {
+				"titulo" : "Synthesis and Optical Characterization of Terfenol-D Nanoparticles",
+				"resumo" : "We report on Terfenol-D nanoparticle (TDNP) production by Laser Ablation Synthesis in Solution (LASiS). Nanoparticle shape and size distribution were analyzed by Transmission Electron Microscopy (TEM) and Dynamic Light Scattering (DLS). Colloidal optical properties were studied by means of UV-Vis spectroscopy, and Raman scattering. The nanoparticles present a spherical shape with average size of 17 nm. Interesting results have been found regarding absorbance peak shift in the UV-Vis experiment, a dependence on colloidal suspension concentration. A surface enhanced Raman spectroscopy (SERS) of the amino acid Proline (Pro) using TDNP as substrate was performed and compared with previous studies. An expected intensification on several Proline peaks was observed, as well as a strong blue-shift strong blue-shift of peaks assigned to CH and CH2 stretching vibrations. These results indicate Terfenol-D nanoparticles might be a promising material as SERS agents, with possible applications in nanophotonics, e.g., as biosensors.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OS-P-WED-03-05": {
+				"titulo" : "Spectral Analysis of a Surface Plasmon Resonance Sensor of Nanoparticles by Periodic Green Function",
+				"resumo" : "In this paper, we present a spectral analysis of a surface plasmon resonance sensor (SPR) by the Periodic Green Function (PGF). The SPR sensor is in the Surface Plasmon Coupled Emission (SPCE) configuration, and it is coupled to a planar array of gold nanoparticles (AuNps) of core-shell type. These AuNps are represented by a periodic array of nanodipoles, and the PGF of the problem is obtained by the two-dimensional complex Fourier series. We performed a parametric analysis of the influence of AuNps concentration on the electromagnetic fields, and the generalized reflection and transmission coefficients, in the spectral domain. Also, the surface wave and surface plasmon polariton poles are investigated. Finally, some discussions about the convergence of the PGF series are presented.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"OC-S-WED-06-01": {
+				"titulo" : "Optical Fiber Chemical Sensor Based on the Analysis of Fiber Specklegrams Characteristics",
+				"resumo" : "An optical fiber chemical sensor based on the analysis of the projected specklegram characteristics is presented. The multimode no-core fiber is surrounded by the assessed liquid, causing the modulation of the number of modes and the average speckles size. The sensitivity is improved for external refractive indices close to the fiber index as well as for smaller core diameters, so the sensor response can be tuned by properly choosing the fiber dimensions and material.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"SC-S-WED-06-02": {
+				"titulo" : "Computational Modeling of H2S Gas Sensor Using Surface Plasmon Resonance in a D-Shaped Optical Fiber",
+				"resumo" : "The development of optical sensors and biosensors for the detection of substances of chemical and biological interest has increased considerably, and fiber optic sensors are ideal for applications in harsh environments. Hydrogen Sulfide (H2S) is a toxic gas at room temperature, with corrosive, flammable, colorless and strong odor characteristics. In this work we propose and analyze an H2S gas sensor device that uses the surface plasmon resonance effect (SPR) on a D-shaped optical fiber with metal and metal-oxide layers. We perform the characterization of the device through computer simulations with COMSOL Multiphysics software. The results of the simulation are compared with an approximate analytical model, which makes use of the Fresnel equations. The results showed that the proposed device is efficient to detect the gas even at concentrations as low as 0.1 ppm. The sensor presents good results compared to other techniques, with the estimated response time of 7 seconds for 0.1 ppm gas concentration.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"SC-S-WED-06-03": {
+				"titulo" : "Spherical Plasmonic Structures for Solar Absorption",
+				"resumo" : "Direct Solar Absorption Collectors explore the thermo-optical properties of different absorber fluids to convert solar radiation into thermal energy. Colloids of metallic nanoparticles (or nanofluids) have shown a high potential to convert solar radiation into thermal energy efficiently; it is due to the possibility to tune the plasmon resonance next to the near infrared region and a high thermal conductivity coefficient. Different complex structures such as triangles, pyramids, octahedral, hollow-structure have been proposed theoretically for this purposes; however, to synthesize this kind of nanoparticles is not a straightforward method, requiring strong reducing agents and usually, a broad particle polydispersity is obtained. In this work, using a full-wave field numerical model, we study the solar absorption of metallic nanofluids composed of only spherical structures, which are expected to be more stable and which is the most natural NP geometry to be synthesized chemically. Solid, shell and multilayered spherical particles, as well as, a pair of spheres are analyzed. The values of solar radiation absorber condition for a pair of spheres and Multilayered particles are more significant than the obtained with spherical structures.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"SC-S-WED-06-04": {
+				"titulo" : "Optical Fiber Sensor as an Alternative for Colorimetric Image Processing for the Assesment of Dye Concentration",
+				"resumo" : "Methylene blue is a dye commonly applied in chemical reactions and as a dye model for the study of purification processes. In this research, solutions of methylene blue-ethanol-water were evaluated with an optical fiber reflectometer and with a image-based colorimetric system. Then, silica nanoparticles synthesized by vapor-phase axial deposition were tested for separation processes, being evaluated in relation to their capacity in adsorving methylene blue The fiber sensor and the colorimeter presented 0.419 L.mg-1 and 0.596 L.mg-1 sensitivities, respectively, and yielded equivalent results, demonstrating that the fiber approach can be utilized as a more robust alternative to the colorimetric method.",
+				"temas" : [""],
+				"autores" : [""]
+			}
+			
+			,"SC-S-WED-06-05": {
+				"titulo" : "Characterization of Colloidal Silica by Optical Fiber Sensor",
+				"resumo" : "The assessment of silica nanofluids properties by an optical fiber sensor is reported. The effect of particles concentration and size was analyzed by dynamic light scattering, making it possible to estimate the sample properties from the decay rate. Moreover, the nanofluids were subjected to controlled heating, so the thermal conductivity and refractive index variations could be inferred from reflected intensity and autocorrelation signals.",
+				"temas" : [""],
+				"autores" : [""]
+			}
 
 
 
