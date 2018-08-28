@@ -212,7 +212,7 @@
 
 			,"OS-L-MON-03-01": {
 				"titulo" : "Invited Paper - Narrow linewidth (<100kHz) and high output power (>16dBm) external cavity lasers for coherent optical communications",
-				"resumo" : "In this paper, the design methodology and main experimental results of an External Cavity Laser (ECL) with narrow linewidth (<100kHz) is presented. The ECL is based on a wavelength-selective mirror controlled by voltage. Among other features, the device presents high optical output power (>16dBm) and potential to achieve 40nm tunability in C-band. System performance of 16-QAM transmission is better than commercial reference Integrated Tunable Laser Assembly (ITLA). The device is compact, suitable for small-form factor transceivers and modules.",
+				"resumo" : "In this paper, the design methodology and main experimental results of an External Cavity Laser (ECL) with narrow linewidth (&lt;100kHz) is presented. The ECL is based on a wavelength-selective mirror controlled by voltage. Among other features, the device presents high optical output power (&gt;16dBm) and potential to achieve 40nm tunability in C-band. System performance of 16-QAM transmission is better than commercial reference Integrated Tunable Laser Assembly (ITLA). The device is compact, suitable for small-form factor transceivers and modules.",
 				"temas" : [""],
 				"author_list": "Giovanni de Farias, Hening Andrade, Leandro T. Zanvettor, Luiz Heckler de Carvalho, Maria Chiara Ubaldi, Aldo Righetti, Giorgio Grasso, Fausto Meli and Lucia Ferrario",
 				"autores" : [""]
