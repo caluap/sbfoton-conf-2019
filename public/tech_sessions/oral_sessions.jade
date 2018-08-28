@@ -13,12 +13,13 @@ include /_mixins
         li #[a(href="index.html") Instructions for authors]
         li.nav-atual #[a Oral sessions]
 
-      .c-trabalhos
+      .c-trabalhos.c-oral-sessions
         each sessoes, i_data in oral_sessions
           .trab-dia
             p.trab-data= i_data
             each sessao, i_sessao in sessoes
               .sessao
+                a.trab-codigo.codigo-sessao(name="#{i_sessao}")
                 - var i = 1;
                 .header-sessao
                   p.trab-cod-sessao.forte= i_sessao

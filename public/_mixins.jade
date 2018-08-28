@@ -175,8 +175,6 @@ mixin oral_session(i, cod_trabalho, titulo, resumo, autores)
     p.trab-cod-sessao= cod_trabalho
     p.trab-titulo= titulo
     p.trab-lista-autores= autores
-    //- if horario != ""
-      //- p.trab-horario #{horario}&nbsp; / &nbsp;#{sala}
     -
       if (resumo.length == 0) {
         resumo = '—'
