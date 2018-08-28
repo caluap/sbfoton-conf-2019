@@ -106,7 +106,7 @@
 				"autores" : [""]
 			}
 
-			,"OS-I-MON-04-01 ": {
+			,"OS-I-MON-04-01": {
 				"titulo" : "Invited Paper - Active Photonic Integrated Circuits based on the Silicon-On-Insulator Platform",
 				"resumo" : "Photonic integration is still looking for a killer application where the industry will coalesce in leveraging the know-how from the microelectronics industry and enable low cost fiber-to-the-chip integration. Key to the deployment of active photonics is the ability to include low-cost light sensing, light sources and non-reciprocal devices in a packaging platform enabling the full range of functionalities expected of fiber-optics systems to become available on-chip. In this talk I will review the early work, as well as the latest developments, in establishing a high-volume integrated circuit process for photonic active devices",
 				"temas" : [""],
@@ -156,7 +156,7 @@
 
 			,"OS-B-MON-02-03": {
 				"titulo" : "Biochemical characterization of skin burn wound healing using ATR-FTIR",
-				"resumo" : "—",
+				"resumo" : "",
 				"temas" : [""],
 				"author_list": "Pedro Castro, Telma Zorn and Denise M. Zezell",
 				"autores" : [""]
@@ -673,7 +673,7 @@
 				"autores" : [""]
 			}
 			
-			,"OC-S-WED-06-01": {
+			,"OS-S-WED-06-01": {
 				"titulo" : "Optical Fiber Chemical Sensor Based on the Analysis of Fiber Specklegrams Characteristics",
 				"resumo" : "An optical fiber chemical sensor based on the analysis of the projected specklegram characteristics is presented. The multimode no-core fiber is surrounded by the assessed liquid, causing the modulation of the number of modes and the average speckles size. The sensitivity is improved for external refractive indices close to the fiber index as well as for smaller core diameters, so the sensor response can be tuned by properly choosing the fiber dimensions and material.",
 				"temas" : [""],
@@ -681,7 +681,7 @@
 				"autores" : [""]
 			}
 			
-			,"SC-S-WED-06-02": {
+			,"OS-S-WED-06-02": {
 				"titulo" : "Computational Modeling of H2S Gas Sensor Using Surface Plasmon Resonance in a D-Shaped Optical Fiber",
 				"resumo" : "The development of optical sensors and biosensors for the detection of substances of chemical and biological interest has increased considerably, and fiber optic sensors are ideal for applications in harsh environments. Hydrogen Sulfide (H2S) is a toxic gas at room temperature, with corrosive, flammable, colorless and strong odor characteristics. In this work we propose and analyze an H2S gas sensor device that uses the surface plasmon resonance effect (SPR) on a D-shaped optical fiber with metal and metal-oxide layers. We perform the characterization of the device through computer simulations with COMSOL Multiphysics software. The results of the simulation are compared with an approximate analytical model, which makes use of the Fresnel equations. The results showed that the proposed device is efficient to detect the gas even at concentrations as low as 0.1 ppm. The sensor presents good results compared to other techniques, with the estimated response time of 7 seconds for 0.1 ppm gas concentration.",
 				"temas" : [""],
@@ -689,7 +689,7 @@
 				"autores" : [""]
 			}
 			
-			,"SC-S-WED-06-03": {
+			,"OS-S-WED-06-03": {
 				"titulo" : "Spherical Plasmonic Structures for Solar Absorption",
 				"resumo" : "Direct Solar Absorption Collectors explore the thermo-optical properties of different absorber fluids to convert solar radiation into thermal energy. Colloids of metallic nanoparticles (or nanofluids) have shown a high potential to convert solar radiation into thermal energy efficiently; it is due to the possibility to tune the plasmon resonance next to the near infrared region and a high thermal conductivity coefficient. Different complex structures such as triangles, pyramids, octahedral, hollow-structure have been proposed theoretically for this purposes; however, to synthesize this kind of nanoparticles is not a straightforward method, requiring strong reducing agents and usually, a broad particle polydispersity is obtained. In this work, using a full-wave field numerical model, we study the solar absorption of metallic nanofluids composed of only spherical structures, which are expected to be more stable and which is the most natural NP geometry to be synthesized chemically. Solid, shell and multilayered spherical particles, as well as, a pair of spheres are analyzed. The values of solar radiation absorber condition for a pair of spheres and Multilayered particles are more significant than the obtained with spherical structures.",
 				"temas" : [""],
@@ -697,7 +697,7 @@
 				"autores" : [""]
 			}
 			
-			,"SC-S-WED-06-04": {
+			,"OS-S-WED-06-04": {
 				"titulo" : "Optical Fiber Sensor as an Alternative for Colorimetric Image Processing for the Assesment of Dye Concentration",
 				"resumo" : "Methylene blue is a dye commonly applied in chemical reactions and as a dye model for the study of purification processes. In this research, solutions of methylene blue-ethanol-water were evaluated with an optical fiber reflectometer and with a image-based colorimetric system. Then, silica nanoparticles synthesized by vapor-phase axial deposition were tested for separation processes, being evaluated in relation to their capacity in adsorving methylene blue The fiber sensor and the colorimeter presented 0.419 L.mg-1 and 0.596 L.mg-1 sensitivities, respectively, and yielded equivalent results, demonstrating that the fiber approach can be utilized as a more robust alternative to the colorimetric method.",
 				"temas" : [""],
@@ -705,7 +705,7 @@
 				"autores" : [""]
 			}
 			
-			,"SC-S-WED-06-05": {
+			,"OS-S-WED-06-05": {
 				"titulo" : "Characterization of Colloidal Silica by Optical Fiber Sensor",
 				"resumo" : "The assessment of silica nanofluids properties by an optical fiber sensor is reported. The effect of particles concentration and size was analyzed by dynamic light scattering, making it possible to estimate the sample properties from the decay rate. Moreover, the nanofluids were subjected to controlled heating, so the thermal conductivity and refractive index variations could be inferred from reflected intensity and autocorrelation signals.",
 				"temas" : [""],
@@ -927,11 +927,11 @@
 					"sala":"Amphitheater 2",
 					"nome":"Optical Sensors, Image and Illumination 2",
 					"trabalhos":[
-						"OC-S-WED-06-01",
-						"OC-S-WED-06-02",
-						"OC-S-WED-06-03",
-						"OC-S-WED-06-04",
-						"OC-S-WED-06-05"
+						"OS-S-WED-06-01",
+						"OS-S-WED-06-02",
+						"OS-S-WED-06-03",
+						"OS-S-WED-06-04",
+						"OS-S-WED-06-05"
 					]
 				}
 			}
