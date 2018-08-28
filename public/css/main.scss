@@ -1539,8 +1539,7 @@ div.slide.s-rodape.invertido {
 				color: $c_laranja;
 				opacity: 1;
 				font-weight: bold;
-
-				margin-bottom: -24px;
+				margin-bottom: -12px;
 			}
 
 		}
@@ -1552,10 +1551,11 @@ div.slide.s-rodape.invertido {
 			}
 			.trab-topico-sessao {
 				display: block;
-				@include fs(4);
+				@include fs(4,1);
 				font-weight: 700;
 			}
 			.trab-horario-sessao {
+				margin-top: $u-h / 4;
 				margin-bottom: -$u-h;
 				color: $c_verde;
 				mix-blend-mode: multiply;
