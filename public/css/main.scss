@@ -1508,6 +1508,52 @@ div.slide.s-rodape.invertido {
 			margin-top: $u-h * 4;
 		}
 
+		.sessao + .sessao {
+			position: relative;
+			&:before {
+				position: absolute;
+				content: "";
+				left: 0;
+				top: 0;
+				width: $u-h * 6;
+				@include media-query($s-sm) {
+					width: 100%;
+				}
+				border-top: 2px solid cinza(5);
+				mix-blend-mode: multiply;
+			}
+			margin-top: $u-h * 2;
+			padding-top: $u-h / 2;
+		}
+
+		.header-sessao {
+
+			p + p {
+				margin: 0;
+			}
+			.trab-topico-sessao {
+				display: block;
+				@include fs(4);
+				font-weight: 700;
+			}
+			.trab-cod-sessao {
+				@include fs(-2);
+				@include faux-caps;
+				font-weight: bold;
+
+				color: $c_laranja;
+				mix-blend-mode: multiply;
+
+				position: relative;
+				bottom: -23px;
+			}
+			.trab-horario-sessao {
+				margin-bottom: -$u-h;
+				color: $c_verde;
+				mix-blend-mode: multiply;
+			}
+		}
+
 		.trab-codigo {
 			visibility: hidden;
 		}
@@ -1534,9 +1580,8 @@ div.slide.s-rodape.invertido {
 				position: absolute;
 				left: 0;
 				top: 0;
-				border-top: 4px solid black;
+				border-top: 2px solid cinza(8);
 				mix-blend-mode: multiply;
-				opacity: 0.5;
 				@include media-query($s-sm) {
 					width: 100%;
 				}
@@ -1565,6 +1610,10 @@ div.slide.s-rodape.invertido {
 					padding-left: 0;
 					// border: none;
 				}
+			}
+
+			.trab-horario {
+				
 			}
 
 			.trab-ind {

@@ -12,7 +12,31 @@ include /_mixins
       ul.sub-menu
         li #[a(href="index.html") Instructions for authors]
         li.nav-atual #[a Oral sessions]
-      p.soon
+
+      .c-trabalhos
+        each sessoes, i_data in oral_sessions
+          .trab-dia
+            p.trab-data= i_data
+            each sessao, i_sessao in sessoes
+              .sessao
+                - var i = 1;
+                .header-sessao
+                  p.trab-cod-sessao= i_sessao
+                  h3.trab-topico-sessao= sessao.nome
+                  p.trab-horario-sessao #{sessao.horario} / #{sessao.sala}
+                each cod_trabalho in sessao.trabalhos
+                  - var trabalho = trabalhos[cod_trabalho]
+                  a.trab-codigo(name="#{cod_trabalho}")
+                  .trabalho
+                    +trabalho(i, trabalho.titulo, "", "", trabalho.resumo, trabalho.temas)
+                    - i++;
+              //-     .trab-autores
+              //-       h3 Presented by
+              //-       each nome_autor in trabalho.autores
+              //-         - var autor = autores[nome_autor]
+              //-         +autor(autor.imagem, autor.nome, autor.instituicao, autor.biografia)
+
+
 
 
 +rodape('Tech Sessions')

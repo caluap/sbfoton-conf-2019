@@ -146,7 +146,8 @@ mixin trabalho(i, titulo, horario, sala, resumo, temas)
     else
       p.trab-ind= " "
     p.trab-titulo= titulo
-    p.trab-horario #{horario}&nbsp; / &nbsp;#{sala}
+    if horario != ""
+      p.trab-horario #{horario}&nbsp; / &nbsp;#{sala}
     -
       if (resumo.length == 0) {
         resumo = '—'
