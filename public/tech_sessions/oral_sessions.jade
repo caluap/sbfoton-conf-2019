@@ -21,14 +21,14 @@ include /_mixins
               .sessao
                 - var i = 1;
                 .header-sessao
-                  p.trab-cod-sessao= i_sessao
+                  p.trab-cod-sessao.forte= i_sessao
                   h3.trab-topico-sessao= sessao.nome
                   p.trab-horario-sessao #{sessao.horario} / #{sessao.sala}
                 each cod_trabalho in sessao.trabalhos
                   - var trabalho = trabalhos[cod_trabalho]
                   a.trab-codigo(name="#{cod_trabalho}")
                   .trabalho
-                    +oral_session(i, trabalho.titulo, trabalho.resumo, trabalho.author_list)
+                    +oral_session(i, cod_trabalho, trabalho.titulo, trabalho.resumo, trabalho.author_list)
                     - i++;
 
 

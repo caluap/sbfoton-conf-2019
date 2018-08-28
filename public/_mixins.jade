@@ -166,12 +166,13 @@ mixin trabalho(i, titulo, horario, sala, resumo, temas)
             li= tema
 
 
-mixin oral_session(i, titulo, resumo, autores)
+mixin oral_session(i, cod_trabalho, titulo, resumo, autores)
   .trab-trab
     if i > 0
-      p.trab-ind= i
+      p.trab-ind.ind-oral= i
     else
       p.trab-ind= " "
+    p.trab-cod-sessao= cod_trabalho
     p.trab-titulo= titulo
     p.trab-lista-autores= autores
     //- if horario != ""
