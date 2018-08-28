@@ -742,7 +742,7 @@
 					]
 				}
 			},
-			"Tuesday, October 8th" : {
+			"Tuesday, October 9th" : {
 				"OS-C-TUE-01" : {
 					"horario":"14:30-16:00",
 					"sala":"Auditorium",
@@ -786,6 +786,78 @@
 						"OS-L-TUE-03-02",
 						"OS-L-TUE-03-03",
 						"OS-L-TUE-03-04"
+					]
+				}
+			},
+			"Wednesday, October 10th" : {
+				"OS-C-WED-01" : {
+					"horario":"14:00-15:30",
+					"sala":"Auditorium",
+					"nome":"Optical Communication 3",
+					"trabalhos":[
+						"OS-C-WED-01-01",
+						"OS-C-WED-01-02",
+						"OS-C-WED-01-03",
+						"OS-C-WED-01-04"
+					]
+				},
+				"OS-I-WED-04" : {
+					"horario":"16:00-17:40",
+					"sala":"Auditorium",
+					"nome":"Integrated Photonics 4",
+					"trabalhos":[
+						"OS-I-WED-04-01",
+						"OS-I-WED-04-02",
+						"OS-I-WED-04-03",
+						"OS-I-WED-04-04",
+						"OS-I-WED-04-05"
+					]
+				},
+				"OS-I-WED-02" : {
+					"horario":"14:00-15:40",
+					"sala":"Amphitheater 1",
+					"nome":"Integrated Photonics 3",
+					"trabalhos":[
+						"OS-I-WED-02-01",
+						"OS-I-WED-02-02",
+						"OS-I-WED-02-03",
+						"OS-I-WED-02-04",
+						"OS-I-WED-02-05"
+					]
+				},
+				"OS-C-WED-05" : {
+					"horario":"16:00-17:30",
+					"sala":"Amphitheater 1",
+					"nome":"Optical Network 2",
+					"trabalhos":[
+						"OS-C-WED-05-01",
+						"OS-C-WED-05-02",
+						"OS-C-WED-05-03",
+						"OS-C-WED-05-04"
+					]
+				},
+				"OS-P-WED-03" : {
+					"horario":"14:00-15:40",
+					"sala":"Amphitheater 2",
+					"nome":"Photonics",
+					"trabalhos":[
+						"OS-P-WED-03-01",
+						"OS-P-WED-03-02",
+						"OS-P-WED-03-03",
+						"OS-P-WED-03-04",
+						"OS-P-WED-03-05"
+					]
+				},
+				"OS-S-WED-06" : {
+					"horario":"16:00-17:40",
+					"sala":"Amphitheater 2",
+					"nome":"Optical Sensors, Image and Illumination 2",
+					"trabalhos":[
+						"OC-S-WED-06-01",
+						"OC-S-WED-06-02",
+						"OC-S-WED-06-03",
+						"OC-S-WED-06-04",
+						"OC-S-WED-06-05"
 					]
 				}
 			}
