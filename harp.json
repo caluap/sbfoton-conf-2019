@@ -671,6 +671,83 @@
 
 
 
+
+		"oral_sessions" : {
+			"Monday, October 8th" : {
+				"OS-C-MON-01" : {
+					"horario":"14:00-15:30",
+					"sala":"Auditorium",
+					"nome":"Optical Communication 1",
+					"trabalhos":[
+						"OS-C-MON-01-01",
+						"OS-C-MON-01-02",
+						"OS-C-MON-01-03",
+						"OS-C-MON-01-04"
+					]
+				},
+				"OS-I-MON-04" : {
+					"horario":"16:00-17:30",
+					"sala":"Auditorium",
+					"nome":"Integrated Photonics 1",
+					"trabalhos":[
+						"OS-I-MON-04-01",
+						"OS-I-MON-04-02",
+						"OS-I-MON-04-03",
+						"OS-I-MON-04-04"
+					]
+				},
+				"OS-B-MON-02" : {
+					"horario":"14:00-15:30",
+					"sala":"Amphitheater 1",
+					"nome":"Biophotonics 1",
+					"trabalhos":[
+						"OS-B-MON-02-01",
+						"OS-B-MON-02-02",
+						"OS-B-MON-02-03",
+						"OS-B-MON-02-04"
+					]
+				},
+				"OS-O-MON-05" : {
+					"horario":"16:00-17:40",
+					"sala":"Amphitheater 1",
+					"nome":"Optics and Instrumentation 1",
+					"trabalhos":[
+						"OS-O-MON-05-01",
+						"OS-O-MON-05-02",
+						"OS-O-MON-05-03",
+						"OS-O-MON-05-04",
+						"OS-O-MON-05-05"
+					]
+				},
+				"OS-L-MON-03" : {
+					"horario":"14:00-15:30",
+					"sala":"Amphitheater 2",
+					"nome":"Lasers 1",
+					"trabalhos":[
+						"OS-L-MON-03-01",
+						"OS-L-MON-03-02",
+						"OS-L-MON-03-03",
+						"OS-L-MON-03-04"
+					]
+				},
+				"OS-S-MON-06" : {
+					"horario":"16:00-17:30",
+					"sala":"Amphitheater 2",
+					"nome":"Optics Sensors, Image and Illumination 1",
+					"trabalhos":[
+						"OS-S-MON-06-01",
+						"OS-S-MON-06-02",
+						"OS-S-MON-06-03",
+						"OS-S-MON-06-04"
+					]
+				}
+			}
+		},
+
+
+
+
+
     "plenaries" : {
 			"Monday, October 8th" : [
 				{
@@ -758,7 +835,11 @@
 					"trabalho" : "trabalho2"
         }
       ]
-    },
+		},
+		
+
+
+
     
 
 
@@ -780,6 +861,14 @@
 				"nome": "Auditorium"
 			}
 		},
+
+
+
+
+
+
+
+
 
 
     "autores" : {
