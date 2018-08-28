@@ -164,3 +164,26 @@ mixin trabalho(i, titulo, horario, sala, resumo, temas)
         if temas
           each tema in temas
             li= tema
+
+
+mixin oral_session(i, titulo, resumo, autores)
+  .trab-trab
+    if i > 0
+      p.trab-ind= i
+    else
+      p.trab-ind= " "
+    p.trab-titulo= titulo
+    p.trab-lista-autores= autores
+    //- if horario != ""
+      //- p.trab-horario #{horario}&nbsp; / &nbsp;#{sala}
+    -
+      if (resumo.length == 0) {
+        resumo = '—'
+      }
+      var classes_adicionais = ""
+      if (resumo.length < 200) {
+        classes_adicionais += " resumo-p"
+      } else if (resumo.length < 400) {
+        classes_adicionais += " resumo-m"
+      }
+    p.trab-resumo(class="#{classes_adicionais}")!= resumo

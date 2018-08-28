@@ -1602,6 +1602,13 @@ div.slide.s-rodape.invertido {
 			.trab-trab {
 				// background: red;
 			}
+
+			.trab-lista-autores {
+				font-weight: 300;
+				mix-blend-mode: multiply;
+				@include fs(1,1.3);
+				color: cinza(5);
+			}
 			.trab-autores {
 				// background: blue;
 				padding-left: $u-h;
