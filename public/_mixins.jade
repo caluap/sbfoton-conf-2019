@@ -166,7 +166,7 @@ mixin trabalho(i, titulo, horario, sala, resumo, temas)
             li= tema
 
 
-mixin oral_session(i, cod_trabalho, titulo, resumo, autores)
+mixin oral_session(i, cod_trabalho, titulo, resumo, autores, horario)
   .trab-trab
     if i > 0
       p.trab-ind.ind-oral= i
@@ -175,6 +175,7 @@ mixin oral_session(i, cod_trabalho, titulo, resumo, autores)
     p.trab-cod-sessao= cod_trabalho
     p.trab-titulo= titulo
     p.trab-lista-autores= autores
+    p.trab-horario= '→ ' + horario.slice(0,5)
     -
       if (resumo.length == 0) {
         resumo = '—'

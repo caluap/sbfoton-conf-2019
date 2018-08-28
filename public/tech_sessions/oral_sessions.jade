@@ -29,7 +29,7 @@ include /_mixins
                   - var trabalho = trabalhos[cod_trabalho]
                   a.trab-codigo(name="#{cod_trabalho}")
                   .trabalho
-                    +oral_session(i, cod_trabalho, trabalho.titulo, trabalho.resumo, trabalho.author_list)
+                    +oral_session(i, cod_trabalho, trabalho.titulo, trabalho.resumo, trabalho.author_list, oral_sessions_timetable[cod_trabalho])
                     - i++;
 
 
