@@ -1661,7 +1661,7 @@ div.slide.s-rodape.invertido {
 
 			.trab-horario {
 				&.trab-horario-os {
-					span {
+					span:not(.dados-sutis) {
 						position: absolute;
 						transform: translateX(-150%) translateY(25%);
 						@include fs(-3);
@@ -1779,6 +1779,13 @@ div.slide.s-rodape.invertido {
 	}
 }
 
+.dados-sutis {
+	opacity: 0.3;
+	transition: opacity 2s ease;
+	&:hover {
+		opacity: 1;
+	}
+}
 
 
 .schedule-back {

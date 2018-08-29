@@ -166,7 +166,7 @@ mixin trabalho(i, titulo, horario, sala, resumo, temas)
             li= tema
 
 
-mixin oral_session(i, i_sessao, cod_trabalho, titulo, resumo, autores, horario, prev = "", next = "")
+mixin oral_session(i, i_sessao, cod_trabalho, titulo, resumo, autores, horario, prev = "", next = "", sala, sessao)
   .trab-trab
     if i > 0
       p.trab-ind.ind-oral= i
@@ -186,5 +186,5 @@ mixin oral_session(i, i_sessao, cod_trabalho, titulo, resumo, autores, horario, 
         a.trab-nav.disabled(name="next_#{cod_trabalho}") ○
     p.trab-titulo= titulo
     p.trab-lista-autores= autores
-    p.trab-horario.trab-horario-os #[span ► ]#{horario.slice(0,5)}
+    p.trab-horario.trab-horario-os #[span ► ]#{horario.slice(0,5)} !{'<span class="dados-sutis"> &nbsp;·&nbsp; '+sala+' &nbsp;·&nbsp; '+sessao+'</span>'}
     +bio(resumo, "trab-resumo", 128*6, true)
