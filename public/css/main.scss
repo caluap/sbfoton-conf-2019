@@ -1692,7 +1692,7 @@ div.slide.s-rodape.invertido {
 					opacity: 0.15;
 					@include fs(13);
 					// left: -10px;
-					@include media-query($s-sm) {
+					@include media-query($s-md) {
 						opacity: 1;
 						@include fs(6);
 						font-weight: 400;
