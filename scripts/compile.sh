@@ -8,6 +8,8 @@ fi
 cd $(dirname "$0")
 cd ..
 
+rm -r dist/*
+
 LOG=$(harp compile . dist 2>&1)
 EXIT="$?"
 
