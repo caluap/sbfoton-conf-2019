@@ -1786,7 +1786,7 @@ div.slide.s-rodape.invertido {
 
 
 .c-timetable {
-	background: $c_verde;
+	background: mix($c_verde, black, 75%);
 	padding-bottom: $u-h;
 	padding-top: $u-h;
 
