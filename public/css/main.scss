@@ -1541,8 +1541,9 @@ div.slide.s-rodape.invertido {
 			
 			.trab-nav {
 				text-decoration: none;
-				@include fs(-2);
-				padding: $u-h/4 $u-h/3;
+				@include fs(-1);
+				padding: $u-h/8 $u-h/3 $u-h/6;
+				border-radius: 1px;
 				background: mix(white, $c_rosa, 20%);
 				&:hover {
 					background: white;
@@ -1781,12 +1782,12 @@ div.slide.s-rodape.invertido {
 
 
 .schedule-back {
-	@include fs(-2);
+	@include fs(-1);
 	position: relative;
 	top: -9px;
 	text-decoration: none;
 
-	padding: $u-h/4 $u-h/4;
+	padding: $u-h*5/24 $u-h/3 $u-h*2/24;
 	background: mix(white, $c_rosa, 20%);
 	&:hover {
 		background: white;
