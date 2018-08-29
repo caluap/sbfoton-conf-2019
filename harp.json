@@ -403,7 +403,7 @@
 
 			,"OS-I-TUE-02-05": {
 				"titulo" : "Modeling and trade-off analysis of a capacitive silicon Mach-Zehnder modulator for telecom applications",
-				"resumo" : "This paper presents a capacitive modulator design and modeling using poly-si and silicon technologies. We propose a methodology involving the entire modulator design process, from the optical design, charge distribution calculation and small-signal RF analysis. Thus, in the case of silicon photonics modulators, the paper proposes means to optimize the trade-offs among several figures of merit. It is shown that high bandwidth operation (>30GHz) can be achieved by sacrificing a little the modulation efficiency.",
+				"resumo" : "This paper presents a capacitive modulator design and modeling using poly-si and silicon technologies. We propose a methodology involving the entire modulator design process, from the optical design, charge distribution calculation and small-signal RF analysis. Thus, in the case of silicon photonics modulators, the paper proposes means to optimize the trade-offs among several figures of merit. It is shown that high bandwidth operation (&gt;30GHz) can be achieved by sacrificing a little the modulation efficiency.",
 				"temas" : [""],
 				"author_list": "Diego M Dourado, Mônica de Lacerda Rocha, Giovanni de Farias, João Ribeiro and João Carmo",
 				"autores" : [""]
@@ -813,8 +813,8 @@
 			"OS-S-WED-06-01" : "16:00-16:20",
 			"OS-S-WED-06-02" : "16:20-16:40",
 			"OS-S-WED-06-03" : "16:40-17:00",
-			"OS-S-WED-06-05" : "17:20-17:40",
-			"OS-S-WED-06-04" : "17:00-17:20"
+			"OS-S-WED-06-04" : "17:00-17:20",
+			"OS-S-WED-06-05" : "17:20-17:40"
 		},
 
 
@@ -924,7 +924,7 @@
 						"OS-I-TUE-02-05"
 					]
 				},
-				"OS-I-TUE-02" : {
+				"OS-I-TUE-03" : {
 					"horario":"14:30-16:00",
 					"sala":"Amphitheater 2",
 					"nome":"Lasers 2",
