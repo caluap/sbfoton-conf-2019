@@ -1526,20 +1526,41 @@ div.slide.s-rodape.invertido {
 			padding-top: $u-h / 2;
 		}
 
+		.head-cod {
+			display: flex;
+			position: relative;
+			z-index: 1;
+			align-items: center;
+			margin-bottom: $u-h / 4;
+			// background: red;
+			.trab-nav {
+				text-decoration: none;
+				@include fs(-2);
+				padding: $u-h/4 $u-h/2;
+				background: mix(white, $c_rosa, 20%);
+				&:hover {
+					background: white;
+				}
+				&:first-child {
+					margin-right: $u-h / 2;
+				}
+				&:last-child {
+					margin-left: $u-h / 2;
+				}
+			}
+		}
+
 		.trab-cod-sessao {
 			@include fs(-2);
 			@include faux-caps;
 
 			mix-blend-mode: multiply;
-			opacity: 0.5;
-			
-			margin-bottom: -18px;
+			// opacity: 0.5;
 			
 			&.forte {
 				color: $c_laranja;
 				opacity: 1;
 				font-weight: bold;
-				margin-bottom: -12px;
 			}
 
 		}
@@ -1629,9 +1650,11 @@ div.slide.s-rodape.invertido {
 
 			.trab-horario {
 				&.trab-horario-os {
-					font-weight: bold;
-					position: relative;
-					left: -$u-h/2;
+					span {
+						position: absolute;
+						transform: translateX(-150%) translateY(25%);
+						@include fs(-3);
+					}
 				}
 			}
 
@@ -1648,10 +1671,18 @@ div.slide.s-rodape.invertido {
 				opacity: 0.6;
 				mix-blend-mode: multiply;
 				@include fs(10);
-
+				
 				&.ind-oral {
-					@include fs(9);
-					top: 29px;
+					opacity: 0.15;
+					@include fs(13);
+					// left: -10px;
+					@include media-query($s-sm) {
+						opacity: 1;
+						@include fs(6);
+						font-weight: 400;
+						margin-bottom: $u-h/4;
+					}
+					top: 10px;
 				}
 
 				@include media-query($s-sm) {

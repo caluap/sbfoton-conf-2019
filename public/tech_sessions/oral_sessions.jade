@@ -28,14 +28,17 @@ include /_mixins
           prev = element;
         });
 
+      //- each i in trab_array
+        //- p= JSON.stringify(i)
+
       .c-trabalhos.c-oral-sessions
+        - var i = 1;
         each sessoes, i_data in oral_sessions
           .trab-dia
             p.trab-data= i_data
             each sessao, i_sessao in sessoes
               .sessao
                 a.trab-codigo.codigo-sessao(name="#{i_sessao}")
-                - var i = 1;
                 .header-sessao
                   p.trab-cod-sessao.forte= i_sessao
                   h3.trab-topico-sessao= sessao.nome
@@ -44,7 +47,16 @@ include /_mixins
                   - var trabalho = trabalhos[cod_trabalho]
                   a.trab-codigo(name="#{cod_trabalho}")
                   .trabalho
-                    +oral_session(i, cod_trabalho, trabalho.titulo, trabalho.resumo, trabalho.author_list, oral_sessions_timetable[cod_trabalho])
+                    +oral_session(
+                      i, 
+                      cod_trabalho, 
+                      trabalho.titulo, 
+                      trabalho.resumo, 
+                      trabalho.author_list, 
+                      oral_sessions_timetable[cod_trabalho],
+                      trab_array[cod_trabalho].prev,
+                      trab_array[cod_trabalho].next
+                    )
                     - i++;
 
 
