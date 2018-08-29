@@ -1574,6 +1574,9 @@ div.slide.s-rodape.invertido {
 				display: block;
 				@include fs(4,1);
 				font-weight: 700;
+				@include media-query($s-sm) {
+					@include fs(2,1);
+				}
 			}
 			.trab-horario-sessao {
 				margin-top: $u-h / 4;
