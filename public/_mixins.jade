@@ -187,14 +187,4 @@ mixin oral_session(i, i_sessao, cod_trabalho, titulo, resumo, autores, horario, 
     p.trab-titulo= titulo
     p.trab-lista-autores= autores
     p.trab-horario.trab-horario-os #[span ► ]#{horario.slice(0,5)}
-    -
-      if (resumo.length == 0) {
-        resumo = '—'
-      }
-      var classes_adicionais = ""
-      if (resumo.length < 200) {
-        classes_adicionais += " resumo-p"
-      } else if (resumo.length < 400) {
-        classes_adicionais += " resumo-m"
-      }
-    p.trab-resumo(class="#{classes_adicionais}")!= resumo
+    +bio(resumo, "trab-resumo", 128*6, true)
