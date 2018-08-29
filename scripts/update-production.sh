@@ -8,11 +8,6 @@ if [ ! -z "$1" ]; then
 fi
 cd "$DIR"
 
-if [ ! -f "./css/main.css" ]; then
-	echo "Não foi possível encontrar os trecos"
-	exit 1;
-fi
-
 if which md5 > /dev/null; then
 	MD5COMM="md5"
 elif which md5sum > /dev/null; then
@@ -22,16 +17,21 @@ else
 	exit 1
 fi
 
-sum=$(cat "css/main.css" | "$MD5COMM" )
-sum=${sum:0:12}
+for CSSFILE in $(find . -type f -name \*.css); do
+	sum=$(cat "$CSSFILE" | "$MD5COMM" )
+	sum=${sum:0:12}
 
-#for file in $(find . -name \*.html); do
-#	if [ "$PLATFORM" = "Darwin" ]; then
-#		sed -i '' -E "s#main.css(\?[^\"]+)?#main.css?$sum#" "$file"
-#	else
-#		sed -i -E "s#main.css(\?[^\"]+)?#main.css?$sum#" "$file"
-#	fi
-#done
+	CSSFILENAME=$(basename "$CSSFILE")
+
+	for HTMLFILE in $(find . -type f -name \*.html); do
+		SEDSCRIPT="s#$CSSFILENAME(\?[^\"]+)?#$CSSFILENAME?$sum#"
+		if [ "$PLATFORM" = "Darwin" ]; then
+			sed -i '' -E "$SEDSCRIPT" "$HTMLFILE"
+		else
+			sed -i -E "$SEDSCRIPT" "$HTMLFILE"
+		fi
+	done
+done
 
 find . -type f -exec chmod 644 {} \;
 find . -type d -exec chmod 755 {} \;
