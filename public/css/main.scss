@@ -1628,7 +1628,11 @@ div.slide.s-rodape.invertido {
 			}
 
 			.trab-horario {
-				
+				&.trab-horario-os {
+					font-weight: bold;
+					position: relative;
+					left: -$u-h/2;
+				}
 			}
 
 			.trab-ind {
