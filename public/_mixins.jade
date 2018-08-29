@@ -175,10 +175,10 @@ mixin oral_session(i, cod_trabalho, titulo, resumo, autores, horario, prev = "",
 
     .head-cod
       unless prev == ""
-        a.trab-nav(href="##{prev}") ⟵
+        a.trab-nav(href="#prev_#{prev}",name="prev_#{cod_trabalho}") ⟵
       p.trab-cod-sessao #{cod_trabalho}
       unless next == ""
-        a.trab-nav(href="##{next}") ⟶
+        a.trab-nav(href="#next_#{next}",name="next_#{cod_trabalho}") ⟶
     p.trab-titulo= titulo
     p.trab-lista-autores= autores
     p.trab-horario.trab-horario-os #[span ► ]#{horario.slice(0,5)}
