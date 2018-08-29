@@ -5,13 +5,28 @@ include /_mixins
 
 //- .conteudo
 
-.slide.s-default.s-var-3.pad
-  .pure-g
+.slide.s-default.s-var-3
+  .pure-g.pad
     .pure-u-1
       h1 Tech Sessions
       ul.sub-menu
         li.nav-atual #[a Oral sessions]
         li #[a(href="instructions.html") Instructions for authors]
+  .pure-g.pad.c-timetable
+    .pure-u-1
+      //- h3 Oral Sessions Schedule
+      a.trab-codigo(name="schedule")
+      .timetable
+        each day, i_data in oral_sessions
+          .timetable-day
+            h4= i_data
+            each sessao, i_sessao in day
+              a.timetable-session(href="##{i_sessao}",name="schedule_#{i_sessao}")
+                p.tim-i-session= i_sessao
+                p.tim-i-nome= sessao.nome
+                p.tim-i-sala= sessao.sala
+  .pure-g.pad
+    .pure-u-1
 
       //- monta a lista de anterior / próximo
       -
@@ -41,7 +56,7 @@ include /_mixins
                 a.trab-codigo.codigo-sessao(name="#{i_sessao}")
                 .header-sessao
                   p.trab-cod-sessao.forte= i_sessao
-                  h3.trab-topico-sessao= sessao.nome
+                  h3.trab-topico-sessao #[a.schedule-back(href="#schedule_#{i_sessao}") ↖] #{sessao.nome}
                   p.trab-horario-sessao #{sessao.horario} / #{sessao.sala}
                 each cod_trabalho in sessao.trabalhos
                   - var trabalho = trabalhos[cod_trabalho]

@@ -1567,6 +1567,19 @@ div.slide.s-rodape.invertido {
 
 		.header-sessao {
 
+			.schedule-back {
+				@include fs(-2);
+				position: relative;
+				top: -9px;
+				text-decoration: none;
+
+				padding: $u-h/4 $u-h/4;
+				background: mix(white, $c_rosa, 20%);
+				&:hover {
+					background: white;
+				}
+			}
+
 			p + p {
 				margin: 0;
 			}
@@ -1771,6 +1784,80 @@ div.slide.s-rodape.invertido {
 	}
 }
 
+
+.c-timetable {
+	background: $c_verde;
+	padding-bottom: $u-h;
+	padding-top: $u-h;
+
+	color: white;
+
+	.timetable {
+		@include media-query-a-partir($s-sm) {
+			display: flex;
+		}
+		.timetable-day {
+
+			flex-grow: 1;
+			flex-shrink: 0;
+			flex-basis: 0;
+			
+			@include media-query-a-partir($s-sm) {
+				max-width: $u-h * 8;
+				margin-right: $u-h;
+				&:last-child { margin-right: 0; }
+			}
+			@include media-query($s-sm) {
+				width: 100%;
+				& + .timetable-day {
+					margin-top: $u-h * 3/2;
+				}
+			}
+
+
+			display: flex;
+			flex-direction: column;
+
+			.timetable-session {
+
+				color: white;
+				text-decoration: none;
+				background: rgba(255,255,255,0.1);
+				border-radius: 2px;
+				&:hover {
+					background: white;
+					color: black;
+				}
+
+				p + p {
+					margin: 0;
+				}
+				.tim-i-session {
+					@include fs(-3);
+					font-weight: bold;
+					@include faux-caps;
+					opacity: 0.5;
+				}
+				.tim-i-nome {
+					@include fs(-1);
+				}
+				.tim-i-sala {
+					margin-top: 4px;
+					opacity: 0.75;
+					@include fs(-2);
+				}
+
+				padding: $u-h / 2;
+				& + .timetable-session {
+					margin-top: $u-h / 4;
+				}
+			}
+
+		}
+	}
+
+
+}
 
 .soon {
 	margin-top: $u-h * 1;
