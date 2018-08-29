@@ -1533,19 +1533,26 @@ div.slide.s-rodape.invertido {
 			align-items: center;
 			margin-bottom: $u-h / 4;
 			// background: red;
+
+			.schedule-back {
+				margin-left: $u-h/2;
+				top: 0;
+			}
+			
 			.trab-nav {
 				text-decoration: none;
 				@include fs(-2);
-				padding: $u-h/4 $u-h/2;
+				padding: $u-h/4 $u-h/3;
 				background: mix(white, $c_rosa, 20%);
 				&:hover {
 					background: white;
 				}
-				&:first-child {
-					margin-right: $u-h / 2;
-				}
-				&:last-child {
-					margin-left: $u-h / 2;
+				margin-left: $u-h/4;
+				&.disabled {
+					color: rgba(0,0,0,0.2);
+					&:hover {
+						background: mix(white, $c_rosa, 20%);
+					}
 				}
 			}
 		}
@@ -1566,19 +1573,6 @@ div.slide.s-rodape.invertido {
 		}
 
 		.header-sessao {
-
-			.schedule-back {
-				@include fs(-2);
-				position: relative;
-				top: -9px;
-				text-decoration: none;
-
-				padding: $u-h/4 $u-h/4;
-				background: mix(white, $c_rosa, 20%);
-				&:hover {
-					background: white;
-				}
-			}
 
 			p + p {
 				margin: 0;
@@ -1784,6 +1778,20 @@ div.slide.s-rodape.invertido {
 	}
 }
 
+
+
+.schedule-back {
+	@include fs(-2);
+	position: relative;
+	top: -9px;
+	text-decoration: none;
+
+	padding: $u-h/4 $u-h/4;
+	background: mix(white, $c_rosa, 20%);
+	&:hover {
+		background: white;
+	}
+}
 
 .c-timetable {
 	background: mix($c_verde, black, 75%);

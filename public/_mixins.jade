@@ -166,7 +166,7 @@ mixin trabalho(i, titulo, horario, sala, resumo, temas)
             li= tema
 
 
-mixin oral_session(i, cod_trabalho, titulo, resumo, autores, horario, prev = "", next = "")
+mixin oral_session(i, i_sessao, cod_trabalho, titulo, resumo, autores, horario, prev = "", next = "")
   .trab-trab
     if i > 0
       p.trab-ind.ind-oral= i
@@ -174,11 +174,16 @@ mixin oral_session(i, cod_trabalho, titulo, resumo, autores, horario, prev = "",
       p.trab-ind= " "
 
     .head-cod
+      p.trab-cod-sessao #{cod_trabalho}
+      #[a.schedule-back(href="#schedule_#{i_sessao}",name="#{i_sessao}") ↖]
       unless prev == ""
         a.trab-nav(href="#prev_#{prev}",name="prev_#{cod_trabalho}") ⟵
-      p.trab-cod-sessao #{cod_trabalho}
+      if prev == ""
+        a.trab-nav.disabled(name="prev_#{cod_trabalho}") ○
       unless next == ""
         a.trab-nav(href="#next_#{next}",name="next_#{cod_trabalho}") ⟶
+      if next == ""
+        a.trab-nav.disabled(name="next_#{cod_trabalho}") ○
     p.trab-titulo= titulo
     p.trab-lista-autores= autores
     p.trab-horario.trab-horario-os #[span ► ]#{horario.slice(0,5)}
