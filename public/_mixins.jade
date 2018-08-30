@@ -175,15 +175,16 @@ mixin oral_session(i, i_sessao, cod_trabalho, titulo, resumo, autores, horario, 
 
     .head-cod
       p.trab-cod-sessao #{cod_trabalho}
-      #[a.schedule-back(href="#schedule_#{i_sessao}",name="#{i_sessao}") ↖]
-      unless prev == ""
-        a.trab-nav(href="#prev_#{prev}",name="prev_#{cod_trabalho}") ⟵
-      if prev == ""
-        a.trab-nav.disabled(name="prev_#{cod_trabalho}") ○
-      unless next == ""
-        a.trab-nav(href="#next_#{next}",name="next_#{cod_trabalho}") ⟶
-      if next == ""
-        a.trab-nav.disabled(name="next_#{cod_trabalho}") ○
+      .c-nav
+        #[a.schedule-back(href="#schedule_#{i_sessao}",name="#{i_sessao}") ↖]
+        unless prev == ""
+          a.trab-nav(href="#prev_#{prev}",name="prev_#{cod_trabalho}") ⟵
+        if prev == ""
+          a.trab-nav.disabled(name="prev_#{cod_trabalho}") ○
+        unless next == ""
+          a.trab-nav(href="#next_#{next}",name="next_#{cod_trabalho}") ⟶
+        if next == ""
+          a.trab-nav.disabled(name="next_#{cod_trabalho}") ○
     p.trab-titulo= titulo
     p.trab-lista-autores= autores
     p.trab-horario.trab-horario-os #[span ► ]#{horario.slice(0,5)} !{'<span class="dados-sutis"> &nbsp;·&nbsp; '+sala+' &nbsp;·&nbsp; '+sessao+'</span>'}

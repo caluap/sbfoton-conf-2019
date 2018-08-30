@@ -1535,7 +1535,23 @@ div.slide.s-rodape.invertido {
 
 			.schedule-back {
 				margin-left: $u-h/2;
-				top: 0;
+				top: 3px;
+			}
+			
+			@include media-query($s-sm) {
+				flex-wrap: wrap;
+				flex-direction: column-reverse;
+				.c-nav {
+					width: 100%;
+					margin-bottom: $u-h / 2;
+				}
+				.trab-cod-sessao {
+					width: 100%;
+					margin-bottom: $u-h / 8;
+				}
+				.schedule-back {
+					margin-left: 0;
+				}
 			}
 			
 			.trab-nav {
@@ -1700,7 +1716,7 @@ div.slide.s-rodape.invertido {
 						opacity: 1;
 						@include fs(6);
 						font-weight: 400;
-						margin-bottom: $u-h/4;
+						margin-bottom: 0;
 					}
 					top: 10px;
 				}
