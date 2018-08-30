@@ -55,7 +55,7 @@ include /_mixins
               .sessao
                 .header-sessao
                   p.trab-cod-sessao.forte= i_sessao
-                  h3.trab-topico-sessao #{sessao.nome} #[a.schedule-back(href="#schedule_#{i_sessao}",name="#{i_sessao}") ↖]
+                  h3.trab-topico-sessao #[a.schedule-back(href="#schedule_#{i_sessao}",name="#{i_sessao}") ↖] #{sessao.nome}
                   p.trab-horario-sessao #{sessao.horario} / #{sessao.sala}
                 each cod_trabalho in sessao.trabalhos
                   - var trabalho = trabalhos[cod_trabalho]
