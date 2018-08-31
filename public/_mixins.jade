@@ -42,25 +42,25 @@ mixin rodape(pagina_atual)
     .logo-category
       h3 Organizer
       .logo-container
-        #[a.conf-logo(href="http://www.sbfoton.org.br/", target="_blank") #[img.adj1(src="#{lvl}img/logo_sbfoton/cor.svg", alt="SBFoton")]]
+        a.conf-logo(href="http://www.sbfoton.org.br/", target="_blank") #[img.adj1(src="#{lvl}img/logo_sbfoton/cor.svg", alt="SBFoton")]
     .logo-category
       h3 Sponsors
       .logo-subcategory
         h4 Gold
         .logo-container
-          #[a.conf-logo(href="https://www.keysight.com/", target="_blank") #[img(src="#{lvl}img/logos/keysight.svg", alt="Keysight Technologies")]]
-          #[a.conf-logo(href="https://www.cpqd.com.br/en/", target="_blank") #[img(src="#{lvl}img/logos/cpqd.svg", alt="CPqD")]]
+          a.conf-logo(href="https://www.keysight.com/", target="_blank") #[img(src="#{lvl}img/logos/keysight.svg", alt="Keysight Technologies")]
+          a.conf-logo(href="https://www.cpqd.com.br/en/", target="_blank") #[img(src="#{lvl}img/logos/cpqd.svg", alt="CPqD")]
       .logo-subcategory
         h4 Bronze
         .logo-container
-          #[a.conf-logo(href="http://www.idea-ip.com/", target="_blank") #[img(src="#{lvl}img/logos/idea.png", alt="Idea!")]]
-          #[a.conf-logo(href="https://www.thorlabs.com/", target="_blank") #[img.adj2(src="#{lvl}img/logos/thorlabs.png", alt="ThorLabs")]]
+          a.conf-logo(href="http://www.idea-ip.com/", target="_blank") #[img(src="#{lvl}img/logos/idea.png", alt="Idea!")]
+          a.conf-logo(href="https://www.thorlabs.com/", target="_blank") #[img.adj2(src="#{lvl}img/logos/thorlabs.png", alt="ThorLabs")]
     .logo-category
       h3 Support
       .logo-container
-        #[a.conf-logo(href="https://www.photonicssociety.org/", target="_blank") #[img(src="#{lvl}img/logos/ips.jpg", alt="IPS")]]
-        #[a.conf-logo(href="http://www.capes.gov.br/", target="_blank") #[img.adj2(src="#{lvl}img/logos/capes-horizontal.svg", alt="CAPES")]]
-        //- #[a.conf-logo(href="http://www.fapesp.br/", target="_blank") #[img.adj2(src="#{lvl}img/logos/fapesp.svg", alt="FAPESP")]]
+        a.conf-logo(href="https://www.photonicssociety.org/", target="_blank") #[img(src="#{lvl}img/logos/ips.jpg", alt="IPS")]
+        a.conf-logo(href="http://www.capes.gov.br/", target="_blank") #[img.adj2(src="#{lvl}img/logos/capes-horizontal.svg", alt="CAPES")]
+        a.conf-logo(href="http://www.fapesp.br/", target="_blank") #[img.adj2(src="#{lvl}img/logos/fapesp.svg", alt="FAPESP")]
 
 
   .slide.s-rodape.invertido
@@ -176,7 +176,7 @@ mixin oral_session(i, i_sessao, cod_trabalho, titulo, resumo, autores, horario, 
     .head-cod
       p.trab-cod-sessao #{cod_trabalho}
       .c-nav
-        #[a.schedule-back(href="#schedule_#{i_sessao}",name="#{i_sessao}") ↖]
+        a.schedule-back(href="#schedule_#{i_sessao}",name="#{i_sessao}") ↖
         unless prev == ""
           a.trab-nav(href="#prev_#{prev}",name="prev_#{cod_trabalho}") ⟵
         if prev == ""
