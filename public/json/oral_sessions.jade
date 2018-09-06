@@ -47,7 +47,11 @@
         paper['title'] = trabalhos[k_paper]['titulo'];
         paper['authors'] = trabalhos[k_paper]['author_list'];
         paper['meta'] = oral_sessions_timetable[k_paper] + ' · ' + room + ' · ' + k_session;
-        paper['abstract'] = trabalhos[k_paper]['resumo'];
+
+        var resumo = trabalhos[k_paper]['resumo'];
+        resumo = resumo.replace("<br>","\n");
+        resumo = resumo.replace(/<\/?[^>]+(>|$)/g, "");
+        paper['abstract'] = resumo;
 
         session['papers'].push(paper);
 

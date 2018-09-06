@@ -26,34 +26,29 @@
 
   var j = [];
 
-  Object.keys(plenaries).forEach(function(k_day){
+  Object.keys(short_courses).forEach(function(k_day){
     var day = {};
     day['date'] = k_day;
-    day['plenaries'] = [];
+    day['short_courses'] = [];
 
-    plenaries[k_day].forEach(function(aux_plenary){
+    short_courses[k_day].forEach(function(aux_short_course){
 
-      var plenary = {};
-      var codigo = aux_plenary.trabalho;
+      var short_course = {};
+      var codigo = aux_short_course.trabalho;
+      var sala = salas[aux_short_course.sala].nome;
 
-      var codigo_autor = trabalhos[codigo].autores;
-      var autor = autores[codigo_autor].nome;
-      var instituicao = autores[codigo_autor].instituicao[0].nome;
+      short_course.code = codigo;
+      short_course.title = trabalhos[codigo].titulo;
+      short_course.authors = trabalhos[codigo].author_list;
+      short_course.meta = aux_short_course.horario + ' · ' + sala;
 
-      plenary.code = codigo;
-      plenary.title = trabalhos[codigo].titulo;
-      plenary.presented_by = 'Presented by ' + autor + ', ' + instituicao;
-      
-      var hora = aux_plenary.horario.slice(0,5) + '–' + aux_plenary.horario.slice(9);
-      var sala = salas[aux_plenary.sala].nome;
-      plenary.meta = hora + ' · ' + sala + ' · ' + trabalhos[codigo].temas[0];
 
       var resumo = trabalhos[codigo].resumo;
       resumo = resumo.replace("<br>","\n");
       resumo = resumo.replace(/<\/?[^>]+(>|$)/g, "");
-      plenary.abstract = resumo;
+      short_course.abstract = trabalhos[codigo].resumo;
 
-      day['plenaries'].push(plenary);
+      day['short_courses'].push(short_course);
     });
 
     j.push(day);
