@@ -136,6 +136,13 @@ $fonte-texto: 'Inter UI';
 	}
 }
 
+.separador-quarto {
+	width: 100%;
+	border: none;
+	clear: both;
+	height: $u-h * 0.25;
+}
+
 @include hrs-que-separam;
 
 
