@@ -1,0 +1,60 @@
+-
+  //https://stackoverflow.com/questions/16196338/json-stringify-doesnt-work-with-normal-javascript-array
+  (function(){
+      // Convert array to object
+      var convArrToObj = function(array){
+          var thisEleObj = new Object();
+          if(typeof array == "object"){
+              for(var i in array){
+                  var thisEle = convArrToObj(array[i]);
+                  thisEleObj[i] = thisEle;
+              }
+          }else {
+              thisEleObj = array;
+          }
+          return thisEleObj;
+      };
+      var oldJSONStringify = JSON.stringify;
+      JSON.stringify = function(input){
+          if(oldJSONStringify(input) == '[]')
+              return oldJSONStringify(convArrToObj(input));
+          else
+              return oldJSONStringify(input);
+      };
+  })();
+
+
+  var j = [];
+
+  Object.keys(plenaries).forEach(function(k_day){
+    var day = {};
+    day['date'] = k_day;
+    day['plenaries'] = [];
+
+    plenaries[k_day].forEach(function(aux_plenary){
+
+      var plenary = {};
+      var codigo = aux_plenary.trabalho;
+
+      var codigo_autor = trabalhos[codigo].autores;
+      var autor = autores[codigo_autor].nome;
+      var instituicao = autores[codigo_autor].instituicao[0].nome;
+
+      plenary.code = codigo;
+      plenary.title = trabalhos[codigo].titulo;
+      plenary.presented_by = 'Presented by ' + autor + ', ' + instituicao;
+      
+      var hora = aux_plenary.horario.slice(0,5) + '–' + aux_plenary.horario.slice(9);
+      var sala = salas[aux_plenary.sala].nome;
+      plenary.meta = hora + ' · ' + sala + ' · ' + trabalhos[codigo].temas[0];
+
+      plenary.abstract = trabalhos[codigo].resumo;
+
+      day['plenaries'].push(plenary);
+    });
+
+    j.push(day);
+    
+  });
+
+p= JSON.stringify(j, null, '\n')

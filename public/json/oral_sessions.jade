@@ -37,6 +37,7 @@
       var room = oral_sessions[k_day][k_session]['sala'];
 
       session['code'] = k_session;
+      session['title'] = oral_sessions[k_day][k_session]['nome'];
       session['meta'] = oral_sessions[k_day][k_session]['horario'] + ' / ' + room;
       session['papers'] = [];
 
