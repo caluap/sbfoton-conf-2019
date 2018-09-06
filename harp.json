@@ -714,6 +714,23 @@
 			}
 
 
+			,"SC-C-TUE-02": {
+				"titulo": "Diode Pumped Solid State Lasers and other ultra-high efficiency Lasers",
+				"resumo": "The lecture will focus on laser architectures and laser resonators for DPSSLs and Random lasers. The first part of the lecture will be about different diode laser architectures, their characteristics and ways to scaling diode-pumped solid-state lasers to high powers whilst retaining some attractive features such as good beam quality and high laser efficiency. We will then enter diode pumped random lasers and see how to achieve up to 50% efficiency using Levy statistics or small beam divergence and low threshold by using samples that operate in the limit to Anderson localization.",
+				"temas" : [""],
+				"author_list": "Niklaus Wetter (IPEN)",
+				"autores": [""]				
+			}
+
+			,"SC-C-TUE-01": {
+				"titulo": "Integrated Optics Design using COMSOL",
+				"resumo": "We will open with a general vision of the passive integrated optics area. Next, the theoretical fundamentals and numerical methods used to design integrated waveguides and components will be discussed. After a brief break, COMSOL hands-on design techniques will be presented in detail, staring with a worked example, next, an exercise will be passed to the students to be solved by them with the instructors' help. Finally, the COMSOL design of a modern practical component will be presented, leaving the details to be completed as a homework activity, and also, suggested research projects will be briefly discussed",
+				"temas" : [""],
+				"author_list": "Hugo Hernandez FIgueroa and Yuri Hayashi Isayama (Unicamp)",
+				"autores": [""]				
+			}
+
+
 
     },
 
@@ -1079,26 +1096,15 @@
 
 
     "short_courses" : {
-			"Monday, August 28th" : [
+			"Tuesday, October 9th" : [
 				{
-					"horario" : "09:10—10:00",
-					"sala" : "pentagono",
-					"trabalho" : "trabalho2"
-				}
-			],
-			"Tuesday, August 29th" : [
-				{
-					"horario" : "09:10—10:00",
-					"sala" : "pentagono",
-					"trabalho" : "trabalho1"
+					"horario" : "16:30-18:00",
+					"sala" : "amphitheater1",
+					"trabalho" : "SC-C-TUE-01"
 				},{
-					"horario" : "10:00—10:50",
-					"sala" : "pentagono",
-					"trabalho" : "trabalho2"
-        },{
-					"horario" : "10:00—10:50",
-					"sala" : "pentagono",
-					"trabalho" : "trabalho2"
+					"horario" : "16:30-18:00",
+					"sala" : "amphitheater2",
+					"trabalho" : "SC-L-TUE-02"
         }
       ]
 		},
@@ -1125,6 +1131,12 @@
 			},
 			"auditorium" : {
 				"nome": "Auditorium"
+			},
+			"amphitheater1" : {
+				"nome": "Amphitheater 1"
+			},
+			"amphitheater2" : {
+				"nome": "Amphitheater 2"
 			}
 		},
 
