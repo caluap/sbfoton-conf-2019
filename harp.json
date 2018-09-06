@@ -76,7 +76,7 @@
 			
 			,"OS-C-MON-01-01": {
 				"titulo" : "Invited Paper – CD Estimation in FMFs Using the Auto-Correlation of the Signal Power Waveform",
-				"resumo" : "The exhaustion of the capacity of conventional optical systems based on standard single-mode fibers (SSMF) requires new solutions cope with the exponential traffic increase. In this scenario, transmission by few-mode fibers (FMFs) appears as a strong candidate. These systems require adaptive digital signal processing (DSP) algorithms with multiple inputs and multiple outputs (MIMO) at the receiver in order to recover the signals multiplexed signals in the various spatial and polarization modes. However, the proper functioning of these equalizers requires the pre-compensation of the chromatic dispersion (CD) of the receiver using static filters. Since the DSP algorithms in mode-multiplexing systems are of slow convergence, the typical scanning algorithms become difficult to apply. In this work, we investigate the applicability of the algorithm based on the power auto-correlation function to estimate the CD in FMF systems. The results indicate an algorithm vulnerability with the increase of the inter-mode crosstalk level",
+				"resumo" : "The exhaustion of the capacity of conventional optical systems based on standard single-mode fibers (SSMF) requires new solutions cope with the exponential traffic increase. In this scenario, transmission by few-mode fibers (FMFs) appears as a strong candidate. These systems require adaptive digital signal processing (DSP) algorithms with multiple inputs and multiple outputs (MIMO) at the receiver in order to recover the signals multiplexed signals in the various spatial and polarization modes. However, the proper functioning of these equalizers requires the pre-compensation of the chromatic dispersion (CD) of the receiver using static filters. Since the DSP algorithms in mode-multiplexing systems are of slow convergence, the typical scanning algorithms become difficult to apply. In this work, we investigate the applicability of the algorithm based on the power auto-correlation function to estimate the CD in FMF systems. The results indicate an algorithm vulnerability with the increase of the inter-mode crosstalk level.",
 				"temas" : [""],
 				"author_list": "Henrique Santana, Lailson Santos, Felipe M. Ferreira and Darli Mello",
 				"autores" : [""]
@@ -84,7 +84,7 @@
 			
 			,"OS-C-MON-01-02": {
 				"titulo" : "Deterministic Jitter Effects in High Order Modulation for 400G and 600G Single-Carrier Transmission",
-				"resumo" : "We evaluated, in a simulated back-to-back 400G and 600G scenario, the effects of deterministic jitter in comparison to penalties inflicted by phase noise from laser linewidth, considering 64QAM and 256QAM single carrier systems. While phase noise is a relevant parameter for such modulation formats in general, deterministic jitter is shown to be dominant on systems with both high baud rate and high order modulation formats",
+				"resumo" : "We evaluated, in a simulated back-to-back 400G and 600G scenario, the effects of deterministic jitter in comparison to penalties inflicted by phase noise from laser linewidth, considering 64QAM and 256QAM single carrier systems. While phase noise is a relevant parameter for such modulation formats in general, deterministic jitter is shown to be dominant on systems with both high baud rate and high order modulation formats.",
 				"temas" : [""],
 				"author_list": "Eduardo Rosa, Matheus Rodrigues, André Souza and Stenio Ranzini",
 				"autores" : [""]
@@ -108,7 +108,7 @@
 
 			,"OS-I-MON-04-01": {
 				"titulo" : "Invited Paper – Active Photonic Integrated Circuits based on the Silicon-On-Insulator Platform",
-				"resumo" : "Photonic integration is still looking for a killer application where the industry will coalesce in leveraging the know-how from the microelectronics industry and enable low cost fiber-to-the-chip integration. Key to the deployment of active photonics is the ability to include low-cost light sensing, light sources and non-reciprocal devices in a packaging platform enabling the full range of functionalities expected of fiber-optics systems to become available on-chip. In this talk I will review the early work, as well as the latest developments, in establishing a high-volume integrated circuit process for photonic active devices",
+				"resumo" : "Photonic integration is still looking for a killer application where the industry will coalesce in leveraging the know-how from the microelectronics industry and enable low cost fiber-to-the-chip integration. Key to the deployment of active photonics is the ability to include low-cost light sensing, light sources and non-reciprocal devices in a packaging platform enabling the full range of functionalities expected of fiber-optics systems to become available on-chip. In this talk I will review the early work, as well as the latest developments, in establishing a high-volume integrated circuit process for photonic active devices.",
 				"temas" : [""],
 				"author_list": "Roberto Ricardo Panepucci",
 				"autores" : [""]
@@ -196,7 +196,7 @@
 
 			,"OS-O-MON-05-04": {
 				"titulo" : "Gradient Refractive Index Polymer Rod",
-				"resumo" : "The present paper is related to this process of fabrication of a gradient refractive index polymer rod for use as a medium of image transmission and for preparing a polymeric optical fiber by melt spinning. It is used to the technique of external chemical deposition or what is denominated in the field of optical fibers of Outside Vapor-Phase Oxidation",
+				"resumo" : "The present paper is related to this process of fabrication of a gradient refractive index polymer rod for use as a medium of image transmission and for preparing a polymeric optical fiber by melt spinning. It is used to the technique of external chemical deposition or what is denominated in the field of optical fibers of Outside Vapor-Phase Oxidation.",
 				"temas" : [""],
 				"author_list": "Luiz Barbosa, Roddy Gonzales and Cicero Souza Filho",
 				"autores" : [""]
@@ -355,7 +355,7 @@
 
 			,"OS-C-TUE-04-03": {
 				"titulo" : "ONSIM: The Optical Network Simulator for Hybrid Switching Paradigms",
-				"resumo" : "The elastic optical network (EON) was proposed as a solution to avoid the spectrum waste in conventional WDM networks, since it improves the network utilization. However, the elastic optical network is still based on an optical circuit switching (OCS) paradigm, which tends to waste bandwidth resources due to idle times of the reservation process. Hybrid solutions, including the optical packet switching (OPS) paradigm have been proposed in optical networks designed for specific applications, for instance data center optical networks, and offers a better efficiency in the resource usage. Therefore, to allow future studies we present an adaptation of Optical Network Simulator (ONSim) to work on hybrid switching paradigms. As an example, we analyze blocking probability in this context, considering specifically the operation of a hybrid OCS/OPS optical network with different proportions of traffic",
+				"resumo" : "The elastic optical network (EON) was proposed as a solution to avoid the spectrum waste in conventional WDM networks, since it improves the network utilization. However, the elastic optical network is still based on an optical circuit switching (OCS) paradigm, which tends to waste bandwidth resources due to idle times of the reservation process. Hybrid solutions, including the optical packet switching (OPS) paradigm have been proposed in optical networks designed for specific applications, for instance data center optical networks, and offers a better efficiency in the resource usage. Therefore, to allow future studies we present an adaptation of Optical Network Simulator (ONSim) to work on hybrid switching paradigms. As an example, we analyze blocking probability in this context, considering specifically the operation of a hybrid OCS/OPS optical network with different proportions of traffic.",
 				"temas" : [""],
 				"author_list": "Luiz H Bonani, Marcelo Abbade and Joel C Queiroz",
 				"autores" : [""]
@@ -409,13 +409,7 @@
 				"autores" : [""]
 			}
 
-			,"SC-C-TUE-01": {
-				"titulo" : "Short Course:  Integrated Optics Design using COMSOL",
-				"resumo" : "We will open with a general vision of the passive integrated optics area. Next, the theoretical fundamentals and numerical methods used to design integrated waveguides and components will be discussed. After a brief break, COMSOL hands-on design techniques will be presented in detail, staring with a worked example, next, an exercise will be passed to the students to be solved by them with the instructors' help. Finally, the COMSOL design of a modern practical component will be presented, leaving the details to be completed as a homework activity, and also, suggested research projects will be briefly discussed",
-				"temas" : [""],
-				"author_list": "",
-				"autores" : [""]
-			}
+
 
 			,"OS-L-TUE-03-01": {
 				"titulo" : "Invited Paper – Advances in Random Lasers",
@@ -427,7 +421,7 @@
 
 			,"OS-L-TUE-03-02": {
 				"titulo" : "Pressure measurement by low coherence speckle interferometry membrane shaping with tunable diode lasers",
-				"resumo" : "Non-contact evaluation of object deformation is of great importance in several industrial and scientific processes. In this work the demonstrate that low-coherence digital speckle pattern interferometry can be employed for pressure measurement by the analysis of a 0.4-mm thickness, 55-mm diameter circular aluminum membrane submitted to a pressure differential ranging from 0 to 90 kPa. The membrane deformation was measured with a tunable red diode laser emitting simultaneously two wavelengths. The resulting speckle image of the membrane appeared covered with interference fringes which correspond to the contour lines of the studied surface. By means of conventional fringe pattern evaluation methods like 4-stepping and unwrapping methods the membrane deformation was determined. The experimental results were compared with the ones obtained by a numerical algorithm. The possibility of calculating the elasticity modulus of the membrane material from the coefficients of the calibration curve is also pointed out. These results indicate that the proposed method is a viable alternative for pressure measurement in industry and reference laboratories",
+				"resumo" : "Non-contact evaluation of object deformation is of great importance in several industrial and scientific processes. In this work the demonstrate that low-coherence digital speckle pattern interferometry can be employed for pressure measurement by the analysis of a 0.4-mm thickness, 55-mm diameter circular aluminum membrane submitted to a pressure differential ranging from 0 to 90 kPa. The membrane deformation was measured with a tunable red diode laser emitting simultaneously two wavelengths. The resulting speckle image of the membrane appeared covered with interference fringes which correspond to the contour lines of the studied surface. By means of conventional fringe pattern evaluation methods like 4-stepping and unwrapping methods the membrane deformation was determined. The experimental results were compared with the ones obtained by a numerical algorithm. The possibility of calculating the elasticity modulus of the membrane material from the coefficients of the calibration curve is also pointed out. These results indicate that the proposed method is a viable alternative for pressure measurement in industry and reference laboratories.",
 				"temas" : [""],
 				"author_list": "Marcelo Saita, Eduardo Barbosa, Francisco Degasperi and Niklaus Wetter",
 				"autores" : [""]
@@ -449,13 +443,7 @@
 				"autores" : [""]
 			}
 
-			,"SC-L-TUE-02": {
-				"titulo" : "Short Course: Diode Pumped Solid State Lasers and other ultra-high efficiency Lasers",
-				"resumo" : "The lecture will focus on laser architectures and laser resonators for DPSSLs and Random lasers. The first part of the lecture will be about different diode laser architectures, their characteristics and ways to scaling diode-pumped solid-state lasers to high powers whilst retaining some attractive features such as good beam quality and high laser efficiency. We will then enter diode pumped random lasers and see how to achieve up to 50% efficiency using Levy statistics or small beam divergence and low threshold by using samples that operate in the limit to Anderson localization.",
-				"temas" : [""],
-				"author_list": "",
-				"autores" : [""]
-			}
+
 
 
 
@@ -476,7 +464,7 @@
 			
 			,"PL-WED-03" : {
 				"titulo" : "PIX4LIFE : an open-access pilot line for silicon-nitride photonics enabling visible light applications",
-				"resumo" : "“PIX4life is an European-funded initiative, which will mature a state of the art silicon nitride (SiN) photonics pilot line for life science applications in the visible range and pave the way to make it accessible as an enabler for product development by a broad range of industrial customers. <br><br> The PIX4life pilot line aims to offer an open-access manufacturing platform for photonic integrated circuits, specially targeting life-science applications at visible wavelength ranges (400-850 nm). Chip fabrication will be done either at imec (Leuven – Belgium) or LioniX (Enschede – Netherlands) through dedicated wafer runs, or most often by multi-project wafer (MPW) runs, where many users will be able to share wafer space, and thus the fabrication cost. PIX4life will also offer all kinds of additional services like photonic integration consultancy, circuit design, chip testing and packaging. All provided services are open to external customers, irrespective of their nature. More information can be obtained at <a href=\"www.pix4life.eu/\" target=\"_blank\">www.pix4life.eu/</a>”",
+				"resumo" : "PIX4life is an European-funded initiative, which will mature a state of the art silicon nitride (SiN) photonics pilot line for life science applications in the visible range and pave the way to make it accessible as an enabler for product development by a broad range of industrial customers. <br><br> The PIX4life pilot line aims to offer an open-access manufacturing platform for photonic integrated circuits, specially targeting life-science applications at visible wavelength ranges (400-850 nm). Chip fabrication will be done either at imec (Leuven – Belgium) or LioniX (Enschede – Netherlands) through dedicated wafer runs, or most often by multi-project wafer (MPW) runs, where many users will be able to share wafer space, and thus the fabrication cost. PIX4life will also offer all kinds of additional services like photonic integration consultancy, circuit design, chip testing and packaging. All provided services are open to external customers, irrespective of their nature. More information can be obtained at <a href=\"www.pix4life.eu/\" target=\"_blank\">www.pix4life.eu/</a>",
 				"temas" : ["Innovation"],
 				"autores" : ["jacobus_swart"]
 			}
@@ -555,7 +543,7 @@
 			
 			,"OS-I-WED-04-05": {
 				"titulo" : "Foundry Polymer-Based Inverted-Rib Waveguides",
-				"resumo" : "This manuscript presents preliminary results of the development of polymer inverted-rib waveguides based on high-volume CMOS foundry. The 150 mm wafers were fabricated at The CEITEC S.A. facilities. Photomask design and manufacturing, as well as wafer post-processing were carried out at CTI Renato Archer. As preliminary results, spectral filters based on integrated ring resonators with free spectral range (FSR) of 1 nm are presented",
+				"resumo" : "This manuscript presents preliminary results of the development of polymer inverted-rib waveguides based on high-volume CMOS foundry. The 150 mm wafers were fabricated at The CEITEC S.A. facilities. Photomask design and manufacturing, as well as wafer post-processing were carried out at CTI Renato Archer. As preliminary results, spectral filters based on integrated ring resonators with free spectral range (FSR) of 1 nm are presented.",
 				"temas" : [""],
 				"author_list": "Gilliard N. Malheiros-Silveira, Celio A. Finardi, Eliana Van Etten, Talita Bürger, Ricardo da Silva, André Daltrini and Roberto R. Panepucci",
 				"autores" : [""]
@@ -627,7 +615,7 @@
 			
 			,"OS-C-WED-05-04": {
 				"titulo" : "Analysis of Multichannel Signal Transmission using a flexible spectral allocation method in Elastic Optical Networks",
-				"resumo" : "A flexible spectral allocation method is proposed and evaluated considering the impact of the number of channels on the required spectral bandwidth. The performance of elastic optical networks (EONs) is examined using a multilevel modulation format and coherent transmission. Network design parameters such as spectral bandwidth and channel symbol error rate (SER) are adopted as metrics for analysis. Transmission of quadrature phase shift-keying (QPSK) signals modulated at 56 and 100 Gbps is simulated and results for B-B, 50 and 200km are discussed",
+				"resumo" : "A flexible spectral allocation method is proposed and evaluated considering the impact of the number of channels on the required spectral bandwidth. The performance of elastic optical networks (EONs) is examined using a multilevel modulation format and coherent transmission. Network design parameters such as spectral bandwidth and channel symbol error rate (SER) are adopted as metrics for analysis. Transmission of quadrature phase shift-keying (QPSK) signals modulated at 56 and 100 Gbps is simulated and results for B-B, 50 and 200km are discussed.",
 				"temas" : [""],
 				"author_list": "Felipe Rudge Barbosa and Indayara Martins",
 				"autores" : [""]
@@ -714,7 +702,7 @@
 			}
 
 
-			,"SC-C-TUE-02": {
+			,"SC-C-TUE-01": {
 				"titulo": "Diode Pumped Solid State Lasers and other ultra-high efficiency Lasers",
 				"resumo": "The lecture will focus on laser architectures and laser resonators for DPSSLs and Random lasers. The first part of the lecture will be about different diode laser architectures, their characteristics and ways to scaling diode-pumped solid-state lasers to high powers whilst retaining some attractive features such as good beam quality and high laser efficiency. We will then enter diode pumped random lasers and see how to achieve up to 50% efficiency using Levy statistics or small beam divergence and low threshold by using samples that operate in the limit to Anderson localization.",
 				"temas" : [""],
@@ -722,9 +710,9 @@
 				"autores": [""]				
 			}
 
-			,"SC-C-TUE-01": {
+			,"SC-L-TUE-02": {
 				"titulo": "Integrated Optics Design using COMSOL",
-				"resumo": "We will open with a general vision of the passive integrated optics area. Next, the theoretical fundamentals and numerical methods used to design integrated waveguides and components will be discussed. After a brief break, COMSOL hands-on design techniques will be presented in detail, staring with a worked example, next, an exercise will be passed to the students to be solved by them with the instructors' help. Finally, the COMSOL design of a modern practical component will be presented, leaving the details to be completed as a homework activity, and also, suggested research projects will be briefly discussed",
+				"resumo": "We will open with a general vision of the passive integrated optics area. Next, the theoretical fundamentals and numerical methods used to design integrated waveguides and components will be discussed. After a brief break, COMSOL hands-on design techniques will be presented in detail, staring with a worked example, next, an exercise will be passed to the students to be solved by them with the instructors' help. Finally, the COMSOL design of a modern practical component will be presented, leaving the details to be completed as a homework activity, and also, suggested research projects will be briefly discussed.",
 				"temas" : [""],
 				"author_list": "Hugo Hernandez FIgueroa and Yuri Hayashi Isayama (Unicamp)",
 				"autores": [""]				
