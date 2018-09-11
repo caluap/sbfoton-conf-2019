@@ -140,7 +140,8 @@
 
 			,"OS-B-MON-02-01": {
 				"titulo" : "Invited Paper – Biophotonics and lasers shining light into diseases: IPEN experience",
-				"resumo" : "Biophotonics is an exciting interdisciplinary research field, which studies the interaction of photons with biological structures, imaging and sensing cells and tissues. The interaction of light with matter results in reflection, absorption, scattering or transmission of the beam, which can provide information about the molecule or tissue structure. Since 1992 Biophotonics and lasers research at IPEN is providing to the society a wide range of applications from fundamental medical research to diagnosis, therapy and surgery. Prevention of dental caries and dental erosion with lasers: Dental caries is a common oral disease which, viewed simply, is characterized by a demineralization of the dental hard tissue caused by acids generated in the oral biofilm. Although a remarkable decline in the incidence of dental caries worldwide has been documented, it is still the most prevalent disease during childhood and adolescence. On account of the widespread use of fluoride, lasers have been tested to improve dental enamel properties in order to enhance its resistance to demineralization. We evaluated the effect of combining laser irradiation (Nd:YAG and Er,Cr:YSGG) with fluoride on an enamel microstructure and demineralization by FTRaman and FTIR Spectroscopy. Demineralization promoted reduction in organic contents; Nd:YAG laser irradiation promoted loss of carbonate and organic content, while Er,Cr:YSGG did not produce significant changes in the relative band intensities of organic and inorganic contents of the enamel. In lased samples, almost no effects caused by pH-cycling on enamel were observed. Our group showed that laser treatment and its association with fluoride can interfere with the demineralization dynamics, reducing its effects over the enamel. X-Ray diffraction at Synchrotron source provided information on the crystalline changes in the hydroxyapatite and new phase formed after laser irradiation, elucidation the physical reasons for the treatment success. A clinical trial with 100 children irradiated with Nd:YAG laser in combination with professional fluoride application, demonstrated that after 1 year , the lesion incidence (any amount of demineralization) in the laser treated group was ~ 39% lower when compared with children fluoride treated only. Diagnosis of skin cancer: Nonmelanoma skin cancers represent 95% of cutaneous neoplasms. Among them, squamous cell carcinoma (SCC) is the more aggressive form and shows a pattern of possible metastatic profile. 5-aminolevulinic acid (ALA) and its methylated ester (MAL) are the most common topical agents used in photodynamic therapy (PDT) as precursors of the photosensitizer protoporphyrin IX (PpIX). The induction of newly PpIX depends on incubation time of each photosensitizer in the tissue and the presence of high intralesional porphyrin levels is an important parameter for the PDT effectiveness. We used laser-induced fluorescence (LIF) spectroscopy to evaluate the optimum time to light exposure of PDT mediated by ALA (20% w/w) and MAL (10% w/w) to treat malignant lesions precursors of cutaneous squamous cell carcinoma induced in mice. The therapeutic effects obtained by optimized ALA- and MAL-PDT were assessed 10 and 20 days after treatments. Higher PpIX levels were evidenced in the lesions photosensitized by ALA than MAL and according to LIF measurements the PDT irradiation was performed, respectively, at 300 and 330 minutes after ALA and MAL incubation. Histopathological analysis evidenced necrosis and epithelial atrophy after 10 days of PDT using both prodrugs, as well as reepitelization and collagen deposition at 20 days. Thus, despite the distinct concentration of ALA and MAL used in the formulation of each photosensitizing cream, PDT mediated by both photosensitizing agents obtained similar therapeutic outcomes. Besides, we used Fourier transform infrared spectroscopy (FTIR) spectroscopy to assess the biochemical changes in normal skin caused by squamous cell carcinoma induced by multi-stage chemical carcinogenesis in mice. Changes in the absorption intensities and shifts were observed in the vibrational modes associated to proteins, indicating changes in secondary conformation in the neoplastic tissue. Hierarchical cluster analysis was performed to evaluate the potential of the technique to differentiate the spectra of neoplastic and normal skin tissue, so that the accuracy obtained for this classification was 86.4%, while multivariate analysis of the spectra second derivative had 95,7%. Photodynamic therapy of skin cancer: Photodynamic therapy (PDT) has become a promising alternative for treatment of skin lesions such as squamous cell carcinoma. We propose a non-invasive method to monitor the effects of PDT by using the optical attenuation coefficient (OAC) calculated from optical coherence tomography (OCT) images. We conducted a study on mice with chemically induced neoplastic lesions and performed PDT on these lesions using local developed photosensitizers cream (PI 0705591-9). The response of neoplastic lesions to therapy was monitored using, at the same time, macroscopic clinical visualization, histopathological analysis, OCT imaging, and OCT-based attenuation coefficient measurement. Results with all four modalities demonstrated a positive response to treatment. The attenuation coefficient was found to be 1.4 higher in skin lesions than in healthy tissue and it decreased after therapy, demonstrating that the OAC is a potential tool to noninvasively assess the evolution of skin neoplastic lesions with time after treatment. Other examples will be discussed, such as Femtosencond laser as coadjutant treatment of burned skin, Optical Coherence Tomography monitoring head and neck vascular malformations and hemangiomas, Infrared Thermography determining safety laser irradiation conditions in Dentistry, Lasers in bone regeneration, etc. Acknowledgements This study was supported by CEPID/FAPESP 05/51689-2, CAPES/PROCAD 88881.068505/2014-01, CNPq/INCT 465763/2014-6 and PQ 309902/2017-7.",
+				"resumo": "We evaluated the effect of combining laser irradiation (Nd:YAG and Er,Cr:YSGG) with fluoride on an enamel microstructure and demineralization by FTRaman and FTIR Spectroscopy. Demineralization promoted reduction in organic contents; Nd:YAG laser irradiation promoted loss of carbonate and organic content, while Er,Cr:YSGG did not produce significant changes in the relative band intensities of organic and inorganic contents of the enamel. In lased samples, almost no effects caused by pH-cycling on enamel were observed. Our group showed that laser treatment and its association with fluoride can interfere with the demineralization dynamics, reducing its effects over the enamel. X-Ray diffraction at Synchrotron source provided information on the crystalline changes in the hydroxyapatite and new phase formed after laser irradiation, elucidation the physical reasons for the treatment success. In another study, we used laser-induced fluorescence (LIF) spectroscopy to evaluate the optimum time to light exposure of photodynamic therapy (PDT) to treat malignant lesions precursors of cutaneous squamous cell carcinoma induced in mice.  Besides, we used Fourier transform infrared spectroscopy (FTIR) spectroscopy to assess the biochemical changes in normal skin caused by squamous cell carcinoma induced by multi-stage chemical carcinogenesis in mice. Finally, we propose a non-invasive method to monitor the effects of PDT by using the optical attenuation coefficient (OAC) calculated from optical coherence tomography (OCT) images. We conducted a study on mice with chemically induced neoplastic lesions and performed PDT on these lesions using local developed photosensitizers cream (PI 0705591-9). The response of neoplastic lesions to therapy was monitored using, at the same time, macroscopic clinical visualization, histopathological analysis, OCT imaging, and OCT-based attenuation coefficient measurement. Results with all four modalities demonstrated a positive response to treatment. Other examples will be discussed, such as Femtosencond laser as coadjutant treatment of burned skin, Optical Coherence Tomography monitoring head and neck vascular malformations and hemangiomas, Infrared Thermography determining safety laser irradiation conditions in Dentistry, Lasers in bone regeneration, etc.",
+				"resumo_original" : "Biophotonics is an exciting interdisciplinary research field, which studies the interaction of photons with biological structures, imaging and sensing cells and tissues. The interaction of light with matter results in reflection, absorption, scattering or transmission of the beam, which can provide information about the molecule or tissue structure. Since 1992 Biophotonics and lasers research at IPEN is providing to the society a wide range of applications from fundamental medical research to diagnosis, therapy and surgery. Prevention of dental caries and dental erosion with lasers: Dental caries is a common oral disease which, viewed simply, is characterized by a demineralization of the dental hard tissue caused by acids generated in the oral biofilm. Although a remarkable decline in the incidence of dental caries worldwide has been documented, it is still the most prevalent disease during childhood and adolescence. On account of the widespread use of fluoride, lasers have been tested to improve dental enamel properties in order to enhance its resistance to demineralization. We evaluated the effect of combining laser irradiation (Nd:YAG and Er,Cr:YSGG) with fluoride on an enamel microstructure and demineralization by FTRaman and FTIR Spectroscopy. Demineralization promoted reduction in organic contents; Nd:YAG laser irradiation promoted loss of carbonate and organic content, while Er,Cr:YSGG did not produce significant changes in the relative band intensities of organic and inorganic contents of the enamel. In lased samples, almost no effects caused by pH-cycling on enamel were observed. Our group showed that laser treatment and its association with fluoride can interfere with the demineralization dynamics, reducing its effects over the enamel. X-Ray diffraction at Synchrotron source provided information on the crystalline changes in the hydroxyapatite and new phase formed after laser irradiation, elucidation the physical reasons for the treatment success. A clinical trial with 100 children irradiated with Nd:YAG laser in combination with professional fluoride application, demonstrated that after 1 year , the lesion incidence (any amount of demineralization) in the laser treated group was ~ 39% lower when compared with children fluoride treated only. Diagnosis of skin cancer: Nonmelanoma skin cancers represent 95% of cutaneous neoplasms. Among them, squamous cell carcinoma (SCC) is the more aggressive form and shows a pattern of possible metastatic profile. 5-aminolevulinic acid (ALA) and its methylated ester (MAL) are the most common topical agents used in photodynamic therapy (PDT) as precursors of the photosensitizer protoporphyrin IX (PpIX). The induction of newly PpIX depends on incubation time of each photosensitizer in the tissue and the presence of high intralesional porphyrin levels is an important parameter for the PDT effectiveness. We used laser-induced fluorescence (LIF) spectroscopy to evaluate the optimum time to light exposure of PDT mediated by ALA (20% w/w) and MAL (10% w/w) to treat malignant lesions precursors of cutaneous squamous cell carcinoma induced in mice. The therapeutic effects obtained by optimized ALA- and MAL-PDT were assessed 10 and 20 days after treatments. Higher PpIX levels were evidenced in the lesions photosensitized by ALA than MAL and according to LIF measurements the PDT irradiation was performed, respectively, at 300 and 330 minutes after ALA and MAL incubation. Histopathological analysis evidenced necrosis and epithelial atrophy after 10 days of PDT using both prodrugs, as well as reepitelization and collagen deposition at 20 days. Thus, despite the distinct concentration of ALA and MAL used in the formulation of each photosensitizing cream, PDT mediated by both photosensitizing agents obtained similar therapeutic outcomes. Besides, we used Fourier transform infrared spectroscopy (FTIR) spectroscopy to assess the biochemical changes in normal skin caused by squamous cell carcinoma induced by multi-stage chemical carcinogenesis in mice. Changes in the absorption intensities and shifts were observed in the vibrational modes associated to proteins, indicating changes in secondary conformation in the neoplastic tissue. Hierarchical cluster analysis was performed to evaluate the potential of the technique to differentiate the spectra of neoplastic and normal skin tissue, so that the accuracy obtained for this classification was 86.4%, while multivariate analysis of the spectra second derivative had 95,7%. Photodynamic therapy of skin cancer: Photodynamic therapy (PDT) has become a promising alternative for treatment of skin lesions such as squamous cell carcinoma. We propose a non-invasive method to monitor the effects of PDT by using the optical attenuation coefficient (OAC) calculated from optical coherence tomography (OCT) images. We conducted a study on mice with chemically induced neoplastic lesions and performed PDT on these lesions using local developed photosensitizers cream (PI 0705591-9). The response of neoplastic lesions to therapy was monitored using, at the same time, macroscopic clinical visualization, histopathological analysis, OCT imaging, and OCT-based attenuation coefficient measurement. Results with all four modalities demonstrated a positive response to treatment. The attenuation coefficient was found to be 1.4 higher in skin lesions than in healthy tissue and it decreased after therapy, demonstrating that the OAC is a potential tool to noninvasively assess the evolution of skin neoplastic lesions with time after treatment. Other examples will be discussed, such as Femtosencond laser as coadjutant treatment of burned skin, Optical Coherence Tomography monitoring head and neck vascular malformations and hemangiomas, Infrared Thermography determining safety laser irradiation conditions in Dentistry, Lasers in bone regeneration, etc. Acknowledgements This study was supported by CEPID/FAPESP 05/51689-2, CAPES/PROCAD 88881.068505/2014-01, CNPq/INCT 465763/2014-6 and PQ 309902/2017-7.",
 				"temas" : [""],
 				"author_list": "Denise M. Zezell",
 				"autores" : [""]
@@ -198,7 +199,7 @@
 				"titulo" : "Gradient Refractive Index Polymer Rod",
 				"resumo" : "The present paper is related to this process of fabrication of a gradient refractive index polymer rod for use as a medium of image transmission and for preparing a polymeric optical fiber by melt spinning. It is used to the technique of external chemical deposition or what is denominated in the field of optical fibers of Outside Vapor-Phase Oxidation.",
 				"temas" : [""],
-				"author_list": "Luiz Barbosa, Roddy Gonzales and Cicero Souza Filho",
+				"author_list": "Roddy Elky Ramos Gonzales, Jonas Fontes Garcia, Luiz Barbosa and Cicero Souza Filho",
 				"autores" : [""]
 			}
 
@@ -206,7 +207,7 @@
 				"titulo" : "Rigid Endoscope of the Microstructured Optical Fiber",
 				"resumo" : "Construct and fabricate microstructured optical fibers from medium-melting glass and equipment capable of manufacturing optical fibers for endoscopes. The manufacture of rigid endoscopes, adequate resolution and low cost, favors the introduction of endoscopy systems with single-use or disposable instruments.",
 				"temas" : [""],
-				"author_list": "Luiz Barbosa and Roddy Gonzales",
+				"author_list": "Roddy Elky Ramos Gonzales, Jonas Fontes Garcia, Cicero Livio Omegna de Souza Filho and Luiz Barbosa",
 				"autores" : [""]
 			}
 
@@ -254,7 +255,7 @@
 				"titulo" : "Magnetic and Fiber Bragg Grating Characterization of 3D Printed Magnetic Samples",
 				"resumo" : "Magnetic 3D printed samples have been simultaneously studied with an optical Fiber Bragg Grating (FBG) and a Vibrating Sample Magnetometer (VSM). The samples were manufactured with a 3D desktop printer, using a ferromagnetic Polylactic Acid (PLA) filament. Both the shape and printing filling fraction of the samples were varied. We directly measured the magnetic force between the printed unit and a permanent magnet using a FBG. This result was compared with the calculated magnetic force, obtained through VSM and gaussmeter data. The filament saturation magnetization was evaluated to be 34.60 Am2/kg, indicating a magnetite content of around 35%. The obtained magnetic hysteresis curve exhibits a soft magnetic behavior, meaning that the printed unit does not present magnetic character in the absence of external stimulus.",
 				"temas" : [""],
-				"author_list": "Stenio Aristilde, Gildo Rodrigues, Fabiano Fruett and Cristiano MB Cordeiro",
+				"author_list": "Hugo de Freitas, Fanny Béron and Cristiano MB Cordeiro",
 				"autores" : [""]
 			}
 
@@ -284,14 +285,21 @@
 
 			,"PL-TUE-02" : {
 				"titulo" : "Technological Glasses for Radiation Shielding",
-				"resumo" : "",
+				"resumo" : "Gamma-ray shielding properties for tellurite glasses by simulation have been collected. The shielding properties of the present glasses covers such properties as density, shielding parameters: mass attenuation coefficient, μ/ρ, line attenuation coefficient, μ, effective atomic numbers, Zeff, half value layers, HVL, mean free path, MFP, Exposure buildup factors, EBF. Values of mass attenuation coefficient have been computed using WinXCOM program and shielding rate of each glass shielding material tested by 60Co, 137Cs, 125I gamma ray sources.",
 				"temas" : ["Research"],
 				"autores" : ["raouf_el_mallawany"]
+			}
+			
+			,"PL-TUE-03" : {
+				"titulo" : "To be defined",
+				"resumo" : "",
+				"temas" : [""],
+				"autores" : ["keysight"]
       }
 			
 			,"PL-TUE-04" : {
 				"titulo" : "SHG in nanoparticles or molecules",
-				"resumo" : "",
+				"resumo" : "Quadratic nonlinear optical processes entailing the conversion of two photons at a fundamental energy into one photon with the sum energy are gaining a wide interest over the years. These processes obey strict parity rules in order to occur. For instance, they are forbidden in media possessing inversion symmetry like liquids. This rule can however be of a fundamental importance to investigate the special cases where inversion symmetry is broken by a small amount. Second harmonic generation, the degenerate processes of photon addition, can thus be used to investigate the bulk of liquid phases as well as liquid interfaces and smallscale aggregates, supramolecular assemblies and nanoparticles. Using second harmonic scattering, studies on the quadratic nonlinear optical response on a series of nanosystems, namely molecular aggregates and metallic nanoparticles have been performed over the last years with a special attention to the shape of the nanosystems. In particular, a competition between the shape defect contribution and the field multipole modes has been identified while the nonlinearity can be assumed to originate from the surface itself. Unfortunately, no perfect centrosymmetric shape can be achieved and it is difficult to disentangle surface defects from field multipoles. Recently, it has nevertheless been demonstrated how polarization resolved measurements could achieve this operation. To go further into this direction, we report here the second harmonic scattering response from micelles and metallic nanoparticles, both nanospheres and nanocubes. We discuss the polarization analysis and disentangle the contribution from the surface defects and the field multipoles.",
 				"temas" : [],
 				"autores" : ["pierre_francois_brevet"]
       }
@@ -471,6 +479,13 @@
 			
 			
 			,"PL-WED-04" : {
+				"titulo" : "Challenges for Next Generation Coherent Transceiver ASICs",
+				"resumo" : "The continual demand for higher internet bandwidth combined with the immergence of mega-datacenters and the explosive data rate increase promised by 5G wireless technology have created attractive market opportunities for development of high capacity optical network infrastructures.   To support the highest possible data rates and distances, coherent optical transmission techniques are being developed which continue to extend the performance envelope limited only by the Shannon capacity of the transmission link.  ASIC implementations of coherent optical transceivers push the limits of technology in multiple dimensions:  CMOS fabrication technology, packaging technology, chip design infrastructure, modeling/simulation, CMOS analog performance, and testing, among others.  Recent advances in analog-to-digital (ADC) and digital-to-analog (DAC) converter techniques have resulted in high resolution converters sampling in excess of 100Gsamples/sec allowing advanced modulation techniques to be considered.  Next generation CMOS fabrication technology makes possible the digital implementation of advanced communications techniques with complexity previously thought impractical.  Once in the digital domain, high-order QAM operations with dual polarization, linearization, dispersion compensation, synchronization tracking, adaptive equalization, and advanced forward error correction become feasible allowing much higher levels of performance and functionality than have ever been achieved with non-coherent transmission links. This talk will discuss the real-world challenges of designing, implementing, testing, and deploying next generation coherent transceiver ASIC products.",
+				"temas" : [""],
+				"autores" : ["scott_powell"]
+			}
+
+			,"PL-WED-05" : {
 				"titulo" : "Project Management for Optics & Photonics Product Development and Technology Transfer",
 				"resumo" : "The innovation with Optics and Photonics products  is a multidisciplinary task, that demands a structured management and best working practices. Under the point of view of a product development center, are presented  project workflows and the management of innovation for solutions with Optics and Photonics for the Industry. <br><br> Cases studies of success and also pitfalls in the context of a Brazilian product developer, illustrates the experience in the real world of the industry and market competition in the field of  Photonics. Recommendations based at the lessons learned and proposals to enhance the performance of innovation process are  presented to exchange experiences and give support to  the improvement of knowledge for product development in the Optics and Photonics market. The cases are related to sensors, LED an OLED light sources, photovoltaic s, displays and  touch screen solutions. <br><br>With the approach of innovation, the plenary talk explore the connection of the development process with technology transfer, supply chain development and questions of intellectual propriety in the context of  Brazilian and International applications.",
 				"temas" : ["Innovation"],
@@ -505,7 +520,7 @@
 				"titulo" : "Equivalent Circuit Elements Influence on the Performance of Electro-Optical Space Switches Based on Semiconductor Optical Amplifier",
 				"resumo" : "The electro-optical dynamic operation and performance of space switches based on semiconductor optical amplifiers (SOAs) is analyzed through computational simulations of its electric equivalent circuit. The employed circuit is well established in the literature and allows the emulation of the device behavior under several operational condition, permitting the individual impact evaluation of each SOA element in its overall performance according with the chosen characterization metrics. The results show a trade-off between the switching commutation rate and guard-time, evidencing the necessity of a careful design to achieve the desired performance, confirming previous experimental results.",
 				"temas" : [""],
-				"author_list": "Tiago Sutili, M Gallep and Evandro Conforti",
+				"author_list": "Tiago Sutili, Cristiano M Gallep and Evandro Conforti",
 				"autores" : [""]
 			}
 			
@@ -526,10 +541,10 @@
 			}
 			
 			,"OS-I-WED-04-03": {
-				"titulo" : "Evaluating the Optimal Figure of Merit through Silica linked Gold Nanorod Dimer Resonances",
+				"titulo" : "Optimizing gold nanorods dimer structure for sensing platform",
 				"resumo" : "The optical features in gold nanorod (AuNR) dimer linked end-to-end by thin silica junction have been investigated qualitatively. Mathematical simulations were used on the discussion of the AuNR dimer for various silica junction lengths and NR aspect ratios contribution to local environment changes. The light-dimer interactions were evaluated by the use of finite element method (FEM) with COMSOL Multiphysics. Computational methods, focused on the assessment of the LSPR spectral peak position and spatial distribution of electromagnetic field enhancement near the AuNR dimer, were used to ascribe the behavior of crucial parameters as figure of merit and bulk sensitivity which determine the LSPR sensor performance. We find the plasmon peak position of end to end connected Au nanorod dimer exhibited red shift by at least 60 nm from single Au nanorod. Our results indicates that Au dimers connected by silica cylinder shows higher sensitivity 717 nm/RIU as compared to single AuNR with lower sensitivity 300 nm/RIU. In addition, silica bridge dimer exhibited higher figure of merit 16.9. Our results introduce new perspectives on the use of silica connected AuNR dimer in LSPR sensing applications.",
 				"temas" : [""],
-				"author_list": "Sajid Farooq, Hafiz Mahmood, Diego Rativa, Nadège Bouchonneau, Emery Lins and Renato de Araujo",
+				"author_list": "Sajid Farooq, Hafiz Mahmood, Diego Rativa, Nadège Bouchonneau, Emery Lins, Renato de Araujo and Jake Fontana",
 				"autores" : [""]
 			}
 			
@@ -593,7 +608,7 @@
 				"titulo" : "Invited Paper – Grooming Benefits on Designing of EON Networks: An Exact Formulation",
 				"resumo" : "This work proposes a new Mixed Integer Linear Programming (MILP) formulation for traffic grooming, routing and spectrum allocation to be used in the design of Elastic Optical Networks (EON). In order to compare our method with classic Routing and Spectrum Allocation (RSA) formulation without grooming, the evaluation of the benefits of exact traffic grooming and RSA formulation are presented over three small networks. For each network, the objective function is set as minimizing the maximum slot index among all fibers. Then, the collected results show the benefits of traffic grooming in EON networks. Due to the NP characteristic of the MILP proposed, we propose a heuristic algorithm for large networks, and the benefits of the grooming using this algorithm are investigated.",
 				"temas" : [""],
-				"author_list": "Karcius Assis and Raul C. Almeida Jr",
+				"author_list": "Karcius Assis, Raul C. Almeida Jr and Alex Santos",
 				"autores" : [""]
 			}
 			
@@ -617,7 +632,7 @@
 				"titulo" : "Analysis of Multichannel Signal Transmission using a flexible spectral allocation method in Elastic Optical Networks",
 				"resumo" : "A flexible spectral allocation method is proposed and evaluated considering the impact of the number of channels on the required spectral bandwidth. The performance of elastic optical networks (EONs) is examined using a multilevel modulation format and coherent transmission. Network design parameters such as spectral bandwidth and channel symbol error rate (SER) are adopted as metrics for analysis. Transmission of quadrature phase shift-keying (QPSK) signals modulated at 56 and 100 Gbps is simulated and results for B-B, 50 and 200km are discussed.",
 				"temas" : [""],
-				"author_list": "Felipe Rudge Barbosa and Indayara Martins",
+				"author_list": "Felipe Rudge Barbosa, Indayara Martins and Edson José Gonçalves",
 				"autores" : [""]
 			}
 			
@@ -633,7 +648,7 @@
 				"titulo" : "Plasmonic Nanoantennas For Solar Cells With Improved Efficiency",
 				"resumo" : "This work shows a theoretical nanoantennas study about organic solar cells, occasioning the increase in the efficiency of light absorption. The unitary organic solar cells formed by a reflector silver block, an active layer formed by the semiconductor P3HT:PCBM and a nanostructure, also made of silver. The numerical analysis of the device is made through the Finite Element Method; the materials are analysed from the relative permittivity. Firstly, we executed the validation of the nanostructure through the numerical method. Then, we apply the geometric optimization process in the other nanoantenna models. This optimization process was based on nanostructures geometrical parameters preserving its superficial area. Since were considered four new models of nanoantennas with different geometrical parameters, which means, square nanoantennas, 6-pointed Stars, 8-pointed Stars and 16-pointed Stars. It was observed, from the efficiency of integrated absorption for different incidence angles and light polarization and plasmonic decay that the nanoantennas, the 16-pointed Stars, gave better performance compared to the other models.",
 				"temas" : [""],
-				"author_list": "Marcelino Lopes Corrêa da Silva, JR., Victor Dmitriev and Karlo Costa, Wagner Castro, Geraldo Melo and Francisco Diego Nobre",
+				"author_list": "Marcelino Lopes Corrêa da Silva, JR., Victor Dmitriev, Karlo Costa, Wagner Castro, Geraldo Melo and Francisco Diego Nobre",
 				"autores" : [""]
 			}
 			
@@ -686,7 +701,7 @@
 			}
 			
 			,"OS-S-WED-06-04": {
-				"titulo" : "Optical Fiber Sensor as an Alternative for Colorimetric Image Processing for the Assesment of Dye Concentration",
+				"titulo" : "Optical Fiber Sensor as an Alternative for Colorimetric Image Processing for the Assessment of Dye Concentration",
 				"resumo" : "Methylene blue is a dye commonly applied in chemical reactions and as a dye model for the study of purification processes. In this research, solutions of methylene blue-ethanol-water were evaluated with an optical fiber reflectometer and with a image-based colorimetric system. Then, silica nanoparticles synthesized by vapor-phase axial deposition were tested for separation processes, being evaluated in relation to their capacity in adsorving methylene blue The fiber sensor and the colorimeter presented 0.419 L.mg-1 and 0.596 L.mg-1 sensitivities, respectively, and yielded equivalent results, demonstrating that the fiber approach can be utilized as a more robust alternative to the colorimetric method.",
 				"temas" : [""],
 				"author_list": "Marco Soares, Beatriz Mendes, Matheus Gomes, Rogério Bataglioli, Egont Schenkel, Franciele Vit, Lucimara de La Torre, Eric Fujiwara and Carlos Suzuki",
@@ -697,7 +712,7 @@
 				"titulo" : "Characterization of Colloidal Silica by Optical Fiber Sensor",
 				"resumo" : "The assessment of silica nanofluids properties by an optical fiber sensor is reported. The effect of particles concentration and size was analyzed by dynamic light scattering, making it possible to estimate the sample properties from the decay rate. Moreover, the nanofluids were subjected to controlled heating, so the thermal conductivity and refractive index variations could be inferred from reflected intensity and autocorrelation signals.",
 				"temas" : [""],
-				"author_list": "Eric Fujiwara, Matheus Gomes, Marco Soares, Egont Schenkel and Carlos Suzuki",
+				"author_list": "Eric Fujiwara, Matheus Gomes, Marco Soares, Matheus Rodrigues, Egont Schenkel and Carlos Suzuki",
 				"autores" : [""]
 			}
 
@@ -1049,6 +1064,10 @@
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-02"
 				},{
+					"horario" : "12:20-11:00",
+					"sala" : "auditorium",
+					"trabalho" : "PL-TUE-03"
+				},{
 					"horario" : "11:30-12:10",
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-04"
@@ -1060,21 +1079,25 @@
       ],
 			"Wednesday, October 10th" : [
 				{
-					"horario" : "09:00-09:45",
+					"horario" : "09:00-09:40",
 					"sala" : "auditorium",
 					"trabalho" : "PL-WED-01"
 				},{
-					"horario" : "09:45-10:30",
+					"horario" : "09:40-10:20",
 					"sala" : "auditorium",
 					"trabalho" : "PL-WED-02"
 				},{
-					"horario" : "11:00-11:45",
+					"horario" : "10:20-11:00",
 					"sala" : "auditorium",
 					"trabalho" : "PL-WED-03"
 				},{
-					"horario" : "11:45-12:30",
+					"horario" : "11:30-12:10",
 					"sala" : "auditorium",
 					"trabalho" : "PL-WED-04"
+				},{
+					"horario" : "12:10-12:50",
+					"sala" : "auditorium",
+					"trabalho" : "PL-WED-05"
 				}
       ]
     },
@@ -1199,6 +1222,17 @@
 					"url": ""
 				}],
 				"biografia": "R&D executive and team leader with history of innovation, building technology ecosystems to achieve high technology goals at optical communications field. Bachelor, Electrical Eng., 2003, UFCG-Brazil; Master, Electrical Eng. (Photonics), UNICAMP-Brazil, 2004, and Ph.D, UNICAMP-Brazil, Electrical Eng. (Photonics), 2007. From 2004 to 2014 took, researcher and general manager positions at optical communications systems and photonics devices divisions at CPqD Foundation. Founder and CEO of BrPhotonics, 2014, a high-tech startup with accelerated growth in optical communications area developing high end products, LASERs, Modulators, ASICs. Founder of PI-TEC Product Technologies, 2017, and JCRFO Technical Consultancy, 2017, companies acting at high end telecom and Datacom markets, developing deep submicron ASICs and highly integrated photonics devices. Over 15 years of experience in optical communications field, lead 12 optical communications R&D projects (more than USD50M budget), producing 15 patents (INPI), 140+ papers and 20 technological products currently in optical communications market.",
+				"links":[]
+			},
+
+			"scott_powell": {
+				"nome": "Scott R. Powell",
+				"imagem": "img/speakers/scott_powell.jpg",
+				"instituicao": [{
+					"nome": "Jariet Technologies Inc / US",
+					"url": ""
+				}],
+				"biografia": "Dr. Powell has over 30 years’ experience in the semiconductor industry building and leading cutting edge design teams in all aspects of complex DSP, communications systems, and high speed mixed-signal ASIC design.  He earned a Ph.D. degree in Electrical Engineering from the University of California, San Diego.  His accomplishments include over 60 issued and pending patents, 29 journal and conference publications, and numerous mixed signal ASIC products in high volume production.   Dr. Powell has started and sold a semiconductor startup, was Sr. Director of the Ethernet PHY group at Broadcom leading a multi-national team to become the dominant market leader with over 40 tapeouts, and was VP Engineering at ClariPhy Communications executing on multiple mixed-signal coherent optical PHY ASICs.  Dr. Powell is most recently VP ASIC Engineering at Jariet Technologies building and leading a team to create digital microwave and optical products.",
 				"links":[]
 			},
 
@@ -1660,6 +1694,17 @@
 				"links":[]
 			},
 			
+			"keysight": {
+				"nome": "To be defined / Keysight",
+				"imagem": "img/speakers/keysight.jpg",
+				"instituicao": [{
+					"nome": "",
+					"url": ""
+				}],
+				"biografia": "",
+				"links":[]
+			},
+
 			"raouf_el_mallawany": {
 				"nome": "Raouf El-Mallawany",
 				"imagem": "img/speakers/raouf_el_mallawany.jpg",
