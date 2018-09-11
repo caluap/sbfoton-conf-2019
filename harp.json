@@ -290,7 +290,7 @@
       }
 			
 			,"PL-TUE-04" : {
-				"titulo" : "​SHG in nanoparticles or molecules",
+				"titulo" : "SHG in nanoparticles or molecules",
 				"resumo" : "",
 				"temas" : [],
 				"autores" : ["pierre_francois_brevet"]
@@ -1022,57 +1022,57 @@
     "plenaries" : {
 			"Monday, October 8th" : [
 				{
-					"horario" : "09:05 to 09:50",
+					"horario" : "09:05-09:50",
 					"sala" : "auditorium",
 					"trabalho" : "PL-MON-01"
 				},{
-					"horario" : "09:50 to 10:35",
+					"horario" : "09:50-10:35",
 					"sala" : "auditorium",
 					"trabalho" : "PL-MON-02"
 				},{
-					"horario" : "11:00 to 11:45",
+					"horario" : "11:00-11:45",
 					"sala" : "auditorium",
 					"trabalho" : "PL-MON-03"
 				},{
-					"horario" : "11:45 to 12:30",
+					"horario" : "11:45-12:30",
 					"sala" : "auditorium",
 					"trabalho" : "PL-MON-04"
 				}
 			],
 			"Tuesday, October 9th" : [
 				{
-					"horario" : "09:00 to 09:40",
+					"horario" : "09:00-09:40",
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-01"
 				},{
-					"horario" : "09:40 to 10:20",
+					"horario" : "09:40-10:20",
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-02"
 				},{
-					"horario" : "11:30 to 12:10",
+					"horario" : "11:30-12:10",
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-04"
 				},{
-					"horario" : "12:10 to 12:50",
+					"horario" : "12:10-12:50",
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-05"
 				}
       ],
 			"Wednesday, October 10th" : [
 				{
-					"horario" : "09:00 to 09:45",
+					"horario" : "09:00-09:45",
 					"sala" : "auditorium",
 					"trabalho" : "PL-WED-01"
 				},{
-					"horario" : "09:45 to 10:30",
+					"horario" : "09:45-10:30",
 					"sala" : "auditorium",
 					"trabalho" : "PL-WED-02"
 				},{
-					"horario" : "11:00 to 11:45",
+					"horario" : "11:00-11:45",
 					"sala" : "auditorium",
 					"trabalho" : "PL-WED-03"
 				},{
-					"horario" : "11:45 to 12:30",
+					"horario" : "11:45-12:30",
 					"sala" : "auditorium",
 					"trabalho" : "PL-WED-04"
 				}
