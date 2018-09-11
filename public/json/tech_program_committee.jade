@@ -1,0 +1,55 @@
+-
+  //https://stackoverflow.com/questions/16196338/json-stringify-doesnt-work-with-normal-javascript-array
+  (function(){
+      // Convert array to object
+      var convArrToObj = function(array){
+          var thisEleObj = new Object();
+          if(typeof array == "object"){
+              for(var i in array){
+                  var thisEle = convArrToObj(array[i]);
+                  thisEleObj[i] = thisEle;
+              }
+          }else {
+              thisEleObj = array;
+          }
+          return thisEleObj;
+      };
+      var oldJSONStringify = JSON.stringify;
+      JSON.stringify = function(input){
+          if(oldJSONStringify(input) == '[]')
+              return oldJSONStringify(convArrToObj(input));
+          else
+              return oldJSONStringify(input);
+      };
+  })();
+
+
+  var j = [];
+
+  Object.keys(technical_program_committee).forEach(function(k_chair){
+    var chair = {};
+
+    chair.name = k_chair;
+    chair.persons = [];
+    
+    technical_program_committee[k_chair].forEach(function(k_person){
+      var person = {};
+      person.name = autores[k_person].nome;
+      person.institution = autores[k_person].instituicao[0].nome;
+
+      var group_leader = false;
+      if (group_leaders[k_chair] == k_person) {
+        group_leader = true;
+      }
+
+      person.group_leader = group_leader;
+
+      chair.persons.push(person);
+    });
+   
+
+    j.push(chair);
+    
+  });
+
+p= JSON.stringify(j, null, '\n')
