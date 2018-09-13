@@ -284,14 +284,14 @@
       }
 
 			,"PL-TUE-02" : {
-				"titulo" : "Technological Glasses for Radiation Shielding",
-				"resumo" : "Gamma-ray shielding properties for tellurite glasses by simulation have been collected. The shielding properties of the present glasses covers such properties as density, shielding parameters: mass attenuation coefficient, μ/ρ, line attenuation coefficient, μ, effective atomic numbers, Zeff, half value layers, HVL, mean free path, MFP, Exposure buildup factors, EBF. Values of mass attenuation coefficient have been computed using WinXCOM program and shielding rate of each glass shielding material tested by 60Co, 137Cs, 125I gamma ray sources.",
+				"titulo" : "Tellurite Glass Smart Materials – Applications in Optics and Beyond",
+				"resumo" : "The talk will cover the latest applications of tellurite glass smart materials, offering insights into innovative applications for radiation shielding, energy harvesting, laser devices, and temperature sensing, among others. In particular, there is a focus on optics, covering the radiation shielding, tellurite glass materials for energy conversion technology, solar cell, structural & luminescence properties for laser applications, optothermal, optical properties in the presence of gold nanoparticles and lanthanide doped zinc oxyfluoro-tellurite glasses as a new smart material.",
 				"temas" : ["Research"],
 				"autores" : ["raouf_el_mallawany"]
 			}
 			
 			,"PL-TUE-03" : {
-				"titulo" : "To be defined",
+				"titulo" : "Keysight Presentation",
 				"resumo" : "",
 				"temas" : [""],
 				"autores" : ["keysight"]
@@ -742,7 +742,7 @@
       "General Chairs": ["alexandre_pohl","daniel_pataca"],
       "Administrative Chairs": ["andre_de_souza","stenio_ranzini"],
       "Technical Program Chairs": ["monica_rocha", "vilson_de_almeida","carmelo_filho","felipe_barbosa","yara_gobato"],
-      "International Laison": ["hugo_figueroa"]
+      "International Liaison": ["hugo_figueroa"]
 		},
 		
 		"group_leaders" : {
@@ -1064,7 +1064,7 @@
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-02"
 				},{
-					"horario" : "12:20-11:00",
+					"horario" : "10:20-11:00",
 					"sala" : "auditorium",
 					"trabalho" : "PL-TUE-03"
 				},{
@@ -1695,7 +1695,7 @@
 			},
 			
 			"keysight": {
-				"nome": "To be defined / Keysight",
+				"nome": "Keysight",
 				"imagem": "img/speakers/keysight.jpg",
 				"instituicao": [{
 					"nome": "",
@@ -1881,7 +1881,7 @@
 					"nome": "",
 					"url": ""
 				}],
-				"biografia": "Graduated in Electrical and Electronic Engineering from the University of São Paulo (USP) with enphasis in telecommunications. During this time he developed research works based on intelligent systems (Neuro-Fuzzy). After completing the course, he began working at CPqD, in the area of Optical Communications – Photonics, in the DSP group. The works developed were in the area of optical technologies of high rates. During the period that he worked at CPqD, he completed his master's degree at Unicamp with the study and development of a chip to compensate for fiber optic nonlinearities. She is currently a PhD student at the Technical University of Denmark (DTU).",
+				"biografia": "Graduated in Electrical and Electronic Engineering from the University of São Paulo (USP) with enphasis in telecommunications. During this time he developed research works based on intelligent systems (Neuro-Fuzzy). After completing the course, he began working at CPqD, in the area of Optical Communications – Photonics, in the DSP group. The works developed were in the area of optical technologies of high rates. During the period that he worked at CPqD, he completed his master's degree at Unicamp with the study and development of a chip to compensate for fiber optic nonlinearities. He is currently a PhD student at the Technical University of Denmark (DTU).",
 				"links":[]
 			},
 			
