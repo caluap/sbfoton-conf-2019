@@ -1630,6 +1630,25 @@ div.slide.s-rodape.invertido {
 			font-weight: bold;
 		}
 
+		.trab-chair {
+			font-weight: bold;
+			&:before {
+				content: "Chairs";
+				@include faux-caps;
+				@include fs(-1);
+				font-weight: 400;
+				padding-right: $u-h/4;
+			}
+			&.os-chair {
+				color: $c_verde;
+				mix-blend-mode: multiply;
+				margin-top: $u-h/2;
+				&:before {
+					content: "Chair";
+				}
+			}
+		}
+
 		.trabalho {
 			position: relative;
 			margin-top: $u-h * 2;

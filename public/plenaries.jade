@@ -15,6 +15,7 @@ include /_mixins
         each data, i_data in plenaries 
           .trab-dia
             p.trab-data= i_data
+            p.trab-chair= plenaries_chairs[i_data]
             each plenaria in data
               - var trabalho = trabalhos[plenaria.trabalho]
               a.trab-codigo(name="#{plenaria.trabalho}")
