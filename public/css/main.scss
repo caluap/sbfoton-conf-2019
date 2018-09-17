@@ -1632,6 +1632,8 @@ div.slide.s-rodape.invertido {
 
 		.trab-chair {
 			font-weight: bold;
+			color: $c_verde;
+			mix-blend-mode: multiply;
 			&:before {
 				content: "Chairs";
 				@include faux-caps;
@@ -1640,8 +1642,6 @@ div.slide.s-rodape.invertido {
 				padding-right: $u-h/4;
 			}
 			&.os-chair {
-				color: $c_verde;
-				mix-blend-mode: multiply;
 				margin-top: $u-h/2;
 				&:before {
 					content: "Chair";
