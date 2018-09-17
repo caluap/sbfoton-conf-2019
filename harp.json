@@ -845,6 +845,7 @@
 					"horario":"14:00-15:30",
 					"sala":"Auditorium",
 					"nome":"Optical Communication 1",
+					"chair":"Andrea Chiuchiarelli",
 					"trabalhos":[
 						"OS-C-MON-01-01",
 						"OS-C-MON-01-02",
@@ -856,6 +857,7 @@
 					"horario":"16:00-17:30",
 					"sala":"Auditorium",
 					"nome":"Integrated Photonics 1",
+					"chair":"Giovanni de Farias",
 					"trabalhos":[
 						"OS-I-MON-04-01",
 						"OS-I-MON-04-02",
@@ -867,6 +869,7 @@
 					"horario":"14:00-15:30",
 					"sala":"Amphitheater 1",
 					"nome":"Biophotonics 1",
+					"chair":"Jarbas Caiado de Castro Neto",
 					"trabalhos":[
 						"OS-B-MON-02-01",
 						"OS-B-MON-02-02",
@@ -878,6 +881,7 @@
 					"horario":"16:00-17:40",
 					"sala":"Amphitheater 1",
 					"nome":"Optics and Instrumentation 1",
+					"chair":"Anderson Stevens Leonidas Gomes ",
 					"trabalhos":[
 						"OS-O-MON-05-01",
 						"OS-O-MON-05-02",
@@ -890,6 +894,7 @@
 					"horario":"14:00-15:30",
 					"sala":"Amphitheater 2",
 					"nome":"Lasers 1",
+					"chair":"Pierre François-Brevet",
 					"trabalhos":[
 						"OS-L-MON-03-01",
 						"OS-L-MON-03-02",
@@ -901,6 +906,7 @@
 					"horario":"16:00-17:30",
 					"sala":"Amphitheater 2",
 					"nome":"Optics Sensors, Image and Illumination 1",
+					"chair":"Raouf El-Mallawany",
 					"trabalhos":[
 						"OS-S-MON-06-01",
 						"OS-S-MON-06-02",
@@ -914,6 +920,7 @@
 					"horario":"14:30-16:00",
 					"sala":"Auditorium",
 					"nome":"Optical Communication 2",
+					"chair":"Davies William de Lima Monteiro",
 					"trabalhos":[
 						"OS-C-TUE-01-01",
 						"OS-C-TUE-01-02",
@@ -925,6 +932,7 @@
 					"horario":"16:30-18:00",
 					"sala":"Auditorium",
 					"nome":"Optical Network 1",
+					"chair":"Joaquim Martins-Filho",
 					"trabalhos":[
 						"OS-C-TUE-04-01",
 						"OS-C-TUE-04-02",
@@ -936,6 +944,7 @@
 					"horario":"14:30-16:10",
 					"sala":"Amphitheater 1",
 					"nome":"Integrated Photonics 2",
+					"chair":"António Jesus Luís Teixeira",
 					"trabalhos":[
 						"OS-I-TUE-02-01",
 						"OS-I-TUE-02-02",
@@ -948,6 +957,7 @@
 					"horario":"14:30-16:00",
 					"sala":"Amphitheater 2",
 					"nome":"Lasers 2",
+					"chair":"António Jesus Luís Teixeira",
 					"trabalhos":[
 						"OS-L-TUE-03-01",
 						"OS-L-TUE-03-02",
@@ -961,6 +971,7 @@
 					"horario":"14:00-15:30",
 					"sala":"Auditorium",
 					"nome":"Optical Communication 3",
+					"chair":"Rubens S. Luís",
 					"trabalhos":[
 						"OS-C-WED-01-01",
 						"OS-C-WED-01-02",
@@ -972,6 +983,7 @@
 					"horario":"16:00-17:40",
 					"sala":"Auditorium",
 					"nome":"Integrated Photonics 4",
+					"chair":"Roberto Panepucci",
 					"trabalhos":[
 						"OS-I-WED-04-01",
 						"OS-I-WED-04-02",
@@ -984,6 +996,7 @@
 					"horario":"14:00-15:40",
 					"sala":"Amphitheater 1",
 					"nome":"Integrated Photonics 3",
+					"chair":"Jacobus Willibrordus Swart",
 					"trabalhos":[
 						"OS-I-WED-02-01",
 						"OS-I-WED-02-02",
@@ -996,6 +1009,7 @@
 					"horario":"16:00-17:30",
 					"sala":"Amphitheater 1",
 					"nome":"Optical Network 2",
+					"chair":"Luiz Henrique Bonani",
 					"trabalhos":[
 						"OS-C-WED-05-01",
 						"OS-C-WED-05-02",
@@ -1007,6 +1021,7 @@
 					"horario":"14:00-15:40",
 					"sala":"Amphitheater 2",
 					"nome":"Photonics",
+					"chair":"Leonardo Ambrosio",
 					"trabalhos":[
 						"OS-P-WED-03-01",
 						"OS-P-WED-03-02",
@@ -1019,6 +1034,7 @@
 					"horario":"16:00-17:40",
 					"sala":"Amphitheater 2",
 					"nome":"Optical Sensors, Image and Illumination 2",
+					"chair":"Manuel Steidle",
 					"trabalhos":[
 						"OS-S-WED-06-01",
 						"OS-S-WED-06-02",
@@ -1031,7 +1047,11 @@
 		},
 
 
-
+		"plenaries_chairs": {
+			"Monday, October 8th" : "Alexandre Pohl and Hugo Figueroa",
+			"Tuesday, October 9th" : "Carmelo Bastos-Filho and Daniel Pataca",
+			"Wednesday, October 10th" : "Mônica Rocha and Felipe Rudge"
+		},
 
 
     "plenaries" : {
