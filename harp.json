@@ -188,10 +188,10 @@
 			}
 
 			,"OS-O-MON-05-03": {
-				"titulo" : "Magnetic and Fiber Bragg Grating Characterization of 3D Printed Magnetic Samples",
-				"resumo" : "Magnetic 3D printed samples have been simultaneously studied with an optical Fiber Bragg Grating (FBG) and a Vibrating Sample Magnetometer (VSM). The samples were manufactured with a 3D desktop printer, using a ferromagnetic Polylactic Acid (PLA) filament. Both the shape and printing filling fraction of the samples were varied. We directly measured the magnetic force between the printed unit and a permanent magnet using a FBG. This result was compared with the calculated magnetic force, obtained through VSM and gaussmeter data. The filament saturation magnetization was evaluated to be 34.60 Am2/kg, indicating a magnetite content of around 35%. The obtained magnetic hysteresis curve exhibits a soft magnetic behavior, meaning that the printed unit does not present magnetic character in the absence of external stimulus.",
+				"titulo" : "On the role of silver nanoparticles shape for SERS of Rhodamine",
+				"resumo" : "This work shows the photoinduced shape conversion of spherical silver nanoparticles produced by laser ablation in liquids. Photoexcitation for shape conversion employed a combination of blue and white LEDs. Photoconversion used hydrogen peroxide as oxidizing agent under different sodium citrate capping conditions of nanoparticles. Rhodamine 6G was the molecule probe for following the influence of shape conversion in the efficiency of surface enhanced Raman scattering.",
 				"temas" : [""],
-				"author_list": "Hugo de Freitas, Fanny Béron and MB Cordeiro",
+				"author_list": "Lays Costa, Victor Hugo Martins, Marcia Muller and L Fabris",
 				"autores" : [""]
 			}
 
@@ -255,15 +255,15 @@
 				"titulo" : "Magnetic and Fiber Bragg Grating Characterization of 3D Printed Magnetic Samples",
 				"resumo" : "Magnetic 3D printed samples have been simultaneously studied with an optical Fiber Bragg Grating (FBG) and a Vibrating Sample Magnetometer (VSM). The samples were manufactured with a 3D desktop printer, using a ferromagnetic Polylactic Acid (PLA) filament. Both the shape and printing filling fraction of the samples were varied. We directly measured the magnetic force between the printed unit and a permanent magnet using a FBG. This result was compared with the calculated magnetic force, obtained through VSM and gaussmeter data. The filament saturation magnetization was evaluated to be 34.60 Am2/kg, indicating a magnetite content of around 35%. The obtained magnetic hysteresis curve exhibits a soft magnetic behavior, meaning that the printed unit does not present magnetic character in the absence of external stimulus.",
 				"temas" : [""],
-				"author_list": "Hugo de Freitas, Fanny Béron and Cristiano MB Cordeiro",
+				"author_list": "Hugo de Freitas, Fanny Béron, and Cristiano MB Cordeiro",
 				"autores" : [""]
 			}
 
 			,"OS-S-MON-06-03": {
-				"titulo" : "On the role of silver nanoparticles shape for SERS of Rhodamine",
-				"resumo" : "This work shows the photoinduced shape conversion of spherical silver nanoparticles produced by laser ablation in liquids. Photoexcitation for shape conversion employed a combination of blue and white LEDs. Photoconversion used hydrogen peroxide as oxidizing agent under different sodium citrate capping conditions of nanoparticles. Rhodamine 6G was the molecule probe for following the influence of shape conversion in the efficiency of surface enhanced Raman scattering.",
+				"titulo" : "Optofluidic Device based on a 3D Printed Chip and a Sensing Tilted Fiber Bragg Gratings",
+				"resumo" : "In this work an optical solution to characterize optofluidic devices is proposed. The fluidic chip was manufactured via 3D printing and it is able to produce a stream of water droplets in oil. The optical characterization was realized using a Tilted Fiber Bragg Grating (TFBG) embedded in the chip and whose cladding modes could vary between guided and leak. This is the first time a fully integrated all-optical scheme is demonstrated to monitor a droplet generator fluidic device.",
 				"temas" : [""],
-				"author_list": "Lays Costa, Victor Hugo Martins, Marcia Muller and L Fabris",
+				"author_list": "Stenio Aristilde, Gildo Rodrigues, Fabiano Fruett, Cristiano MB Cordeiro",
 				"autores" : [""]
 			}
 
