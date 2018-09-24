@@ -1964,7 +1964,14 @@ div.slide.s-rodape.invertido {
 	position:relative;
 	height: 0;
 }
-.map-responsive iframe{
+
+.video-responsive {
+	@extend .map-responsive;
+	padding-bottom: percentage(2/3);
+}
+
+
+.map-responsive iframe, .video-responsive iframe{
 	left:0;
 	top:0;
 	height: 100%;
