@@ -481,7 +481,7 @@
 			,"PL-WED-04" : {
 				"titulo" : "Challenges for Next Generation Coherent Transceiver ASICs",
 				"resumo" : "The continual demand for higher internet bandwidth combined with the immergence of mega-datacenters and the explosive data rate increase promised by 5G wireless technology have created attractive market opportunities for development of high capacity optical network infrastructures.   To support the highest possible data rates and distances, coherent optical transmission techniques are being developed which continue to extend the performance envelope limited only by the Shannon capacity of the transmission link.  ASIC implementations of coherent optical transceivers push the limits of technology in multiple dimensions:  CMOS fabrication technology, packaging technology, chip design infrastructure, modeling/simulation, CMOS analog performance, and testing, among others.  Recent advances in analog-to-digital (ADC) and digital-to-analog (DAC) converter techniques have resulted in high resolution converters sampling in excess of 100Gsamples/sec allowing advanced modulation techniques to be considered.  Next generation CMOS fabrication technology makes possible the digital implementation of advanced communications techniques with complexity previously thought impractical.  Once in the digital domain, high-order QAM operations with dual polarization, linearization, dispersion compensation, synchronization tracking, adaptive equalization, and advanced forward error correction become feasible allowing much higher levels of performance and functionality than have ever been achieved with non-coherent transmission links. This talk will discuss the real-world challenges of designing, implementing, testing, and deploying next generation coherent transceiver ASIC products.",
-				"temas" : [""],
+				"temas" : ["Innovation"],
 				"autores" : ["scott_powell"]
 			}
 
@@ -1715,8 +1715,8 @@
 			},
 			
 			"keysight": {
-				"nome": "Keysight",
-				"imagem": "img/speakers/keysight.jpg",
+				"nome": "Bruno Menezes",
+				"imagem": "img/speakers/bruno_menezes.jpg",
 				"instituicao": [{
 					"nome": "",
 					"url": ""
