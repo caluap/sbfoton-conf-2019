@@ -1044,11 +1044,33 @@ $c3 : mix(white,$c2, 80%);
 			width: 20%;
 		}
 		.sched-nom {
-			@include fs(-1, 1.2);
+			@include fs(-1, 1.4);
 			width: 60%;
 			white-space: nowrap; 
 			overflow: hidden;
 			text-overflow: ellipsis;
+		}
+
+		@include media-query($s-lg) {
+
+			margin: $u-h/4;
+			padding: $u-h/2;
+			border: none;
+			border-radius: 2px;
+
+			flex-wrap: wrap;
+			.sched-cod, .sched-tip, .sched-all, .sched-nom {
+				width: 100%;
+			}
+			.sched-tip {
+				padding-top: $u-h/4;
+				@include fs(-1, 1.4);
+			}
+			.sched-nom {
+				padding: $u-h/4 0;
+				white-space: unset;
+				overflow: unset;
+			}
 		}
 
 	}
