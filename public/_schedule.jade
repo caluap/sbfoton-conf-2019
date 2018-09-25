@@ -1,0 +1,134 @@
+mixin schedule_json
+  -
+    //https://stackoverflow.com/questions/16196338/json-stringify-doesnt-work-with-normal-javascript-array
+    (function(){
+        // Convert array to object
+        var convArrToObj = function(array){
+            var thisEleObj = new Object();
+            if(typeof array == "object"){
+                for(var i in array){
+                    var thisEle = convArrToObj(array[i]);
+                    thisEleObj[i] = thisEle;
+                }
+            }else {
+                thisEleObj = array;
+            }
+            return thisEleObj;
+        };
+        var oldJSONStringify = JSON.stringify;
+        JSON.stringify = function(input){
+            if(oldJSONStringify(input) == '[]')
+                return oldJSONStringify(convArrToObj(input));
+            else
+                return oldJSONStringify(input);
+        };
+    })();
+
+
+    var j = [];
+
+    /*
+
+      Plenary / PL-CC-00-00
+      Photonic integration, the next path for access networks / Carlos Lee
+      Auditorium . 16:30-10:00 [pg ...]
+
+    */
+
+    // quais os dias
+    var days = Object.keys(oral_sessions);
+
+    days.forEach(function(k_day){
+      var today = {};
+      today.day = k_day;
+      today.schedule = [];
+
+      if (oral_sessions.hasOwnProperty(k_day)) {
+        Object.keys(oral_sessions[k_day]).forEach(function(k_code){
+          var os = {};
+          os.tipo = 'Oral Session';
+          os.codigo = k_code;
+          os.sala = oral_sessions[k_day][k_code].sala;
+          os.nome = oral_sessions[k_day][k_code].nome;
+          os.horario = oral_sessions[k_day][k_code].horario;
+          today.schedule.push(os);
+        });
+      }
+
+
+      if (plenaries.hasOwnProperty(k_day)) {
+        plenaries[k_day].forEach(function(plenary){
+          var pl = {};
+          pl.tipo = "Plenary";
+          pl.codigo = plenary.trabalho;
+          pl.sala = salas[plenary.sala].nome;
+
+          var titulo = trabalhos[plenary.trabalho].titulo;
+          var apresentador = autores[trabalhos[plenary.trabalho].autores[0]].nome;
+          var de_onde = autores[trabalhos[plenary.trabalho].autores[0]].instituicao[0].nome;
+          pl.nome = titulo + ' / ' + apresentador + ', ' + de_onde;
+          pl.horario = plenary.horario;
+
+          today.schedule.push(pl);
+        });
+      }
+
+      if (short_courses.hasOwnProperty(k_day)) {
+        short_courses[k_day].forEach(function(short_course){
+          var sc = {};
+          sc.tipo = "Short Course";
+          sc.codigo = short_course.trabalho;
+          sc.sala = salas[short_course.sala].nome;
+
+          var titulo = trabalhos[short_course.trabalho].titulo;
+          var apresentadores = trabalhos[short_course.trabalho].author_list;
+          sc.nome = titulo + ' / ' + apresentadores;
+
+          sc.horario = short_course.horario;
+
+          today.schedule.push(sc);
+
+        });
+      }
+
+      today.schedule.sort(function(a,b){
+        if (a.sala == b.sala) {
+
+          if (a.horario < b.horario) {
+            return -1;
+          } else {
+            if (b.horario < a.horario) {
+              return 1;
+            } else {
+              return 0;
+            }
+          }
+
+        } else {
+          // auditório deve vir antes
+          if (a.sala == 'Auditorium') {
+            return -1;
+          } else {
+            if (b.sala == 'Auditorium') {
+              return 1;
+            } else {
+              if (a.sala < b.sala) {
+                return -1;
+              } else {
+                if (b.sala < a.sala) {
+                  return 1;
+                } else {
+                  return 0;
+                }
+              }
+            }
+          }
+        }
+      })
+
+      j.push(today);
+    });
+
+    // mó gambis, mas me parece que não tem como um mixin retornar uma variável
+    //- aux_schedule = j;
+  //- p= JSON.stringify(j, null, '\n')

@@ -970,6 +970,94 @@ body {
 	}
 }
 
+$c1 : mix($c_verde, black, 50%);
+$c2 : mix($c1, black, 80%);
+$c3 : mix(white,$c2, 66%);
+
+.sc-schedule {
+	background: $c1;
+	color: white;
+}
+
+.s-schedule {
+	padding-top: $u-h;
+
+	h2 {
+		@include faux-caps;
+		@include fs(1);
+		font-weight: 300;
+		color: mix(white, $c1, 50%);
+	}
+
+	h3 {
+		margin-bottom: $u-h / 2;
+	}
+
+	.schedule-block {
+		margin-bottom: $u-h;
+	}
+
+	.schedule-item {
+		display: block;
+
+		background: $c2;
+		
+		padding-top: $u-h/4;
+		padding-bottom: $u-h/4;
+
+		display: flex;
+		align-items: center;
+
+		& + .schedule-item {
+			border-top: 1px solid $c1;
+		}
+
+		text-decoration: none;
+		color: white;
+		opacity: 0.7;
+		transition: opacity 3s ease;
+		&:hover {
+			transition: opacity 0.05s ease;
+			opacity: 1;
+		}
+
+		p {
+			box-sizing: border-box;
+			padding-right: $u-h;
+			& + p {
+				margin: 0;
+			}
+		}
+
+		.sched-cod {
+			color: $c3;
+			@include fs(-3, 0);
+			width: 10%;
+		}
+		.sched-tip {
+			@include fs(-2, 0);
+			width: 15%;
+		}
+		.sched-hor {
+			color: $c3;
+			@include fs(-2, 0);
+			width: 10%;
+		}
+		.sched-sal {
+			color: $c3;
+			@include fs(-2, 0);
+			width: 10%;
+		}
+		.sched-nom {
+			@include fs(-2, 1.2);
+			width: 55%;
+		}
+
+	}
+
+
+}
+
 
 .slide-destaques {
 

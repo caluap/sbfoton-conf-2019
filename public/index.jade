@@ -1,7 +1,211 @@
 include /_mixins
+include /_schedule
 
 +menu('home')
 
+-
+  var schedule_json = [{
+    "day": "Monday, October 8th",
+    "schedule": [{
+      "tipo": "Plenary",
+      "codigo": "PL-MON-01",
+      "sala": "Auditorium",
+      "nome": "Photonics as enabler for Economy, Technology, Leadership / Carlos Lee, EPIC",
+      "horario": "09:05-09:50"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-MON-02",
+      "sala": "Auditorium",
+      "nome": "Semiconductor Nanowires for Optoelectronics Applications / Chennupati Jagadish, Australian National University",
+      "horario": "09:50-10:35"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-MON-03",
+      "sala": "Auditorium",
+      "nome": "Sirius, the new Brazilian Synchrotron Light Source / Harry Westfahl Junior, LNLS",
+      "horario": "11:00-11:45"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-MON-04",
+      "sala": "Auditorium",
+      "nome": "Case study of a optoelectronics medical equipment manufacture in Brazil / Jarbas Caiado de Castro Neto, IFSC / USP",
+      "horario": "11:45-12:30"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-C-MON-01",
+      "sala": "Auditorium",
+      "nome": "Optical Communication 1",
+      "horario": "14:00-15:30"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-I-MON-04",
+      "sala": "Auditorium",
+      "nome": "Integrated Photonics 1",
+      "horario": "16:00-17:30"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-B-MON-02",
+      "sala": "Amphitheater 1",
+      "nome": "Biophotonics 1",
+      "horario": "14:00-15:30"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-O-MON-05",
+      "sala": "Amphitheater 1",
+      "nome": "Optics and Instrumentation 1",
+      "horario": "16:00-17:40"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-L-MON-03",
+      "sala": "Amphitheater 2",
+      "nome": "Lasers 1",
+      "horario": "14:00-15:30"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-S-MON-06",
+      "sala": "Amphitheater 2",
+      "nome": "Optics Sensors, Image and Illumination 1",
+      "horario": "16:00-17:30"
+    }]
+  }, {
+    "day": "Tuesday, October 9th",
+    "schedule": [{
+      "tipo": "Plenary",
+      "codigo": "PL-TUE-01",
+      "sala": "Auditorium",
+      "nome": "Photonics as a Key Enabling Technology: From Novel Light Sources to Clinical Diagnostic by Optical Imaging / Anderson Stevens Leonidas Gomes, DF UFPE/BR",
+      "horario": "09:00-09:40"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-TUE-02",
+      "sala": "Auditorium",
+      "nome": "Tellurite Glass Smart Materials – Applications in Optics and Beyond / Raouf El-Mallawany, PD Menoufia University / EG",
+      "horario": "09:40-10:20"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-TUE-03",
+      "sala": "Auditorium",
+      "nome": "Keysight Presentation / Bruno Menezes, ",
+      "horario": "10:20-11:00"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-TUE-04",
+      "sala": "Auditorium",
+      "nome": "SHG in nanoparticles or molecules / Pierre François-Brevet, University of Lyon / FR",
+      "horario": "11:30-12:10"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-TUE-05",
+      "sala": "Auditorium",
+      "nome": "Photonics / Microelectronics Convergence in Telecommunications / Júlio Cesar Rodrigues Fernandes de Oliveira, Idea!",
+      "horario": "12:10-12:50"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-C-TUE-01",
+      "sala": "Auditorium",
+      "nome": "Optical Communication 2",
+      "horario": "14:30-16:00"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-C-TUE-04",
+      "sala": "Auditorium",
+      "nome": "Optical Network 1",
+      "horario": "16:30-18:00"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-I-TUE-02",
+      "sala": "Amphitheater 1",
+      "nome": "Integrated Photonics 2",
+      "horario": "14:30-16:10"
+    }, {
+      "tipo": "Short Course",
+      "codigo": "SC-C-TUE-01",
+      "sala": "Amphitheater 1",
+      "nome": "Diode Pumped Solid State Lasers and other ultra-high efficiency Lasers / Niklaus Wetter (IPEN)",
+      "horario": "16:30-18:00"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-I-TUE-03",
+      "sala": "Amphitheater 2",
+      "nome": "Lasers 2",
+      "horario": "14:30-16:00"
+    }, {
+      "tipo": "Short Course",
+      "codigo": "SC-L-TUE-02",
+      "sala": "Amphitheater 2",
+      "nome": "Integrated Optics Design using COMSOL / Hugo Hernandez FIgueroa and Yuri Hayashi Isayama (Unicamp)",
+      "horario": "16:30-18:00"
+    }]
+  }, {
+    "day": "Wednesday, October 10th",
+    "schedule": [{
+      "tipo": "Plenary",
+      "codigo": "PL-WED-01",
+      "sala": "Auditorium",
+      "nome": "Photonic integration, the next path for access networks. / António Jesus Luís Teixeira, University of Aveiro",
+      "horario": "09:00-09:40"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-WED-02",
+      "sala": "Auditorium",
+      "nome": "Photonic Techniques for Life Sciences / Cristina Kurachi, IFSC/USP",
+      "horario": "09:40-10:20"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-WED-03",
+      "sala": "Auditorium",
+      "nome": "PIX4LIFE : an open-access pilot line for silicon-nitride photonics enabling visible light applications / Jacobus Willibrordus Swart, Unicamp / IMEC",
+      "horario": "10:20-11:00"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-WED-04",
+      "sala": "Auditorium",
+      "nome": "Challenges for Next Generation Coherent Transceiver ASICs / Scott R. Powell, Jariet Technologies Inc / US",
+      "horario": "11:30-12:10"
+    }, {
+      "tipo": "Plenary",
+      "codigo": "PL-WED-05",
+      "sala": "Auditorium",
+      "nome": "Project Management for Optics & Photonics Product Development and Technology Transfer / Manuel Steidle, CERTI",
+      "horario": "12:10-12:50"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-C-WED-01",
+      "sala": "Auditorium",
+      "nome": "Optical Communication 3",
+      "horario": "14:30-16:00"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-I-WED-04",
+      "sala": "Auditorium",
+      "nome": "Integrated Photonics 4",
+      "horario": "16:30-18:10"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-I-WED-02",
+      "sala": "Amphitheater 1",
+      "nome": "Integrated Photonics 3",
+      "horario": "14:30-16:10"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-C-WED-05",
+      "sala": "Amphitheater 1",
+      "nome": "Optical Network 2",
+      "horario": "16:30-18:10"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-P-WED-03",
+      "sala": "Amphitheater 2",
+      "nome": "Photonics",
+      "horario": "14:30-16:10"
+    }, {
+      "tipo": "Oral Session",
+      "codigo": "OS-S-WED-06",
+      "sala": "Amphitheater 2",
+      "nome": "Optical Sensors, Image and Illumination 2",
+      "horario": "16:30-18:10"
+    }]
+  }];
 
 //- .conteudo
 
@@ -26,6 +230,39 @@ include /_mixins
             p Read about it #[a(href="venue/") here].
           //- p.seta ↓
           //- ⭝
+
+.slide.sc-schedule
+  .s-schedule
+    .pure-g
+      .pure-u-1.pure-u-sm-1.pure-u-lg-2-3.pure-u-xl-1-2.pad
+        h2 Event’s Schedule
+      +schedule_json
+      .pure-u-1
+        each dia in schedule_json
+          .schedule
+            .pad
+              h3= dia.day
+            .schedule-block
+              each schedule in dia.schedule
+                -
+                  var url = "";
+                  if (schedule.tipo == "Plenary") {
+                    url = "plenaries.html#" + schedule.codigo;
+                  } else if (schedule.tipo == "Oral Session") {
+                    url = "tech_sessions/#" + schedule.codigo;
+                  } else if (schedule.tipo == "Short Course") {
+                    url = "short_courses.html#" + schedule.codigo;
+                  }
+                a.schedule-item.pad(href=url)
+                  p.sched-cod= schedule.codigo
+                  p.sched-hor= schedule.horario
+                  p.sched-tip= schedule.tipo
+                  p.sched-nom= schedule.nome
+                  p.sched-sal= schedule.sala
+        
+    
+
+.slide.s-hero.pad
   .slide-destaques
     .separador-1
     h1 Featured guests
@@ -100,7 +337,9 @@ include /_mixins
         img(src="img/speakers/bruno_menezes.jpg")
         .dados-speaker
           p.nome Bruno Menezes / Keysight
-      //- .g-item.g-empty
+
+
+    
 
   script.
     //https://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order
@@ -108,59 +347,6 @@ include /_mixins
     for (var i = g.children.length; i >= 0; i--) {
       g.appendChild(g.children[Math.random()*i | 0]);
     }
-
-
-  //- .slide-destaques
-    .separador-1
-    h1 Featured guests & notices
-    .separador-1
-    .grade
-      a.g-item.g-img(href="plenaries.html#PL-TUE-01")
-        img(src="img/speakers/anderson_gomes.jpg")
-        .dados-speaker
-          p.nome Dr. Anderson Stevens Leônidas Gomes
-          p.filiacao DF UFPE / Brazil
-      .g-item.g-text.span-2
-        h3 Workshops by WTON
-        br
-        p Nibh vitae vestibulum aptent ut fusce eleifend mollis tristique mus parturient adipiscing sapien ut parturient posuere. Nibh vitae vestibulum aptent ut fusce eleifend mollis tristique mus parturient adipiscing sapien ut parturient posuere.
-      a.g-item.g-img(href="plenaries.html#PL-WED-01")
-        img(src="img/speakers/antonio_teixeira.jpg")
-        .dados-speaker
-          p.nome Dr. António Luis Jesus Teixeira
-          p.filiacao Universidade de Aveiro / Portugal
-      .g-item.g-text.span-1
-        p We have moved the conference to Universidade Estadual de Campinas, in Campinas, São Paulo.
-        br
-        p #[a.fs-1(href="sbfoton/") About Unicamp]
-      a.g-item.g-img(href="plenaries.html#PL-MON-01")
-        img(src="img/speakers/carlos_lee.jpg")
-        .dados-speaker
-          p.nome Dr. Carlos Lee
-          p.filiacao EPIC members drive the photonics revolution
-      .g-item.g-text.span-2
-        h3 About SBFOTON
-        br
-        p The Brazilian Photonics Society has begun its activities on May 24th, 2017 with the main objective to work for increasing the importance and awareness of optics and photonics in Brazil and South America.
-        br
-        p #[a.fs-1(href="sbfoton/") Learn more about the society]
-      a.g-item.g-img(href="plenaries.html#PL-MON-02")
-        img(src="img/speakers/chennupati_jagadish.jpg")
-        .dados-speaker
-          p.nome Dr. Chennupati Jagadish
-          p.filiacao Australian National University / Australia
-      .g-item.g-text.span-2
-        h3 Another feature
-        br
-        p Lobortis malesuada diam orci a aptent adipiscing dui odio habitasse a sed vestibulum adipiscing velit vestibulum semper sem phasellus nibh.
-        br
-        p #[a.fs-1(href="sbfoton/") Another feature]
-      a.g-item.g-img(href="plenaries.html#PL-WED-02")
-        img(src="img/speakers/cristina_kurachi.jpg")
-        .dados-speaker
-          p.nome Dra. Cristina Kurachi
-          p.filiacao IFSC USP / Brazil
-
 
 
 
