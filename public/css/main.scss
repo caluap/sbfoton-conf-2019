@@ -972,7 +972,7 @@ body {
 
 $c1 : mix($c_verde, black, 50%);
 $c2 : mix($c1, black, 80%);
-$c3 : mix(white,$c2, 66%);
+$c3 : mix(white,$c2, 80%);
 
 .sc-schedule {
 	background: $c1;
@@ -1002,8 +1002,8 @@ $c3 : mix(white,$c2, 66%);
 
 		background: $c2;
 		
-		padding-top: $u-h/4;
-		padding-bottom: $u-h/4;
+		padding-top: $u-h/3;
+		padding-bottom: $u-h/3;
 
 		display: flex;
 		align-items: center;
@@ -1015,9 +1015,7 @@ $c3 : mix(white,$c2, 66%);
 		text-decoration: none;
 		color: white;
 		opacity: 0.7;
-		transition: opacity 3s ease;
 		&:hover {
-			transition: opacity 0.05s ease;
 			opacity: 1;
 		}
 
@@ -1029,28 +1027,28 @@ $c3 : mix(white,$c2, 66%);
 			}
 		}
 
-		.sched-cod {
+		.sched-cod, .sched-tip, .sched-all {
 			color: $c3;
-			@include fs(-3, 0);
-			width: 10%;
+		}
+		.sched-cod {
+			@include fs(-3, 1.2);
+			width: 8%;
 		}
 		.sched-tip {
-			@include fs(-2, 0);
-			width: 15%;
+			@include fs(-2, 1.2);
+			width: 12%;
 		}
-		.sched-hor {
-			color: $c3;
-			@include fs(-2, 0);
-			width: 10%;
-		}
-		.sched-sal {
-			color: $c3;
-			@include fs(-2, 0);
-			width: 10%;
+
+		.sched-all {
+			@include fs(-2, 1.2);
+			width: 20%;
 		}
 		.sched-nom {
-			@include fs(-2, 1.2);
-			width: 55%;
+			@include fs(-1, 1.2);
+			width: 60%;
+			white-space: nowrap; 
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 
 	}

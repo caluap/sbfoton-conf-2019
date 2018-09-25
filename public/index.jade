@@ -255,10 +255,11 @@ include /_schedule
                   }
                 a.schedule-item.pad(href=url)
                   p.sched-cod= schedule.codigo
-                  p.sched-hor= schedule.horario
+                  //- p.sched-hor= schedule.horario
                   p.sched-tip= schedule.tipo
                   p.sched-nom= schedule.nome
-                  p.sched-sal= schedule.sala
+                  //- p.sched-sal= schedule.sala
+                  p.sched-all!= schedule.horario + ' &nbsp;·&nbsp; ' +  schedule.sala
         
     
 
