@@ -971,7 +971,7 @@ body {
 }
 
 $c1 : mix($c_verde, black, 50%);
-$c2 : mix($c1, black, 80%);
+$c2 : mix($c1, black, 90%);
 $c3 : mix(white,$c2, 80%);
 
 .sc-schedule {
@@ -1000,7 +1000,16 @@ $c3 : mix(white,$c2, 80%);
 	.schedule-item {
 		display: block;
 
-		background: $c2;
+		
+		&.sched-plen {
+			background: $c2;
+		}
+		&.sched-tech-session {
+			background: mix($c2, black, 70%);
+		}
+		&.sched-short-course {
+			background: mix($c2, black, 40%);
+		}
 		
 		padding-top: $u-h/3;
 		padding-bottom: $u-h/3;
@@ -1009,14 +1018,18 @@ $c3 : mix(white,$c2, 80%);
 		align-items: center;
 
 		& + .schedule-item {
-			border-top: 1px solid $c1;
+			margin-top: 1px;
 		}
 
 		text-decoration: none;
 		color: white;
-		opacity: 0.7;
+		opacity: 0.8;
 		&:hover {
 			opacity: 1;
+			background: white;
+			p {
+				color: mix($c_verde,black) !important;
+			}
 		}
 
 		p {
@@ -1032,11 +1045,11 @@ $c3 : mix(white,$c2, 80%);
 		}
 		.sched-cod {
 			@include fs(-3, 1.2);
-			width: 8%;
+			width: 9%;
 		}
 		.sched-tip {
 			@include fs(-2, 1.2);
-			width: 12%;
+			width: 11%;
 		}
 
 		.sched-all {
@@ -1960,7 +1973,8 @@ div.slide.s-rodape.invertido {
 }
 
 .c-timetable {
-	background: mix($c_verde, black, 75%);
+	// background: mix($c_verde, black, 75%);
+	background : mix($c_verde, black, 50%);
 	padding-bottom: $u-h;
 	padding-top: $u-h;
 

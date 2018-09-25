@@ -248,15 +248,18 @@ include /_schedule
             .schedule-block
               each schedule in dia.schedule
                 -
-                  var url = "";
+                  var url = "", classe_adicional = "";
                   if (schedule.tipo == "Plenary") {
                     url = "plenaries.html#" + schedule.codigo;
+                    classe_adicional = "sched-plen";
                   } else if (schedule.tipo == "Oral Session") {
                     url = "tech_sessions/#" + schedule.codigo;
+                    classe_adicional = "sched-tech-session";
                   } else if (schedule.tipo == "Short Course") {
                     url = "short_courses.html#" + schedule.codigo;
+                    classe_adicional = "sched-short-course";
                   }
-                a.schedule-item.pad(href=url)
+                a.schedule-item.pad(href=url, class="#{classe_adicional}")
                   p.sched-cod= schedule.codigo
                   //- p.sched-hor= schedule.horario
                   p.sched-tip= schedule.tipo
