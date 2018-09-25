@@ -55,7 +55,8 @@ include /_mixins
               .sessao
                 .header-sessao
                   p.trab-cod-sessao.forte= i_sessao
-                  h3.trab-topico-sessao #[a.schedule-back(href="#schedule_#{i_sessao}",name="#{i_sessao}") ↖] #{sessao.nome}
+                  a.trab-codigo(name="#{i_sessao}")
+                  h3.trab-topico-sessao #{sessao.nome}
                   p.trab-chair.os-chair= sessao.chair
                   p.trab-horario-sessao #{sessao.horario} / #{sessao.sala}
                 each cod_trabalho in sessao.trabalhos
