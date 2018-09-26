@@ -15,6 +15,7 @@ include /_schedule
     },{
       "tipo": "Plenary",
       "codigo": "PL-G-MON",
+      "link": "PL-MON-01",
       "sala": "Auditorium",
       "nome": "Plenary session 1",
       "horario": "09:05-12:30"
@@ -72,6 +73,7 @@ include /_schedule
     "schedule": [{
       "tipo": "Plenary",
       "codigo": "PL-G-TUE",
+      "link": "PL-TUE-01",
       "sala": "Auditorium",
       "nome": "Plenary session 2",
       "horario": "09:00-12:30"
@@ -129,6 +131,7 @@ include /_schedule
     "schedule": [{
       "tipo": "Plenary",
       "codigo": "PL-G-WED",
+      "link": "PL-WED-01",
       "sala": "Auditorium",
       "nome": "Plenary session 3",
       "horario": "09:00-12:30"
@@ -220,7 +223,7 @@ include /_schedule
                 -
                   var url = "", classe_adicional = "";
                   if (schedule.tipo == "Plenary") {
-                    url = "plenaries.html#" + schedule.codigo;
+                    url = "plenaries.html#" + schedule.link;
                     classe_adicional = "sched-plen";
                   } else if (schedule.tipo == "Oral Session") {
                     url = "tech_sessions/#" + schedule.codigo;
