@@ -1504,6 +1504,9 @@ div.slide.s-rodape.invertido {
 		}
 
 		a {
+
+			display: block;
+
 			@include fs(-1);
 			@include media-query($s-sm) {
 				@include fs(-2,1.2);
@@ -1528,6 +1531,10 @@ div.slide.s-rodape.invertido {
 				color: white;
 				border-radius: 4px;
 				padding: $u-h/4 $u-h/2;
+				@include media-query-a-partir($s-sm) {
+					position: relative;
+					top: -$u-h/3;
+				}
 
 				@include media-query($s-sm) {
 					width: 100%;
