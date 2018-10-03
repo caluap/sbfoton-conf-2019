@@ -291,8 +291,8 @@
 			}
 			
 			,"PL-TUE-03" : {
-				"titulo" : "Keysight Presentation",
-				"resumo" : "",
+				"titulo" : "Terabit Communication Research – New High Performance Instruments to Achieve Higher Baud Rates",
+				"resumo" : "The optical communications market is being driven by increasing the modulation order in coherent systems in sustainable way in the WAN environments and to improve the data rates in the PAM4 links in the Data Center. <br><br> In the other side there are bandwidth and effective number of bits limitation in the current instrumentation to move the research on those two areas. <br><br> Keysight Technologies will present new technologies that improve bandwidth, ENOB and simplify the test topologies.",
 				"temas" : [""],
 				"autores" : ["keysight"]
       }
@@ -953,11 +953,11 @@
 						"OS-I-TUE-02-05"
 					]
 				},
-				"OS-I-TUE-03" : {
+				"OS-L-TUE-03" : {
 					"horario":"14:30-16:00",
 					"sala":"Amphitheater 2",
 					"nome":"Lasers 2",
-					"chair":"António Jesus Luís Teixeira",
+					"chair":"Ricardo Samad",
 					"trabalhos":[
 						"OS-L-TUE-03-01",
 						"OS-L-TUE-03-02",
@@ -1034,7 +1034,7 @@
 					"horario":"16:30-18:10",
 					"sala":"Amphitheater 2",
 					"nome":"Optical Sensors, Image and Illumination 2",
-					"chair":"Manuel Steidle",
+					"chair":"Juliano R. F. de Oliveira",
 					"trabalhos":[
 						"OS-S-WED-06-01",
 						"OS-S-WED-06-02",
@@ -1715,13 +1715,13 @@
 			},
 			
 			"keysight": {
-				"nome": "Bruno Menezes",
-				"imagem": "img/speakers/bruno_menezes.jpg",
+				"nome": "Rodrigo Vicentini",
+				"imagem": "img/speakers/rodrigo_vicentini.jpg",
 				"instituicao": [{
 					"nome": "",
 					"url": ""
 				}],
-				"biografia": "Bruno Menezes began his career as a Mechatronics Technician by Senai in 2002, graduated in Electrical Engineering from FEI in 2010 and holds a postgraduate degree in Business Administration from FGV in 2014. He worked twelve years in industrial automation in different sectors, five of them at GE Automation. For 4 years at Keysight Technologies, he is part of the Application Engineering team in Latin America where he is responsible for supporting sales team and clients in instruments such as oscilloscope, power supply, semiconductor device analyzer, AC / DC power analyzer , multimeters, data acquisition, function generator and others.",
+				"biografia": "Receive a Telecommunication Engineering and Project Managements Degrees from Escola Politecnica of University of São Paulo in 2002 and 2006, respectively. International MBA from Fundação Instituto de Administração in 2013. He is the Applications Engineering Manager for Brazil and South America within Keysight Technologies since 2015, and has been working in different technologies with Agilent/Keysight since 2005. Lately, Rodrigo has been working closed with 5G topics, including the RF access and high speed optical communications.",
 				"links":[]
 			},
 

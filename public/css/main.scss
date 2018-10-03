@@ -1376,9 +1376,11 @@ div.slide.s-rodape.invertido {
 
 
 .reg-but {
+
+	$c-b: mix(white, $c_laranja, 90%);
 	
 	@include fs(4);
-	color: mix(white, $c_laranja, 90%); // só para dar uma azuladinha
+	color:  $c-b;// só para dar uma azuladinha
 
 	text-decoration: none;
 	background: $c_laranja;
@@ -1389,6 +1391,15 @@ div.slide.s-rodape.invertido {
 	&:hover {
 		color: white;
 		background: black;
+	}
+
+	&.blocked {
+		opacity: 0.5;
+		text-decoration: line-through;
+		&:hover {
+			background: $c-laranja;
+			color: $c-b;
+		}
 	}
 }
 
