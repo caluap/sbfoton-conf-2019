@@ -1901,6 +1901,14 @@ div.slide.s-rodape.invertido {
 				}
 			}
 
+			.trab-link {
+				position: relative;
+				z-index: 2;
+				@include fs(-1);
+				@include faux-caps;
+				font-weight: bold;
+			}
+
 			.trab-horario {
 				@include fs(-1);
 				mix-blend-mode: multiply;
