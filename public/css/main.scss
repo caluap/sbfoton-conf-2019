@@ -175,113 +175,6 @@ blockquote {
 	margin-bottom: $u-h;
 }
 
-.popin {
-	display: none;
-}
-
-.popin.popin-visivel {
-	display: block;
-}
-
-.popin {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 20vh;
-	background: url(/img/fundos/s_invited.svg), linear-gradient($c_laranja, darken($c_laranja,15%));
-	background-size: 100vh, cover;
-	// @include texto-sombra-0($conf-color);
-	color: $conf-frente;
-	z-index: 10;
-	overflow-y: scroll;
-
-	#logo-conf {
-		width: calc(#{$u-h * 4} + 10vmin);
-	}
-	
-	& > div {
-		cursor: pointer; // para indicar que o clique na área colorida faz algo...
-	}
-
-	.fundo-botao-popin {
-		position: fixed;
-		bottom: 0;
-		top: 80vh;
-		left: 0;
-		right: 0;
-		cursor: default; // só para dar um override na regra acima
-	}
-
-	a {
-		color: $conf-frente;
-		@include fs(3);
-		margin-top: $u-h/2;
-		float: left;
-		margin-right: $u-h * 2;
-		color: $conf-frente;
-		transition: all 0.2s ease-in;
-		font-weight: bold;
-		text-decoration: underline;
-		text-decoration-color: rgba(255,255,255,0.5);
-		&:hover {
-			background: none;
-			text-decoration-color: white;
-		}
-	}
-
-	.where-when {
-		@include fs(3);
-	}
-
-
-	@include media-query {
-		a, .where-when {
-			@include fs(1);
-		}
-	}
-
-	.conteudo .pure-g {
-		min-height: 80vh;
-		display: flex;
-		// como row não estava centrando no ffox
-		flex-direction: column;
-		justify-content: center;
-	}
-
-
-
-	h1 {
-		// margin-left: $u-h * 2;
-		@include fs(7,1);
-		@include media-query($s-sm) {
-			@include fs(3,1.3);
-		}
-		font-weight: bold;
-		margin-bottom: $u-h;
-	}
-
-	#fecha-popin {
-		position: fixed;
-		bottom: 10vh;
-		left: 50%;
-		transform: translateX(-50%) translateY(50%);
-		background: black;
-		padding: 12px $u-h * 3/2;
-		border-radius: 80px;
-		color: white;
-		border: none;
-		@include fs(2);
-		@include media-query {
-			@include fs(1);
-		}
-		font-weight: bold;
-		&:hover {
-			background: $brand;
-		}
-	}
-}
-
 .conference-call {
 	position: fixed;
 	left: $u-h/2;
@@ -297,21 +190,6 @@ blockquote {
 	z-index: 9;
 }
 
-
-
-body.popado {
-	.conference-call {
-		transition: all 0s;
-		opacity: 0;
-	}
-
-	& > *:not(.popin) {
-		filter: blur(7px);
-		opacity: 0.5;
-		cursor: pointer;
-	}
-}
-
 @keyframes fade-in {
 	from {
 		opacity: 0;
@@ -321,10 +199,6 @@ body.popado {
 		opacity: 1;
 		filter: grayscale(0);
 	}
-}
-
-body.home.popado {
-	animation: fade-in 1s ease-in-out;
 }
 
 body.conference {
@@ -394,24 +268,6 @@ body.conference {
 	}
 
 }	
-
-
-#voltar {
-	position: fixed;
-	left: $u-h/2;
-	top: $u-h/2;
-	background: $brand;
-	padding: $u-h/4;
-	color: white;
-	@include sombra-1;
-	@include fs(3,0);
-	text-decoration: none;
-	color: white;
-	z-index: 9;
-	&:hover {
-		background: black;
-	}
-}
 
 #rodape {
 	background: cinza(9);
@@ -565,18 +421,6 @@ table {
 		position: relative;
 		color: cinza(4);
 		@include fs(-2);
-	}
-}
-
-
-#get-in-touch {
-	background: $conf-color-2;
-	text-align: center;
-	margin-top: $u-h * 1;
-	padding: $u-h * 2 0 $u-h * 3;
-	@include fs(1);
-	a {
-		text-decoration: underline;
 	}
 }
 
