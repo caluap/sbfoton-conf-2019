@@ -14,7 +14,7 @@
 }
 
 .new_conf {
-	padding: 0;
+  padding: 0;
 }
 
 .slide {
@@ -36,24 +36,27 @@
     --p_s1_y_img1: -50vh;
     --p_s1_y_img2: 50vh;
     background-color: $c_rosa;
-    background-image: url(/img/fundos/circulo_branco.svg), url(/img/fundos/circulo_branco.svg);
+    background-image: url(/img/fundos/circulo_branco.svg),
+      url(/img/fundos/circulo_branco.svg);
     background-repeat: no-repeat;
     background-size: 100vh, 100vh;
-    background-position: -50vh var(--p_s1_y_img1), calc(100vw - 50vh) var(--p_s1_y_img2);
+    background-position: -50vh var(--p_s1_y_img1),
+      calc(100vw - 50vh) var(--p_s1_y_img2);
   }
 
   // &.s-intro p, &.s-hero p {
-    // @include media-query-a-partir($s-sm) {
-      // @include fs(0);
-    // }
-    // @include media-query-a-partir($s-xl) {
-      // @include fs(1);
-    // }
-    // margin-top: calc(#{$u-h * 2} + 30vmin);
+  // @include media-query-a-partir($s-sm) {
+  // @include fs(0);
+  // }
+  // @include media-query-a-partir($s-xl) {
+  // @include fs(1);
+  // }
+  // margin-top: calc(#{$u-h * 2} + 30vmin);
   // }
 
   &.s-call-for-papers {
-    background-image: url(/img/fundos/s_call_0.svg), linear-gradient($c_verde, darken($c_verde,8%));
+    background-image: url(/img/fundos/s_call_0.svg),
+      linear-gradient($c_verde, darken($c_verde, 8%));
     background-repeat: repeat, no-repeat;
     background-size: $u-h * 12, cover;
 
@@ -66,9 +69,7 @@
         background-color: black;
       }
     }
-
   }
-
 
   &.s-dates {
     --p_s3_x_img1: -45vh;
@@ -77,16 +78,18 @@
     --p_s3_y_img2: 55vh;
 
     background-color: white;
-    background-image: url(/img/fundos/circulo_rosa.svg), url(/img/fundos/circulo_rosa.svg);
-    background-position: var(--p_s3_x_img1) var(--p_s3_y_img1), var(--p_s3_x_img2) var(--p_s3_y_img2);
+    background-image: url(/img/fundos/circulo_rosa.svg),
+      url(/img/fundos/circulo_rosa.svg);
+    background-position: var(--p_s3_x_img1) var(--p_s3_y_img1),
+      var(--p_s3_x_img2) var(--p_s3_y_img2);
     background-size: 90vh, 90vh;
     background-repeat: no-repeat;
     will-change: background-position;
   }
 
-
   &.s-invited-speakers {
-    background: url(/img/fundos/s_invited.svg), linear-gradient(darken($c_laranja,8%), $c_laranja);
+    background: url(/img/fundos/s_invited.svg),
+      linear-gradient(darken($c_laranja, 8%), $c_laranja);
     background-size: 100vh, cover;
     * {
       color: white;
@@ -97,23 +100,22 @@
     --p_s5_y_img1: -50vh;
     --p_s5_y_img2: calc(100% + 50vh);
     background-color: cinza(0);
-    background-image: url(/img/fundos/circulo_branco_fraco.svg), url(/img/fundos/circulo_branco_fraco.svg);
+    background-image: url(/img/fundos/circulo_branco_fraco.svg),
+      url(/img/fundos/circulo_branco_fraco.svg);
     background-repeat: no-repeat;
     background-size: 100vh, 100vh;
-    background-position: calc(100vw - 50vh) var(--p_s5_y_img1), -50vh var(--p_s5_y_img2);
-    
+    background-position: calc(100vw - 50vh) var(--p_s5_y_img1),
+      -50vh var(--p_s5_y_img2);
+
     min-height: unset;
     color: white;
     padding-bottom: 0;
   }
-
-
 }
-
 
 body.home .slide {
   // &.s-hero {
-    // padding-bottom: $u-h;
+  // padding-bottom: $u-h;
   // }
 }
 
@@ -129,7 +131,7 @@ body.home .slide {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  
+
   @include media-query-a-partir($s-sm) {
     min-height: calc(100vh - #{$u-h});
   }
@@ -141,27 +143,25 @@ body.home .slide {
 
   h1 {
     display: none;
-    @include fs(5,1.2);
+    @include fs(5, 1.2);
     font-weight: bold;
     color: $brand;
   }
   h2 {
-    @include fs(7,1.1);
+    @include fs(7, 1.1);
     margin-bottom: $u-h;
     font-weight: 500;
     color: $c_laranja;
     mix-blend-mode: multiply;
     @include media-query($s-sm) {
-      @include fs(4,1.2);
+      @include fs(4, 1.2);
     }
   }
-  
+
   p {
     @include fs(1);
   }
-
 }
-
 
 #call-for-papers-overlay {
   background: $c_verde;
@@ -169,12 +169,11 @@ body.home .slide {
   position: absolute;
   right: $u-h / 2;
   top: $u-h / 2;
-  
+
   padding: $u-h / 4;
 
   // box-shadow: (-$u-h / 4) (-$u-h / 4) 0 $c_laranja;
 }
-
 
 #menu-conf {
   position: fixed;
@@ -221,35 +220,32 @@ body.home .slide {
       flex-grow: 1;
       padding-bottom: $u-h / 8;
       a {
-        @include fs(-3,0);
+        @include fs(-3, 0);
         font-weight: normal;
         // color: white;
       }
     }
   }
-
 }
 
-
 .call-for-papers-banner {
-  margin-top: $u-h*2;
+  margin-top: $u-h * 2;
   margin-bottom: 0 $u-h;
   padding: $u-h;
   font-weight: bold;
   color: white;
 
-
   p:nth-child(1) {
-    @include fs(8,1);
+    @include fs(8, 1);
     @include media-query($s-sm) {
-      @include fs(4,1);
+      @include fs(4, 1);
     }
     @include faux-caps;
     padding: 0;
   }
   .call-deadline {
     margin-top: $u-h / 4;
-    @include fs(3,1);
+    @include fs(3, 1);
   }
 }
 
@@ -259,7 +255,7 @@ body.home .slide {
   padding: $u-h / 2 $u-h * 2;
   text-align: center;
   // border: 2px solid white;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 6px;
   @include fs(1);
   display: inline-block;
@@ -289,16 +285,14 @@ body.home .slide {
   @include fs(-3);
 }
 
-
 $c1: #69bba2;
 $c2: #d6ae81;
 $c3: #718ab1;
-$c4: #E87866;
+$c4: #e87866;
 $c5: #769088;
-$c6: #A4957C;
+$c6: #a4957c;
 
 $sep: $u-h / 3;
-
 
 .topics-wrapper {
   display: grid;
@@ -308,32 +302,42 @@ $sep: $u-h / 3;
 
   margin-bottom: $u-h;
 
-
-  .topic-group, .topic {
+  .topic-group,
+  .topic {
     padding: $u-h / 6;
   }
   .topic-group {
-
     padding-top: $u-h;
     color: white;
-    
-    
+
     @include fs(-1);
     @include faux-caps;
     font-weight: bold;
     grid-column: 1;
-    &.opt-comm { grid-row: 1; }
-    &.lasers { grid-row: 3; }
-    &.int-phot { grid-row: 5; }
-    &.opt-inst { grid-row: 7; }
-    &.biophot { grid-row: 9; }
-    &.sensors { grid-row: 11; }
+    &.opt-comm {
+      grid-row: 1;
+    }
+    &.lasers {
+      grid-row: 3;
+    }
+    &.int-phot {
+      grid-row: 5;
+    }
+    &.opt-inst {
+      grid-row: 7;
+    }
+    &.biophot {
+      grid-row: 9;
+    }
+    &.sensors {
+      grid-row: 11;
+    }
   }
 
   .topic {
     @include fs(-1);
     border: 4px solid transparent;
-    
+
     $cft: white;
     color: black;
 
@@ -341,13 +345,30 @@ $sep: $u-h / 3;
     position: relative;
     left: $sep;
 
-    &.opt-comm { background: $cft; box-shadow: -$sep $sep 0 $c1; }
-    &.lasers { background: $cft; box-shadow: -$sep $sep 0 $c2; }
-    &.int-phot { background: $cft; box-shadow: -$sep $sep 0 $c3; }
-    &.opt-inst { background: $cft; box-shadow: -$sep $sep 0 $c4; }
-    &.biophot { background: $cft; box-shadow: -$sep $sep 0 $c5; }
-    &.sensors {background: $cft; box-shadow: -$sep $sep 0 $c6; }
-    
+    &.opt-comm {
+      background: $cft;
+      box-shadow: -$sep $sep 0 $c1;
+    }
+    &.lasers {
+      background: $cft;
+      box-shadow: -$sep $sep 0 $c2;
+    }
+    &.int-phot {
+      background: $cft;
+      box-shadow: -$sep $sep 0 $c3;
+    }
+    &.opt-inst {
+      background: $cft;
+      box-shadow: -$sep $sep 0 $c4;
+    }
+    &.biophot {
+      background: $cft;
+      box-shadow: -$sep $sep 0 $c5;
+    }
+    &.sensors {
+      background: $cft;
+      box-shadow: -$sep $sep 0 $c6;
+    }
   }
 
   .topics-em-si {
@@ -365,10 +386,8 @@ $sep: $u-h / 3;
 
     @include media-query($s-sm) {
       grid-template-columns: repeat(1, 1fr);
-
     }
   }
-
 }
 
 .saiba-mais {
@@ -406,7 +425,6 @@ $sep: $u-h / 3;
   grid-template-columns: repeat(3, 1fr);
   // background: yellow;
 
-  
   @include media-query-a-partir($s-md) {
     // background: orchid;
     grid-template-columns: repeat(5, 1fr);
@@ -426,7 +444,7 @@ $sep: $u-h / 3;
     grid-column: 1/4;
     // background: red;
   }
-  
+
   @include media-query-a-partir($s-md) {
     .t-new_conf {
       grid-column: 1/5;
@@ -442,16 +460,14 @@ $sep: $u-h / 3;
 }
 
 .dates {
-
   @extend .grid-dates;
   @include media-query($s-md) {
     display: block;
   }
 
-
   margin-top: $u-h;
   mix-blend-mode: multiply;
-  
+
   .event {
     padding: $u-h / 6;
     display: block;
@@ -467,12 +483,9 @@ $sep: $u-h / 3;
     grid-row: 2/3;
     @include faux-caps;
   }
-
 }
 
-
 .t-new_conf {
-
   grid-row: 3/4;
 
   margin-top: $u-h * 2;
@@ -480,35 +493,34 @@ $sep: $u-h / 3;
   @include media-query($s-sm) {
     .fees {
       @include fs(-3);
-      small, .there-be-prices td:not(:first-child) .money, tr th:not(:first-child) .money {
+      small,
+      .there-be-prices td:not(:first-child) .money,
+      tr th:not(:first-child) .money {
         @include fs(-4);
       }
       // background: blue;
     }
   }
 
-	td {
-		border-bottom: 1px solid rgba(0,0,0,0.5);
-	}
-	th {
-		border-bottom: 2px solid black;
-	}
+  td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  th {
+    border-bottom: 2px solid black;
+  }
 
   table ~ .legenda-tabela {
     margin-bottom: 0;
   }
-
 }
-
 
 h1 {
-  @include fs(5,1);
+  @include fs(5, 1);
 
   @include media-query($s-sm) {
-    @include fs(3,1.3);
+    @include fs(3, 1.3);
   }
 }
-
 
 .speakers {
   margin-top: $u-h * 2;
@@ -517,7 +529,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 
-  @include texto-sombra-0(rgba(0,0,0,0.6));
+  @include texto-sombra-0(rgba(0, 0, 0, 0.6));
 
   @include media-query-a-partir($s-sm) {
     grid-template-columns: repeat(2, 1fr);
@@ -525,7 +537,8 @@ h1 {
 
   @include media-query-a-partir($s-md) {
     grid-template-columns: repeat(3, 1fr);
-    .s3, .s4 {
+    .s3,
+    .s4 {
       grid-row: 2;
     }
   }
@@ -544,7 +557,6 @@ h1 {
     }
 
     .dados-speaker {
-
       p {
         @include fs(-1);
       }
@@ -560,13 +572,12 @@ h1 {
         margin: 0;
       }
     }
-
   }
 }
- // logo não deve ocupar tudo, mas como uso seu tamanho 
- // para calcular a posicão do texto (para alinha com o nome),
- // melhor colocar essa proporção de redução numa variável
-$pl-r : 0.6;
+// logo não deve ocupar tudo, mas como uso seu tamanho
+// para calcular a posicão do texto (para alinha com o nome),
+// melhor colocar essa proporção de redução numa variável
+$pl-r: 0.6;
 
 #link-logo-rodape {
   display: block;
@@ -599,8 +610,9 @@ $pl-r : 0.6;
 .credits {
   @include fs(-2);
   @include texto-sombra-0(cinza(0));
-  padding: $u-h*4 0 $u-h;
-  &, a {
+  padding: $u-h * 4 0 $u-h;
+  &,
+  a {
     color: cinza(7) !important;
   }
   a:hover {
