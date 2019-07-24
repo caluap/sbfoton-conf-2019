@@ -1,14 +1,6 @@
-
-@import 'inter-ui.scss';
-@import 'min.scss';
-
-
-$c_rosa: #ffd4d5;
-$c_laranja: #f7941e;
-$c_verde: #00a79d;
-$c_mix: #006112;
-
-
+@import "inter-ui.scss";
+@import "min.scss";
+@import "config.scss";
 
 #logo_conf {
   position: absolute;
