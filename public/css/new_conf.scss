@@ -250,23 +250,21 @@ $sep: $u-h / 3;
   @extend .grid-dates;
   @include media-query($s-sm) {
     overflow-x: scroll; // quase não precisa, mas é melhor garantir (fica pouca coisa pra fora...)
+    width: calc(100vw - #{$u-h * 9 / 8});
   }
 
   .t-new_conf {
     grid-column: 1/4;
-    // background: red;
   }
 
   @include media-query-a-partir($s-md) {
     .t-new_conf {
       grid-column: 1/5;
-      // background: green;
     }
   }
   @include media-query-a-partir($s-xl) {
     .t-new_conf {
       grid-column: 1/4;
-      // background: blue;
     }
   }
 }
