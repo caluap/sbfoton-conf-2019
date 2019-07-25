@@ -129,18 +129,10 @@ h4 {
 			font-weight: 300;
 		}
 		&.acao {
-			// border: 2px solid cinza(9);
 			display: block;
 			padding-left: $u-h / 4;
 			padding-right: $u-h / 4;
-			// text-decoration: none;
-			// border-radius: $rad-bot;
-			&:hover {
-				// background: transparentize($brand,0.75);
-				// border-color: transparentize($brand,0.75);
-			}
 			@extend .botao;
-			// background: cinza(10);
 		}
 		padding: $u-h/4 0;
 	}
@@ -371,8 +363,6 @@ table {
 			padding-right: $u-h/2;
 			padding-left: $u-h/2;
 		}
-		td:not(:first-child) {
-		}
 
 		.there-be-prices td:not(:first-child), tr th:not(:first-child) {
 			// text-align: right;
@@ -480,10 +470,6 @@ table {
 		&.l2 {
 			grid-column: 2 / 3;
 		}
-	}
-
-	& > * {
-		// border: 1px solid red;
 	}
 }
 
@@ -1181,10 +1167,6 @@ div.slide.s-rodape.invertido {
 			}
 		}
 
-		.logo-subcategory {
-
-		}
-
 	}
 
 }
@@ -1256,8 +1238,6 @@ div.slide.s-rodape.invertido {
 
 
 #registration {
-	grid-column: 3;
-	grid-row: 1;
 	
   a#reg-but {
 		@extend .reg-but;
@@ -1632,10 +1612,6 @@ div.slide.s-rodape.invertido {
 			}
 			grid-gap: $u-h;
 
-			.trab-trab {
-				// background: red;
-			}
-
 			.trab-lista-autores {
 				font-weight: 300;
 				mix-blend-mode: multiply;
@@ -1955,7 +1931,4 @@ div.slide.s-rodape.invertido {
 	}
 	grid-column-gap: $u-h/2;
 	grid-row-gap: $u-h * 2;
-
-	.hotel {
-	}
 }
