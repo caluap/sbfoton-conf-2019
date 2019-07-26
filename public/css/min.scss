@@ -1,20 +1,4 @@
-$u-h: 36px;
-
-$s-sm: 568px;
-$s-md: 768px;
-$s-lg: 1024px;
-$s-xl: 1280px;
-$s-xxl: 1441px;
-$s-xxxl: 1600px;
-
-$font-size-ratio: 1.2;
-$base-font-size: 18px;
-
-$brand: #009cde;
-$brand-text: darken($brand, 3);
-$amarelo-preface: #ffdb3e;
-
-$fonte-texto: "Inter UI";
+@import "config.scss";
 
 // @ https://css-tricks.com/snippets/sass/power-function/
 @function pow($number, $exponent) {

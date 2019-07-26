@@ -1,3 +1,5 @@
+// colors
+
 $brand: #009cde;
 $light-brand: transparentize($brand, 0.75);
 $conf-color-3: #b23f3c;
@@ -5,17 +7,35 @@ $conf-color-2: #5e3994;
 $conf-color: #e0543c; //tomato; //rebeccapurple;
 $conf-frente: white;
 
+$brand-text: darken($brand, 3);
+
 $c_rosa: #ffd4d5;
 $c_laranja: #f7941e;
 $c_verde: #00a79d;
 $c_mix: #006112;
 
-$rad-bot: 8px;
-
 $c_menu: mix(black, #4772aa, 30%);
-
-$w-menu: $u-h * 4;
 
 $highlight: mix(#009cde, #0051e7);
 $light_highlight: mix($highlight, white);
 $dark_highlight: mix($highlight, black, 50%);
+
+/// type
+$fonte-texto: "Inter";
+
+$font-size-ratio: 1.2;
+$base-font-size: 18px;
+
+/// sizes
+$u-h: 36px;
+$w-menu: $u-h * 4;
+
+$rad-bot: 8px;
+
+/// breakpoints
+$s-sm: 568px;
+$s-md: 768px;
+$s-lg: 1024px;
+$s-xl: 1280px;
+$s-xxl: 1441px;
+$s-xxxl: 1600px;
