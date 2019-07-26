@@ -11,8 +11,11 @@
 }
 
 body {
-	font-family: $fonte-texto, sans-serif;
 	padding-top: 4 * $u-h;
+
+	&, h1, h2, h3, h4, h5, h6 {
+		font-family: $fonte-texto, Helvetica, Arial, sans-serif;
+	}
 }
 
 .pequeno {
@@ -25,10 +28,6 @@ p + p, blockquote + p, ol + p, ul + p {
 
 strong {
 	font-weight: bold;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $fonte-texto, sans-serif;
 }
 
 h2 {
