@@ -8,14 +8,13 @@ mixin menu(pagina_atual)
         lvl = '../'
       }
     #logo-menu-geral
-      a(href="/") #[img(src="#{lvl}img/sbfoton_conf_2019-outline.svg")] #[br] #[span.date-logo Oct. 7–9th]
+      a(href="/") #[img#logo-on-the-menu(src="#{lvl}img/sbfoton_conf_2019-outline.svg")] #[br] #[span.date-logo Oct. 7–9th]
     #c-menu
       label.toggle-container(for="toggle")
         - for (var i = 1; i <= 4; i++)
           span.toggle-enfeite(id='toggle-#{i}')
       .fundo-tela-quando-menu
       .fundo-menu
-      //- (class="#{pagina_atual == 'home' ? 'menu-nao-fixado' : ''}")
       ul#menu
         each link_menu in menu
           -
