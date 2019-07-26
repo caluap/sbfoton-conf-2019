@@ -15,3 +15,7 @@ $rad-bot: 8px;
 $c_menu: mix(black, #4772aa, 30%);
 
 $w-menu: $u-h * 4;
+
+$highlight: mix(#009cde, #0051e7);
+$light_highlight: mix($highlight, white);
+$dark_highlight: mix($highlight, black, 50%);
