@@ -288,12 +288,21 @@ $pl-r: 0.6;
 .support {
   @include fs(-2);
   padding-top: $u-h / 2;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: $u-h / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   a {
     padding: 2px;
     text-decoration: none;
+    &:hover {
+      background: none !important;
+    }
+    & + a {
+      margin-top: $u-h / 2;
+    }
+    img {
+      max-height: $u-h;
+    }
   }
 }
 
@@ -302,7 +311,7 @@ $pl-r: 0.6;
   padding: $u-h * 4 0 $u-h;
   &,
   a {
-    color: cinza(7) !important;
+    color: $light_highlight !important;
   }
   a:hover {
     color: white !important;
