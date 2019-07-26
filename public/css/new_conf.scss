@@ -32,80 +32,12 @@
     }
   }
 
-  &.s-intro {
-    --p_s1_y_img1: -50vh;
-    --p_s1_y_img2: 50vh;
-    background-color: $c_rosa;
-    background-image: url(/img/fundos/circulo_branco.svg),
-      url(/img/fundos/circulo_branco.svg);
-    background-repeat: no-repeat;
-    background-size: 100vh, 100vh;
-    background-position: -50vh var(--p_s1_y_img1),
-      calc(100vw - 50vh) var(--p_s1_y_img2);
-  }
-
-  // &.s-intro p, &.s-hero p {
-  // @include media-query-a-partir($s-sm) {
-  // @include fs(0);
-  // }
-  // @include media-query-a-partir($s-xl) {
-  // @include fs(1);
-  // }
-  // margin-top: calc(#{$u-h * 2} + 30vmin);
-  // }
-
-  &.s-call-for-papers {
-    background-image: url(/img/fundos/s_call_0.svg),
-      linear-gradient($c_verde, darken($c_verde, 8%));
-    background-repeat: repeat, no-repeat;
-    background-size: $u-h * 12, cover;
-
-    color: white;
-
-    a {
-      color: white;
-      text-decoration-color: white;
-      &:hover {
-        background-color: black;
-      }
-    }
-  }
-
-  &.s-dates {
-    --p_s3_x_img1: -45vh;
-    --p_s3_y_img1: -45vh;
-    --p_s3_x_img2: calc(100vw - 45vh);
-    --p_s3_y_img2: 55vh;
-
-    background-color: white;
-    background-image: url(/img/fundos/circulo_rosa.svg),
-      url(/img/fundos/circulo_rosa.svg);
-    background-position: var(--p_s3_x_img1) var(--p_s3_y_img1),
-      var(--p_s3_x_img2) var(--p_s3_y_img2);
-    background-size: 90vh, 90vh;
-    background-repeat: no-repeat;
-    will-change: background-position;
-  }
-
-  &.s-invited-speakers {
-    background: url(/img/fundos/s_invited.svg),
-      linear-gradient(darken($c_laranja, 8%), $c_laranja);
-    background-size: 100vh, cover;
-    * {
-      color: white;
-    }
+  &.s-hero {
+    background-color: $color-A;
   }
 
   &.s-rodape {
-    --p_s5_y_img1: -50vh;
-    --p_s5_y_img2: calc(100% + 50vh);
-    background-color: cinza(0);
-    background-image: url(/img/fundos/circulo_branco_fraco.svg),
-      url(/img/fundos/circulo_branco_fraco.svg);
-    background-repeat: no-repeat;
-    background-size: 100vh, 100vh;
-    background-position: calc(100vw - 50vh) var(--p_s5_y_img1),
-      -50vh var(--p_s5_y_img2);
+    background-color: $dark_highlight;
 
     min-height: unset;
     color: white;
@@ -367,7 +299,6 @@ $pl-r: 0.6;
 
 .credits {
   @include fs(-2);
-  @include texto-sombra-0(cinza(0));
   padding: $u-h * 4 0 $u-h;
   &,
   a {

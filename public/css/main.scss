@@ -194,10 +194,6 @@ blockquote {
 }
 
 body.conference {
-	background-color: $conf-color;
-	background-image: url('../img/fundo-conf.svg');
-	background-size: contain;
-	background-repeat: repeat-y;
 	padding-bottom: $u-h * 4;
 	color: white;
 	padding-bottom: 0;
@@ -714,15 +710,6 @@ body {
 }
 
 
-.s-hero {
-	background-color: $c_rosa;
-	background-image: url(../img/fundos/circulo_branco_medio.svg), url(../img/fundos/circulo_branco_medio.svg);
-	background-position: -25vw -25vw, calc(75vw - #{$w-menu}) calc(100vh - 25vw);
-	background-size: 50vw, 50vw;
-	background-repeat: no-repeat;	
-}
-
-
 
 
 #logo-home {
@@ -1030,14 +1017,6 @@ $c3 : mix(white,$c2, 80%);
 		}
 	}
 
-}
-
-
-div.slide.s-rodape.invertido {
-	background-color: mix($c-menu,black);
-	background-image: url(../img/fundos/circulo_branco_fraco.svg);
-	background-position: center 30vh;
-	background-size: 80vw;
 }
 
 
