@@ -257,6 +257,7 @@ $sep: $u-h / 3;
 }
 
 h1 {
+  color: $highlight;
   @include fs(5, 1);
 
   @include media-query($s-sm) {

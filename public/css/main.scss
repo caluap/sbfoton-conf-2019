@@ -31,8 +31,8 @@ strong {
 }
 
 h2 {
-	font-weight: 900;
-	@include fs(4);
+	font-weight: 600;
+	@include fs(3);
 	margin-bottom: $u-h/2;
 	.leve {
 		display: block;
@@ -56,8 +56,8 @@ p + h3, h3 + h3, ul + h3, ol + h3 {
 }
 
 h3 {
-	@include fs(-1);
-	font-weight: bold;
+	@include fs(0);
+	font-weight: 500;
 	@include faux-caps;
 }
 
@@ -139,11 +139,12 @@ h4 {
 
 a {
 	color: black;
-	text-decoration-skip: ink;
-	text-decoration-color: $brand;
+	text-decoration-skip-ink: none;
+	text-decoration-color: $highlight;
 	&:hover {
-		text-decoration: none;
-		background: transparentize($brand,0.75);
+		// text-decoration: none;
+		background: $highlight;
+		// background: transparentize($brand,0.75);
 	}
 }
 
@@ -158,10 +159,6 @@ blockquote {
 .logo {
 	img {
 		max-width: 240px;
-		// @include media-query-a-partir {
-		// 	position: relative;
-		// 	left: -12px;
-		// }
 	}
 	margin-bottom: $u-h;
 }
@@ -191,29 +188,6 @@ blockquote {
 		filter: grayscale(0);
 	}
 }
-
-body.conference {
-	padding-bottom: $u-h * 4;
-	color: white;
-	padding-bottom: 0;
-	@include media-query {
-		background-size: 400vw;
-	}
-	a {
-		color: white;
-		// text-decoration-color: $conf-color-2;
-		text-decoration: none;
-
-		color: white;
-		background: $conf-color-2;
-		&:hover {
-			background: white;
-			color: $conf-color-2;
-		}
-	}
-}
-
-
 
 .topics {
 	li {
@@ -515,7 +489,7 @@ table {
 		&:before {
 			content: "";
 			position: absolute;
-			background: mix(black, $c_rosa,75%);
+			background: $dark_highlight; 
 			mix-blend-mode: multiply;
 			opacity: 0.9;
 			left: 0;
@@ -637,15 +611,14 @@ table {
 					padding-bottom: $u-h / 4;
 					@include fs(-1,1.3);
 				}
-				
-
 
 				color: white;
 				opacity: 0.666;
 
 				&.registration_link {
-					color: $light_highlight;
-					background: $dark_highlight;
+					color: $color-B;
+					background: cinza(1);
+					// background: $color-B;
 					opacity: 1;
 				}
 				
@@ -655,8 +628,11 @@ table {
 
 				@at-root #menu-geral #c-menu .nav-atual a, &:hover {
 					background: white !important;
-					color: $dark_highlight;
+					color: $dark_highlight !important;
 					opacity: 1;
+				}
+
+				@at-root #menu-geral #c-menu .nav-atual a {
 				}
 			}
 			
@@ -722,37 +698,8 @@ body {
 }
 
 .s-default {
-	padding-top: $u-h * 2;
-	@extend .s-hero;
-
-
-	&.s-var-1 {
-		background-position: calc(75vw - #{$w-menu}) -25vw, -25vw calc(100vh - 25vw);
-	}
-	&.s-var-2 {
-		background-position: -25vw -25vw, calc(75vw - #{$w-menu}) -25vw;
-	}
-	&.s-var-3 {
-		background-position: calc(75vw - #{$w-menu}) calc(100vh - 25vw), -25vw calc(100vh - 25vw);
-	}
-	&.s-var-4 {
-		background-position: calc(75vw - #{$w-menu}) -25vw, -25vw calc(100vh - 25vw);
-	}
-
-	background-color: mix(
-			mix($c_rosa, $c_verde, 40%), white, 40%
-		);
-	background-color: $c_rosa;
-}
-
-
-.s-default, .s-hero {
-	@include media-query($s-sm) {
-		&, &.s-var-1, &.s-var-2, &.s-var-3, &.s-var-4 {
-			background-position: center -45vw, center calc(100vh - 45vw);
-			background-size: 90vw, 90vw;
-		}
-	}
+	padding-top: $u-h;
+	background-color: $color-A;
 }
 
 $c1 : mix($c_verde, black, 50%);
@@ -893,8 +840,7 @@ $c3 : mix(white,$c2, 80%);
 	}
 
 	h1 {
-		color: $c_verde;
-		// font-weight: bold;
+		color: $highlight;
 	}
 	
 	h3 {
@@ -1090,29 +1036,19 @@ $c3 : mix(white,$c2, 80%);
 
 .reg-but {
 
-	$c-b: mix(white, $c_laranja, 90%);
-	
 	@include fs(4);
-	color:  $c-b;// só para dar uma azuladinha
-
+	
 	text-decoration: none;
-	background: $c_laranja;
+	background: $color-B;
+	color:  white;
 	padding: $u-h/3 $u-h;
 
 	border-radius: 4px;
+	display: inline-block;
 
 	&:hover {
 		color: white;
 		background: black;
-	}
-
-	&.blocked {
-		opacity: 0.5;
-		text-decoration: line-through;
-		&:hover {
-			background: $c-laranja;
-			color: $c-b;
-		}
 	}
 }
 
@@ -1207,7 +1143,7 @@ $c3 : mix(white,$c2, 80%);
 		}
 		
 		h3 {
-			color: $brand;
+			color: $highlight;
 			margin-bottom: $u-h/2;
 		}
 	}
@@ -1254,7 +1190,6 @@ $c3 : mix(white,$c2, 80%);
 			text-decoration: none;
 			font-weight: 500;
 			opacity: 0.4;
-			mix-blend-mode: multiply;
 			@at-root .sub-menu li.nav-atual a, &:hover {
 				background: unset;
 				opacity: 1;
@@ -1264,11 +1199,9 @@ $c3 : mix(white,$c2, 80%);
 				@include media-query($s-sm) {
 					@include fs(-2,1.2);
 				}
-				mix-blend-mode: normal;
-				background: black;
+				background: $highlight;
 				text-align: center;
 				color: white;
-				border-radius: 4px;
 				padding: $u-h/4 $u-h/2;
 				@include media-query-a-partir($s-sm) {
 					position: relative;
@@ -1286,9 +1219,7 @@ $c3 : mix(white,$c2, 80%);
 }
 
 .h-caps {
-	@include fs(2,1.1);
-	color: $c_verde;
-	mix-blend-mode: multiply;
+	@include fs(2, 1.0, true);
 	font-weight: 500;
 	margin-bottom: $u-h / 2;
 	margin-top: $u-h * 2;
@@ -1296,7 +1227,6 @@ $c3 : mix(white,$c2, 80%);
 
 
 .chairs {
-	// background: green;
 
 	.chair {
 		& + .chair {
@@ -1311,14 +1241,17 @@ $c3 : mix(white,$c2, 80%);
 
 	.c-membros {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		@include media-query($s-lg) {
+		grid-template-columns: repeat(5, 1fr);
+		@include media-query($s-xxl) {
+			grid-template-columns: repeat(4, 1fr);
+		}
+		@include media-query($s-xl) {
 			grid-template-columns: repeat(3, 1fr);
 		}
-		@include media-query($s-md) {
+		@include media-query($s-lg) {
 			grid-template-columns: repeat(2, 1fr);
 		}
-		@include media-query($s-sm) {
+		@include media-query($s-md) {
 			grid-template-columns: repeat(1, 1fr);
 
 		}
@@ -1405,7 +1338,6 @@ $c3 : mix(white,$c2, 80%);
 			z-index: 1;
 			align-items: center;
 			margin-bottom: $u-h / 4;
-			// background: red;
 
 			.schedule-back {
 				margin-left: $u-h/2;
@@ -1817,13 +1749,13 @@ $c3 : mix(white,$c2, 80%);
 	padding: $u-h/4;
 	position: relative;
 	left: -$u-h/4;
-	border: 1px solid transparentize($c_mix, 0.7);
-	// box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 	border-radius: $u-h/6;
+	background: $light_highlight;
+
 }
 
 .group-leader {
-	color: $c_mix;
+	opacity: 0.666;
 	@include faux-caps;
 	@include fs(-3);
 	font-weight: bold;
@@ -1874,6 +1806,18 @@ $c3 : mix(white,$c2, 80%);
 	@include media-query($s-sm) {
 		grid-template-columns: repeat(1, 1fr);
 	}
-	grid-column-gap: $u-h/2;
+	grid-column-gap: $u-h;
 	grid-row-gap: $u-h * 2;
+}
+
+.hotel {
+	h3 {
+		@include faux-caps;
+		@include fs(0, 1.2);
+		margin-bottom: $u-h / 4;
+	}
+	.pequeno {
+		display: inline-block;
+		margin-top: $u-h/4;
+	}
 }

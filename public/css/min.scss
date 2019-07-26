@@ -27,9 +27,20 @@
   @return mix(#fefefe, #0d0c0b, $nivel * 10);
 }
 
-@mixin fs($s: 1, $linha: 1.5) {
-  font-size: $base-font-size * pow($font-size-ratio, $s);
-  line-height: $base-font-size * pow($font-size-ratio, $s) * $linha;
+@mixin fs($s: 1, $linha: 1.6, $imp: false) {
+  // bigger fonts tend to ask for smaller line-heights
+  // (which can be overriden by raising the $linha parameter
+  $div: pow(1.04, $s);
+  @if $imp == false {
+    font-size: $base-font-size * pow($font-size-ratio, $s);
+    line-height: $base-font-size * pow($font-size-ratio, $s) * $linha / $div;
+  } @else {
+    font-size: $base-font-size * pow($font-size-ratio, $s) !important;
+    line-height: $base-font-size *
+      pow($font-size-ratio, $s) *
+      $linha /
+      $div !important;
+  }
 }
 
 @mixin media-query($device: $s-md) {
@@ -92,7 +103,7 @@
 
 @mixin faux-caps {
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.07ch;
 }
 @mixin anula-faux-caps {
   text-transform: none;
@@ -116,7 +127,7 @@
     .separador-visivel-#{$i} {
       width: 100%;
       border: none;
-      border-top: 2px solid $brand;
+      border-top: 2px solid $highlight;
       clear: both;
       height: 1;
       margin-top: $u-h * $i * 2/3;
