@@ -8,7 +8,7 @@ mixin menu(pagina_atual)
         lvl = '../'
       }
     #logo-menu-geral
-      a(href="/") #[img#logo-on-the-menu(src="#{lvl}img/sbfoton_conf_2019-outline.svg")] #[br] #[span.date-logo Oct. 7–9th]
+      a(href="/") #[img#logo-on-the-menu(src="#{lvl}img/sbfoton_conf_2019-outline.svg")] #[br] #[span.date-logo Oct. 7–9#[sup th]]
     #c-menu
       label.toggle-container(for="toggle")
         - for (var i = 1; i <= 4; i++)
@@ -68,7 +68,7 @@ mixin rodape(pagina_atual)
       .separador-2
       .pure-u-1.pure-u-md-3-8.pure-u-xl-1-4
         #link-logo-rodape #[a(href="#{lvl}sbfoton.html") #[img#logo-rodape(src="#{lvl}img/logo_sbfoton/mono-invertido.svg") ]]
-        p.fs-2 The #[a(href="#{lvl}sbfoton.html") Brazilian Photonics Society] has begun its activities on May 24th, 2017 with the main objective to work for increasing the importance and awareness of optics and photonics in Brazil and South America.
+        p.fs-2 The #[a(href="#{lvl}sbfoton.html") Brazilian Photonics Society] has begun its activities on May 24#[sup th], 2017 with the main objective to work for increasing the importance and awareness of optics and photonics in Brazil and South America.
         p.fs-2 To contact SBFoton and take active part in this movement, send an email to #[a(href="mailto:conference@sbfoton.org.br") conference@sbfoton.org.br].
       .pure-u-1.pure-u-md-1-4.pure-u-xl-1-2
         .separador-2

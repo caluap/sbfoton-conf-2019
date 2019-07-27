@@ -18,6 +18,15 @@ body {
 	}
 }
 
+sup {
+  font-feature-settings: "sups" 1;
+  vertical-align: middle;
+  font-size: unset;
+	position: unset;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
 .pequeno {
 	@include fs(-1);
 }
