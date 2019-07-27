@@ -53,8 +53,6 @@ h2 {
 
 h2.conf {
 	@include fs(4,1);
-	color: $c_verde;
-	mix-blend-mode: multiply;
 }
 
 p + h2, h2 + h2, ul + h2, ol + h2 {
