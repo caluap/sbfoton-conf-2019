@@ -2,34 +2,34 @@ include /_mixins
 
 +menu('About')
 
+#slide-container
+  //- .conteudo
 
-//- .conteudo
+  .slide.s-default.s-var-2.pad
+    .pure-g
+      .pure-u-1
+        h1 About the conference
+        ul.sub-menu
+          li #[a(href="index.html") Introduction]
+          li #[a(href="organizing_committee.html") Organizing Committee]
+          li.nav-atual #[a Technical Program Committee]
 
-.slide.s-default.s-var-2.pad
-  .pure-g
-    .pure-u-1
-      h1 About the conference
-      ul.sub-menu
-        li #[a(href="index.html") Introduction]
-        li #[a(href="organizing_committee.html") Organizing Committee]
-        li.nav-atual #[a Technical Program Committee]
+    .pure-g
+      .pure-u-1
+        each v_autores, tema in technical_program_committee
+          .chairs
+            h3= tema
+            .chair
+              .c-membros
+                each autor in v_autores
+                  - if (group_leaders[tema] == autor) {
+                    div.c-group-leader
+                      p.group-leader Group Leader
+                      +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+                  - } else {
+                    div
+                      +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+                  - }
+          .separador-2
 
-  .pure-g
-    .pure-u-1
-      each v_autores, tema in technical_program_committee
-        .chairs
-          h3= tema
-          .chair
-            .c-membros
-              each autor in v_autores
-                - if (group_leaders[tema] == autor) {
-                  div.c-group-leader
-                    p.group-leader Group Leader
-                    +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
-                - } else {
-                  div
-                    +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
-                - }
-        .separador-2
-
-+rodape('About')
+  +rodape('About')

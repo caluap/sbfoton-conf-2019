@@ -3,127 +3,129 @@ include /_mixins
 +menu('Registration')
 
 
-//- .conteudo
+#slide-container
+
+  //- .conteudo
 
 
-.slide.s-default.s-var-1.pad
-  .pure-g
-    .pure-u-1
-      h1 Registration
+  .slide.s-default.s-var-1.pad
+    .pure-g
+      .pure-u-1
+        h1 Registration
 
-      #reg
-        .separador-2
-        a(href="https://registration.sbfoton.org.br/").reg-but Register
+        #reg
+          .separador-2
+          a(href="https://registration.sbfoton.org.br/").reg-but Register
+          .separador-1-half
+          p.fs-1 from #[strong.unsure-date August XXX to October XXX]
+          
+        .separador-negativo-1
+
+        .g-t-new_conf
+          .t-new_conf
+            table.fees
+              tr
+                th Delegates and Visitors
+                th Early #[br] Registration #[br]#[small until August 12#[sup th]]
+                th Standard #[br] Registration #[br]#[small from August 13#[sup th]]
+              tr.sub-row-header
+                td(colspan="3") Full Registration#[span.note *]
+              tr.there-be-prices
+                td SBFoton / IPS / OSA Society Member
+                td #[span.money R$] 800,00
+                td #[span.money R$] 960,00
+              tr.there-be-prices
+                td Non Member
+                td #[span.money R$] 1.000,00
+                td #[span.money R$] 1.200,00
+              tr.there-be-prices
+                td Registration plus affiliation as #[strong Effective&nbsp;SBFoton&nbsp;Member]
+                td #[span.money R$] 950,00
+                td #[span.money R$] 1.110,00
+              tr.there-be-prices
+                td Registration plus affiliation as #[strong Student&nbsp;SBFoton&nbsp;Member]
+                td #[span.money R$] 850,00
+                td #[span.money R$] 1.010,00
+              tr.sub-row-header
+                td(colspan="3") Listener#[span.note ‡]
+              tr.there-be-prices
+                td SBFoton / IPS / OSA Society Member
+                td #[span.money R$] 550,00
+                td #[span.money R$] 660,00
+              tr.there-be-prices
+                td Registration plus affiliation as #[strong Effective&nbsp;SBFoton&nbsp;Member]
+                td #[span.money R$] 700,00
+                td #[span.money R$] 810,00
+              tr.sub-row-header
+                td(colspan="3") Student#[span.note †]
+              tr.there-be-prices
+                td SBFoton / IPS / OSA Society Member
+                td #[span.money R$] 300,00
+                td #[span.money R$] 360,00
+              tr.there-be-prices
+                td Non Member
+                td #[span.money R$] 400,00
+                td #[span.money R$] 480,00
+              tr.there-be-prices
+                td Registration plus affiliation as #[strong Student&nbsp;SBFoton&nbsp;Member]
+                td #[span.money R$] 350,00
+                td #[span.money R$] 410,00
+              tr.sub-row-header
+                td(colspan="3") Undergraduate Student#[span.note †]
+              tr.there-be-prices
+                td SBFoton / IPS / OSA Society Member
+                td #[span.money R$] 150,00
+                td #[span.money R$] 180,00
+              tr.there-be-prices
+                td Non Member
+                td #[span.money R$] 200,00
+                td #[span.money R$] 240,00
+              tr.sub-row-header
+                td(colspan="3") Other
+              tr.there-be-prices
+                td One day attendance
+                td #[span.money R$] 400,00
+                td #[span.money R$] 480,00
+              tr.there-be-prices
+                td Confraternization Dinner #[span.note *]#[span.note †]
+                td #[span.money R$] 120,00
+                td #[span.money R$] 140,00
+              tr.there-be-prices
+                td Extra paper #[br] #[small (beyond the three already included in FULL Registration)]
+                td #[span.money R$] 250,00
+                td #[span.money R$] 300,00
+            .legenda-tabela 
+              p #[span.note *] The “Full” registration gives the right to attend the conference, to get one ticket for the Confraternization dinner, and to publish up to three papers on the IEEE Xplore.
+              p #[span.note †] “Student” and “Undergraduate Student” registrations give the right to attend the conference.
+              p #[span.note ‡] Listener is the participant who does not have an article in the conference and gives the right to attend the conference and to get one ticket for the Confraternization dinner.
+          
+
+      .separador-2
+      .pure-u-1.pure-u-sm-3-4.pure-u-lg-2-3.pure-u-xl-1-2
+        h2 Notices
+        h3 Important
+        p In order to have the article published by IEEE Xplore, at least one of the authors must have a FULL registration and the article must be presented at the conference. A FULL registration gives the right to publish, at IEEE Xplore, two articles that have been presented at the conference.
+        .separador-1
+        h3 Payment method
+        p Residents in Brazil must pay with banking billet. Non-residents in Brazil must pay with credit card through a paypal account.
+        .separador-1
+        h3 Payments via #[em Nota de Empenho]
+        p Payments via “Nota de Empenho” will be accepted for effective debt settlement until #[strong.unsure-date August 31th]. For further information, please contact the Finance Chair of SBFoton 2018, Prof. Dr. Daniel Moutinho Pataca, via e-mail (#[a(href="mailto:daniel@moutinhopataca.com") #{'daniel@moutinhopataca.com'}]) or phone (#[a(href="tel:+55 19 991097613") +55 19 991097613]).
         .separador-1-half
-        p.fs-1 from #[strong.unsure-date August XXX to October XXX]
-        
-      .separador-negativo-1
+        h4 Required information
+        p Banco do Brasil #[br] Agência: 2447-3 #[br] Conta Corrente: 57784-7 #[br] CNPJ: 28.898.556/0001-66
+        .separador-1-half
+        h4 Address
+        p SBFoton: Rua Dr. Ricardo Benetton Martins, 1000 #[br] Parque II do Polo de Alta Tecnologia, #[br] 13086-902, Campinas — SP 
+        p E-mail: #[a(href="mailto:sbfoton@sbfoton.org.br") #{'sbfoton@sbfoton.org.br'}]
 
-      .g-t-new_conf
-        .t-new_conf
-          table.fees
-            tr
-              th Delegates and Visitors
-              th Early #[br] Registration #[br]#[small until August 12#[sup th]]
-              th Standard #[br] Registration #[br]#[small from August 13#[sup th]]
-            tr.sub-row-header
-              td(colspan="3") Full Registration#[span.note *]
-            tr.there-be-prices
-              td SBFoton / IPS / OSA Society Member
-              td #[span.money R$] 800,00
-              td #[span.money R$] 960,00
-            tr.there-be-prices
-              td Non Member
-              td #[span.money R$] 1.000,00
-              td #[span.money R$] 1.200,00
-            tr.there-be-prices
-              td Registration plus affiliation as #[strong Effective&nbsp;SBFoton&nbsp;Member]
-              td #[span.money R$] 950,00
-              td #[span.money R$] 1.110,00
-            tr.there-be-prices
-              td Registration plus affiliation as #[strong Student&nbsp;SBFoton&nbsp;Member]
-              td #[span.money R$] 850,00
-              td #[span.money R$] 1.010,00
-            tr.sub-row-header
-              td(colspan="3") Listener#[span.note ‡]
-            tr.there-be-prices
-              td SBFoton / IPS / OSA Society Member
-              td #[span.money R$] 550,00
-              td #[span.money R$] 660,00
-            tr.there-be-prices
-              td Registration plus affiliation as #[strong Effective&nbsp;SBFoton&nbsp;Member]
-              td #[span.money R$] 700,00
-              td #[span.money R$] 810,00
-            tr.sub-row-header
-              td(colspan="3") Student#[span.note †]
-            tr.there-be-prices
-              td SBFoton / IPS / OSA Society Member
-              td #[span.money R$] 300,00
-              td #[span.money R$] 360,00
-            tr.there-be-prices
-              td Non Member
-              td #[span.money R$] 400,00
-              td #[span.money R$] 480,00
-            tr.there-be-prices
-              td Registration plus affiliation as #[strong Student&nbsp;SBFoton&nbsp;Member]
-              td #[span.money R$] 350,00
-              td #[span.money R$] 410,00
-            tr.sub-row-header
-              td(colspan="3") Undergraduate Student#[span.note †]
-            tr.there-be-prices
-              td SBFoton / IPS / OSA Society Member
-              td #[span.money R$] 150,00
-              td #[span.money R$] 180,00
-            tr.there-be-prices
-              td Non Member
-              td #[span.money R$] 200,00
-              td #[span.money R$] 240,00
-            tr.sub-row-header
-              td(colspan="3") Other
-            tr.there-be-prices
-              td One day attendance
-              td #[span.money R$] 400,00
-              td #[span.money R$] 480,00
-            tr.there-be-prices
-              td Confraternization Dinner #[span.note *]#[span.note †]
-              td #[span.money R$] 120,00
-              td #[span.money R$] 140,00
-            tr.there-be-prices
-              td Extra paper #[br] #[small (beyond the three already included in FULL Registration)]
-              td #[span.money R$] 250,00
-              td #[span.money R$] 300,00
-          .legenda-tabela 
-            p #[span.note *] The “Full” registration gives the right to attend the conference, to get one ticket for the Confraternization dinner, and to publish up to three papers on the IEEE Xplore.
-            p #[span.note †] “Student” and “Undergraduate Student” registrations give the right to attend the conference.
-            p #[span.note ‡] Listener is the participant who does not have an article in the conference and gives the right to attend the conference and to get one ticket for the Confraternization dinner.
-        
+        .separador-2-half
+        h3 Registration Categories
+        p Full conference registration for associated societies’ members and non-members includes admission to the Technical Sessions, Coffee Breaks, Welcome Drinks and Conference Dinner. Associated societies’ members should provide the society member identification at the registration desk.
+        p Student registration are entitled to the same privileges as regular registrants, except the Conference Dinner. Graduate and undergraduate students are required to present valid student identification, when they pick up their registration materials. Post-docs are not considered student.
 
-    .separador-2
-    .pure-u-1.pure-u-sm-3-4.pure-u-lg-2-3.pure-u-xl-1-2
-      h2 Notices
-      h3 Important
-      p In order to have the article published by IEEE Xplore, at least one of the authors must have a FULL registration and the article must be presented at the conference. A FULL registration gives the right to publish, at IEEE Xplore, two articles that have been presented at the conference.
-      .separador-1
-      h3 Payment method
-      p Residents in Brazil must pay with banking billet. Non-residents in Brazil must pay with credit card through a paypal account.
-      .separador-1
-      h3 Payments via #[em Nota de Empenho]
-      p Payments via “Nota de Empenho” will be accepted for effective debt settlement until #[strong.unsure-date August 31th]. For further information, please contact the Finance Chair of SBFoton 2018, Prof. Dr. Daniel Moutinho Pataca, via e-mail (#[a(href="mailto:daniel@moutinhopataca.com") #{'daniel@moutinhopataca.com'}]) or phone (#[a(href="tel:+55 19 991097613") +55 19 991097613]).
-      .separador-1-half
-      h4 Required information
-      p Banco do Brasil #[br] Agência: 2447-3 #[br] Conta Corrente: 57784-7 #[br] CNPJ: 28.898.556/0001-66
-      .separador-1-half
-      h4 Address
-      p SBFoton: Rua Dr. Ricardo Benetton Martins, 1000 #[br] Parque II do Polo de Alta Tecnologia, #[br] 13086-902, Campinas — SP 
-      p E-mail: #[a(href="mailto:sbfoton@sbfoton.org.br") #{'sbfoton@sbfoton.org.br'}]
+        .separador-2-half
+        h3 Social events
+        p To learn more about, #[a(href="/venue/social_events.html") click here].
 
-      .separador-2-half
-      h3 Registration Categories
-      p Full conference registration for associated societies’ members and non-members includes admission to the Technical Sessions, Coffee Breaks, Welcome Drinks and Conference Dinner. Associated societies’ members should provide the society member identification at the registration desk.
-      p Student registration are entitled to the same privileges as regular registrants, except the Conference Dinner. Graduate and undergraduate students are required to present valid student identification, when they pick up their registration materials. Post-docs are not considered student.
-
-      .separador-2-half
-      h3 Social events
-      p To learn more about, #[a(href="/venue/social_events.html") click here].
-
-+rodape('Registration')
+  +rodape('Registration')

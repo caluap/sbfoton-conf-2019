@@ -2,41 +2,43 @@ include /_mixins
 
 +menu('Short Courses')
 
-
-//- .conteudo
-
-.slide.s-default.s-var-2
-  .pure-g.pad
-    .pure-u-1
-      h1 Short courses
-      
-      .c-trabalhos.c-oral-sessions
-        - var i = 1;
-        each day, i_data in short_courses
-          .trab-dia
-            p.trab-data= i_data
-            each short_course in day
-              .sessao
-                .header-sessao
-                  - var sala = salas[short_course.sala].nome;
-                  - var horario = short_course.horario;
-                  - var codigo = short_course.trabalho;
-                  p.trab-horario-sessao #{horario} / #{sala}
-                  .separador-quarto
-                  .trabalho
-                    .trab-trab
-                      a.trab-codigo(name="#{codigo}")
-                      p.trab-ind.ind-oral= i
-                      .head-cod
-                        p.trab-cod-sessao #{codigo}
-                      p.trab-titulo= trabalhos[codigo].titulo
-                      .separador-quarto
-                      p.trab-lista-autores= trabalhos[codigo].author_list
-                      .separador-quarto
-                      p.trab-horario.trab-horario-os #[span ► ]#{horario.slice(0,5)} !{'<span class="dados-sutis"> &nbsp;·&nbsp; '+sala+'</span>'}
-                      .separador-quarto
-                      +bio(trabalhos[codigo].resumo, "trab-resumo", 128*6, true)
-                    - i++;
+#slide-container
 
 
-+rodape('Short Courses')
+  //- .conteudo
+
+  .slide.s-default.s-var-2
+    .pure-g.pad
+      .pure-u-1
+        h1 Short courses
+        
+        .c-trabalhos.c-oral-sessions
+          - var i = 1;
+          each day, i_data in short_courses
+            .trab-dia
+              p.trab-data= i_data
+              each short_course in day
+                .sessao
+                  .header-sessao
+                    - var sala = salas[short_course.sala].nome;
+                    - var horario = short_course.horario;
+                    - var codigo = short_course.trabalho;
+                    p.trab-horario-sessao #{horario} / #{sala}
+                    .separador-quarto
+                    .trabalho
+                      .trab-trab
+                        a.trab-codigo(name="#{codigo}")
+                        p.trab-ind.ind-oral= i
+                        .head-cod
+                          p.trab-cod-sessao #{codigo}
+                        p.trab-titulo= trabalhos[codigo].titulo
+                        .separador-quarto
+                        p.trab-lista-autores= trabalhos[codigo].author_list
+                        .separador-quarto
+                        p.trab-horario.trab-horario-os #[span ► ]#{horario.slice(0,5)} !{'<span class="dados-sutis"> &nbsp;·&nbsp; '+sala+'</span>'}
+                        .separador-quarto
+                        +bio(trabalhos[codigo].resumo, "trab-resumo", 128*6, true)
+                      - i++;
+
+
+  +rodape('Short Courses')

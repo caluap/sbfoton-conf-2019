@@ -14,99 +14,100 @@ mixin hotel(nome, end1, end2, link, tel, dist, email = '')
         
 +menu('Venue *')
 
+#slide-container
 
-//- .conteudo
+  //- .conteudo
 
-.slide.s-default.s-var-1.pad
-  .pure-g
-    .pure-u-1
-      h1 Venue information
+  .slide.s-default.s-var-1.pad
+    .pure-g
+      .pure-u-1
+        h1 Venue information
 
-      ul.sub-menu
-        li #[a(href="./") CPqD]
-        li #[a(href="campinas_and_barao.html") About Campinas & Barão Geraldo]
-        li.nav-atual #[a Hotels]
-        li #[a(href="social_events.html") Social events]
+        ul.sub-menu
+          li #[a(href="./") CPqD]
+          li #[a(href="campinas_and_barao.html") About Campinas & Barão Geraldo]
+          li.nav-atual #[a Hotels]
+          li #[a(href="social_events.html") Social events]
 
-  .pure-g
-    .pure-u-1
+    .pure-g
+      .pure-u-1
 
-      .separador-1
+        .separador-1
 
-      #hotels
-        +hotel(
-            'Comfort Suites Campinas', 
-            'R. Embiruçu, 300 – Alphaville Empresarial', 
-            'Campinas – SP, 13098-320',
-            'https://new.atlanticahotels.com.br/hotel/comfort-suites-campinas-campinas-brasil/94158',
-            '+55 19 2137-9000',
-            '3'
-        )
-        +hotel(
-          'Hotel Barão Geraldo',
-          'Estrada da Rhodia km 04 nº3600, Barão Geraldo',
-          'Campinas – SP, 13085-000',
-          'http://www.hotelbaraogeraldo.com.br/',
-          '+55 19 3287 5245',
-          '6.6'
-        )
- 
-        +hotel(
-          'Compacto Hotel',
-          'R. Cumarú, 116 – Alphaville Industrial',
-          'Campinas – SP, 13098-324',
-          'http://www.compactohotel.com.br/',
-          '+55 19 3262-1525',
-          '3.2'
-        )
-        
-        +hotel(
-          'Matiz Barão Geraldo Hotel ',
-          'Av. Albino José Barbosa de Oliveira, 1700 – Barão Geraldo',
-          'Campinas – SP, 13084-551',
-          'http://www.hotelariabrasil.com.br/hotel/matiz-barao-geraldo-hotel/',
-          '+55 19 3749-8500 ',
-          '8'
-        )
-        
-        +hotel(
-          'Vitória Hotel Express ',
-          'Rua Heitor Ernesto Sartori, 555 – Santa Genebra',
-          'Campinas – SP, 13080-650',
-          'http://www.vitoriahoteis.com.br/pt/home/vitoria-hotel-express-dom-pedro/ ',
-          '+55 19 3708-9500',
-          '11.5'
-        )
+        #hotels
+          +hotel(
+              'Comfort Suites Campinas', 
+              'R. Embiruçu, 300 – Alphaville Empresarial', 
+              'Campinas – SP, 13098-320',
+              'https://new.atlanticahotels.com.br/hotel/comfort-suites-campinas-campinas-brasil/94158',
+              '+55 19 2137-9000',
+              '3'
+          )
+          +hotel(
+            'Hotel Barão Geraldo',
+            'Estrada da Rhodia km 04 nº3600, Barão Geraldo',
+            'Campinas – SP, 13085-000',
+            'http://www.hotelbaraogeraldo.com.br/',
+            '+55 19 3287 5245',
+            '6.6'
+          )
+  
+          +hotel(
+            'Compacto Hotel',
+            'R. Cumarú, 116 – Alphaville Industrial',
+            'Campinas – SP, 13098-324',
+            'http://www.compactohotel.com.br/',
+            '+55 19 3262-1525',
+            '3.2'
+          )
+          
+          +hotel(
+            'Matiz Barão Geraldo Hotel ',
+            'Av. Albino José Barbosa de Oliveira, 1700 – Barão Geraldo',
+            'Campinas – SP, 13084-551',
+            'http://www.hotelariabrasil.com.br/hotel/matiz-barao-geraldo-hotel/',
+            '+55 19 3749-8500 ',
+            '8'
+          )
+          
+          +hotel(
+            'Vitória Hotel Express ',
+            'Rua Heitor Ernesto Sartori, 555 – Santa Genebra',
+            'Campinas – SP, 13080-650',
+            'http://www.vitoriahoteis.com.br/pt/home/vitoria-hotel-express-dom-pedro/ ',
+            '+55 19 3708-9500',
+            '11.5'
+          )
 
-        
-        +hotel(
-          'CPV – Casa do Professor Visitante Unicamp ',
-          'Av. Érico Veríssimo, 1251 – Cidade Universitária',
-          'Barão Geraldo, Campinas – SP, 13083-851',
-          'http://cpvunicamp.com.br/',
-          '+55 19 3521.2809 ',
-          '12.8',
-          'cpv@funcamp.unicamp.br '
-        )
-        
-        +hotel(
-          'Pousada Flat da Lagoa ',
-          'R. Aristídes Lôbo, 934 – Cidade Universitária, Barão Geraldo',
-          'Campinas – SP, 13083-060',
-          'https://www.booking.com/hotel/br/pousada-flat-da-lagoa.pt-br.html',
-          '+55 19 3307-6446 ',
-          '5.6'
-        )
-        
-        +hotel(
-          'Hotel Inn University (Hotel Pousada Universitária) ',
-          'R. Antônio Galvão de O Barros, 101 – Barão Geraldo',
-          'Campinas – SP, 13084-275',
-          'http://www.pousadauniversitaria.com.br/ ',
-          '+55 19 3308-6656',
-          '8.9'
-        )
+          
+          +hotel(
+            'CPV – Casa do Professor Visitante Unicamp ',
+            'Av. Érico Veríssimo, 1251 – Cidade Universitária',
+            'Barão Geraldo, Campinas – SP, 13083-851',
+            'http://cpvunicamp.com.br/',
+            '+55 19 3521.2809 ',
+            '12.8',
+            'cpv@funcamp.unicamp.br '
+          )
+          
+          +hotel(
+            'Pousada Flat da Lagoa ',
+            'R. Aristídes Lôbo, 934 – Cidade Universitária, Barão Geraldo',
+            'Campinas – SP, 13083-060',
+            'https://www.booking.com/hotel/br/pousada-flat-da-lagoa.pt-br.html',
+            '+55 19 3307-6446 ',
+            '5.6'
+          )
+          
+          +hotel(
+            'Hotel Inn University (Hotel Pousada Universitária) ',
+            'R. Antônio Galvão de O Barros, 101 – Barão Geraldo',
+            'Campinas – SP, 13084-275',
+            'http://www.pousadauniversitaria.com.br/ ',
+            '+55 19 3308-6656',
+            '8.9'
+          )
 
 
 
-+rodape('Venue *')
+  +rodape('Venue *')

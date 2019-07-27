@@ -8,24 +8,27 @@ include /_mixins
   if (current.path.length > 1) {
     lvl = '../'
   }
-//- .conteudo
 
-.slide.s-default.s-var-2.pad
-  .pure-g
-    .pure-u-1
-      h1 About the conference
-      ul.sub-menu
-        li #[a(href="index.html") Introduction]
-        li.nav-atual #[a Organizing Committee]
-        li #[a(href="tech_program_committee.html") Technical Program Committee]
-  .pure-g
-    .pure-u-1
-      .chairs
-        each categoria, nome_categoria in organizing_committee
-          .chair
-            h3 #{nome_categoria}
-            .c-membros
-              each autor, indice in categoria
-                +membro(autores[autor].imagem, autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+#slide-container
 
-+rodape('About')
+  //- .conteudo
+
+  .slide.s-default.s-var-2.pad
+    .pure-g
+      .pure-u-1
+        h1 About the conference
+        ul.sub-menu
+          li #[a(href="index.html") Introduction]
+          li.nav-atual #[a Organizing Committee]
+          li #[a(href="tech_program_committee.html") Technical Program Committee]
+    .pure-g
+      .pure-u-1
+        .chairs
+          each categoria, nome_categoria in organizing_committee
+            .chair
+              h3 #{nome_categoria}
+              .c-membros
+                each autor, indice in categoria
+                  +membro(autores[autor].imagem, autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+
+  +rodape('About')
