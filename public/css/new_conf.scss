@@ -359,3 +359,42 @@ body {
     width: $u-h * 2/5;
   }
 }
+
+#slide-container {
+  background-color: black;
+  background-image: url(../img/bg1.png);
+  background-position: right top;
+  background-repeat: repeat;
+
+  background-size: 21/25 * 100vw auto;
+  .slide {
+    max-width: 54vw;
+  }
+
+  @include media-query($s-xxxxl) {
+    background-size: 12 / 13 * 100vw auto;
+    .slide {
+      max-width: 62vw;
+    }
+  }
+  @include media-query($s-xxl) {
+    background-size: 9 / 10 * 100vw auto;
+    .slide {
+      max-width: 69vw;
+    }
+  }
+  @include media-query($s-xl) {
+    background-size: 39 / 50 * 100vw auto;
+  }
+  @include media-query($s-lg) {
+    background-size: 24 / 25 * 100vw auto;
+  }
+  @include media-query($s-md) {
+    background-size: 5 / 4 * 100vw auto;
+  }
+  @include media-query($s-sm) {
+    .slide {
+      max-width: unset;
+    }
+  }
+}

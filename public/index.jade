@@ -181,128 +181,126 @@ include /_schedule
   }];
 
 
-.slide.s-hero.pad#intro-conf
-  #hero
-    img#logo-home(src="img/sbfoton_conf_2019.svg")
-    h2 Registration is open!
-    p Accepted papers will be published in the conference proceedings but to be published by IEEE Xplore, at least one of the authors of each paper must have a FULL registration and the paper must be presented during the conference by one of the authors. One full registration covers for two papers that are to be presented.
-    .separador-visivel-2
-    p You can now find out about the #[a(href="#schedule") complete schedule] for the event or who are its #[a(href="#featured_guests") featured guests].
-  #registration
-    a#reg-but(href="registration.html") Registration
-    p from #[strong.unsure-date August XXX to October XXX]
-  #notices
-    .notice
-      h3 Venue
-      p The event will be hosted #[br.desktop-br] at IPEN, USP, São Paulo, #[br.desktop-br] from October 7#[sup th] to 9#[sup th].
-      p Read about it #[a(href="venue/") here].
+#slide-container
 
-//- .slide.sc-schedule
-  .s-schedule
-    .pure-g
-      .pure-u-1.pure-u-sm-1.pure-u-lg-2-3.pure-u-xl-1-2.pad
-        a.trab-codigo(name="schedule")
-        h2 Event’s Schedule
-      +schedule_json
-      .pure-u-1
-        each dia in schedule_json
-          .schedule
-            .pad
-              h3= dia.day
-            .schedule-block
-              each schedule in dia.schedule
-                -
-                  var url = "", classe_adicional = "";
-                  if (schedule.tipo == "Plenary") {
-                    url = "plenaries.html#" + schedule.link;
-                    classe_adicional = "sched-plen";
-                  } else if (schedule.tipo == "Oral Session") {
-                    url = "tech_sessions/#" + schedule.codigo;
-                    classe_adicional = "sched-tech-session";
-                  } else if (schedule.tipo == "Short Course") {
-                    url = "short_courses.html#" + schedule.codigo;
-                    classe_adicional = "sched-short-course";
-                  } else if (schedule.tipo == "Other") {
-                    url = "";
-                    classe_adicional = "sched-other-act";
-                  }
-                - if (schedule.tipo == "Other") {
-                  a.schedule-item.pad(class="#{classe_adicional}")
-                    p.sched-nom.sched-other= schedule.nome
-                    p.sched-all!= schedule.horario + ' &nbsp;·&nbsp; ' +  schedule.sala
-                - } else {
-                  a.schedule-item.pad(href=url, class="#{classe_adicional}")
-                    p.sched-cod= schedule.codigo
-                    - if (schedule.tipo == "Plenary") {
-                      p.sched-nom.sched-plen= schedule.nome
-                    - } else {
-                      p.sched-tip= schedule.tipo
-                      p.sched-nom= schedule.nome
-                    - }
-                    p.sched-all!= schedule.horario + ' &nbsp;·&nbsp; ' +  schedule.sala
-                - }
-        
-    
+  .slide.s-hero.pad#intro-conf
+    #hero
+      img#logo-home(src="img/sbfoton_conf_2019.svg")
+      h2 Registration is open!
+      p Accepted papers will be published in the conference proceedings but to be published by IEEE Xplore, at least one of the authors of each paper must have a FULL registration and the paper must be presented during the conference by one of the authors. One full registration covers for two papers that are to be presented.
+      .separador-visivel-2
+      p You can now find out about the #[a(href="#schedule") complete schedule] for the event or who are its #[a(href="#featured_guests") featured guests].
+    #registration
+      a#reg-but(href="registration.html") Registration
+      p from #[strong.unsure-date August XXX to October XXX]
+    #notices
+      .notice
+        h3 Venue
+        p The event will be hosted #[br.desktop-br] at IPEN, USP, São Paulo, #[br.desktop-br] from October 7#[sup th] to 9#[sup th].
+        p Read about it #[a(href="venue/") here].
 
-.slide.s-hero.pad
-  .slide-destaques
-    .separador-1
-    a.trab-codigo(name="featured_guests")
-    h1 Featured guests
-    .separador-1
-    .grade#featured-guests
-      a.g-item.g-img(href="plenaries.html#")
-        img(src="img/speakers/alexander-gaeta.jpg")
-        .dados-speaker
-          p.nome Alexander Gaeta #[span.origem USA]
-      a.g-item.g-img(href="plenaries.html#")
-        img(src="img/speakers/michal-lipson.jpg")
-        .dados-speaker
-          p.nome Michal Lipson #[span.origem USA]
-          h2 The Revolution of Silicon Photonics
-      a.g-item.g-img(href="plenaries.html#")
-        img(src="img/speakers/carmen-menoni.jpg")
-        .dados-speaker
-          p.nome Carmen Menoni #[span.origem USA]
-      a.g-item.g-img(href="plenaries.html#")
-        img(src="img/speakers/raouf-ah-el-mallawany.jpg")
-        .dados-speaker
-          p.nome Raouf El-Mallawany #[span.origem EGY]
-          h2 To be confirmed
-      a.g-item.g-img(href="plenaries.html#")
-        img(src="img/speakers/fatima-gunning.jpg")
-        .dados-speaker
-          p.nome Fatima Gunning #[span.origem IRL]
-          h2 Coherent Transmitters: what, how and when?
-      a.g-item.g-img(href="plenaries.html#")
-        img(src="img/speakers/vanderlei-bagnato.jpg")
-        .dados-speaker
-          p.nome Vanderlei Bagnato #[span.origem BRA]
-      a.g-item.g-img(href="plenaries.html#")
-        img(src="img/speakers/raman-kashyap.jpg")
-        .dados-speaker
-          p.nome Raman Kashyap #[span.origem CAN]
-      a.g-item.g-img(href="plenaries.html#")
-        img(src="img/speakers/cid-araujo.jpg")
-        .dados-speaker
-          p.nome Cid Bartolomeu de Araujo #[span.origem BRA]
-          h2 Nonlinearity management of nanophotonic systems
-      a.g-item.g-img(href="plenaries.html#")
-        img(src="img/speakers/peter-gardner.jpg")
-        .dados-speaker
-          p.nome Peter Gardner #[span.origem GBR]
-          h2 Adventrures in infrared spectroscopy of complex biological system. The good, the bad and the beautiful          
-
-
-    
-
-  script.
-    //https://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order
-    var g = document.querySelector('#featured-guests');
-    for (var i = g.children.length; i >= 0; i--) {
-      g.appendChild(g.children[Math.random()*i | 0]);
-    }
+  //- .slide.sc-schedule
+    .s-schedule
+      .pure-g
+        .pure-u-1.pure-u-sm-1.pure-u-lg-2-3.pure-u-xl-1-2.pad
+          a.trab-codigo(name="schedule")
+          h2 Event’s Schedule
+        +schedule_json
+        .pure-u-1
+          each dia in schedule_json
+            .schedule
+              .pad
+                h3= dia.day
+              .schedule-block
+                each schedule in dia.schedule
+                  -
+                    var url = "", classe_adicional = "";
+                    if (schedule.tipo == "Plenary") {
+                      url = "plenaries.html#" + schedule.link;
+                      classe_adicional = "sched-plen";
+                    } else if (schedule.tipo == "Oral Session") {
+                      url = "tech_sessions/#" + schedule.codigo;
+                      classe_adicional = "sched-tech-session";
+                    } else if (schedule.tipo == "Short Course") {
+                      url = "short_courses.html#" + schedule.codigo;
+                      classe_adicional = "sched-short-course";
+                    } else if (schedule.tipo == "Other") {
+                      url = "";
+                      classe_adicional = "sched-other-act";
+                    }
+                  - if (schedule.tipo == "Other") {
+                    a.schedule-item.pad(class="#{classe_adicional}")
+                      p.sched-nom.sched-other= schedule.nome
+                      p.sched-all!= schedule.horario + ' &nbsp;·&nbsp; ' +  schedule.sala
+                  - } else {
+                    a.schedule-item.pad(href=url, class="#{classe_adicional}")
+                      p.sched-cod= schedule.codigo
+                      - if (schedule.tipo == "Plenary") {
+                        p.sched-nom.sched-plen= schedule.nome
+                      - } else {
+                        p.sched-tip= schedule.tipo
+                        p.sched-nom= schedule.nome
+                      - }
+                      p.sched-all!= schedule.horario + ' &nbsp;·&nbsp; ' +  schedule.sala
+                  - }
+          
+  .slide.s-hero.pad
+    .slide-destaques
+      .separador-1
+      a.trab-codigo(name="featured_guests")
+      h1 Featured guests
+      .separador-1
+      .grade#featured-guests
+        a.g-item.g-img(href="plenaries.html#")
+          img(src="img/speakers/alexander-gaeta.jpg")
+          .dados-speaker
+            p.nome Alexander Gaeta #[span.origem USA]
+        a.g-item.g-img(href="plenaries.html#")
+          img(src="img/speakers/michal-lipson.jpg")
+          .dados-speaker
+            p.nome Michal Lipson #[span.origem USA]
+            h2 The Revolution of Silicon Photonics
+        a.g-item.g-img(href="plenaries.html#")
+          img(src="img/speakers/carmen-menoni.jpg")
+          .dados-speaker
+            p.nome Carmen Menoni #[span.origem USA]
+        a.g-item.g-img(href="plenaries.html#")
+          img(src="img/speakers/raouf-ah-el-mallawany.jpg")
+          .dados-speaker
+            p.nome Raouf El-Mallawany #[span.origem EGY]
+            h2 To be confirmed
+        a.g-item.g-img(href="plenaries.html#")
+          img(src="img/speakers/fatima-gunning.jpg")
+          .dados-speaker
+            p.nome Fatima Gunning #[span.origem IRL]
+            h2 Coherent Transmitters: what, how and when?
+        a.g-item.g-img(href="plenaries.html#")
+          img(src="img/speakers/vanderlei-bagnato.jpg")
+          .dados-speaker
+            p.nome Vanderlei Bagnato #[span.origem BRA]
+        a.g-item.g-img(href="plenaries.html#")
+          img(src="img/speakers/raman-kashyap.jpg")
+          .dados-speaker
+            p.nome Raman Kashyap #[span.origem CAN]
+        a.g-item.g-img(href="plenaries.html#")
+          img(src="img/speakers/cid-araujo.jpg")
+          .dados-speaker
+            p.nome Cid Bartolomeu de Araujo #[span.origem BRA]
+            h2 Nonlinearity management of nanophotonic systems
+        a.g-item.g-img(href="plenaries.html#")
+          img(src="img/speakers/peter-gardner.jpg")
+          .dados-speaker
+            p.nome Peter Gardner #[span.origem GBR]
+            h2 Adventrures in infrared spectroscopy of complex biological system. The good, the bad and the beautiful          
 
 
+      
 
-+rodape('home')
+    script.
+      //https://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order
+      var g = document.querySelector('#featured-guests');
+      for (var i = g.children.length; i >= 0; i--) {
+        g.appendChild(g.children[Math.random()*i | 0]);
+      }
+
+  +rodape('home')
