@@ -12,6 +12,7 @@
 
 body {
 	padding-top: 4 * $u-h;
+	font-feature-settings: 'ss01' 1, 'cv05' 1, 'cv08' 1, 'cpsp';
 
 	&, h1, h2, h3, h4, h5, h6 {
 		font-family: $fonte-texto, Helvetica, Arial, sans-serif;
