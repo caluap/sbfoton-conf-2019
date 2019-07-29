@@ -972,6 +972,7 @@ $c3 : mix(white,$c2, 80%);
 
 .slide.logos-rodape {
 	padding-top: $u-h;
+	padding-bottom: $u-h / 8;
 	min-height: unset;
 
 	background: cinza(10);
@@ -987,6 +988,17 @@ $c3 : mix(white,$c2, 80%);
 	h3 {
 		color: cinza(3);
 		margin-bottom: $u-h/4;
+	}
+
+	.logo-category.sponsors {
+		@include media-query-a-partir($s-md) {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-column-gap: $u-h;
+			h3 {
+				grid-column: 1 / span 2;
+			}
+		}
 	}
 
 	.logo-category {
