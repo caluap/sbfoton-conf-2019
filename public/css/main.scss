@@ -438,14 +438,20 @@ table {
 	}
 
 	.logo {
+		background: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		border-bottom: $u-h/8 solid transparent;
 		img { 
 			width: 100%;
 		}
-		&.l1 {
-			grid-column: 1 / 2;
+		&.fake-cut {
+			padding: $u-h/4;
 		}
-		&.l2 {
-			grid-column: 2 / 3;
+		&:hover {
+			border-bottom-color: $brand;
 		}
 	}
 }
