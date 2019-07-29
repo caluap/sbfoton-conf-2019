@@ -1238,7 +1238,7 @@ $c3 : mix(white,$c2, 80%);
 }
 
 .h-caps {
-	@include fs(2, 1.0, true);
+	@include fs(2, 1.2, true);
 	font-weight: 500;
 	margin-bottom: $u-h / 2;
 	margin-top: $u-h * 2;
@@ -1546,39 +1546,31 @@ $c3 : mix(white,$c2, 80%);
 			}
 
 			.trab-ind {
+
 				position: absolute;
 				@include media-query($s-md) {
 					position: static;
 					max-width: 50%; // bug estranho que causa scroll horizontal quando vc redimensiona (mas não quando a tela começa pequena!)
 				}
 				left: 0;
-				top: 4px;
+				top: $u-h * 3 / 5;
+				&.ind-oral {
+					top: $u-h * 9 / 5;
+				}
 				font-weight: 400;
 				opacity: 0.6;
 				mix-blend-mode: multiply;
-				@include fs(10);
+				@include fs(6);
 				
-				&.ind-oral {
-					// alternates for 0, 3, 4, 6 & 9
-					font-feature-settings: 'zero' 1, 'cv02' 1, 'cv03' 1, 'cv04' 1, 'cv09' 1;
-					@include fs(6);
-					@include media-query($s-md) {
-						opacity: 1;
-						@include fs(6);
-						font-weight: 400;
-						margin-bottom: 0;
-					}
-					top: $u-h * 9 / 5;
-				}
-
-				@include media-query($s-sm) {
-					@include fs(6);
-					font-weight: bold;
-					margin-bottom: -$u-h / 2;
+				@include media-query($s-md) {
+					// opacity: 1;
+					font-weight: 400;
+					margin-bottom: 0;
 				}
 			}
 
 			.trab-titulo {
+				margin-top: 0;
 				@include fs(3);
 				font-weight: 500;
 				color: $highlight;
