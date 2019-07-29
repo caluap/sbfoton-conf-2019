@@ -133,7 +133,9 @@ h4 {
 		}
 		.sub-socios {
 			@include fs(-2,1);
-			font-weight: 300;
+			font-weight: 400;
+			opacity: 0.666;
+			mix-blend-mode: multiply;
 		}
 		&.acao {
 			display: block;
@@ -456,6 +458,26 @@ table {
 	}
 }
 
+
+.diretoria {
+	.c-membros {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		@include media-query($s-sm) {
+			grid-template-columns: 1fr 1fr;
+		}
+		grid-gap: $u-h/2;
+		margin: $u-h/2 0 $u-h;
+		.membro {
+			h5 {
+				color: cinza(3);
+			}
+			background: cinza(9.5);
+			@include fs(-2);
+			padding: $u-h/2;
+		}
+	}
+}
 
 
 
