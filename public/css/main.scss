@@ -634,8 +634,8 @@ table {
 				}
 
 				@at-root #menu-geral #c-menu .nav-atual a, &:hover {
-					background: white !important;
-					color: $dark_highlight !important;
+					background: $color-A !important;
+					color: cinza(2) !important;
 					opacity: 1;
 				}
 
