@@ -624,9 +624,8 @@ table {
 				opacity: 0.666;
 
 				&.registration_link {
-					color: $color-B;
+					color: $highlight;
 					background: cinza(1);
-					// background: $color-B;
 					opacity: 1;
 				}
 				
@@ -1047,7 +1046,7 @@ $c3 : mix(white,$c2, 80%);
 	@include fs(4);
 	
 	text-decoration: none;
-	background: $color-B;
+	background: $highlight;
 	color:  white;
 	padding: $u-h/3 $u-h;
 

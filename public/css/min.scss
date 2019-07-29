@@ -24,7 +24,7 @@
 }
 
 @function cinza($nivel: 5) {
-  @return mix(#fefefe, #0d0c0b, $nivel * 10);
+  @return mix(#fefefe, #070606, $nivel * 10);
 }
 
 @mixin fs($s: 1, $linha: 1.6, $imp: false) {
