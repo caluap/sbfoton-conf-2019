@@ -1555,7 +1555,7 @@ $c3 : mix(white,$c2, 80%);
 				left: 0;
 				top: $u-h * 3 / 5;
 				&.ind-oral {
-					top: $u-h * 9 / 5;
+					top: $u-h * 8 / 5;
 				}
 				font-weight: 400;
 				opacity: 0.6;
@@ -1565,7 +1565,7 @@ $c3 : mix(white,$c2, 80%);
 				@include media-query($s-md) {
 					// opacity: 1;
 					font-weight: 400;
-					margin-bottom: 0;
+					margin-bottom: $u-h/8;
 				}
 			}
 
