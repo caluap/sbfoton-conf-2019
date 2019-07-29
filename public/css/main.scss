@@ -885,17 +885,12 @@ $c3 : mix(white,$c2, 80%);
 
 	.grade {
 		display: grid;
-		grid-gap: $u-h / 4;
+		grid-gap: $u-h / 2;
 
-		grid-template-columns: repeat(6, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 		
 		@include media-query($s-xxl) {
-			grid-template-columns: repeat(4, 1fr);
-		}
-
-		@include media-query($s-xl) {
 			grid-template-columns: repeat(3, 1fr);
-			grid-gap: $u-h / 2;
 		}
 
 		@include media-query($s-lg) {
@@ -903,7 +898,6 @@ $c3 : mix(white,$c2, 80%);
 		}
 
 		@include media-query($s-md) {
-			grid-gap: $u-h / 2;
 			grid-template-columns: repeat(1, 1fr);
 		}
 	
