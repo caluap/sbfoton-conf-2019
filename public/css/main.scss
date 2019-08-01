@@ -450,7 +450,7 @@ table {
 			width: 100%;
 		}
 		&.fake-cut {
-			padding: $u-h/4;
+			padding: $u-h * 2/3;
 		}
 		&:hover {
 			border-bottom-color: $brand;
