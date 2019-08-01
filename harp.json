@@ -2,8 +2,8 @@
   "globals": {
     "Membros": {
       "Diretoria": [
-        ["Presidente", "Daniel Moutinho Pataca", "UNIP"],
-        ["Diretor Administrativo", "Stenio Magalhães Ranzini", "CPqD"],
+        ["Presidente", "Daniel Moutinho Pataca", "Unip"],
+        ["Diretor Administrativo", "André Luiz Nunes de Souza", "CPqD"],
         [
           "Diretor de Relações Institucionais",
           "Hugo Enrique Hernandez Figueroa",
@@ -14,58 +14,44 @@
           "Júlio Cesar Rodrigues Fernandes de Oliveira",
           "JCRFO"
         ],
-        ["Diretor de Eventos", "Felipe Rudge Barbosa", "Unicamp"],
+        ["Diretor de Eventos", "Mônica de Lacerda Rocha", "USP"],
         ["Diretor de Publicações", "Ricardo Elgul Samad", "IPEN"],
-        ["Diretor de Educação", "Diego Rativa", "POLI UPE"]
+        ["Diretor de Educação", "Rafael Carvalho Figueiredo", "CPqD"]
       ],
       "Conselho Deliberativo": [
-        ["Conselheiro 1", "Eduardo Landulfo", "IPEN"],
+        ["Titular", "Alberto Paradisi", "CPqD"],
+        ["Titular", "Manuel Steidle", "Certi"],
         [
-          "Conselheiro 2",
+          "Titular",
           "Vilson Rosa de Almeida",
           "ITA, IEAv e Universidade Brasil"
         ],
-        ["Conselheiro 3", "Roberto Ricardo Panepucci", "CTI"],
-        ["Conselheiro 4", "Marilde Wiebke Courteille", "ThorLabs"],
-        ["Conselheiro 5", "Cícero Lívio Omegna de Souza Filho", "LUXTEC"],
-        ["Conselheiro 6", "Marcos Cesar Pontes", "IntegraOptics"],
-        ["Conselheiro 7", "Benedito Guimarães Aguiar Neto", "Mackenzie"],
-        ["Conselheiro 8", "Carmelo José Albanez Bastos Filho", "UPE / Parqtel"],
-        ["Conselheiro 9", "Alexandre de Almeida Prado Pohl", "UTFPR"],
-        ["Conselheiro 10", "Roberto Yoshihiro Nakamura", "PADTEC"],
-        ["Conselheiro 11", "Yara Galvão Gobato", "UFSCAR"],
-        ["Conselheiro Suplente 1", "Marcelo Luis Francisco Abbade", "UNESP"],
+        ["Titular", "Roberto Ricardo Panepucci", "CTI"],
+        ["Titular", "Newton Cesário Frateschi", "INOVA Unicamp"],
+        ["Titular", "Marilde Wiebke Courteille", "ThorLabs"],
+        ["Titular", "Eunézio Antonio de Souza (Toroh)", "Mackenzie"],
+        ["Titular", "Carmelo José Albanez Bastos Filho", "UPE / Parqtel"],
+        ["Titular", "Alexandre de Almeida Prado Pohl", "UTFPR"],
+        ["Titular", "Roberto Yoshihiro Nakamura", "Padtec"],
+        ["Titular", "Luis Henrique Hecker de Carvalho", "BrPhotonics"],
         [
-          "Conselheiro Suplente 2",
-          "Tereza Cristina Melo de Brito Carvalho",
-          "USP"
+          "Suplente",
+          "Davies William de Lima Monteiro",
+          "Escola de Engenharia / UFMG"
         ],
-        ["Conselheiro Suplente 3", "Victor Dmitriev", "UFPA"],
-        ["Conselheiro Suplente 4", "José Carneiro Maranhão Neto", "PADTEC"],
-        ["Conselheiro Suplente 5", "Jandir Miguel Hickmann", "UFRGS"],
-        ["Conselheiro Suplente 6", "Paulo Clóvis Dainese Júnior", "Unicamp"],
-        [
-          "Conselheiro Suplente 7",
-          "Luciana Reyes Pires Kassab",
-          "FATEC-SP/CEETEPS"
-        ],
-        ["Conselheiro Suplente 8", "Darli Augusto de Arruda Mello", "Unicamp"],
-        [
-          "Conselheiro Suplente 9",
-          "Rafael Euzebio Pereira de Oliveira",
-          "MackGraphe"
-        ]
+        ["Suplente", "João Carlos Soriano Sampaio Januário", "Padtec"],
+        ["Suplente", "Tiago Sutili", "CPqD"],
+        ["Suplente", "Luciana Reyes Pires Kassab", "Fatec-SP / CEETEPS"],
+        ["Suplente", "Rafael Euzebio Pereira de Oliveira", "MackGraphe"],
+        ["Suplente", "Juliano Rodrigues Fernandes de Oliveira", "CPqD"]
       ],
       "Conselho Fiscal": [
-        ["Conselheiro 1", "Rodrigo Figueiredo Shiozaki", "UFSCAR"],
-        ["Conselheiro 2", "Luiz Carlos Barbosa", "Unicamp"],
-        ["Conselheiro 3", "Rafael de Oliveira Parada", "CPqD"],
-        [
-          "Conselheiro Suplente 1",
-          "Luis Henrique Hecker de Carvalho",
-          "BrPhotonics"
-        ],
-        ["Conselheiro Suplente 2", "André Guimarães dos Santos", "FINISAR"]
+        ["Titular", "Stenio Magalhães Ranzini", "DTU"],
+        ["Titular", "Felipe Rudge Barbosa", "Unicamp"],
+        ["Titular", "Diego Rativa", "POLI UPE"],
+        ["Suplente", "Luiz Carlos Barbosa", "Unicamp"],
+        ["Suplente", "Rafael de Oliveira Parada", "ROP Engenharia"],
+        ["Suplente", "Fábio Donati Simões", "CPqD"]
       ]
     },
 
