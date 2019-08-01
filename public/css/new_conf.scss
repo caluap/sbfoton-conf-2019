@@ -37,11 +37,42 @@
   }
 
   &.s-rodape {
+    box-sizing: border-box;
     background-color: $dark_highlight;
 
     min-height: unset;
     color: white;
     padding-bottom: 0;
+    padding: $u-h;
+    grid-gap: $u-h;
+
+    @include media-query-a-partir($s-md) {
+      display: grid;
+      grid-template-columns: 4fr 3fr 2fr;
+
+      .about-sbfoton {
+        grid-column: 1;
+        grid-row: 1;
+      }
+      .conf-support {
+        grid-column: 3;
+        grid-row: 1;
+      }
+      .credits {
+        grid-column: 1 / span 3;
+        grid-row: 2;
+      }
+    }
+
+    @include media-query($s-md) {
+      .conf-support {
+        margin-top: $u-h;
+        display: grid;
+        grid-gap: $u-h/2;
+        align-items: baseline;
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
   }
 }
 
@@ -286,9 +317,8 @@ $pl-r: 0.6;
   width: 100% * $pl-r;
 }
 
-.support {
+.conf-support {
   @include fs(-2);
-  padding-top: $u-h / 2;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -309,7 +339,7 @@ $pl-r: 0.6;
 
 .credits {
   @include fs(-2);
-  padding: $u-h * 4 0 $u-h;
+  padding: $u-h * 4 0 0;
   &,
   a {
     color: $light_highlight !important;
