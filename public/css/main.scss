@@ -571,6 +571,10 @@ table {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
+
+	#menu-spacer {
+		flex-grow: 1;
+	}
 	
 	
 	#logo-menu-geral {
@@ -602,10 +606,7 @@ table {
 	}
 
 	#c-menu {
-
-		@include media-query-a-partir($s-sm) {
-			margin-top: -$u-h; // compensação para que mais ou menos centre.
-		}
+		padding-top: $u-h/4;
 
 		#toggle, .toggle-container {
 			display: none;
