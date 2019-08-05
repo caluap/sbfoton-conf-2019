@@ -266,10 +266,13 @@ $sep: $u-h / 3;
   }
 
   td {
-    border-bottom: 1px solid $dark_highlight;
+    border-bottom: 1px solid mix($highlight, $color-A);
+  }
+  tr:last-child td {
+    border-bottom: 1px solid transparent;
   }
   th {
-    border-bottom: 2px solid $dark_highlight;
+    border-bottom: 2px solid transparent;
   }
 
   table ~ .legenda-tabela {

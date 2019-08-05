@@ -327,7 +327,7 @@ table {
 		padding: $u-h/4 0 $u-h/8;
 	}
 	td {
-		border-bottom: 1px solid $dark_highlight;
+		border-bottom: 1px solid mix($highlight, $color-A);
 	}
 	th {
 		border-bottom: 2px solid white;
@@ -344,7 +344,6 @@ table {
 		}
 
 		.there-be-prices td:not(:first-child), tr th:not(:first-child) {
-			// text-align: right;
 			font-feature-settings: 'tnum', 'ss01';
 			
 			.invisible-zeros {
@@ -359,7 +358,7 @@ table {
 }
 
 .sub-row-header {
-	background: $dark_highlight;
+	background: $highlight;
 	color: white;
 	mix-blend-mode: normal;
 	td {
@@ -1203,7 +1202,7 @@ $c3 : mix(white,$c2, 80%);
 	margin-bottom: $u-h;
 	display: flex;
 
-	@include media-query($s-sm) {
+	@include media-query($s-md) {
 		flex-direction: column;
 		li {
 			margin-bottom: $u-h / 2;
@@ -1211,7 +1210,7 @@ $c3 : mix(white,$c2, 80%);
 	}
 	li {
 		margin-right: $u-h * 2/3;		
-		@include media-query($s-sm) {
+		@include media-query($s-md) {
 			margin-right: 0;
 		}
 		&:last-child {
@@ -1223,7 +1222,7 @@ $c3 : mix(white,$c2, 80%);
 			display: block;
 
 			@include fs(-1);
-			@include media-query($s-sm) {
+			@include media-query($s-md) {
 				@include fs(-2,1.2);
 			}
 			@include faux-caps;
@@ -1236,19 +1235,19 @@ $c3 : mix(white,$c2, 80%);
 			}
 			@at-root .sub-menu li.nav-atual a {
 				@include fs(0);
-				@include media-query($s-sm) {
+				@include media-query($s-md) {
 					@include fs(-2,1.2);
 				}
 				background: $highlight;
 				text-align: center;
 				color: white;
 				padding: $u-h/4 $u-h/2;
-				@include media-query-a-partir($s-sm) {
+				@include media-query-a-partir($s-md) {
 					position: relative;
 					top: -$u-h/3;
 				}
 
-				@include media-query($s-sm) {
+				@include media-query($s-md) {
 					width: 100%;
 					display: block;
 					box-sizing: border-box;
