@@ -885,11 +885,7 @@ $c3 : mix(white,$c2, 80%);
 		display: grid;
 		grid-gap: $u-h / 2;
 
-		grid-template-columns: repeat(4, 1fr);
-		
-		@include media-query($s-xxl) {
-			grid-template-columns: repeat(3, 1fr);
-		}
+		grid-template-columns: repeat(3, 1fr);
 
 		@include media-query($s-lg) {
 			grid-template-columns: repeat(2, 1fr);
