@@ -196,38 +196,29 @@ $sep: $u-h / 3;
   display: grid;
   grid-column-gap: $u-h / 2;
   grid-row-gap: $u-h / 4;
-
-  grid-template-columns: repeat(3, 1fr);
-  // background: yellow;
-
-  @include media-query-a-partir($s-md) {
-    // background: orchid;
-    grid-template-columns: repeat(5, 1fr);
-  }
-  @include media-query-a-partir($s-xxxl) {
-    grid-template-columns: repeat(8, 1fr);
-  }
+  grid-template-columns: 1fr;
 }
 
 .g-t-new_conf {
   @extend .grid-dates;
-  @include media-query($s-sm) {
-    overflow-x: scroll; // quase não precisa, mas é melhor garantir (fica pouca coisa pra fora...)
-    width: calc(100vw - #{$u-h * 9 / 8});
-  }
-
-  .t-new_conf {
-    grid-column: 1/4;
-  }
-
-  @include media-query-a-partir($s-md) {
+  @include media-query($s-md) {
+    overflow-x: hidden;
     .t-new_conf {
-      grid-column: 1/5;
-    }
-  }
-  @include media-query-a-partir($s-xl) {
-    .t-new_conf {
-      grid-column: 1/4;
+      padding-left: $u-h/8;
+      overflow-x: scroll;
+      position: relative;
+      &:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: $u-h * 2;
+        z-index: 2;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.15), transparent);
+        mix-blend-mode: multiply;
+      }
+      border-right: 1px solid cinza(3);
     }
   }
 }
@@ -271,19 +262,21 @@ $sep: $u-h / 3;
       tr th:not(:first-child) .money {
         @include fs(-4);
       }
-      // background: blue;
     }
   }
 
   td {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid $dark_highlight;
   }
   th {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid $dark_highlight;
   }
 
   table ~ .legenda-tabela {
     margin-bottom: 0;
+    p {
+      max-width: 55ch;
+    }
   }
 }
 

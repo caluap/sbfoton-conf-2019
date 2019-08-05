@@ -327,7 +327,7 @@ table {
 		padding: $u-h/4 0 $u-h/8;
 	}
 	td {
-		border-bottom: 1px solid rgba(255,255,255,0.5);
+		border-bottom: 1px solid $dark_highlight;
 	}
 	th {
 		border-bottom: 2px solid white;
@@ -359,7 +359,7 @@ table {
 }
 
 .sub-row-header {
-	background: mix($c_rosa,cinza(0),10%);
+	background: $dark_highlight;
 	color: white;
 	mix-blend-mode: normal;
 	td {
@@ -368,12 +368,10 @@ table {
 		@include faux-caps;
 		@include fs(-1,1);
 	}
-	// color: white;
 }
 
 span.note {
-	color: $c_verde;
-	// font-weight: bold;
+	font-weight: 500;
 	vertical-align: super;
 	@include fs(-2);
 	font-feature-settings: 'case';
