@@ -1281,13 +1281,7 @@ $c3 : mix(white,$c2, 80%);
 
 	.c-membros {
 		display: grid;
-		grid-template-columns: repeat(5, 1fr);
-		@include media-query($s-xxl) {
-			grid-template-columns: repeat(4, 1fr);
-		}
-		@include media-query($s-xl) {
-			grid-template-columns: repeat(3, 1fr);
-		}
+		grid-template-columns: repeat(3, 1fr);
 		@include media-query($s-lg) {
 			grid-template-columns: repeat(2, 1fr);
 		}
