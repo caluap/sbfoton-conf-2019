@@ -803,25 +803,27 @@
     },
 
     "organizing_committee": {
-      "General Chairs": ["alexandre_pohl", "daniel_pataca"],
+      "General Chairs": ["daniel_pataca", "monica_rocha", "ricardo_samad"],
       "Administrative Chairs": ["andre_de_souza", "stenio_ranzini"],
       "Technical Program Chairs": [
-        "monica_rocha",
-        "vilson_de_almeida",
-        "carmelo_filho",
-        "felipe_barbosa",
-        "yara_gobato"
+        "anderson_gomes",
+        "cleber_mendonca",
+        "cristiano_cordeiro",
+        "denise_zezell",
+        "edison_maldonado",
+        "lilia_courrol",
+        "roberto_panepucci"
       ],
       "International Liaison": ["hugo_figueroa"]
     },
 
     "group_leaders": {
       "Optical Communication": "andrea_chiuchiarelli",
-      "Lasers": "niklaus_wetter",
+      "Lasers": "edison_maldonado",
       "Integrated Photonics": "roberto_panepucci",
-      "Optics and Instrumentation": "silvania_pereira",
+      "Optics and Instrumentation": "cleber_mendonca",
       "Biophotonics": "denise_zezell",
-      "Sensors, Image and Illumination": "marcos_franco"
+      "Sensors, Image and Illumination": "cristiano_cordeiro"
     },
 
     "technical_program_committee": {
@@ -1426,19 +1428,6 @@
         "links": []
       },
 
-      "cristiano_cordeiro": {
-        "nome": "Cristiano Monteiro de Barros Cordeiro",
-        "imagem": "",
-        "instituicao": [
-          {
-            "nome": "Unicamp",
-            "url": ""
-          }
-        ],
-        "biografia": "Professor at the Institute of Physics of Unicamp (State University of Campinas) since 2008 and coordinator of LaFE, Laboratory of Special Fibers of Unicamp. Academic training was held at PUC-Rio (bachelor in Physics and Masters) and Unicamp (Ph.D. in Physics-2003). His postdoctoral fellowship was held in the area of photonic crystal fibers / microstructured optical fibers at the University of Bath, England. On his return to Brazil he began the research area in special optical fibers at Unicamp. His area of expertise includes the following topics: photonic crystal fiber, special optical fibers with new features, fiber optic sensors and devices, proposal / design and manufacture of special silica and polymer fibers and use of additive manufacturing for the production of samples with interest in optics and photonics.",
-        "links": []
-      },
-
       "patricia_da_ana": {
         "nome": "Patricia Aparecida da Ana",
         "imagem": "",
@@ -1449,19 +1438,6 @@
           }
         ],
         "biografia": "She holds a bachelor's degree in Dentistry from the School of Dentistry of University of São Paulo (2002), a PhD in Science from the University of São Paulo (2007) and a postdoctoral degree from the Institute of Energy and Nuclear Research (2010). She is currently a lecturer at the Federal University of ABC (UFABC), at the Biomedical Engineering graduation course, coordinator of the postgraduate course in Biomedical Engineering at UFABC and deputy coordinator of the UFABC Multiusers Center SBC campus. She is a professor of the post-graduation courses in Biotechnocience and Biomedical Engineering at UFABC, as well as she is collaborative researcher at IPEN-CNEN/SP. She has experience in research in the area of &#8203;&#8203;Dentistry and Biomedical Engineering, with emphasis on biophotonics and its applications in oral hard tissues, working mainly in the following subjects: laser therapy at high and low intensities, vibrational spectroscopy, fluorescence, optical coherence tomography, and applications of these techniques, associated or not to new biomaterials, in the characterization, diagnosis and treatment of pathologies that affect oral hard tissues.",
-        "links": []
-      },
-
-      "denise_zezell": {
-        "nome": "Denise Maria Zezell",
-        "imagem": "",
-        "instituicao": [
-          {
-            "nome": "IPEN / USP",
-            "url": ""
-          }
-        ],
-        "biografia": "She holds a Bachelor's degree (1984), a Master's degree (1987) and a PhD (1991) in Physics from the State University of Campinas and a specialization in Medical Physics from the International Center for Theoretical Physics-Trieste, Italy (1988 and 1990). She received a postdoctoral degree from the International Center for Theoretical Physics-Trieste, Italy (1992) and the IPEN / CNEN-SP Lasers and Applications Center (1992-1995). She is a researcher at the Energy and Nuclear Research Institute of the National Nuclear Energy Commission since 1996, of which she was Deputy Manager of the Lasers and Applications Center in 2008. From 2009 to 2013 she was Coordinator of the Master Program in Lasers in Dentistry at IPEN , together with FOUSP. From 2013 to 2015 she was Vice-Coordinator of the Master's and Doctoral Program in Nuclear Technology at USP. He was a member of the Medical Physics Committee of the Brazilian Society of Physics in the period 2008-2014. She was Vice-President of the Brazilian Association of Lasers in Dentistry from 2010-2014. Participated in the Quadrennial Evaluation Committee of the Capes- CA de Engenharias II 2013-2016. Since 2017 it has been designated OSA Traveling Lecturer, member of the Specialized Training Council of CNEN-headquarters and publisher for Biophotonics of the Brazilian Society of Photonics. Area of ​​Physical, Biophotonic performance in the study of the Optical and Spectroscopic properties of biological tissues mainly by micro-FTIR and fluorescence, aiming the development of new diagnostic and therapeutic processes for clinical applications of lasers in dentistry and medicine. Recently it has been dedicated to the search of biomarkers for the determination of the effects of the ionizing radiation in biological tissues and the study of the early diagnosis of skin tumors by vibrational spectroscopy (optical biopsy by FTIR).",
         "links": []
       },
 
@@ -1514,6 +1490,19 @@
         "instituicao": [
           {
             "nome": "SEL-EESC-USP",
+            "url": ""
+          }
+        ],
+        "biografia": "Associate Professor A3 of the Department of Electrical Engineering of the School of Engineering of São Carlos, University of São Paulo. CERTIFICA-LIO, has a degree in Physics from the University of São Paulo (IFQSC – 1987), a master's degree in solid state physics from the University of São Paulo (IFQSC – 1990), a Ph.D. in Physics Applied to Ophthalmology by the University of São Paulo (IFSC -1995), postdoctoral degree in Ophthalmology (FMRP / USP – 1996), postdoctoral degree in Electrical Engineering (EESC / USP – 2001) and Free Teaching in Electrical Engineering ), by EESC-USP. She is currently an Associate Professor in the Electrical Engineering Department of EESC at the University of São Paulo. Has experience in the area of ​​Biomedical Engineering, with emphasis on Ophthalmic Instrumentation; is a consultant to the CB49 standards committee of ABNT and INMETRO for subjects related to sunglasses. Current research is focused on the analysis of the conformity of sunglasses and for studies of the parameters of these analyzes for nationalization of the Brazilian standard for sunglasses protection. Elaborator and Technical Coordinator of the EESC-USP – ARC-IBM Convention of San Jose (CA) – USA. Scholarship of Productivity in Technological Development and Innovative Extension of CNPq.",
+        "links": []
+      },
+
+      "lilia_courrol": {
+        "nome": "Lilia Coronato Courrol",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "Unifesp",
             "url": ""
           }
         ],
@@ -1596,6 +1585,19 @@
           }
         ],
         "biografia": "Graduated in Physics in 1993, obtained his Master's degree in Solid State Physics in 1997, and completed his PhD in Solid State Physics in 2006, all by the Institute of Physics of USP. He is currently Researcher at the Center for Lasers and Applications Institute of Energy and Nuclear Research (IPEN-CNEN / SP). He has published 48 articles in specialized journals that have more than 300 citations, 3 chapters of books and more than 90 papers in annals of events, in addition to having submitted 1 patent application. Since his Scientific Initiation he has been working in the development and application of solid state lasers, and his doctorate has started research activities with ultra-short pulse lasers. It is currently working with ultra-short pulse applications with emphasis on the interaction of these with matter, such as laser ablation and soldering, ultra-short pulsed plasma generation, and material modification resulting from extreme states of temperature and pressure generated by ultrashort pulses. It also aims, through harmonic generation techniques, to enable new sources of light in the region of deep UV and soft X-rays, with pulses of durations that can be less than 1 femtosecond.",
+        "links": []
+      },
+
+      "edison_maldonado": {
+        "nome": "Edison Puig Maldonado",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "ITA",
+            "url": ""
+          }
+        ],
+        "biografia": "",
         "links": []
       },
 
@@ -1917,7 +1919,7 @@
 
       "anderson_gomes": {
         "nome": "Anderson Stevens Leonidas Gomes",
-        "imagem": "img/speakers/anderson_gomes.jpg",
+        "imagem": "",
         "instituicao": [
           {
             "nome": "DF UFPE/BR",
@@ -1925,6 +1927,19 @@
           }
         ],
         "biografia": "He graduated (Licenciatura, 1978) and Masters in Physics (1982) in the Department of Physics of the Federal University of Pernambuco. He received his doctorate in Physics from the Imperial College of Science, Technology and Medicine, University of London (1986), and postdoctoral degree from Brown University (1992). He is a Full Professor in the Department of Physics at UFPE, where he has been a permanent professor since 1990. His scientific activities are in the field of nanophotonics, biophotonics, non-linear optics and optical communications. He co-authored more than 220 scientific articles (Factor H: 28) and supervised more than 20 master's dissertations and 16 doctoral theses. He is a Fellow of the Optical Society of America, where he was President of the International Council (2011-2012). He is also a member of the Brazilian Society of Physics and the Brazilian Society for the Advancement of Science. He has served on scientific committees at CNPq, FACEPE and CAPES. He was a member of the CA-CNPq, of the Superior Council of FACEPE and coordinated the area of ​​Physics and Astronomy of CAPES from 2008 to 2010. He acts as arbiter of several international journals in his area of ​​knowledge (Optics Letters, Optics Express, Physical Review, J Biomedical Optics, Electronics Letters, etc.). He is Associate Editor of the Advances in Optics and Photonics magazine, Optical Society of America. He has acted as scientific coordinator or president of several national and international conferences in Brazil. In 2010, he was admitted to the National Order of Scientific Merit, Class Commander in the Physical Sciences area (Decree of December 27, 2010). He is an IA researcher at CNPq. In 2010, he served as Secretary of State for Science, Technology and the Environment of Pernambuco, and was Secretary of Education of Pernambuco, from January 2011 to December 2012. He is a designated member of the Scientific Technical Council of Basic Education of CAPES ( from 2015). He was elected titular member of the Brazilian Academy of Sciences in December of 2015.",
+        "links": []
+      },
+
+      "cleber_mendonca": {
+        "nome": "Cleber Renato Mendonça",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "USP-SC",
+            "url": ""
+          }
+        ],
+        "biografia": "",
         "links": []
       },
 
