@@ -32,7 +32,7 @@ sup {
 	@include fs(-1);
 }
 
-p + p, blockquote + p, ol + p, ul + p {
+p + p, blockquote + p, ol + p, ul + p, p + h4, p + h5, p + h6 {
 	margin-top: $u-h/2;
 }
 
@@ -70,9 +70,12 @@ h3 {
 }
 
 h4 {
-	@include fs(-1,1.2);
 	margin-bottom: $u-h / 4;
 	font-weight: bold;
+}
+
+h5 {
+	font-style: italic;
 }
 
 
@@ -1194,6 +1197,10 @@ $c3 : mix(white,$c2, 80%);
 		}
 	}
 
+}
+
+.slashed-zero {
+	font-feature-settings: 'zero' 1;
 }
 
 
