@@ -721,7 +721,7 @@ body {
 
 #logo-home {
 
-	margin-top: $u-h * 2;
+	margin: 0 0 $u-h 0;
 	width: 100%;
 	max-width: $u-h * 6;
 	margin-left: auto;
@@ -1083,6 +1083,10 @@ $c3 : mix(white,$c2, 80%);
 .reg-but {
 
 	@include fs(4);
+	
+	@include media-query($s-sm) {
+		@include fs(3);
+	}
 	
 	text-decoration: none;
 	background: $highlight;

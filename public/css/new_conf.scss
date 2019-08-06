@@ -70,7 +70,13 @@
         display: grid;
         grid-gap: $u-h/2;
         align-items: baseline;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns:
+          calc(30% - #{$u-h / 3})
+          calc(40% - #{$u-h / 3})
+          calc(30% - #{$u-h / 3});
+        img {
+          width: 100%;
+        }
       }
     }
   }
