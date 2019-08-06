@@ -583,7 +583,6 @@ table {
 
 		.date-logo {
 			@include fs(-1,1.3);
-			@include faux-caps;
 			display: block;
 			opacity: 0.666;
 			margin-top: $u-h/3;
@@ -1169,6 +1168,9 @@ $c3 : mix(white,$c2, 80%);
 	p {
 		margin-top: $u-h / 2;
 		@include fs(0);
+		& + p {
+			margin-top: $u-h / 4; // half of usual distance.
+		}
 	}
 }
 
@@ -1177,7 +1179,7 @@ $c3 : mix(white,$c2, 80%);
 
 	.notice {
 		h3, p, a {
-			@include fs(1,1.4);
+			@include fs(0,1.4);
 		}
 
 		@include media-query($s-lg) {
