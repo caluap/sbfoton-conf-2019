@@ -2164,6 +2164,10 @@
         "link": "registration.html",
         "classes_adicionais": "registration_link"
       },
+      {
+        "titulo": "Instructions for Authors",
+        "link": "instructions.html"
+      },
       { "titulo": "Student Competition", "link": "student_competition.html" },
       { "titulo": "Venue", "link": "venue/" },
       { "titulo": "About", "link": "about/" },
