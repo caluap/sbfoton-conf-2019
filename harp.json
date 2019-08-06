@@ -803,8 +803,8 @@
     },
 
     "organizing_committee": {
-      "General Chairs": ["daniel_pataca", "monica_rocha", "ricardo_samad"],
-      "Administrative Chairs": ["andre_de_souza", "stenio_ranzini"],
+      "General Chairs": ["monica_rocha", "ricardo_samad"],
+      "Administrative Chairs": ["andre_de_souza", "daniel_pataca"],
       "Technical Program Chairs": [
         "anderson_gomes",
         "cleber_mendonca",
@@ -2140,7 +2140,7 @@
             "url": ""
           }
         ],
-        "biografia": "He holds a degree in Electronic and Telecommunications Engineering from PUC MG (1981), a Masters and PhD in Electrical Engineering from Unicamp, 1984 and 1996 respectively. He has experience in microwaves, optoelectronics, IP networks, planning and development of telecommunications services, digital TV and optical communications. He is currently a researcher at CPqD, where research optical communications systems, and he is a full professor at Universidade Paulista — UNIP where teaches electrical engineering disciplines.",
+        "biografia": "He holds a degree in Electronic and Telecommunications Engineering from PUC MG (1981), a Masters and PhD in Electrical Engineering from Unicamp, 1984 and 1996 respectively. He has experience in microwaves, optoelectronics, IP networks, planning and development of telecommunications services, digital TV and optical communications. He is currently a consultant at Idea! and he is a full professor at Universidade Paulista — UNIP where teaches electrical engineering disciplines.",
         "links": []
       },
 
