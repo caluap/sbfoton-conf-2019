@@ -165,7 +165,7 @@ mixin oral_session(i, i_sessao, cod_trabalho, titulo, resumo, autores, horario, 
     .head-cod
       p.trab-cod-sessao #{cod_trabalho}
       .c-nav
-        a.schedule-back(href="#schedule_#{i_sessao}",name="#{i_sessao}") ↖
+        //- a.schedule-back(href="#schedule_#{i_sessao}",name="#{i_sessao}") ↖
         unless prev == ""
           a.trab-nav(href="#prev_#{prev}",name="prev_#{cod_trabalho}") ⟵
         if prev == ""
