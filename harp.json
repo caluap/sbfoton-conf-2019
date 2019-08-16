@@ -2164,6 +2164,7 @@
         "link": "registration.html",
         "classes_adicionais": "registration_link"
       },
+      { "titulo": "Tech Sessions", "link": "tech_sessions/" },
       {
         "titulo": "Instructions for Authors",
         "link": "instructions.html"

@@ -1545,14 +1545,20 @@ $c3 : mix(white,$c2, 80%);
 			}
 
 			display: grid;
-			grid-template-columns: 3fr 2fr;
+			grid-template-columns: 5fr 1fr;
 			@include media-query($s-md) {
 				grid-template-columns: 1fr;
 				padding-left: 0;
 			}
-			@include media-query-a-partir($s-xxl) {
-				grid-template-columns: 3fr 2fr 2fr;
+			@include media-query-a-partir($s-xl) {
+				grid-template-columns: 2fr 1fr;
 
+			}
+			@include media-query-a-partir($s-xxl) {
+				grid-template-columns: 3fr 2fr;
+			}
+			@include media-query-a-partir($s-xxxl) {
+				grid-template-columns: 4fr 3fr;
 			}
 			grid-gap: $u-h;
 
@@ -1695,6 +1701,8 @@ $c3 : mix(white,$c2, 80%);
 
 
 .c-timetable {
+	margin-top: $u-h;
+
 	background : $timetable-color;
 	padding-bottom: $u-h;
 	padding-top: $u-h;
