@@ -53,10 +53,10 @@ include /_mixins
                   .header-sessao
                     p.trab-cod-sessao.forte= i_sessao
                     a.trab-codigo(name="#{i_sessao}")
-                    h3.trab-topico-sessao #{sessao.nome}
+                    h3.trab-topico-sessao #{sessao.session_name}
                     p.trab-chair.os-chair= sessao.chair
-                    p.trab-horario-sessao #{sessao.horario} / #{sessao.sala}
-                  each cod_trabalho in sessao.trabalhos
+                    p.trab-horario-sessao #{sessao.time} / #{sessao.room}
+                  each cod_trabalho in sessao.papers
                     - var trabalho = trabalhos[cod_trabalho]
                     a.trab-codigo(name="#{cod_trabalho}")
                     .trabalho
@@ -64,15 +64,15 @@ include /_mixins
                         i, 
                         i_sessao,
                         cod_trabalho, 
-                        trabalho.titulo, 
-                        trabalho.resumo, 
-                        trabalho.author_list, 
+                        trabalho.name, 
+                        trabalho.abstract, 
+                        trabalho.authors_string, 
                         oral_sessions_timetable[cod_trabalho],
                         trab_array[cod_trabalho].prev,
                         trab_array[cod_trabalho].next,
-                        sessao.sala,
-                        sessao.nome,
-                        trabalho.link_paper
+                        sessao.room,
+                        sessao.session_name,
+                        ""
                       )
                       - i++;
 
