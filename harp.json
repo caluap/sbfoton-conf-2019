@@ -63,6 +63,8 @@
         "autores": ["carlos_lee"]
       },
 
+      "tech-sessions init": null,
+
       "OS-C-MON-01-01": {
         "invited": true,
         "name": "Advances and Perspectives Towards Tb/s Optical Transmission",
@@ -361,9 +363,15 @@
       },
       "OS-L-MON-06-01": {
         "invited": true,
-        "name": "to be submitted yet",
+        "name": "Nanomaterials for low-threshold gaint",
         "abstract": "",
-        "authors": []
+        "authors": [
+          {
+            "author_name": "L\u00e1zaro A. Padilha",
+            "institution": " (Unicamp)"
+          }
+        ],
+        "authors_string": "L\u00e1zaro A. Padilha"
       },
       "OS-L-MON-06-02": {
         "invited": false,
@@ -1412,7 +1420,9 @@
           }
         ],
         "authors_string": "Ana Pelosi, Salmo Silva, Alessandra Baptista, Amanda Barros, Ricardo Navarro, Livia Garcia, Martha Ribeiro, and Silvia Cristina Nunez"
-      }
+      },
+
+      "tech-sessions end": null
     },
 
     "organizing_committee": {
