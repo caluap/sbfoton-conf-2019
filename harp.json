@@ -573,6 +573,7 @@
 
     "trabalhos": {
       "plenaries-init": null,
+
       "PL-MON-01": {
         "name": "The Revolution of Silicon Photonics",
         "abstract": "In the past decade the photonic community witnessed a complete transformation of optics. We went from being able to miniaturize a handful of devices to being able to define and control the flow of light using thousands of monolithically integrated optical components \u2013 all on a silicon chip. The main drive for silicon photonics is the ability to transmit and manipulate ultra high bandwidth with low power dissipation. Today there are hundreds of products being developed and commercialized towards this goal. The field of silicon photonics is rapidly evolving and is now enabling completely new applications, ranging from Lidar to biomedical devices. This is partly due to the development of novel chip-scale technologies, novel devices and novel materials compatible with silicon photonics. Many of these technologies and devices can manipulate light across the whole VIS, IR and the Mid IR spectrum. I will discuss these emerging applications, as well as the advancement brought by these novel devices and materials. The key challenges of the field relate to the scalability of the systems in bandwidth, size and power. Some of these challenges are fundamental and require innovations that break traditional tradeoffs. Novel approaches for switching, modulating and amplifying light have emerged that can open the door to applications that rely on such scalable systems. I will describe the challenges of the field and some of the recent innovations that can potentially address these challenges.",
@@ -586,6 +587,13 @@
         "author_picture": "img/speakers/alexander-gaeta.jpg",
         "mini_cv": "Dr. Gaeta received his BS, MS, and PhD in optics from the University of Rochester in Rochester, NY in 1983, 1985, and 1991, respectively. He remained there as a postdoctoral associate from 1991 \u2013 1992. Gaeta joined Columbia Engineering as the David M. Rickey Professor of Applied Physics and Materials Science in 2015. Prior to that, Gaeta was the Samuel B. Eckert Professor of Engineering at Cornell University and was Chair of the School of Applied and Engineering Physics from 2011 \u2013 2014. He is a Fellow of the American Physical Society and of the Optical Society of America and is also the founding editor-in-chief of the journal Optica. ",
         "authors": "Alexander Gaeta"
+      },
+      "PL-MON-03": {
+        "name": "To be defined",
+        "abstract": "To be defined",
+        "author_picture": "img/speakers/vanderlei-bagnato.jpg",
+        "mini_cv": "Vanderlei Salvador Bagnato simultaneously completed his bachelor's degree in Physics - USP and Materials Engineering - UFSCar in 1981 and completed his Ph.D. in Physics - MIT in 1987. He is currently a full professor at the University of S\u00e3o Paulo and coordinator of the USP Agency Of innovation. He has published about 500 articles in specialized journals. It has 24 chapters of books and 6 books published. He directed 45 master's theses and 36 doctoral theses in the areas of Physics, Dentistry and Medicine. Received several prizes and honors. He works in the area of ??Atomic Physics and Applications of Optics in Health Sciences. He works with cold atoms, Bose-Einstein Condensates and photodynamic actions in cancer and microbiological control. He is a member of the Brazilian Academy of Sciences, the Academy of Sciences for the Developing World, the Pontifical Academy of Sciences of the Vatican, and the National Academy of Sciences (USA). He coordinates a Research Center, in which basic and applied sciences coexist in harmony. It carries out several activities of Technological Innovation and diffusion of sciences.",
+        "authors": "Vanderelei Bagnato"
       },
       "PL-MON-04": {
         "name": "To be defined",
@@ -2344,7 +2352,7 @@
           "room": "Auditorium",
           "session_name": "Plenaries 1",
           "time": "09:05—12:30",
-          "plenaries": ["PL-MON-01", "PL-MON-02", "PL-MON-04", "PL-MON-04"]
+          "plenaries": ["PL-MON-01", "PL-MON-02", "PL-MON-03", "PL-MON-04"]
         }
       },
       "Tuesday, October 08th": {
@@ -3294,6 +3302,7 @@
         "link": "registration.html",
         "classes_adicionais": "registration_link"
       },
+      { "titulo": "Plenaries", "link": "plenaries.html" },
       { "titulo": "Tech Sessions", "link": "tech_sessions/" },
       { "titulo": "Posters", "link": "posters/" },
       {
