@@ -25,10 +25,10 @@ include /_mixins
                   - if (group_leaders[tema] == autor) {
                     div.c-group-leader
                       p.group-leader Group Leader
-                      +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+                      +membro("", autores[autor].nome, autores[autor].instituicao, "")
                   - } else {
                     div
-                      +membro("", autores[autor].nome, autores[autor].instituicao, autores[autor].biografia)
+                      +membro("", autores[autor].nome, autores[autor].instituicao, "")
                   - }
           .separador-2
 

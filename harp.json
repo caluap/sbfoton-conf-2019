@@ -2039,57 +2039,83 @@
     },
 
     "group_leaders": {
-      "Optical Communication": "andrea_chiuchiarelli",
-      "Lasers": "edison_maldonado",
-      "Integrated Photonics": "roberto_panepucci",
-      "Optics and Instrumentation": "cleber_mendonca",
       "Biophotonics": "denise_zezell",
+      "Integrated Photonics and Optoelectronics": "roberto_panepucci",
+      "Lasers": "edison_maldonado",
+      "Optical Communication": "andrea_chiuchiarelli",
+      "Optics and Instrumentation": "cleber_mendonca",
       "Sensors, Image and Illumination": "cristiano_cordeiro"
     },
 
     "technical_program_committee": {
-      "Optical Communication": [
-        "uiara_de_moura",
+      "Biophotonics": [
+        "anderson_gomes",
+        "arandi_bezerra",
+        "claudia_mota",
+        "claudia_zamataro",
+        "cristina_kurachi",
+        "denise_zezell",
+        "martha_ribeiro"
+      ],
+      "Integrated Photonics and Optoelectronics": [
+        "felipe_barbosa",
         "giovanni_farias",
-        "hartmut_bartelt",
-        "andrea_chiuchiarelli",
+        "gustavo_wiederhecker",
+        "lucas_gabrielli",
+        "moises_santos",
         "rafael_figueiredo",
-        "antonio_teixeira",
-        "fernando_guiomar",
-        "joaquim_filho",
-        "karcius_assis"
+        "roberto_panepucci",
+        "thiago_alegre",
+        "tiago_sutilio"
       ],
       "Lasers": [
-        "niklaus_wetter",
-        "ricardo_samad",
-        "newton_frateschi",
-        "rogerio_nogueira"
+        "carlos_cesar",
+        "edison_maldonado",
+        "francisco_maia",
+        "gustavo_wiederhecker",
+        "joao_sakamoto",
+        "jonas_neto",
+        "luciano_bachmann",
+        "nicolau_rodrigues",
+        "niklaus_walter",
+        "ricardo_samad"
       ],
-      "Integrated Photonics": [
-        "luiz_barbosa",
-        "leonardo_ambrosio",
-        "giovani_farias",
-        "roberto_panepucci"
+      "Optical Communication": [
+        "alexandre_pohl",
+        "andrea_chiuchiarelli",
+        "carlos_castellani",
+        "felipe_barbosa",
+        "daniel_pataca",
+        "jair_silva",
+        "jesse_santos",
+        "jonathas_siqueira",
+        "marcelo_abadde",
+        "marcelo_segatto",
+        "monica_rocha",
+        "rafael_figueiredo",
+        "thiago_alegre"
       ],
       "Optics and Instrumentation": [
-        "leonardo_ambrosio",
-        "silvania_pereira",
-        "liliane_ventura",
-        "alvaro_damiao"
-      ],
-      "Biophotonics": [
-        "isabel_carvalho",
-        "tania_centeno",
-        "denise_zezell",
-        "patricia_da_ana"
+        "anderson_gomes",
+        "arandi_bezerra",
+        "claudia_mota",
+        "claudia_zamataro",
+        "cleber_mendonca",
+        "cristina_kurachi",
+        "gustavo_almeida",
+        "jonathas_siqueira",
+        "lino_misoguiti",
+        "martha_ribeiro",
+        "paulo_ferreira"
       ],
       "Sensors, Image and Illumination": [
         "cristiano_cordeiro",
-        "cicero_martelli",
-        "joao_sakamoto",
-        "marcos_franco",
+        "felipe_barbosa",
+        "daniel_pataca",
+        "izabel_carvalho",
         "jonas_osorio",
-        "marcelo_werneck"
+        "marcos_franco",
+        "monica_rocha"
       ]
     },
 
@@ -3065,6 +3091,331 @@
           }
         ],
         "biografia": "He graduated (Licenciatura, 1978) and Masters in Physics (1982) in the Department of Physics of the Federal University of Pernambuco. He received his doctorate in Physics from the Imperial College of Science, Technology and Medicine, University of London (1986), and postdoctoral degree from Brown University (1992). He is a Full Professor in the Department of Physics at UFPE, where he has been a permanent professor since 1990. His scientific activities are in the field of nanophotonics, biophotonics, non-linear optics and optical communications. He co-authored more than 220 scientific articles (Factor H: 28) and supervised more than 20 master's dissertations and 16 doctoral theses. He is a Fellow of the Optical Society of America, where he was President of the International Council (2011-2012). He is also a member of the Brazilian Society of Physics and the Brazilian Society for the Advancement of Science. He has served on scientific committees at CNPq, FACEPE and CAPES. He was a member of the CA-CNPq, of the Superior Council of FACEPE and coordinated the area of ​​Physics and Astronomy of CAPES from 2008 to 2010. He acts as arbiter of several international journals in his area of ​​knowledge (Optics Letters, Optics Express, Physical Review, J Biomedical Optics, Electronics Letters, etc.). He is Associate Editor of the Advances in Optics and Photonics magazine, Optical Society of America. He has acted as scientific coordinator or president of several national and international conferences in Brazil. In 2010, he was admitted to the National Order of Scientific Merit, Class Commander in the Physical Sciences area (Decree of December 27, 2010). He is an IA researcher at CNPq. In 2010, he served as Secretary of State for Science, Technology and the Environment of Pernambuco, and was Secretary of Education of Pernambuco, from January 2011 to December 2012. He is a designated member of the Scientific Technical Council of Basic Education of CAPES ( from 2015). He was elected titular member of the Brazilian Academy of Sciences in December of 2015.",
+        "links": []
+      },
+
+      "arandi_bezerra": {
+        "nome": "Arandi G. Bezerra Jr",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "UTFPR, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "claudia_mota": {
+        "nome": "Claudia Mota",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "Odonto ASCES-UNITA-PE, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "claudia_zamataro": {
+        "nome": "Claudia Zamataro",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "IPEN, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "martha_ribeiro": {
+        "nome": "Martha Ribeiro",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "IPEN, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "moises_santos": {
+        "nome": "Moisés O. dos Santos",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "USP, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "gustavo_wiederhecker": {
+        "nome": "Gustavo Wiederhecker",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "IFGW-UNICAMP, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "lucas_gabrielli": {
+        "nome": "Lucas H. Gabrielli",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "FEE-UNICAMP, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "thiago_alegre": {
+        "nome": "Thiago P. M. Alegre",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "IFI-UNICAMP, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "tiago_sutilio": {
+        "nome": "Tiago Sutili",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "CPqD, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "carlos_cesar": {
+        "nome": "Carlos Cesar",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "IFI-UNICAMP, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "francisco_maia": {
+        "nome": "Francisco Maia",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "LNLS, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "jonas_neto": {
+        "nome": "Jonas Neto",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "IEAv-DCTA, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "luciano_bachmann": {
+        "nome": "Luciano Bachmann",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "USP-Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "nicolau_rodrigues": {
+        "nome": "Nicolau Rodrigues",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "IEAv-DCTA, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "niklaus_walter": {
+        "nome": "Niklaus Wetter",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "IPEN, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "carlos_castellani": {
+        "nome": "Carlos Castellani",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "Imperial College, UK",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "jair_silva": {
+        "nome": "Jair Adriano Lima Silva",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "UFES, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "jesse_santos": {
+        "nome": "Jesse Gomes dos Santos",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "UFES, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "jonathas_siqueira": {
+        "nome": "Jonathas Siqueira",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "IFGW-UNICAMP, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "marcelo_abadde": {
+        "nome": "Marcelo Abadde",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "SJBV-UNESP, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "marcelo_segatto": {
+        "nome": "Marcelo Segatto",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "UFES, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "gustavo_almeida": {
+        "nome": "Gustavo Foresto Almeida",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "UFU, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "lino_misoguiti": {
+        "nome": "Lino Misoguti",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "IFSC-USP, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "paulo_ferreira": {
+        "nome": "Paulo H. D. Ferreira",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": " UFSCar, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
+        "links": []
+      },
+
+      "izabel_carvalho": {
+        "nome": "Izabel C. S. Carvalho",
+        "imagem": "",
+        "instituicao": [
+          {
+            "nome": "PUC-Rio, Br",
+            "url": ""
+          }
+        ],
+        "biografia": "",
         "links": []
       },
 
