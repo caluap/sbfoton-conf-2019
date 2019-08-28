@@ -1545,7 +1545,7 @@ $c3 : mix(white,$c2, 80%);
 			}
 
 			display: grid;
-			grid-template-columns: 5fr 1fr;
+			grid-template-columns: 5fr 4fr;
 			@include media-query($s-md) {
 				grid-template-columns: 1fr;
 				padding-left: 0;
