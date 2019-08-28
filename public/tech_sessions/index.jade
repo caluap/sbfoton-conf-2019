@@ -54,7 +54,8 @@ include /_mixins
                     p.trab-cod-sessao.forte= i_sessao
                     a.trab-codigo(name="#{i_sessao}")
                     h3.trab-topico-sessao #{sessao.session_name}
-                    p.trab-chair.os-chair= sessao.chair
+                    unless sessao.chair == ""
+                      p.trab-chair.os-chair= sessao.chair
                     p.trab-horario-sessao #{sessao.time} / #{sessao.room}
                   each cod_trabalho in sessao.papers
                     - var trabalho = trabalhos[cod_trabalho]
