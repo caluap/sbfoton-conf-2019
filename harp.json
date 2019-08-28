@@ -3309,13 +3309,12 @@
         "titulo": "Instructions for Authors",
         "link": "instructions.html"
       },
+      {
+        "titulo": "Students",
+        "link": "students/"
+      },
       { "titulo": "Venue", "link": "venue/" },
       { "titulo": "About", "link": "about/" },
-      {
-        "titulo": "Student Paper Competition",
-        "link": "student_paper_competition.html",
-        "rodape_only": true
-      },
       {
         "titulo": "IEEE Xplore Digital Library",
         "link": "ieee_xplore_digital_library.html",
