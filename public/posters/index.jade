@@ -1,0 +1,62 @@
+include /_mixins
+
++menu('Posters')
+
+#slide-container
+  //- .conteudo
+
+  .slide.s-default.s-var-3
+    .pure-g.pad
+      .pure-u-1
+        h1 Posters 
+    .pure-g.pad
+      .pure-u-1
+
+        //- monta a lista de anterior / próximo
+        -
+          var prev = "";
+          var trab_array = {};
+
+          Object.keys(posters).forEach(function(element) {
+            var aux = {"prev":"", "next":""};
+            if (prev != "") { // não é a primeira vez
+              trab_array[prev].next = element;
+              aux.prev = prev;
+            }
+            trab_array[element] = aux;
+            prev = element;
+          });
+
+        //- each i in trab_array
+          //- p= JSON.stringify(i)
+
+        .c-trabalhos.c-posters
+          - var i = 1;
+          .trab-dia
+            p.trab-data Tuesday, OCTOBER 8th
+            .sessao
+              .header-sessao
+                p.trab-cod-sessao.forte PS-P-TUE
+                p.trab-horario-sessao 14:00—15:30 / Hall
+              each trabalho, cod_trabalho in posters
+                a.trab-codigo(name="#{cod_trabalho}")
+                .trabalho
+                  +oral_session(
+                    i, 
+                    -1,
+                    cod_trabalho, 
+                    trabalho.name, 
+                    trabalho.abstract, 
+                    trabalho.authors_string, 
+                    "",
+                    trab_array[cod_trabalho].prev,
+                    trab_array[cod_trabalho].next,
+                    "",
+                    "",
+                    ""
+                  )
+                  - i++;
+
+
+
+  +rodape('Tech Sessions')
