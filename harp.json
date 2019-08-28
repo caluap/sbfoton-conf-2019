@@ -63,7 +63,7 @@
         "autores": ["carlos_lee"]
       },
 
-      "tech-sessions init": null,
+      "tech-sessions-init": null,
 
       "OS-C-MON-01-01": {
         "invited": true,
@@ -1142,9 +1142,9 @@
           "institution": "Universidade Brasil, Brazil"
         }],
         "authors_string": "Ana Pelosi, Salmo Silva, Alessandra Baptista, Amanda Barros, Ricardo Navarro, Livia Garcia, Martha Ribeiro, and Silvia Cristina Nunez"
-      }
+      },
 
-      "tech-sessions end": null
+      "tech-sessions-end": null
     },
 
     "organizing_committee": {
