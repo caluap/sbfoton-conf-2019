@@ -1617,6 +1617,12 @@ $c3 : mix(white,$c2, 80%);
 				}
 			}
 
+			.trab-invited {
+				@include faux-caps;
+				@include fs(0);
+				color: $highlight;
+			}
+
 			.trab-link {
 				position: relative;
 				z-index: 2;
