@@ -15,18 +15,27 @@ include /_mixins
           each data, i_data in plenaries 
             .trab-dia
               p.trab-data= i_data
-              p.trab-chair= plenaries_chairs[i_data]
-              each plenaria in data
-                - var trabalho = trabalhos[plenaria.trabalho]
-                a.trab-codigo(name="#{plenaria.trabalho}")
-                .trabalho
-                  +trabalho(i, trabalho.titulo, plenaria.horario, salas[plenaria.sala].nome, trabalho.resumo, trabalho.temas)
-                  .trab-autores
-                    h3 Presented by
-                    each nome_autor in trabalho.autores
-                      - var autor = autores[nome_autor]
-                      +autor(autor.imagem, autor.nome, autor.instituicao, autor.biografia)
-                    - i++;
+              //- p.trab-chair= plenaries_chairs[i_data]
+              each plenaries_session, plen_session_code in plenaries[i_data]
+                each plenary_code in plenaries_session["plenaries"]
+                  - var plenary = trabalhos[plenary_code]
+                  a.trab-codigo(name="#{plenary_code}")
+                  .trabalho
+                    +trabalho(
+                      i, 
+                      plenary.name, 
+                      plenaries_session.time, 
+                      plenaries_session.room, 
+                      plenary.abstract, 
+                      "")
+                    .trab-autores
+                      h3 Presented by
+                      +autor(
+                        plenary.author_picture, 
+                        plenary.authors, 
+                        "", 
+                        plenary.mini_cv)
+                      - i++;
 
 
   +rodape('Plenaries')
