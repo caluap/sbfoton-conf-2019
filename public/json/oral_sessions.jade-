@@ -43,7 +43,13 @@
       oral_sessions[k_day][k_session]['papers'].forEach(function(k_paper){
         var paper = {};
         paper['code'] = k_paper;
-        paper['title'] = trabalhos[k_paper]['name'];
+
+        let inv_prefix = "";
+        if (trabalhos[k_paper]['invited']) {
+          inv_prefix = "(Invited Paper) "
+        }
+
+        paper['title'] = inv_prefix + trabalhos[k_paper]['name'];
         paper['authors'] = trabalhos[k_paper]['authors_string'];
         paper['meta'] = oral_sessions_timetable[k_paper] + ' · ' + room + ' · ' + k_session;
 
