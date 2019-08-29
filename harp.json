@@ -610,8 +610,8 @@
         "authors": "Carmen Menoni"
       },
       "PL-TUE-02": {
-        "name": "R&D landscape in S\u00e3o paulo, Brazil",
-        "abstract": "To be defined",
+        "name": "The R&D landscape in the state of São Paulo, Brazil",
+        "abstract": "We will describe the status of Research and Development (R&D) in the state of São Paulo, Brazil. The business sector, universities and mission oriented institutes contribute to one of the main R&D hubs in the South, with a large portfolio of Basic and Applied research as well as Experimental Development. Collaboration in research between universities and companies has been increasing, as demonstrated by the number of jointly funded projects and the number of publications with authors in academia and authors in industry. We will highlight some results and activities in fields related to Optics and Photonics.",
         "author_picture": "img/speakers/carlos-brito.jpg",
         "mini_cv": "Graduated in Electronic Engineering from ITA in 1978. Obtained the title of Master of Science in 1980 and the Doctor of Sciences in 1983, at the Institute of Physics Gleb Wataghin, Unicamp. He was avisiting researcher at the Universit\u00e0 degli Studi in Rome, visting researcher at the Universit\u00e9 Pierre et Marie Curie, Paris, and a resident visitor at Bell Laboratories of AT&T in Holmdel, NJ and in Murray Hill, NJ. His research is in ultrafast phenomena using ultra-short laser pulses, with emphasis on the study of electronic processes in the time-scale of femtoseconds in nonlinear optical materials aimed for applications in optical communications. Brito Cruz was Director of the Physics Institute ?Gleb Wataghin?, Unicamp and the Dean for Research at Unicamp. He has been the Vice President of the Brazilian Society of Physics and member of the Advisory Board of the International Optical Society of America. He is a member of the Brazilian Academy of Sciences. He was President of the S\u00e3o Paulo Research Foundation, FAPESP, from 1996 to 2002 and Rector of Unicamp from April 2002 to April 2005. He has been the President of the Board of Technology and Competitiveness of FIESP (2005-2012). Since April 2005, Brito Cruz is the Scientific Director of FAPESP.",
         "authors": "Carlos Henrique de Brito Cruz"
@@ -961,8 +961,8 @@
       },
       "OS-L-MON-06-01": {
         "invited": true,
-        "name": "Nanomaterials for low-threshold gaint",
-        "abstract": "",
+        "name": "Towards Efficient Amplified Spontaneous Emission with Engineered Colloidal Nanomaterials",
+        "abstract": "Semiconductor quantum dots (QDs) present a series of optical characteristics that make them candidate for applications in lighting technologies, in particular as gain media in lasers. Among their desirable properties, we can highlight their color tunability and high emission quantum efficiencies. Here, we discuss methods of improving QD properties for lasing applications by tackling the issues of reabsorption and fast non-radiative recombination. We demonstrate that it possible to reduce the amplified spontaneous emission (ASE) threshold by engineering the multi-exction interactions in heterostructured QD, forming structures capable of combine high absorption cross section, near unity PLQY and suppressed Auger recombination. We show also that the large biexciton binding energy in perovskite quantum dots (PQDs) allows for extremely low ASE threshold, relying on the reduced reabsorption, without the need of band-structure engineering. For small PQDs population inversion can be reached for 〈N〉_ASE = 0.73, lower than the theoretical limit of 〈N〉_ASE =1.15. To conclude, these results demonstrates that the viability of future QD-based lasers lies on the correct balance of three key parameters: biexciton binding energy, Auger recombination, and absorption cross section.",
         "authors": [
           {
             "author_name": "L\u00e1zaro A. Padilha",
