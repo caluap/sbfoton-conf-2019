@@ -33,22 +33,21 @@
 
     Object.keys(oral_sessions[k_day]).forEach(function(k_session){
       var session = {};
-
-      var room = oral_sessions[k_day][k_session]['sala'];
+      var room = oral_sessions[k_day][k_session]['room'];
 
       session['code'] = k_session;
-      session['title'] = oral_sessions[k_day][k_session]['nome'];
-      session['meta'] = oral_sessions[k_day][k_session]['horario'] + ' / ' + room;
+      session['title'] = oral_sessions[k_day][k_session]['session_name'];
+      session['meta'] = oral_sessions[k_day][k_session]['time'] + ' / ' + room;
       session['papers'] = [];
 
-      oral_sessions[k_day][k_session]['trabalhos'].forEach(function(k_paper){
+      oral_sessions[k_day][k_session]['papers'].forEach(function(k_paper){
         var paper = {};
         paper['code'] = k_paper;
-        paper['title'] = trabalhos[k_paper]['titulo'];
-        paper['authors'] = trabalhos[k_paper]['author_list'];
+        paper['title'] = trabalhos[k_paper]['name'];
+        paper['authors'] = trabalhos[k_paper]['authors_string'];
         paper['meta'] = oral_sessions_timetable[k_paper] + ' · ' + room + ' · ' + k_session;
 
-        var resumo = trabalhos[k_paper]['resumo'];
+        var resumo = trabalhos[k_paper]['abstract'];
         resumo = resumo.replace("<br>","\n");
         resumo = resumo.replace(/<\/?[^>]+(>|$)/g, "");
         paper['abstract'] = resumo;
