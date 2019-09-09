@@ -1,0 +1,65 @@
+-
+  //https://stackoverflow.com/questions/16196338/json-stringify-doesnt-work-with-normal-javascript-array
+  (function(){
+      // Convert array to object
+      var convArrToObj = function(array){
+          var thisEleObj = new Object();
+          if(typeof array == "object"){
+              for(var i in array){
+                  var thisEle = convArrToObj(array[i]);
+                  thisEleObj[i] = thisEle;
+              }
+          }else {
+              thisEleObj = array;
+          }
+          return thisEleObj;
+      };
+      var oldJSONStringify = JSON.stringify;
+      JSON.stringify = function(input){
+          if(oldJSONStringify(input) == '[]')
+              return oldJSONStringify(convArrToObj(input));
+          else
+              return oldJSONStringify(input);
+      };
+  })();
+
+
+  var j = [];
+
+
+  Object.keys(workshops_timetable).forEach(function(w_day) {
+    var day = {};
+    day.date = w_day;
+    day.sessions = [];
+    
+    var sessions = workshops_timetable[w_day];
+
+    Object.keys(sessions).forEach(function(session_code) {
+      var session = {};
+      var room = sessions[session_code].room;
+      session.code = session_code;
+      session.title = sessions[session_code].session_name;
+      session.meta = sessions[session_code].time + ' / ' + room;
+      session.workshops = [];
+
+      sessions[session_code].workshops.forEach(function(code) {
+        var workshop = {};
+        workshop.name = workshops[code].name;
+        workshop.authors = workshops[code].authors;
+        workshop.code = code;
+
+        session.workshops.push(workshop);
+
+      });
+
+      day.sessions.push(session);
+
+    });
+
+    
+    j.push(day);
+
+  });
+
+
+p= JSON.stringify(j, null, '\n')

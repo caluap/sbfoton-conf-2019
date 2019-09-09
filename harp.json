@@ -553,6 +553,56 @@
         "authors_string": "Emerson Santos, Hudson Ramos, Elvo C Burini, Jr., Roberto Onmori, and Wang Hui"
       }
     },
+    "workshops": {
+      "OS-W-MON-04-01": {
+        "name": "Inovation at SBFoton",
+        "authors": "Daniel Pataca (SBFoton)"
+      },
+      "OS-W-MON-04-02": {
+        "name": "MCTIC – FAPESP – BNDES – EMBRAPII – FINEP",
+        "authors": ""
+      },
+      "OS-W-MON-04-03": {
+        "name": "Round Table",
+        "authors": ""
+      },
+      "OS-W-MON-08-01": {
+        "name": "Introduction",
+        "authors": "Alberto Paradisi (CPqD)"
+      },
+      "OS-W-MON-08-02": {
+        "name": "To be defined ",
+        "authors": "Débora Marcondes Milori (Embrapa)"
+      },
+      "OS-W-MON-08-03": {
+        "name": "Round Table",
+        "authors": ""
+      },
+      "OS-W-TUE-04-01": {
+        "name": "Biophotonics                  ",
+        "authors": "Jarbas Caiado de Castro Neto (IFSC/USP)"
+      },
+      "OS-W-TUE-04-02": {
+        "name": "Optical Communication",
+        "authors": "Roberto Yoshihiro Nakamura (Padtec)"
+      },
+      "OS-W-TUE-04-03": {
+        "name": "Round Table",
+        "authors": ""
+      },
+      "OS-W-TUE-08-01": {
+        "name": "Lasers / Photonics for Industry",
+        "authors": "Marcos Lichblau (CSMAT)"
+      },
+      "OS-W-TUE-08-02": {
+        "name": "Integrated Photonics and Optoelectronics",
+        "authors": "Juliano Oliveira (Idea!)"
+      },
+      "OS-W-TUE-08-03": {
+        "name": "Round Table",
+        "authors": ""
+      }
+    },
     "trabalhos": {
       "plenaries-init": null,
       "PL-MON-01": {
@@ -2108,6 +2158,40 @@
         "marcos_franco",
         "monica_rocha"
       ]
+    },
+    "workshops_timetable": {
+      "Monday, October 7th": {
+        "OS-W-MON-04": {
+          "chair": "",
+          "room": "Room 4",
+          "session_name": "Innovation Financing",
+          "time": "14:00—15:30",
+          "workshops": ["OS-W-MON-04-01", "OS-W-MON-04-02", "OS-W-MON-04-03"]
+        },
+        "OS-W-MON-08": {
+          "chair": "",
+          "room": "Room 4",
+          "session_name": "Innovation on Research",
+          "time": "16:00—17:30",
+          "workshops": ["OS-W-MON-08-01", "OS-W-MON-08-02", "OS-W-MON-08-03"]
+        }
+      },
+      "Tuesday, October 8th": {
+        "OS-W-TUE-04": {
+          "chair": "",
+          "room": "Room 4",
+          "session_name": "Biophotonics & Optical Communication Industry",
+          "time": "14:00—15:30",
+          "workshops": ["OS-W-TUE-04-01", "OS-W-TUE-04-02", "OS-W-TUE-04-03"]
+        },
+        "OS-W-TUE-08": {
+          "chair": "",
+          "room": "Room 4",
+          "session_name": "Laser & Integrated Photonics Industry",
+          "time": "16:00—17:30",
+          "workshops": ["OS-W-TUE-08-01", "OS-W-TUE-08-02", "OS-W-TUE-08-03"]
+        }
+      }
     },
     "oral_sessions_timetable": {
       "OS-C-MON-01-01": "14:00 to 14:30",
