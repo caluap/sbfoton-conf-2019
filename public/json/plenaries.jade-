@@ -43,7 +43,7 @@
         var autores = trabalhos[code].authors;
 
         plenary.code = code;
-        plenary.title = trabalhos[code].titulo;
+        plenary.title = trabalhos[code].name;
         plenary.presented_by = 'Presented by ' + autores;
         
         var hora = plenaries[k_day][session_code].time;
@@ -54,7 +54,7 @@
         var resumo = trabalhos[code].abstract;
         resumo = resumo.replace("<br>","\n");
         resumo = resumo.replace(/<\/?[^>]+(>|$)/g, "");
-        plenary.abstract = resumo;
+        plenary.__abstract = resumo;
 
         day['plenaries'].push(plenary);
       });
