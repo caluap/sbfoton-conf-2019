@@ -31,35 +31,35 @@
     day['date'] = k_day;
     day['plenaries'] = [];
 
-    plenaries[k_day].forEach(function(aux_plenary){
+    var plenary_session = Object.keys(plenaries[k_day]);
 
-      var plenary = {};
-      var codigo = aux_plenary.trabalho;
+    plenary_session.forEach(function(session_code){
 
-      var codigo_autor = trabalhos[codigo].autores;
-      var autor = autores[codigo_autor].nome;
-      var instituicao = autores[codigo_autor].instituicao[0].nome;
+      var plenary_list = plenaries[k_day][session_code].plenaries;
 
-      plenary.code = codigo;
-      plenary.title = trabalhos[codigo].titulo;
-      plenary.presented_by = 'Presented by ' + autor + ', ' + instituicao;
-      
-    //-   var hora = aux_plenary.horario.slice(0,5) + '–' + aux_plenary.horario.slice(9);
-      var hora = aux_plenary.horario;
-      var sala = salas[aux_plenary.sala].nome;
-      var temas = "";
-      if (trabalhos[codigo].temas[0]) {
-          temas = ' · ' + trabalhos[codigo].temas[0];
-      }
-      plenary.meta = hora + ' · ' + sala + temas;
+      plenary_list.forEach(function(code) {
+        var plenary = {};
 
-      var resumo = trabalhos[codigo].resumo;
-      resumo = resumo.replace("<br>","\n");
-      resumo = resumo.replace(/<\/?[^>]+(>|$)/g, "");
-      plenary.abstract = resumo;
+        var autores = trabalhos[code].authors;
 
-      day['plenaries'].push(plenary);
-    });
+        plenary.code = code;
+        plenary.title = trabalhos[code].titulo;
+        plenary.presented_by = 'Presented by ' + autores;
+        
+        var hora = plenaries[k_day][session_code].time;
+        var sala = plenaries[k_day][session_code].room;
+
+        plenary.meta = hora + ' · ' + sala;
+
+        var resumo = trabalhos[code].abstract;
+        resumo = resumo.replace("<br>","\n");
+        resumo = resumo.replace(/<\/?[^>]+(>|$)/g, "");
+        plenary.abstract = resumo;
+
+        day['plenaries'].push(plenary);
+      });
+
+    });    
 
     j.push(day);
     
