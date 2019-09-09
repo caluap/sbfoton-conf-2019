@@ -560,7 +560,7 @@
         "abstract": "In the past decade the photonic community witnessed a complete transformation of optics. We went from being able to miniaturize a handful of devices to being able to define and control the flow of light using thousands of monolithically integrated optical components – all on a silicon chip. The main drive for silicon photonics is the ability to transmit and manipulate ultra high bandwidth with low power dissipation. Today there are hundreds of products being developed and commercialized towards this goal. The field of silicon photonics is rapidly evolving and is now enabling completely new applications, ranging from Lidar to biomedical devices. This is partly due to the development of novel chip-scale technologies, novel devices and novel materials compatible with silicon photonics. Many of these technologies and devices can manipulate light across the whole VIS, IR and the Mid IR spectrum. I will discuss these emerging applications, as well as the advancement brought by these novel devices and materials. The key challenges of the field relate to the scalability of the systems in bandwidth, size and power. Some of these challenges are fundamental and require innovations that break traditional tradeoffs. Novel approaches for switching, modulating and amplifying light have emerged that can open the door to applications that rely on such scalable systems. I will describe the challenges of the field and some of the recent innovations that can potentially address these challenges.",
         "author_picture": "img/speakers/michal-lipson.jpg",
         "mini_cv": "Prof. Michal Lipson is the Eugene Higgins Professor at Columbia University. Her research focus is on Nanophotonics and includes the investigation of novel phenomena, as well as the development of novel devices and applications. Lipson pioneered critical building blocks in the field of Silicon Photonics, which today is recognized as one of the most promising directions for solving the major bottlenecks in microelectronics. She is the inventor of over 30 issued patents and has co-authored more than 200 scientific publications. In recognition of her work in silicon photonics she was elected as a member of the National Academy of Sciences. She was also awarded the NAS Comstock Prize in Physics, the MacArthur Fellowship, the Blavatnik Award, the Optical Society’s R. W. Wood Prize, the IEEE Photonics Award, and has received an honorary degree from Trinity College, University of Dublin. Since 2014 every year she has been named by Thomson Reuters as a top 1% highly cited researcher in the field of Physics.",
-        "authors": "Michal Lipson "
+        "authors": "Michal Lipson"
       },
       "PL-MON-02": {
         "name": "Generation of Frequency Combs and Quantum Random Numbers on a Photonic Chip",
@@ -602,7 +602,7 @@
         "abstract": "",
         "author_picture": "",
         "mini_cv": "",
-        "authors": "Students of the ISP/OSA/SPIE Chapters "
+        "authors": "Students of the ISP/OSA/SPIE Chapters"
       },
       "PL-TUE-04": {
         "name": "Adventrures in infrared spectroscopy of complex biological system. The good, the bad and the beautiful",
