@@ -507,7 +507,7 @@
         "abstract": "This paper reports the development of a low-cost kit to turn smartphones into versatile platforms for interrogating optical fiber sensors. The adapter for connecting the fiber to the phone camera was 3D printed, whereas the application software was programmed for Android(TM) operating system. Different types of sensors based on multimode fiber and LED source were tested. The resolutions for the microbending displacement sensor, the fiber reflectometer, and the macrobending temperature probe are 26 um, 0.0006 RIU, and 3.9°C, respectively. In addition to a didactic kit for photonics classes, the proposed device can also be used as a portable sensor for multiple purposes since the transducer modulus can be exchanged to assess different physical and chemical variables.",
         "authors": [
           {
-            "author_name": "ric Fujiwara, Pedro Machado, Tarcisio Oliveira",
+            "author_name": "Eric Fujiwara, Pedro Machado, Tarcisio Oliveira",
             "institution": "University of Campinas, Brazil"
           },
           {
@@ -649,7 +649,7 @@
       },
       "PL-TUE-03": {
         "name": "Connecting Students with Light",
-        "abstract": "",
+        "abstract": "Student Chapters are student-managed affiliations of consolidated scientific societies. Usually, these are formed by students in their research centers, and establishe a mutual gain relationship between the represented societies, the students and their centers. Organizing academic and outreach events, funding ideas and integrating students are some of the benefits provide by scientific societies to Student Chapters. Besides, Student Chapters aim to spread the ideals of these scientific societies for the community it covers. As a final result, there is a strengthening of the scientific network. In this Plenary, members from different Brazilian Student Chapters on Optics & Photonics (OSA, SPIE, IEEE) will present the Chapters activities,  and share their experiences with the audience. We hope to encourage the founding of new Student Chapters and to strengthen our Optics & Photonics community.",
         "author_picture": "",
         "mini_cv": "",
         "authors": "Students of the IPS/OSA/SPIE Chapters"
