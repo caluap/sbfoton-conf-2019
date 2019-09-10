@@ -676,11 +676,11 @@
         "authors": "Fatima Gunning"
       },
       "PL-WED-03": {
-        "name": "To be defined",
+        "name": "Next generation coherent optical pluggable modules",
         "abstract": "To be defined",
-        "author_picture": "",
-        "mini_cv": "To be defined",
-        "authors": "To be defined"
+        "author_picture": "img/speakers/jacklyn-reis.jpg",
+        "mini_cv": "Electrical Engineer and Master in Electrical Engineering (emphasis on Telecommunications) from UFPA, received his PhD with distinction and praise in Telecommunications from the University of Aveiro, Portugal. From 2007 to 2013, he worked as a research associate at the Telecommunications Institute - Aveiro, Portugal, where he conducted research on next generation optical access networks, coherent communication, advanced modulation format, digital signal processing and nonlinear optics. From 2013 to 2016, he worked at CPqD, Campinas - SP, Brazil, as an expert researcher leading the area of optical transmission with emphasis on high speed optical transmission, digital signal processing, channel coding, WDM networks and integrated photonic circuits. Participated in the OIF - Optical Internetworking Forum as technical editor of the project for implementation and standardization of 400G WDM optical systems, and is a member of OSA and IEEE. He worked at BrPhotonicos Produtos optoelectronicos SA, Campinas - SP, Brazil, as an optical systems manager, with an emphasis on producing ASIC integrated circuits for digital signal processing in high capacity optical systems. He has published over 100 scientific articles in international conferences and relevant journals in the field of optical communications and has filed 8 patent applications.",
+        "authors": "Jacklyn Dias Reis"
       },
       "PL-WED-04": {
         "name": "Nonlinearity management of nanophotonic systems",
