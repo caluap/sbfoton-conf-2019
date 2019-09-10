@@ -2165,14 +2165,14 @@
           "chair": "",
           "room": "Room 4",
           "session_name": "Innovation Financing",
-          "time": "14:00—15:30",
+          "time": "14:00–15:30",
           "workshops": ["OS-W-MON-04-01", "OS-W-MON-04-02", "OS-W-MON-04-03"]
         },
         "OS-W-MON-08": {
           "chair": "",
           "room": "Room 4",
           "session_name": "Innovation on Research",
-          "time": "16:00—17:30",
+          "time": "16:00–17:30",
           "workshops": ["OS-W-MON-08-01", "OS-W-MON-08-02", "OS-W-MON-08-03"]
         }
       },
@@ -2181,14 +2181,14 @@
           "chair": "",
           "room": "Room 4",
           "session_name": "Biophotonics & Optical Communication Industry",
-          "time": "14:00—15:30",
+          "time": "14:00–15:30",
           "workshops": ["OS-W-TUE-04-01", "OS-W-TUE-04-02", "OS-W-TUE-04-03"]
         },
         "OS-W-TUE-08": {
           "chair": "",
           "room": "Room 4",
           "session_name": "Laser & Integrated Photonics Industry",
-          "time": "16:00—17:30",
+          "time": "16:00–17:30",
           "workshops": ["OS-W-TUE-08-01", "OS-W-TUE-08-02", "OS-W-TUE-08-03"]
         }
       }
@@ -2271,7 +2271,7 @@
           "chair": "",
           "room": "Room 1",
           "session_name": "Optical Communication 1",
-          "time": "14:00—15:30",
+          "time": "14:00–15:30",
           "papers": [
             "OS-C-MON-01-01",
             "OS-C-MON-01-02",
@@ -2283,7 +2283,7 @@
           "chair": "",
           "room": "Room 1",
           "session_name": "Integrated Photonics 1",
-          "time": "16:00—17:30",
+          "time": "16:00–17:30",
           "papers": [
             "OS-I-MON-05-01",
             "OS-I-MON-05-02",
@@ -2295,7 +2295,7 @@
           "chair": "",
           "room": "Room 2",
           "session_name": "Integrated Photonics 1",
-          "time": "14:00—15:30",
+          "time": "14:00–15:30",
           "papers": [
             "OS-I-MON-02-01",
             "OS-I-MON-02-02",
@@ -2307,7 +2307,7 @@
           "chair": "",
           "room": "Room 2",
           "session_name": "Lasers 1",
-          "time": "16:00—17:30",
+          "time": "16:00–17:30",
           "papers": [
             "OS-L-MON-06-01",
             "OS-L-MON-06-02",
@@ -2319,7 +2319,7 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Biophotonics 1",
-          "time": "14:00—15:30",
+          "time": "14:00–15:30",
           "papers": [
             "OS-B-MON-03-01",
             "OS-B-MON-03-02",
@@ -2331,7 +2331,7 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Sensors, Image and Illumination 1",
-          "time": "16:00—17:30",
+          "time": "16:00–17:30",
           "papers": [
             "OS-S-MON-07-01",
             "OS-S-MON-07-02",
@@ -2345,7 +2345,7 @@
           "chair": "",
           "room": "Room 1",
           "session_name": "Optical Communication 2",
-          "time": "16:00—17:30",
+          "time": "16:00–17:30",
           "papers": [
             "OS-C-TUE-01-01",
             "OS-C-TUE-01-02",
@@ -2357,7 +2357,7 @@
           "chair": "",
           "room": "Room 2",
           "session_name": "Integrated Photonics 2",
-          "time": "16:00—17:40",
+          "time": "16:00–17:40",
           "papers": [
             "OS-I-TUE-02-01",
             "OS-I-TUE-02-02",
@@ -2370,7 +2370,7 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Biophotonics 2",
-          "time": "16:00—17:20",
+          "time": "16:00–17:20",
           "papers": [
             "OS-B-TUE-03-01",
             "OS-B-TUE-03-02",
@@ -2384,7 +2384,7 @@
           "chair": "",
           "room": "Room 1",
           "session_name": "Integrated Photonics 3",
-          "time": "14:00—15:30",
+          "time": "14:00–15:30",
           "papers": [
             "OS-C-WED-01-01",
             "OS-C-WED-01-02",
@@ -2396,14 +2396,14 @@
           "chair": "",
           "room": "Room 1",
           "session_name": "Optical Communication 3",
-          "time": "16:00—17:20",
+          "time": "16:00–17:20",
           "papers": ["OS-I-WED-05-01", "OS-I-WED-05-02", "OS-I-WED-05-03"]
         },
         "OS-L-WED-02": {
           "chair": "",
           "room": "Room 2",
           "session_name": "Laser 2",
-          "time": "14:00—15:40",
+          "time": "14:00–15:40",
           "papers": [
             "OS-L-WED-02-01",
             "OS-L-WED-02-02",
@@ -2416,7 +2416,7 @@
           "chair": "",
           "room": "Room 2",
           "session_name": "Optics and Instrumentation 2",
-          "time": "16:00—17:20",
+          "time": "16:00–17:20",
           "papers": [
             "OS-O-WED-06-01",
             "OS-O-WED-06-02",
@@ -2428,7 +2428,7 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Sensors, Image and Illumination 2",
-          "time": "14:00—15:40",
+          "time": "14:00–15:40",
           "papers": [
             "OS-S-WED-03-01",
             "OS-S-WED-03-02",
@@ -2441,7 +2441,7 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Biophotonics 3",
-          "time": "16:00—17:10",
+          "time": "16:00–17:10",
           "papers": ["OS-O-WED-07-01", "OS-O-WED-07-02", "OS-O-WED-07-03"]
         }
       }
@@ -2457,7 +2457,7 @@
           "chair": "",
           "room": "Auditorium",
           "session_name": "Plenaries 1",
-          "time": "09:05—12:30",
+          "time": "09:05–12:30",
           "plenaries": ["PL-MON-01", "PL-MON-02", "PL-MON-03", "PL-MON-04"]
         }
       },
@@ -2466,7 +2466,7 @@
           "chair": "",
           "room": "Auditorium",
           "session_name": "Plenaries 2",
-          "time": "09:00—12:30",
+          "time": "09:00–12:30",
           "plenaries": ["PL-TUE-01", "PL-TUE-02", "PL-TUE-03", "PL-TUE-04"]
         }
       },
@@ -2475,7 +2475,7 @@
           "chair": "",
           "room": "Auditorium",
           "session_name": "Plenaries 3",
-          "time": "09:00—12:30",
+          "time": "09:00–12:30",
           "plenaries": ["PL-WED-01", "PL-WED-02", "PL-WED-03", "PL-WED-04"]
         }
       }
