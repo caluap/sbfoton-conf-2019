@@ -1042,15 +1042,31 @@
         "abstract": "In this work, we developed optically active polymeric composite bulks which are employed as gain medium in random laser systems. To increase the number of scattering centers inside the sample, we added to the polymeric matrix single-walled carbon nanotubes. Using a laser micromachining, we fabricated periodic patterns in the volume of the composites, which allowed locking the random laser emission modes in specific wavelengths. In all performed experiments, using these different samples, we observed a coherent feedback of the random lasers.",
         "authors": [
           {
-            "author_name": "Allan Bereczki",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares, Brazil"
+            "author_name": "Adriano J. G. Otuka",
+            "institution": "University of Sao Paulo - Sao Carlos Institute of Physics, Brazil"
           },
           {
-            "author_name": "Niklaus Wetter",
-            "institution": "IPEN, Brazil"
+            "author_name": "Lucas F. Sciuti",
+            "institution": "IFSC-USP, Brazil"
+          },
+          {
+            "author_name": "Paulo H. D. Ferreira",
+            "institution": "UFSCar, Br"
+          },
+          {
+            "author_name": "Renato J. Martins",
+            "institution": "IFSC-USP, Brazil"
+          },
+          {
+            "author_name": "Cleber R. Mendonça",
+            "institution": "IFSC-USP, Brazil"
+          },
+          {
+            "author_name": "Leonardo de Boni",
+            "institution": "IFSC-USP, Brazil"
           }
         ],
-        "authors_string": "Allan Bereczki, and Niklaus Wetter"
+        "authors_string": "Adriano J. G. Otuka, Lucas F. Sciuti, Paulo H. D. Ferreira, Renato J. Martins, Cleber R. Mendonça, and Leonardo de Boni"
       },
       "OS-B-MON-03-01": {
         "invited": true,
@@ -1871,7 +1887,7 @@
           },
           {
             "author_name": "Cleber R. Mendonca",
-            "institution": "IFSC - USP, Brazil"
+            "institution": "IFSC-USP, Brazil"
           }
         ],
         "authors_string": "André Pelosi, Jessica Dipold, Sabrina dos Santos, Juliana de Almeida, and Cleber R. Mendonca"
