@@ -2256,6 +2256,15 @@
       "OS-O-WED-07-02": "16:30 to 16:50",
       "OS-O-WED-07-03": "16:50 to 17:10"
     },
+    "poster_sessions": {
+      "Tuesday, October 8th": {
+        "PS-P-TUE": {
+          "room": "Hall",
+          "time": "14:00–15:30"
+        }
+      }
+    },
+    "short_courses": {},
     "oral_sessions": {
       "Monday, October 7th": {
         "OS-C-MON-01": {
