@@ -47,28 +47,41 @@
         var os = {};
         os.tipo = 'Oral Session';
         os.codigo = k_code;
-        os.sala = oral_sessions[k_day][k_code].sala;
-        os.nome = oral_sessions[k_day][k_code].nome;
-        os.horario = oral_sessions[k_day][k_code].horario;
+        os.sala = oral_sessions[k_day][k_code].room;
+        os.nome = oral_sessions[k_day][k_code].session_name;
+        os.horario = oral_sessions[k_day][k_code].time;
         today.schedule.push(os);
       });
     }
 
 
     if (plenaries.hasOwnProperty(k_day)) {
-      plenaries[k_day].forEach(function(plenary){
-        var pl = {};
-        pl.tipo = "Plenary";
-        pl.codigo = plenary.trabalho;
-        pl.sala = salas[plenary.sala].nome;
+      Object.keys(plenaries[k_day]).forEach(function(plenary_session){
+        plenaries[k_day][plenary_session].plenaries.forEach(function(plenary_code){
+          var pl = {};
+          pl.tipo = "Plenary";
+          pl.codigo = plenary_code;
+          pl.sala = plenaries[k_day][plenary_session].room;
 
-        var titulo = trabalhos[plenary.trabalho].titulo;
-        var apresentador = autores[trabalhos[plenary.trabalho].autores[0]].nome;
-        var de_onde = autores[trabalhos[plenary.trabalho].autores[0]].instituicao[0].nome;
-        pl.nome = titulo + ' / ' + apresentador + ', ' + de_onde;
-        pl.horario = plenary.horario;
+          var titulo = trabalhos[plenary_code].name;
+          var apresentador = trabalhos[plenary_code].authors;
+          pl.nome = titulo + ' / ' + apresentador;
+          pl.horario = plenaries[k_day][plenary_session].time;
 
-        today.schedule.push(pl);
+          today.schedule.push(pl);
+        });
+      });
+    }
+
+
+    if (poster_sessions.hasOwnProperty(k_day)) {
+      Object.keys(poster_sessions[k_day]).forEach(function(poster_session) {
+        var ps = {};
+        ps.tipo = "Poster Session";
+        ps.codigo = poster_session;
+        ps.sala = poster_sessions[k_day][poster_session].room;
+        ps.horario = poster_sessions[k_day][poster_session].time;
+        today.schedule.push(ps);
       });
     }
 
