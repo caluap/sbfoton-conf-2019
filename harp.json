@@ -888,7 +888,7 @@
         ],
         "authors_string": "Diego Silvério da Silva, Luciana Kassab, Niklaus Wetter, and Ernesto Jimenez-Villar"
       },
-      "OS-I-MON-02-01": {
+      "OS-O-MON-02-01": {
         "invited": true,
         "name": "Compact Laser Accelerators Towards Medical Applications - perspectives for a Brazilian Program",
         "abstract": "Laser particle acceleration is now in a new trend due to an enormous worldwide effort to increase the peak power of femtosecond lasers, as well as increasing their average power in order to make them useful for applications. The leading example is the Extreme Light Infrastructure in Europe, which has led to the establishment of three large research facilities in the Czech Republic, Romania and Hungary that host some of the most powerful lasers world-wide (above PW peak power). This action is now being followed by the USA LaserNetUS initiative, that comprises all the big laser facilities in US, and similar efforts also happen in Asia. We are starting a program to establish a laser accelerator facility in Brazil, aiming to produce radiation (electrons, protons and X rays) to be used in medical applications, like X ray and electron therapy, nuclear reactions and, eventually, protontherapy.",
@@ -908,7 +908,7 @@
         ],
         "authors_string": "Nilson Vieira, Ricardo E. Samad, and Edison P Maldonado"
       },
-      "OS-I-MON-02-02": {
+      "OS-O-MON-02-02": {
         "invited": false,
         "name": "Assessment of burn wounds status using mid-infrared spectroscopy",
         "abstract": "In this work we demonstrate the experimental design and realization of a simple FPGA mezzanine interface to test and measure digital-to-analog converters. The test system can also be used (with limitations) as an arbitrary four-channel 8-bit waveform generator with fully-differential outputs. In the arbitrary waveform generator function, the system is capable to generate high order modulations for testing dual-parallel Mach-Zehnder modulators.",
@@ -928,7 +928,7 @@
         ],
         "authors_string": "Fernando Alves Rodrigues, Guilherme Temporão, and Jean Pierrre von der Weid"
       },
-      "OS-I-MON-02-03": {
+      "OS-O-MON-02-03": {
         "invited": false,
         "name": "Performance Evaluation of the ADI-FDTD Method on the Simulation of Optical Devices",
         "abstract": "This work checks the accuracy of the ADI-FDTD method for simulations of guided optical propagation regarding two optical devices: a directional coupler and a distributed Bragg reflector in a planar waveguide. The results show that despite the ADI-FDTD method is unconditionally stable as the numerical time step increases, which reduces the total time steps and the runtime compared with the conventional explicit FDTD method, its precision otherwise may decline at a level that may prevent an accurate assessment of the optical devices operational characteristics.",
@@ -944,7 +944,7 @@
         ],
         "authors_string": "Licinius Alcantara, and Carlos Alberto De Francisco"
       },
-      "OS-I-MON-02-04": {
+      "OS-O-MON-02-04": {
         "invited": false,
         "name": "Sub-20 fs UV spectroscopy to track primary photoinduced processes in Thiobases",
         "abstract": "In this work we combine transient absorption spectroscopy featuring sub-20-fs time resolution in the UV with hybrid quantum mechanics/molecular mechanics (QM/MM) state-of-the-art computational tools [4, 5] to analyse the ultrafast photoinduced dynamics in 4-thiouracil in aqueous solution. A 2D map of the differential absorption (ΔA) is displayed was was acquired. At early times we observe three signatures: the ground state bleaching (GSB, below 360 nm), a stimulated emission (SE) signal peaking at 400 nm and a photo-induced absorption (PA) band above 500 nm. The SE band displays a first ultrafast decay on the sub-100-fs timescale and subsequently a second PA band peaking at 550 nm grows in on a ~500-fs timescale. This band has been observed in previous studies with lower, 200-fs time resolution and has been assigned to triplet-triplet absorption, thus providing a fingerprint of the ISC process [6]. Our data clearly show that ISC does not occur directly from the photoexcited bright state but is mediated by an intermediate dark state [7]. A global analysis of the data reveals time constants of 76 fs and 225 fs for the ππ* SE decay and triplet PA formation. Our simulations show that from the ππ* state the decay path leads to a sloped CI seam with the dark nπ* state populated upon thermal fluctuations. We find that the nπ* state minimum is isoenergetic with two triplet states, of nπ* and of ππ* nature, respectively, allowing for the effective population of the triplet manifold. Hopping events are encountered already after 100 fs, in agreement with the 76 fs time constant extracted from the global analysis. The longer time constant of 225 fs is assigned to the build up of PA from the 3ππ* triplet state, supported by our computations revealing higher lying states in the triplet manifold absorbing at 500 nm. Furthermore, in the 2D map we can also clearly observe the ultrafast impulsively excited vibrational motions with two frequencies: 400 cm-1 and 680 cm-1 which are in good agreement with the calculated: 457 cm-1 breathing mode and in two hydrogen-out-of-plane bending modes with frequencies 697 cm-1 and 784 cm-1.",
@@ -2202,10 +2202,10 @@
       "OS-I-MON-05-02": "16:30 to 16:50",
       "OS-I-MON-05-03": "16:50 to 17:10",
       "OS-I-MON-05-04": "17:10 to 17:30",
-      "OS-I-MON-02-01": "14:00 to 14:30",
-      "OS-I-MON-02-02": "14:30 to 14:50",
-      "OS-I-MON-02-03": "14:50 to 15:10",
-      "OS-I-MON-02-04": "15:10 to 15:30",
+      "OS-O-MON-02-01": "14:00 to 14:30",
+      "OS-O-MON-02-02": "14:30 to 14:50",
+      "OS-O-MON-02-03": "14:50 to 15:10",
+      "OS-O-MON-02-04": "15:10 to 15:30",
       "OS-L-MON-06-01": "16:00 to 16:30",
       "OS-L-MON-06-02": "16:30 to 16:50",
       "OS-L-MON-06-03": "16:50 to 17:10",
@@ -2291,16 +2291,16 @@
             "OS-I-MON-05-04"
           ]
         },
-        "OS-I-MON-02": {
+        "OS-O-MON-02": {
           "chair": "",
           "room": "Room 2",
-          "session_name": "Integrated Photonics 1",
+          "session_name": "Optics and Instrumentation 1",
           "time": "14:00–15:30",
           "papers": [
-            "OS-I-MON-02-01",
-            "OS-I-MON-02-02",
-            "OS-I-MON-02-03",
-            "OS-I-MON-02-04"
+            "OS-O-MON-02-01",
+            "OS-O-MON-02-02",
+            "OS-O-MON-02-03",
+            "OS-O-MON-02-04"
           ]
         },
         "OS-L-MON-06": {
