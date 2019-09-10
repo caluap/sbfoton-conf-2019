@@ -74,6 +74,19 @@
     }
 
 
+    if (workshops_timetable.hasOwnProperty(k_day)) {
+      Object.keys(workshops_timetable[k_day]).forEach(function(workshop_session) {
+        var wrk = {};
+        wrk.tipo = "Workshop Session";
+        wrk.codigo = workshop_session;
+        wrk.sala = workshops_timetable[k_day][workshop_session].room;
+        wrk.nome = workshops_timetable[k_day][workshop_session].session_name;
+        wrk.horario = workshops_timetable[k_day][workshop_session].time;
+        today.schedule.push(wrk);
+      });
+    }
+
+
     if (poster_sessions.hasOwnProperty(k_day)) {
       Object.keys(poster_sessions[k_day]).forEach(function(poster_session) {
         var ps = {};
