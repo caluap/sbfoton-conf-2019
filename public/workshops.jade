@@ -1,0 +1,41 @@
+include /_mixins
+
++menu('Workshops')
+
+#slide-container
+  //- .conteudo
+
+  .slide.s-default.s-var-4.pad
+    .pure-g
+      .pure-u-1
+        h1 Workshops
+
+        .c-trabalhos
+          //- - var i = 1;
+          //- each data, i_data in plenaries 
+          //-   .trab-dia
+          //-     p.trab-data= i_data
+          //-     //- p.trab-chair= plenaries_chairs[i_data]
+          //-     each plenaries_session, plen_session_code in plenaries[i_data]
+          //-       each plenary_code in plenaries_session["plenaries"]
+          //-         - var plenary = trabalhos[plenary_code]
+          //-         a.trab-codigo(name="#{plenary_code}")
+          //-         .trabalho
+          //-           +trabalho(
+          //-             i, 
+          //-             plenary.name, 
+          //-             plenaries_session.time, 
+          //-             plenaries_session.room, 
+          //-             plenary.abstract, 
+          //-             "")
+          //-           .trab-autores
+          //-             h3 Presented by
+          //-             +autor(
+          //-               plenary.author_picture, 
+          //-               plenary.authors, 
+          //-               "", 
+          //-               plenary.mini_cv)
+          //-             - i++;
+
+
+  +rodape('Workshops')

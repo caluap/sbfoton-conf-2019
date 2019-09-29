@@ -605,7 +605,7 @@ table {
 	}
 
 	#c-menu {
-		padding-top: $u-h / 4;
+		padding-top: $u-h / 6;
 
 		#toggle, .toggle-container {
 			display: none;
@@ -632,7 +632,7 @@ table {
 				text-transform: lowercase;
 
 				display: block;
-				padding: $u-h * 2/5 $u-h / 2;
+				padding: $u-h * 4/11 $u-h / 2;
 				@include media-query($s-sm) {
 					padding: $u-h / 3;
 				}

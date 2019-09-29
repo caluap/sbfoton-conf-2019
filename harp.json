@@ -3661,8 +3661,12 @@
         "link": "plenaries.html"
       },
       {
-        "titulo": "Tech Sessions",
-        "link": "tech_sessions/"
+        "titulo": "Workshops",
+        "link": "workshops.html"
+      },
+      {
+        "titulo": "Oral Sessions",
+        "link": "oral_sessions/"
       },
       {
         "titulo": "Posters",
