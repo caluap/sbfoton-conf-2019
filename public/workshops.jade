@@ -9,33 +9,29 @@ include /_mixins
     .pure-g
       .pure-u-1
         h1 Workshops
-
-        .c-trabalhos
-          //- - var i = 1;
-          //- each data, i_data in plenaries 
-          //-   .trab-dia
-          //-     p.trab-data= i_data
-          //-     //- p.trab-chair= plenaries_chairs[i_data]
-          //-     each plenaries_session, plen_session_code in plenaries[i_data]
-          //-       each plenary_code in plenaries_session["plenaries"]
-          //-         - var plenary = trabalhos[plenary_code]
-          //-         a.trab-codigo(name="#{plenary_code}")
-          //-         .trabalho
-          //-           +trabalho(
-          //-             i, 
-          //-             plenary.name, 
-          //-             plenaries_session.time, 
-          //-             plenaries_session.room, 
-          //-             plenary.abstract, 
-          //-             "")
-          //-           .trab-autores
-          //-             h3 Presented by
-          //-             +autor(
-          //-               plenary.author_picture, 
-          //-               plenary.authors, 
-          //-               "", 
-          //-               plenary.mini_cv)
-          //-             - i++;
-
+    .pure-g
+      .pure-u-1
+        .c-trabalhos.c-workshops
+          each sessoes, i_data in workshops_timetable
+            .trab-dia
+              p.trab-data= i_data
+              each sessao, i_sessao in sessoes
+                .sessao
+                  .header-sessao
+                    p.trab-cod-sessao.forte= i_sessao
+                    a.trab-codigo(name="#{i_sessao}")
+                    h3.trab-topico-sessao #{sessao.session_name}
+                    unless sessao.chair == ""
+                      p.trab-chair.os-chair= sessao.chair
+                    p.trab-horario-sessao #{sessao.time} / #{sessao.room}
+                  each cod_trabalho in sessao.workshops
+                    - var trabalho = workshops[cod_trabalho]
+                    a.trab-codigo(name="#{cod_trabalho}")
+                    .trab-trab
+                      p.big-work-title= workshops[cod_trabalho].name
+                      unless workshops[cod_trabalho].authors == ""
+                        p.trab-lista-autores= workshops[cod_trabalho].authors
+                      else
+                        p.trab-lista-autores —
 
   +rodape('Workshops')
