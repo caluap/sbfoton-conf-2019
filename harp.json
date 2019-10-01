@@ -141,15 +141,27 @@
         "abstract": "Gold nanoparticles have attracted great interest from the scientific community in recent years due to its large number of applications in various science areas. The green synthesis process shows a sustainable alternative and aims to use biological organisms to replace chemical reagents. In this work gold nanoparticles (AuNP) were synthesized with the aqueous extract obtained from leaves of Mimusops coriacea (McAuNP). Synthesized nanoparticles were characterized by different techniques, such as UV-Vis; fluorescence; FTIR; transmission electron microscopy (TEM); dynamic light scattering (DLS) and Zeta potential. Variations in the pH of the medium, concentration of the reagents and pH were applied, aiming to optimize the synthesis processes. The method to synthesize gold nanoparticles using Mimusops coriacea leaves extract presented high reproducibility and are in accordance with the principles of green chemistry and sustainability, presenting as a low-cost alternative and biocompatible in the synthesis of AuNPs. Antimicrobial action of McAuPs was tested using minimum inhibitory concentration test.",
         "authors": [
           {
-            "author_name": "Lilia Courrol",
-            "institution": "Universidade Federal de São Paulo & Instituto de Ciências Ambientais, Químicas e Farmacêuticas (ICAQF), Brazil"
-          },
-          {
             "author_name": "Carla Lopes",
             "institution": "Universidade Federal de São Paulo, Brazil"
+          },
+          {
+            "author_name": "Flávia R. O. Silva",
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares, Brazil"
+          },
+          {
+            "author_name": "Vitor Ferrari, Débora Okamoto",
+            "institution": "Universidade Federal de São Paulo, Brazil"
+          },
+          {
+            "author_name": "Suzan Vasconcelos",
+            "institution": "Universidade Federal de São Paulo, Brazil"
+          },
+          {
+            "author_name": "Lilia Courrol",
+            "institution": "Universidade Federal de São Paulo & Instituto de Ciências Ambientais, Químicas e Farmacêuticas (ICAQF), Brazil"
           }
         ],
-        "authors_string": "Lilia Courrol, and Carla Lopes"
+        "authors_string": "Carla Lopes, Flávia R. O. Silva, Vitor Ferrari, Débora Okamoto, Suzan Vasconcelos, and Lilia Courrol"
       },
       "PS-P-TUE-05": {
         "name": "Geometric Characterization of Conical Lensed Optical Fibers",
@@ -323,11 +335,11 @@
         "abstract": "In the hospital environment, the disinfection and sterilization of medical devices are essential, and the development of efficient techniques with low cost and absence of collateral effects is still necessary. The photodynamic therapy (PDT) is a successful technique for treating infections caused by different microorganisms, but nothing is reported about the effects of PDT on materials often employed in hospitals. In this way, this in vitro study aimed to verify the actions of PDT on polypropylene, aluminum and Aisi 304 steel taking into account the following aspects: cytotoxicity, mechanical properties and effects on bacterial biofilms. For that, this study was splitted into three experimental phases. In the first one, 27 samples of each proposed material (polypropylene, aluminum and Aisi 304 steel) were prepared and randomly distributed in 27 experimental groups (n = 3) for treatment with autoclave (121 °C for 30 min) or PDT with different repetitions of the treatments (samples treated with 1, 4, 28 and 120 repetitions). After that, it was performed a cytotoxicity test using Vero fibroblasts. In the second experimental phase, 90 samples of each material were prepared, which were randomly distributed in the same previously described 27 experimental groups (n = 10). After the treatments, samples were submitted to tensile strength test. In the third experimental phase, biofilms of Staphylococcus aureus were prepared and then treated with PDT. The data were statistically analyzed at a significance level of 5%. The Vero cells showed similar adhesion, spreading and growth in both experimental groups, and the cytochemical analysis showed no changes in cellular activity in any of the experimental groups. Autoclave sterilization increased the elastic modulus of Aisi 304 steel and polypropylene and reduced it in aluminum after 120 repetitions. PDT increased the elastic modulus of steel, aluminum and polypropylene. PDT significantly reduced the biofilm of Staphylococcus aureus formed on the materials. It was possible to conclude that PDT is a promising alternative technique for decontamination of materials and, although it alters some mechanical properties, PDT seems to be a good technique for future use in hospitals.",
         "authors": [
           {
-            "author_name": "Katia Inomata",
-            "institution": "Universidade Federal do ABC, Brazil"
+            "author_name": "Katia Inomata , Arnaldo Junior, Ilka Prates , Luiz Setz , Patricia da Ana",
+            "institution": "Universidade Federal do ABC, Brazil), Arnaldo Junior(Universidade Federal do ABC, Brazil), Ilka Prates (Universidade Federal do ABC, Brazil), Luiz Setz (Universidade Federal do ABC, Brazil), Patricia da Ana (Universidade Federal do ABC, Brazil"
           }
         ],
-        "authors_string": "Katia Inomata"
+        "authors_string": "Katia Inomata , Arnaldo Junior, Ilka Prates , Luiz Setz , Patricia da Ana"
       },
       "PS-P-TUE-15": {
         "name": "Thermal Blooming in Optical Tweezers",
@@ -523,7 +535,7 @@
             "institution": "UNICAMP, Brazil"
           }
         ],
-        "authors_string": "ric Fujiwara, Pedro Machado, Tarcisio Oliveira, Marco C P Soares, Thiago D Cabral, and Cristiano MB Cordeiro"
+        "authors_string": "Eric Fujiwara, Pedro Machado, Tarcisio Oliveira, Marco C P Soares, Thiago D Cabral, and Cristiano MB Cordeiro"
       },
       "PS-P-TUE-23": {
         "name": "Study of different organic solvents used in PFTB emission material for OLEDs devices",
