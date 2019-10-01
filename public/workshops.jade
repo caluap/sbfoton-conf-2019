@@ -33,5 +33,7 @@ include /_mixins
                         p.trab-lista-autores= workshops[cod_trabalho].authors
                       else
                         p.trab-lista-autores —
+                      unless workshops[cod_trabalho].abstract == ""  
+                        p.trab-resumo.resumo-p= workshops[cod_trabalho].abstract
 
   +rodape('Workshops')

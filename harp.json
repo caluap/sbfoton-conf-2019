@@ -568,51 +568,63 @@
     "workshops": {
       "OS-W-MON-04-01": {
         "name": "Inovation at SBFoton",
-        "authors": "Daniel Pataca (SBFoton)"
+        "authors": "Daniel Pataca (SBFoton)",
+        "abstract": ""
       },
       "OS-W-MON-04-02": {
         "name": "MCTIC – FAPESP – BNDES – EMBRAPII – FINEP",
-        "authors": ""
+        "authors": "",
+        "abstract": ""
       },
       "OS-W-MON-04-03": {
         "name": "Round Table",
-        "authors": ""
+        "authors": "",
+        "abstract": ""
       },
       "OS-W-MON-08-01": {
         "name": "Introduction",
-        "authors": "Alberto Paradisi (CPqD)"
+        "authors": "Alberto Paradisi (CPqD)",
+        "abstract": ""
       },
       "OS-W-MON-08-02": {
-        "name": "To be defined ",
-        "authors": "Débora Marcondes Milori (Embrapa)"
+        "name": "Optics in Agri-environmental applications",
+        "authors": "Débora Marcondes Bastos Pereira Milori (Embrapa)",
+        "abstract": "The world must face a significant challenge in the coming years: food security. The UN's World Population Prospects 2019, estimated that the next three decades will see today's figure of 7.7 billion people rise to 9.7 billion by 2050 despite a continued slowdown in the global birth rate. If these predictions are confirmed, in order to feed this larger, more urban and richer population, food production (net of food used for biofuels) must increase by 70%. Thus, agricultural productivity needs to increase, but with environmental sustainability. In this scenario, science and new technologies are essential for the entire agribusiness production chain. There is a great opportunity to innovate in agriculture and environmental monitoring. Optical techniques can be great allies for this challenge. This lecture will show some examples of optical systems developed at the Embrapa Instrumentation Optics and Photonics Laboratory and their applications for precision agriculture and environmental monitoring."
       },
       "OS-W-MON-08-03": {
         "name": "Round Table",
-        "authors": ""
+        "authors": "",
+        "abstract": ""
       },
       "OS-W-TUE-04-01": {
         "name": "Biophotonics                  ",
-        "authors": "Jarbas Caiado de Castro Neto (IFSC/USP)"
+        "authors": "Jarbas Caiado de Castro Neto (IFSC/USP)",
+        "abstract": ""
       },
       "OS-W-TUE-04-02": {
         "name": "Optical Communication",
-        "authors": "Roberto Yoshihiro Nakamura (Padtec)"
+        "authors": "Roberto Yoshihiro Nakamura (Padtec)",
+        "abstract": ""
       },
       "OS-W-TUE-04-03": {
         "name": "Round Table",
-        "authors": ""
+        "authors": "",
+        "abstract": ""
       },
       "OS-W-TUE-08-01": {
         "name": "Lasers / Photonics for Industry",
-        "authors": "Marcos Lichblau (CSMAT)"
+        "authors": "Marcos Lichblau (CSMAT)",
+        "abstract": "The presentation provides an overview of the Brazilian machinery and equipment sector in terms of the application of LASER and Photonics in manufacturing."
       },
       "OS-W-TUE-08-02": {
         "name": "Integrated Photonics and Optoelectronics",
-        "authors": "Juliano Oliveira (Idea!)"
+        "authors": "Juliano Oliveira (Idea!)",
+        "abstract": ""
       },
       "OS-W-TUE-08-03": {
         "name": "Round Table",
-        "authors": ""
+        "authors": "",
+        "abstract": ""
       }
     },
     "trabalhos": {
@@ -2177,14 +2189,14 @@
           "chair": "",
           "room": "Room 4",
           "session_name": "Innovation Financing",
-          "time": "14:00–15:30",
+          "time": "14:00—15:30",
           "workshops": ["OS-W-MON-04-01", "OS-W-MON-04-02", "OS-W-MON-04-03"]
         },
         "OS-W-MON-08": {
           "chair": "",
           "room": "Room 4",
           "session_name": "Innovation on Research",
-          "time": "16:00–17:30",
+          "time": "16:00—17:30",
           "workshops": ["OS-W-MON-08-01", "OS-W-MON-08-02", "OS-W-MON-08-03"]
         }
       },
@@ -2193,14 +2205,14 @@
           "chair": "",
           "room": "Room 4",
           "session_name": "Biophotonics & Optical Communication Industry",
-          "time": "14:00–15:30",
+          "time": "14:00—15:30",
           "workshops": ["OS-W-TUE-04-01", "OS-W-TUE-04-02", "OS-W-TUE-04-03"]
         },
         "OS-W-TUE-08": {
           "chair": "",
           "room": "Room 4",
           "session_name": "Laser & Integrated Photonics Industry",
-          "time": "16:00–17:30",
+          "time": "16:00—17:30",
           "workshops": ["OS-W-TUE-08-01", "OS-W-TUE-08-02", "OS-W-TUE-08-03"]
         }
       }
