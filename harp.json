@@ -923,22 +923,26 @@
       "OS-O-MON-02-02": {
         "invited": false,
         "name": "Assessment of burn wounds status using mid-infrared spectroscopy",
-        "abstract": "In this work we demonstrate the experimental design and realization of a simple FPGA mezzanine interface to test and measure digital-to-analog converters. The test system can also be used (with limitations) as an arbitrary four-channel 8-bit waveform generator with fully-differential outputs. In the arbitrary waveform generator function, the system is capable to generate high order modulations for testing dual-parallel Mach-Zehnder modulators.",
+        "abstract": "Burns are one of the major causes of morbidity and the most costly traumatic injuries worldwide. Better understanding of the molecular mechanisms associated with wound healing might provide improved clinical strategies to speed up the tissue repair process and reduce the global impact of burns on public health services. The traditional techniques used to assess the biochemical events related to wound repair are laborious, time-consuming and require multiple staining. Thus, the present study aims to evaluate the feasibility of Fourier transform infrared (FTIR) spectroscopy in order to monitor the progress and healing status of burn wounds. Third-degree burn injuries were induced on Wistar rats by water vapor exposure. Afterwards, biopsies specimen was extracted for further histopathological examination and spectroscopic evaluation at 4 time-points (3, 7, 14 and 21 days). Raw spectral data were offset-corrected and normalized by amide I band area. The second derivatives were compared by the Principal Component Analysis (PCA). On days 3 and 7, when compared to healthy group, biomolecules bands were most prominent. However, on days 14 and 21, these molecular bands decreased. Therefore, our pairwise comparison revealed that metabolic activity induced by thermal injury decreases as the healing process progresses. Our findings show that FTIR spectroscopy can monitor the biochemical development induced by burn injury and detect the status of wound repair. This study was supported by CEPID/FAPESP 05/51689-2, CAPES/PROCAD 88881.068505/2014-01, CNPq (INCT-465763/2014/6, Phd-grant-141946/2018-0 and 141629/2015-0, PQ-309902/2017-7).",
         "authors": [
           {
-            "author_name": "Fernando Alves Rodrigues",
-            "institution": "Pontifícia Universidade Católica do Rio de Janeiro & National Institute of Metrology Quality and Technology, Brazil"
+            "author_name": "Pedro Castro",
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN - CNEN/SP, Brazil"
           },
           {
-            "author_name": "Guilherme Temporão",
-            "institution": "Pontifical Catholic University of Rio de Janeiro, Brazil"
+            "author_name": "Cassio Lima",
+            "institution": "University of Sao Paulo, Brazil"
           },
           {
-            "author_name": "Jean Pierrre von der Weid",
-            "institution": "PUC-RJ, Brazil"
+            "author_name": "Telma Zorn",
+            "institution": "University of Sao Paulo, Brazil"
+          },
+          {
+            "author_name": "Denise M. Zezell",
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN - CNEN/SP, Brazil"
           }
         ],
-        "authors_string": "Fernando Alves Rodrigues, Guilherme Temporão, and Jean Pierrre von der Weid"
+        "authors_string": "Pedro Castro, Cassio Lima, Telma Zorn, and Denise M. Zezell"
       },
       "OS-O-MON-02-03": {
         "invited": false,
@@ -959,7 +963,7 @@
       "OS-O-MON-02-04": {
         "invited": false,
         "name": "Sub-20 fs UV spectroscopy to track primary photoinduced processes in Thiobases",
-        "abstract": "In this work we combine transient absorption spectroscopy featuring sub-20-fs time resolution in the UV with hybrid quantum mechanics/molecular mechanics (QM/MM) state-of-the-art computational tools [4, 5] to analyse the ultrafast photoinduced dynamics in 4-thiouracil in aqueous solution. A 2D map of the differential absorption (ΔA) is displayed was was acquired. At early times we observe three signatures: the ground state bleaching (GSB, below 360 nm), a stimulated emission (SE) signal peaking at 400 nm and a photo-induced absorption (PA) band above 500 nm. The SE band displays a first ultrafast decay on the sub-100-fs timescale and subsequently a second PA band peaking at 550 nm grows in on a ~500-fs timescale. This band has been observed in previous studies with lower, 200-fs time resolution and has been assigned to triplet-triplet absorption, thus providing a fingerprint of the ISC process [6]. Our data clearly show that ISC does not occur directly from the photoexcited bright state but is mediated by an intermediate dark state [7]. A global analysis of the data reveals time constants of 76 fs and 225 fs for the ππ* SE decay and triplet PA formation. Our simulations show that from the ππ* state the decay path leads to a sloped CI seam with the dark nπ* state populated upon thermal fluctuations. We find that the nπ* state minimum is isoenergetic with two triplet states, of nπ* and of ππ* nature, respectively, allowing for the effective population of the triplet manifold. Hopping events are encountered already after 100 fs, in agreement with the 76 fs time constant extracted from the global analysis. The longer time constant of 225 fs is assigned to the build up of PA from the 3ππ* triplet state, supported by our computations revealing higher lying states in the triplet manifold absorbing at 500 nm. Furthermore, in the 2D map we can also clearly observe the ultrafast impulsively excited vibrational motions with two frequencies: 400 cm-1 and 680 cm-1 which are in good agreement with the calculated: 457 cm-1 breathing mode and in two hydrogen-out-of-plane bending modes with frequencies 697 cm-1 and 784 cm-1.",
+        "abstract": "Thiobases are DNA or RNA nucleobases where an exocyclic carbonyl oxygen is replaced by a sulfur atom [1]. Thiation induces a red-shift in the absorption spectrum and causes also a dramatic change in the photophysics with respect to the canonical nucleobases: while in DNA/RNA monomers internal conversion S1→S0 mediated by a conical intersection (CI) is the main deactivation channel, the major relaxation pathway in thiobases is via the population of triplet states via an ultrafast intersystem crossing (ISC). Thiobases have attracted much interest in the last few years due to their photo-therapeutic applications [1]. In spite of that, their ultrafast deactivation mechanisms are not yet fully understood. In this work we combine transient absorption spectroscopy featuring sub-20-fs time resolution in the UV [2, 3] with hybrid quantum mechanics/molecular mechanics (QM/MM) state-of-the-art computational tools [4, 5] to analyse the ultrafast photoinduced dynamics in 4-thiouracil in aqueous solution. A 2D map of the differential absorption (ΔA) is displayed was was acquired. At early times we observe three signatures: the ground state bleaching (GSB, below 360 nm), a stimulated emission (SE) signal peaking at 400 nm and a photo-induced absorption (PA) band above 500 nm. The SE band displays a first ultrafast decay on the sub-100-fs timescale and subsequently a second PA band peaking at 550 nm grows in on a ~500-fs timescale. This band has been observed in previous studies with lower, 200-fs time resolution and has been assigned to triplet-triplet absorption, thus providing a fingerprint of the ISC process [6]. Our data clearly show that ISC does not occur directly from the photoexcited bright state but is mediated by an intermediate dark state [7]. A global analysis of the data reveals time constants of 76 fs and 225 fs for the ππ* SE decay and triplet PA formation. Our simulations show that from the ππ* state the decay path leads to a sloped CI seam with the dark nπ* state populated upon thermal fluctuations. We find that the nπ* state minimum is isoenergetic with two triplet states, of nπ* and of ππ* nature, respectively, allowing for the effective population of the triplet manifold. Hopping events are encountered already after 100 fs, in agreement with the 76 fs time constant extracted from the global analysis. The longer time constant of 225 fs is assigned to the build up of PA from the 3ππ* triplet state, supported by our computations revealing higher lying states in the triplet manifold absorbing at 500 nm. Furthermore, in the 2D map we can also clearly observe the ultrafast impulsively excited vibrational motions with two frequencies: 400 cm-1 and 680 cm-1 which are in good agreement with the calculated: 457 cm-1 breathing mode and in two hydrogen-out-of-plane bending modes with frequencies 697 cm-1 and 784 cm-1. References [1] S. Arslancan, L. Martínez-Fernández, and I. Corral. \"Photophysics and Photochemistry of Canonical Nucleobases' Thioanalogs: From Quantum Mechanical Studies to Time Resolved Experiments.\" Molecules 22, 998 (2017). [2] R. Borrego-Varillas, L. Ganzer, G. Cerullo and C. Manzoni, \"Ultraviolet transient absorption spectrometer with sub-20-fs time resolution\" Appl. Sci. 8, 2076 (2018). [3] R. B. Varillas, A. Candeo. D. Viola, M. Garavelli, S. De Silvestri, G. Cerullo and C. Manzoni, \"Microjoule-level, tunable sub-10 fs UV pulses by broadband sum-frequency generation.\" Opt. Lett 39, 3849 (2014). [4] P. Altoè, M. Stenta, A. Bottoni and M. Garavelli, \"A tunable QM/MM approach to chemical reactivity, structure and physico-chemical properties prediction\" Theor. Chem. Acc., 118, 219 (2007). [5] A. Nenov, I. Conti, R. Borrego-Varillas, G. Cerullo and M. Garavelli, \"Linear absorption spectra of solvated thiouracil resolved at the hybrid RASPT2/MM level\", Chem. Phys. 515, 643 (2018). [6] M. Pollum, S. Jockusch, and C. E. Crespo-Hernández. \"Increase in the photoreactivity of uracil derivatives by doubling thionation.\" Phys. Chem. Chem. Phys 17, 27851 (2015). [7] R. Borrego-Varillas, D. C. Teles Ferreira, A. Nenov, I. Conti, L. Ganzer, C. Manzoni, M. Garavelli, A. M. De Paula and G. Cerullo, \"Observation of the sub-100 femtosecond population of a dark state in a thiobase mediating intersystem crossing\", JACS 140, 47, 16087",
         "authors": [
           {
             "author_name": "Danielle Cristina Teles Ferreira",
@@ -1054,31 +1058,11 @@
         "abstract": "In this work, we developed optically active polymeric composite bulks which are employed as gain medium in random laser systems. To increase the number of scattering centers inside the sample, we added to the polymeric matrix single-walled carbon nanotubes. Using a laser micromachining, we fabricated periodic patterns in the volume of the composites, which allowed locking the random laser emission modes in specific wavelengths. In all performed experiments, using these different samples, we observed a coherent feedback of the random lasers.",
         "authors": [
           {
-            "author_name": "Adriano J. G. Otuka",
-            "institution": "University of Sao Paulo - Sao Carlos Institute of Physics, Brazil"
-          },
-          {
-            "author_name": "Lucas F. Sciuti",
-            "institution": "IFSC-USP, Brazil"
-          },
-          {
-            "author_name": "Paulo H. D. Ferreira",
-            "institution": "UFSCar, Br"
-          },
-          {
-            "author_name": "Renato J. Martins",
-            "institution": "IFSC-USP, Brazil"
-          },
-          {
-            "author_name": "Cleber R. Mendonça",
-            "institution": "IFSC-USP, Brazil"
-          },
-          {
-            "author_name": "Leonardo de Boni",
-            "institution": "IFSC-USP, Brazil"
+            "author_name": "Adriano J. G. Otuka, Lucas F. Sciuti, Paulo H. D. Ferreira, Renato J. Martins, Cleber R. Mendonça e Leonardo de Boni",
+            "institution": ""
           }
         ],
-        "authors_string": "Adriano J. G. Otuka, Lucas F. Sciuti, Paulo H. D. Ferreira, Renato J. Martins, Cleber R. Mendonça, and Leonardo de Boni"
+        "authors_string": "Adriano J. G. Otuka, Lucas F. Sciuti, Paulo H. D. Ferreira, Renato J. Martins, Cleber R. Mendonça e Leonardo de Boni"
       },
       "OS-B-MON-03-01": {
         "invited": true,
@@ -1353,6 +1337,38 @@
         "authors_string": "Melissa Oliveira Santos, Welerson Santos Souza, Thiago Bragagnolle, Leonardo Bobadilla, Ivan Aldaya, Afonso Prado, André Alves Ferreira, Luiz H Bonani, and Marcelo Abbade"
       },
       "OS-I-TUE-02-01": {
+        "invited": true,
+        "name": "High-Performance and Small Form-Factor Tunable LASERs for High-Capcity Optical Telecommunications Systems",
+        "abstract": "In this work, an overview of requirements for compact optical modules and devices is presented, focusing on optical laser sources. Regarding coherent applications, the laser must have narrow linewidth, while, at the same time, be compact and present low power consumption, targeting C-form factor pluggable (CFP) modules. Latest results on laser development are presented, showing that the External-Cavity Laser (ECL) can fulfill the requirements for this application.",
+        "authors": [
+          {
+            "author_name": "Luís Hecker de Carvalho",
+            "institution": "IDEA!, Brazil"
+          },
+          {
+            "author_name": "Juliano Oliveira",
+            "institution": "IDEA! Electronic Systems, Brazil"
+          },
+          {
+            "author_name": "Julio Oliveira",
+            "institution": "Idea!, USA"
+          },
+          {
+            "author_name": "Giovanni de Farias",
+            "institution": "CPqD, Brazil"
+          },
+          {
+            "author_name": "Leandro Matiolli",
+            "institution": "IDEA! Electronic Systems, Brazil"
+          },
+          {
+            "author_name": "Flavio Borin",
+            "institution": "IDEA! Electronic Systems, Brazil"
+          }
+        ],
+        "authors_string": "Luís Hecker de Carvalho, Juliano Oliveira, Julio Oliveira, Giovanni de Farias, Leandro Matiolli, and Flavio Borin"
+      },
+      "OS-I-TUE-02-02": {
         "invited": false,
         "name": "Demonstration of a low-loss and broadband Polarization Splitter-Rotator with a polysilicon waveguide in SOI platform",
         "abstract": "In this work, a polarization splitter-rotator in the SOI platform is demonstrated, based on the evanescent coupling to a poly-Silicon waveguide. The device is compact (<30um), low loss (<-1.5dB) and simple to fabricate.",
@@ -1376,7 +1392,7 @@
         ],
         "authors_string": "Giovanni de Farias, Yesica Rumaldo Bustamante, Hening Andrade, and Uiara Celine de Moura"
       },
-      "OS-I-TUE-02-02": {
+      "OS-I-TUE-02-03": {
         "invited": false,
         "name": "Saturable absorption in graphene oxide-doped acrylate polymer used for direct laser writing",
         "abstract": "Graphene oxide (GO) has gained attention in the graphene family owing to its optical and electrical properties. Besides, it is low-cost and water-soluble compared to graphene, thus holding a great potential for large-scale and cost-effective production of graphene-based materials. Several works report the 2D patterning of GO-based materials, though the fabrication of 3D micro/nanodevices based on GO is still on demand. In this work, we investigated the saturable absorption behavior of graphene oxide incorporated in an acrylate polymer, aiming at the development of microdevices to be fabricated via direct laser writing. The nonlinear measurements of such composite were carried out through the femtosecond Z-scan technique with excitation at 1550 nm. By modeling the photo-carrier dynamics with a two-level system, we found the saturation intensity to be 500 MW/cm2, which is consistent with what is expected for graphene derivatives excited in the transient regime.",
@@ -1404,7 +1420,7 @@
         ],
         "authors_string": "Nathalia B Tomazio, Franciele Henrique, Kelly T. de Paula, Ruben D Fonseca, and Cleber R. Mendonca"
       },
-      "OS-I-TUE-02-03": {
+      "OS-I-TUE-02-04": {
         "invited": false,
         "name": "Laser induced forward transfer of silver nanoparticles patterns",
         "abstract": "Laser-induced forward transfer (LIFT) with fs-pulses is used to produce silver nanoparticles patterns on glass substrates. LIFT is a versatile direct laser write technique in which a variety of materials can be transferred from a donor substrate to a receiver one. Here we present a study on the optimal parameters, such as scan speed and pulse energy, required to obtain a micrometric pattern on the transfer process. Spectroscopy analyses confirmed the composition and the formation of silver nanoparticles. Also, the electron microscopy image revealed a controlled and localized deposition of silver nanoparticles, indicating such approach as a promising technique for the development of applications from electronics to photonics.",
@@ -1423,46 +1439,6 @@
           }
         ],
         "authors_string": "Luiz Eduardo Rocha, Kelly T. de Paula, and Cleber R. Mendonca"
-      },
-      "OS-I-TUE-02-04": {
-        "invited": false,
-        "name": "Enhancing the Delay/advance -Bandwidth Product using degenerate resonances of photonic molecules in a Silicon Photonics Platform",
-        "abstract": "We propose the use of photonic molecules, i.e., coupled silicon ring structure, for enhancing the delay-bandwidth product by using the triplet resonance for analog modulation. We design a photonic molecule, composed of a 20 um radius outer ring resonator with two 5 um radius internally coupled to it. Based on our theoretical model for this device, we find that it is impossible to advance or retard a pulse that is not fully modulated, i. e., with any residual energy in the carrier. However, for analog full modulation, when the carrier is suppressed, we predict a maximum delay/advance of 500 ps/ 250 ps, respectively, for a bandwidth of 140 GHz, with consequent product delay/advance- bandwidth of 70/35, respectively. This is by far much higher than the published results for integrated photonics where numbers of the order of 18 are demonstrated. The transmittance experiment for our device showed an asymmetric behaviour due to fabrication issues. The experimental results were used to fit our model, and the expected values for the real device were a maximum delay of ~190 ps for one lateral resonance and maximum advancement of ~60 ps for central resonance and ~25 ps for other lateral resonance. We performed delay/advance measurements and obtained 46 ps delay for one resonance and less than 2 ps for the other two qualitatively agreeing with our prediction.",
-        "authors": [
-          {
-            "author_name": "Michel Benite Rossi",
-            "institution": "University of Campinas (Unicamp), Brazil"
-          },
-          {
-            "author_name": "Mário de Souza",
-            "institution": "Unicamp, USA"
-          },
-          {
-            "author_name": "Paulo Jarschel",
-            "institution": "University of Campinas (Unicamp), Brazil"
-          },
-          {
-            "author_name": "Newton C. Frateschi",
-            "institution": "University of Campinas - UNICAMP, Brazil"
-          }
-        ],
-        "authors_string": "Michel Benite Rossi, Mário de Souza, Paulo Jarschel, and Newton C. Frateschi"
-      },
-      "OS-I-TUE-02-05": {
-        "invited": false,
-        "name": "Plasmonic BaTiO3 Electro-Optic Waveguide Analysis with a Discontinuous Galerkin Method",
-        "abstract": "We have developed a novel modal solver that supports transverse anisotropic materials. The modal solver consists of the Interior Penalty Discontinuous Galerkin Method combined with a standard Finite Element Method to solve the full-wave Maxwell's curl-curl equation. Here we have used the method to analyze an anisotropic plasmonic metal-insulator-metal (MIM) waveguide. The waveguide comprises a gold-BaTiO3-gold layer that allows for a strong electro-optic effect. A simplified multiphysics approach was used to take into account the large Pockels effect in the BaTiO3 layer.",
-        "authors": [
-          {
-            "author_name": "Leandro Andrade Couto Fonseca",
-            "institution": "UNICAMP & Embraer, Brazil"
-          },
-          {
-            "author_name": "Hugo Enrique Hernandez Figueroa",
-            "institution": "Unicamp, Brazil"
-          }
-        ],
-        "authors_string": "Leandro Andrade Couto Fonseca, and Hugo Enrique Hernandez Figueroa"
       },
       "OS-B-TUE-03-01": {
         "invited": false,
@@ -1557,36 +1533,28 @@
         "authors_string": "Daniela Figueredo, Matheus del Valle, Denise M. Zezell, Juliana Daguano, and Patricia da Ana"
       },
       "OS-C-WED-01-01": {
-        "invited": true,
-        "name": "High-Performance and Small Form-Factor Tunable LASERs for High-Capcity Optical Telecommunications Systems",
-        "abstract": "In this work, an overview of requirements for compact optical modules and devices is presented, focusing on optical laser sources. Regarding coherent applications, the laser must have narrow linewidth, while, at the same time, be compact and present low power consumption, targeting C-form factor pluggable (CFP) modules. Latest results on laser development are presented, showing that the External-Cavity Laser (ECL) can fulfill the requirements for this application.",
+        "invited": false,
+        "name": "Enhancing the Delay/advance -Bandwidth Product using degenerate resonances of photonic molecules in a Silicon Photonics Platform",
+        "abstract": "We propose the use of photonic molecules, i.e., coupled silicon ring structure, for enhancing the delay-bandwidth product by using the triplet resonance for analog modulation. We design a photonic molecule, composed of a 20 um radius outer ring resonator with two 5 um radius internally coupled to it. Based on our theoretical model for this device, we find that it is impossible to advance or retard a pulse that is not fully modulated, i. e., with any residual energy in the carrier. However, for analog full modulation, when the carrier is suppressed, we predict a maximum delay/advance of 500 ps/ 250 ps, respectively, for a bandwidth of 140 GHz, with consequent product delay/advance- bandwidth of 70/35, respectively. This is by far much higher than the published results for integrated photonics where numbers of the order of 18 are demonstrated. The transmittance experiment for our device showed an asymmetric behaviour due to fabrication issues. The experimental results were used to fit our model, and the expected values for the real device were a maximum delay of ~190 ps for one lateral resonance and maximum advancement of ~60 ps for central resonance and ~25 ps for other lateral resonance. We performed delay/advance measurements and obtained 46 ps delay for one resonance and less than 2 ps for the other two qualitatively agreeing with our prediction.",
         "authors": [
           {
-            "author_name": "Luís Hecker de Carvalho",
-            "institution": "IDEA!, Brazil"
+            "author_name": "Michel Benite Rossi",
+            "institution": "University of Campinas (Unicamp), Brazil"
           },
           {
-            "author_name": "Juliano Oliveira",
-            "institution": "IDEA! Electronic Systems, Brazil"
+            "author_name": "Mário de Souza",
+            "institution": "Unicamp, USA"
           },
           {
-            "author_name": "Julio Oliveira",
-            "institution": "Idea!, USA"
+            "author_name": "Paulo Jarschel",
+            "institution": "University of Campinas (Unicamp), Brazil"
           },
           {
-            "author_name": "Giovanni de Farias",
-            "institution": "CPqD, Brazil"
-          },
-          {
-            "author_name": "Leandro Matiolli",
-            "institution": "IDEA! Electronic Systems, Brazil"
-          },
-          {
-            "author_name": "Flavio Borin",
-            "institution": "IDEA! Electronic Systems, Brazil"
+            "author_name": "Newton C. Frateschi",
+            "institution": "University of Campinas - UNICAMP, Brazil"
           }
         ],
-        "authors_string": "Luís Hecker de Carvalho, Juliano Oliveira, Julio Oliveira, Giovanni de Farias, Leandro Matiolli, and Flavio Borin"
+        "authors_string": "Michel Benite Rossi, Mário de Souza, Paulo Jarschel, and Newton C. Frateschi"
       },
       "OS-C-WED-01-02": {
         "invited": false,
@@ -1657,6 +1625,22 @@
         "authors_string": "André G Primo, Rodrigo Benevides, Cauê Moreno Kersul, Pierre-Louis de Assis, Gustavo Wiederhecker, and Thiago P. M. Alegre"
       },
       "OS-C-WED-01-04": {
+        "invited": false,
+        "name": "Plasmonic BaTiO3 Electro-Optic Waveguide Analysis with a Discontinuous Galerkin Method",
+        "abstract": "We have developed a novel modal solver that supports transverse anisotropic materials. The modal solver consists of the Interior Penalty Discontinuous Galerkin Method combined with a standard Finite Element Method to solve the full-wave Maxwell's curl-curl equation. Here we have used the method to analyze an anisotropic plasmonic metal-insulator-metal (MIM) waveguide. The waveguide comprises a gold-BaTiO3-gold layer that allows for a strong electro-optic effect. A simplified multiphysics approach was used to take into account the large Pockels effect in the BaTiO3 layer.",
+        "authors": [
+          {
+            "author_name": "Leandro Andrade Couto Fonseca",
+            "institution": "UNICAMP & Embraer, Brazil"
+          },
+          {
+            "author_name": "Hugo Enrique Hernandez Figueroa",
+            "institution": "Unicamp, Brazil"
+          }
+        ],
+        "authors_string": "Leandro Andrade Couto Fonseca, and Hugo Enrique Hernandez Figueroa"
+      },
+      "OS-C-WED-01-05": {
         "invited": false,
         "name": "Bright and Vivid Diffractive-Plasmonic Structural Colors",
         "abstract": "Colors observed in nature can fascinate people in an extraordinary ways and are very important to form our perception of an object as well as its design. The desire to reproduce vivid colors such as those found in birds, fishes, flowers and insects has resulted in significant scientific, cultural, economic and social impacts on mankind. Among the routes to create vivid colors, structural colors based on surface plasmon resonance (SPR), which can confine the optical excitation along a metal-dielectric interface far below the diffraction limit, has attracted much attention due to its large efficiency and high spatial resolution. Also, plasmonic reflectors have been studied as an alternative image display due to the possibility of using an external light source for low power consumption. One of the remaining challenges however is to produce vivid colors using only a reflecting surfaces. In therms of the visible spectra, the challenge is to produce a single sharp reflection peak in order to obtain such result. Here we show how to efficiently design and fabricate a grating structure capable of reflecting a single color based on the combination of the plasmon resonance and the diffraction created by the necessary grating for coupling light into the SPR. Properties of the interface such as the plasmon frequency of the metal and the refractive index of the metal-dielectric interface, together with the periodicity of the surface and the angle of incidence of the light determines the color purity. Using an genetic-optimization algorithm we determined such geometrical parameters for each desirable color. We will also show a proof of concept sample based on a linear aluminum grating micro-fabricated over silicon.",
@@ -1899,7 +1883,7 @@
           },
           {
             "author_name": "Cleber R. Mendonca",
-            "institution": "IFSC-USP, Brazil"
+            "institution": "IFSC - USP, Brazil"
           }
         ],
         "authors_string": "André Pelosi, Jessica Dipold, Sabrina dos Santos, Juliana de Almeida, and Cleber R. Mendonca"
@@ -2250,19 +2234,19 @@
       "OS-C-TUE-01-02": "16:30 to 16:50",
       "OS-C-TUE-01-03": "16:50 to 17:10",
       "OS-C-TUE-01-04": "17:10 to 17:30",
-      "OS-I-TUE-02-01": "16:00 to 16:20",
-      "OS-I-TUE-02-02": "16:20 to 16:40",
-      "OS-I-TUE-02-03": "16:40 to 17:00",
-      "OS-I-TUE-02-04": "17:00 to 17:20",
-      "OS-I-TUE-02-05": "17:20 to 17:40",
+      "OS-I-TUE-02-01": "16:00 to 16:30",
+      "OS-I-TUE-02-02": "16:30 to 16:50",
+      "OS-I-TUE-02-03": "16:50 to 17:10",
+      "OS-I-TUE-02-04": "17:10 to 17:30",
       "OS-B-TUE-03-01": "16:00 to 16:20",
       "OS-B-TUE-03-02": "16:20 to 16:40",
       "OS-B-TUE-03-03": "16:40 to 17:00",
       "OS-B-TUE-03-04": "17:00 to 17:20",
-      "OS-C-WED-01-01": "14:00 to 14:30",
-      "OS-C-WED-01-02": "14:30 to 14:50",
-      "OS-C-WED-01-03": "14:50 to 15:10",
-      "OS-C-WED-01-04": "15:10 to 15:30",
+      "OS-C-WED-01-01": "14:00 to 14:20",
+      "OS-C-WED-01-02": "14:20 to 14:40",
+      "OS-C-WED-01-03": "14:40 to 15:00",
+      "OS-C-WED-01-04": "15:00 to 15:20",
+      "OS-C-WED-01-05": "15:20 TO 15:40",
       "OS-I-WED-05-01": "16:00 to 16:30",
       "OS-I-WED-05-02": "16:30 to 17:00",
       "OS-I-WED-05-03": "17:00 to 17:20",
@@ -2279,7 +2263,7 @@
       "OS-S-WED-03-02": "14:20 to 14:40",
       "OS-S-WED-03-03": "14:40 to 15:00",
       "OS-S-WED-03-04": "15:00 to 15:20",
-      "OS-S-WED-03-05": "15:20 TO 15:40",
+      "OS-S-WED-03-05": "15:20 to 15:40",
       "OS-O-WED-07-01": "16:00 to 16:30",
       "OS-O-WED-07-02": "16:30 to 16:50",
       "OS-O-WED-07-03": "16:50 to 17:10"
@@ -2299,7 +2283,7 @@
           "chair": "",
           "room": "Room 1",
           "session_name": "Optical Communication 1",
-          "time": "14:00–15:30",
+          "time": "14:00—15:30",
           "papers": [
             "OS-C-MON-01-01",
             "OS-C-MON-01-02",
@@ -2311,7 +2295,7 @@
           "chair": "",
           "room": "Room 1",
           "session_name": "Integrated Photonics 1",
-          "time": "16:00–17:30",
+          "time": "16:00—17:30",
           "papers": [
             "OS-I-MON-05-01",
             "OS-I-MON-05-02",
@@ -2323,7 +2307,7 @@
           "chair": "",
           "room": "Room 2",
           "session_name": "Optics and Instrumentation 1",
-          "time": "14:00–15:30",
+          "time": "14:00—15:30",
           "papers": [
             "OS-O-MON-02-01",
             "OS-O-MON-02-02",
@@ -2335,7 +2319,7 @@
           "chair": "",
           "room": "Room 2",
           "session_name": "Lasers 1",
-          "time": "16:00–17:30",
+          "time": "16:00—17:30",
           "papers": [
             "OS-L-MON-06-01",
             "OS-L-MON-06-02",
@@ -2347,7 +2331,7 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Biophotonics 1",
-          "time": "14:00–15:30",
+          "time": "14:00—15:30",
           "papers": [
             "OS-B-MON-03-01",
             "OS-B-MON-03-02",
@@ -2359,7 +2343,7 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Sensors, Image and Illumination 1",
-          "time": "16:00–17:30",
+          "time": "16:00—17:30",
           "papers": [
             "OS-S-MON-07-01",
             "OS-S-MON-07-02",
@@ -2373,7 +2357,7 @@
           "chair": "",
           "room": "Room 1",
           "session_name": "Optical Communication 2",
-          "time": "16:00–17:30",
+          "time": "16:00—17:30",
           "papers": [
             "OS-C-TUE-01-01",
             "OS-C-TUE-01-02",
@@ -2381,24 +2365,23 @@
             "OS-C-TUE-01-04"
           ]
         },
-        "SC-I-TUE-02": {
+        "OS-I-TUE-02": {
           "chair": "",
           "room": "Room 2",
           "session_name": "Integrated Photonics 2",
-          "time": "16:00–17:40",
+          "time": "16:00—17:30",
           "papers": [
             "OS-I-TUE-02-01",
             "OS-I-TUE-02-02",
             "OS-I-TUE-02-03",
-            "OS-I-TUE-02-04",
-            "OS-I-TUE-02-05"
+            "OS-I-TUE-02-04"
           ]
         },
         "OS-B-TUE-03": {
           "chair": "",
           "room": "Room 3",
           "session_name": "Biophotonics 2",
-          "time": "16:00–17:20",
+          "time": "16:00—17:20",
           "papers": [
             "OS-B-TUE-03-01",
             "OS-B-TUE-03-02",
@@ -2408,30 +2391,31 @@
         }
       },
       "Wednesday, October 9th": {
-        "OS-C-WED-01": {
+        "OS-I-WED-01": {
           "chair": "",
           "room": "Room 1",
           "session_name": "Integrated Photonics 3",
-          "time": "14:00–15:30",
+          "time": "14:00—15:40",
           "papers": [
             "OS-C-WED-01-01",
             "OS-C-WED-01-02",
             "OS-C-WED-01-03",
-            "OS-C-WED-01-04"
+            "OS-C-WED-01-04",
+            "OS-C-WED-01-05"
           ]
         },
-        "OS-I-WED-05": {
+        "OS-C-WED-05": {
           "chair": "",
           "room": "Room 1",
           "session_name": "Optical Communication 3",
-          "time": "16:00–17:20",
+          "time": "16:00—17:20",
           "papers": ["OS-I-WED-05-01", "OS-I-WED-05-02", "OS-I-WED-05-03"]
         },
         "OS-L-WED-02": {
           "chair": "",
           "room": "Room 2",
           "session_name": "Laser 2",
-          "time": "14:00–15:40",
+          "time": "14:00—15:40",
           "papers": [
             "OS-L-WED-02-01",
             "OS-L-WED-02-02",
@@ -2444,7 +2428,7 @@
           "chair": "",
           "room": "Room 2",
           "session_name": "Optics and Instrumentation 2",
-          "time": "16:00–17:20",
+          "time": "16:00—17:20",
           "papers": [
             "OS-O-WED-06-01",
             "OS-O-WED-06-02",
@@ -2456,7 +2440,7 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Sensors, Image and Illumination 2",
-          "time": "14:00–15:40",
+          "time": "14:00—15:40",
           "papers": [
             "OS-S-WED-03-01",
             "OS-S-WED-03-02",
@@ -2469,7 +2453,7 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Biophotonics 3",
-          "time": "16:00–17:10",
+          "time": "16:00—17:10",
           "papers": ["OS-O-WED-07-01", "OS-O-WED-07-02", "OS-O-WED-07-03"]
         }
       }
