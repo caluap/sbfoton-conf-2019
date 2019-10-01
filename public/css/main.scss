@@ -1710,9 +1710,22 @@ $c3 : mix(white,$c2, 80%);
 		.trab-horario-sessao {
 			margin-bottom: $u-h / 2 !important;
 		}
-		.trab-trab + .trab-codigo + .trab-trab {
-			border-top: 1px solid $highlight;
-			padding-top: $u-h/2;
+		.trab-codigo + .trab-trab {
+
+			padding-top: $u-h * 2 / 3;
+			position: relative;
+
+			&:after {
+				content: "";
+				width: $u-h * 6;
+				position: absolute;
+				left: 0;
+				top: 0;
+				border-top: 2px solid $highlight;
+				@include media-query($s-sm) {
+					width: 100%;
+				}
+			}
 		}
 		.trab-trab {
 			margin-bottom: $u-h;
