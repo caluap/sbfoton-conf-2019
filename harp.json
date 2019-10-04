@@ -68,7 +68,11 @@
             "institution": "UTFPR, Brazil"
           },
           {
-            "author_name": "Juliana Thaler, Lucas Feitosaand Rafael Eleodoro de Góes",
+            "author_name": "Juliana Thaler, Lucas Feitosa",
+            "institution": "Federal University of Technology - Paraná, Brazil"
+          },
+          {
+            "author_name": "Rafael Eleodoro de Góes",
             "institution": "Federal University of Technology - Paraná, Brazil"
           },
           {
@@ -88,7 +92,7 @@
             "institution": "Federal University of Technology - Paraná, Brazil"
           }
         ],
-        "authors_string": "Thiago Neves Machado, Rafael Nadas, Juliana Thaler, Lucas Feitosaand Rafael Eleodoro de Góes, Ricardo Kamikawachi, Jorge Lenz, Wido Schreiner, and Arandi G Bezerra, Jr."
+        "authors_string": "Thiago Neves Machado, Rafael Nadas, Juliana Thaler, Lucas Feitosa, Rafael Eleodoro de Góes, Ricardo Kamikawachi, Jorge Lenz, Wido Schreiner, and Arandi G Bezerra, Jr."
       },
       "PS-P-TUE-02": {
         "name": "Multimode Photonic Biosensor Based on Cascaded Ring Resonator with Mach-Zehnder Interferometer for Vernier-Effect Refractive Index Sensing",
@@ -126,7 +130,11 @@
             "institution": "Federal University of Technology - Paraná, Brazil"
           },
           {
-            "author_name": "Rafaela Veigaand Jaqueline de Oliveira",
+            "author_name": "Rafaela Veiga",
+            "institution": "Federal University of Paraná, Brazil"
+          },
+          {
+            "author_name": "Jaqueline de Oliveira",
             "institution": "Federal University of Paraná, Brazil"
           },
           {
@@ -134,7 +142,7 @@
             "institution": "Federal University of Technology - Paraná, Brazil"
           }
         ],
-        "authors_string": "Ricardo Kamikawachi, Leticia Powrosnek, Jose Carlos Coninck, Rafaela Veigaand Jaqueline de Oliveira, and Marcelo Antoniassi"
+        "authors_string": "Ricardo Kamikawachi, Leticia Powrosnek, Jose Carlos Coninck, Rafaela Veiga, Jaqueline de Oliveira, and Marcelo Antoniassi"
       },
       "PS-P-TUE-04": {
         "name": "Facile synthesis of gold nanoparticles using Mimusops coriacea leaves extract",
@@ -237,11 +245,15 @@
         "abstract": "This work describes the fabrication and characterization of silicon nitride waveguides for operation in the 2 µm to 3 µm range. Fabrication was carried out via PECVD and lithography techniques. Transmission losses were measured, with a tunable laser, to be ~17 dB between 2 µm and 2.2 µm, increasing to ~30 dB between 2.3 µm and 2.6 µm. Beyond 2.8 µm no transmission was detected, possibly due to the presence of hydrogen in the silicon nitride material (leading to absorption). Losses in the 2 µm to 2.6 µm range are believed to be a consequence of scattering, as the waveguides presented an RMS roughness of ~5 nm. Future work will focus on reducing these sources of absorption and scattering so that operation can be extended to the 4 µm range.",
         "authors": [
           {
-            "author_name": "Emerson C de Oliveira, Rodrigo Gerosa, Christiano de Matosand Ciaran F. Phelan",
+            "author_name": "Emerson C de Oliveira, Rodrigo Gerosa, Christiano de Matos",
+            "institution": "Universidade Presbiteriana Mackenzie, Brazil"
+          },
+          {
+            "author_name": "Ciaran F. Phelan",
             "institution": "Universidade Presbiteriana Mackenzie, Brazil"
           }
         ],
-        "authors_string": "Emerson C de Oliveira, Rodrigo Gerosa, Christiano de Matosand Ciaran F. Phelan"
+        "authors_string": "Emerson C de Oliveira, Rodrigo Gerosa, Christiano de Matos, and Ciaran F. Phelan"
       },
       "PS-P-TUE-09": {
         "name": "Graphene Coplanar Capacitor",
@@ -252,11 +264,15 @@
             "institution": "Mackenzie Presbyterian University, Brazil"
           },
           {
-            "author_name": "Sérgio Adriano Gimenes, Juniorand Lúcia Saito",
+            "author_name": "Sérgio Adriano Gimenes, Junior",
+            "institution": "Universidade Presbiteriana Mackenzie, Brazil"
+          },
+          {
+            "author_name": "Lúcia Saito",
             "institution": "Universidade Presbiteriana Mackenzie, Brazil"
           }
         ],
-        "authors_string": "Matheus Bonando, and Sérgio Adriano Gimenes, Juniorand Lúcia Saito"
+        "authors_string": "Matheus Bonando, Sérgio Adriano Gimenes, Junior, and Lúcia Saito"
       },
       "PS-P-TUE-10": {
         "name": "Compact SOI Waveguide Crossing for TE0 and TE1 modes",
@@ -700,11 +716,11 @@
         "authors": "Fatima Gunning"
       },
       "PL-WED-03": {
-        "name": "2D-materials: The state of the art of ultrashort pulse generation",
-        "abstract": "Recently two scientists (Gérard Mourou and Donna Strickland) were awarded the Nobel Prize in Physics in 2018 for their method of generating high-intensity, ultra-short optical pulses. Thus, since the 1960s, many techniques have been developed to make the art of generating short pulses simple. We believe that graphene and 2D-materials are an evolution to what we call simplicity in the generation of ultrashort pulses. Graphene was isolated in 2014 by A. Geim and Konstantin Novoselov (Nobel Prize in Physics in 2010) and has attracted interest in many areas of science and technology due to its superlative properties. From the point of view of the interaction of light with matter, and specifically the aspects of light absorption, the phenomenon involving the saturation of the absorption has been explored by several groups. However, graphene is not alone, it belongs to a class with hundreds of 2D materials whose properties have been much explored recently. We will present the main advances  in the use of this new class of 2D materials (such as graphene oxide (GO), reduced graphene oxide (r-GO), rhenium disulfide (ReS2), Black Phosphorous and etc…) to obtain ultrashort pulses.",
-        "author_picture": "img/speakers/eunezio-souza.jpg",
+        "name": "2D materials: from optical characterization to photonic application",
+        "abstract": "From early years, optical methods, such as Raman, photoluminescence and absorption spectroscopies, have been of utmost importance for the characterization 2D materials. Among other characteristics, these methods allow for the determination of the 2D crystals’ number of layers, doping levels and defect densities. More recently, the incorporation of 2D materials on optical substrates and waveguides have allowed for a wide variety advanced photonic devices to be designed for prospective applications ranging from molecular sensing to optical communications and infrared/terahertz technology. For being flexible and not making out-of-plane chemical bonds, such an incorporation can easily be accomplished, while the increasing variety of 2D materials available allows for different optical properties to be obtained from the resulting device architecture. In this talk, I will review the recent activity carried out at MackGraphe towards the optical characterization and photonic application of 2D materials. I will show that the polarized Raman spectrum of orthorhombic lamellar materials, such as black phosphorus and germanium sulfide, incorporates valuable information about their edge structures. Also, nonlinear optical frequency conversion will be shown as an example of the ability to change the properties of light by exploiting electronic and excitonic processes in 2D materials. The incorporation of graphene oxide as well as nanocomposite materials onto the internal walls of microcapillaries in optical fibers will be described as means to develop devices for molecular sensing via surface enhanced Raman spectroscopy (SERS), as well as to generate ultrashort pulses in fiber lasers via mode locking.",
+        "author_picture": "img/speakers/christiano-matos.jpg",
         "mini_cv": "He graduated in Physics from the Institute of Physics and Chemistry of São Carlos of the University of São Paulo in 1996. He obtained his PhD in Physics from the Gleb Wataghin Physics Institute of the State University of Campinas in 1991. Between 1992 and 1995 he was a Visiting Researcher at AT & T Bell Laboratories (Homdel, NJ) working in the department of advanced optoelectronic devices. Back in Brazil, he became a professor at the Physics Institute of the University of Brasília (UnB) where he coordinated the Institute's postgraduate program. He is currently a full professor at Mackenzie Presbyterian University and the founder of MackGraphe (Center for Advanced Research in Graphene Nanomaterials and Nanotechnologies). He is an advisor to the CGIA (China Innovation Alliance of the Graphene Industry), a member of the International Committee of the RIDC (Research, Innovation and Dissemination Centers) of Fapesp, the Scientific Advisory Board of Quanta-Lab (INL - International Iberian Nanotechnology Laboratory and University of Minho ), the CPqD Innovation Committee, CCFOTO (MCTIC's Photonics Advisory Committee), a member of the OSA (Optical Society of America), the IEEE Photonics Society, the Brazilian Society of Physics (SBF) and SBMO (Brazilian Society of Microwave and Optoelectronics). He works in the area of Photonics in advanced devices based on bi-dimensional materials, such as graphene.",
-        "authors": "E.A. Thoroh de Souza"
+        "authors": "Christiano J. S. de Matos"
       },
       "PL-WED-04": {
         "name": "Nonlinear wave-mixing and photonic phase transitions in Random Lasers",
@@ -1544,7 +1560,7 @@
         ],
         "authors_string": "Daniela Figueredo, Matheus del Valle, Denise M. Zezell, Juliana Daguano, and Patricia da Ana"
       },
-      "OS-C-WED-01-01": {
+      "OS-I-WED-01-01": {
         "invited": false,
         "name": "Enhancing the Delay/advance -Bandwidth Product using degenerate resonances of photonic molecules in a Silicon Photonics Platform",
         "abstract": "We propose the use of photonic molecules, i.e., coupled silicon ring structure, for enhancing the delay-bandwidth product by using the triplet resonance for analog modulation. We design a photonic molecule, composed of a 20 um radius outer ring resonator with two 5 um radius internally coupled to it. Based on our theoretical model for this device, we find that it is impossible to advance or retard a pulse that is not fully modulated, i. e., with any residual energy in the carrier. However, for analog full modulation, when the carrier is suppressed, we predict a maximum delay/advance of 500 ps/ 250 ps, respectively, for a bandwidth of 140 GHz, with consequent product delay/advance- bandwidth of 70/35, respectively. This is by far much higher than the published results for integrated photonics where numbers of the order of 18 are demonstrated. The transmittance experiment for our device showed an asymmetric behaviour due to fabrication issues. The experimental results were used to fit our model, and the expected values for the real device were a maximum delay of ~190 ps for one lateral resonance and maximum advancement of ~60 ps for central resonance and ~25 ps for other lateral resonance. We performed delay/advance measurements and obtained 46 ps delay for one resonance and less than 2 ps for the other two qualitatively agreeing with our prediction.",
@@ -1568,7 +1584,7 @@
         ],
         "authors_string": "Michel Benite Rossi, Mário de Souza, Paulo Jarschel, and Newton C. Frateschi"
       },
-      "OS-C-WED-01-02": {
+      "OS-I-WED-01-02": {
         "invited": false,
         "name": "Synthesis and Characterization of MoS2/WS2 Heterostructures by Second Harmonic Generation",
         "abstract": "Monolayers of MoS2 and WS2, as well as their vertical heterostructures, were synthesized via chemical vapor deposition. The samples were then characterized via micro-Raman and micro-photoluminescence spectroscopies, and by second harmonic generation (SHG). SHG confirms that the layers in bilayers and heterostructures grow with ~0° (or ~60°) relative twist angle. Interestingly, SHG is observed in MoS2 bilayers, indicating a deviation from the centrosymmetric 2H phase.",
@@ -1604,7 +1620,7 @@
         ],
         "authors_string": "Pilar G Vianna, Syed Hamza Safeer, Alexandre Ore, Vanessa Gordo, Isabel C. S. Carvalho, Victor Carozo, and Christiano de Matos"
       },
-      "OS-C-WED-01-03": {
+      "OS-I-WED-01-03": {
         "invited": false,
         "name": "Modelling bolometric backaction in cavity optomechanics",
         "abstract": "Bolometric backaction in optomechanical cavities arises from a feedback mechanism between the device's optical, thermal and mechanical responses. From thermodynamic considerations, we derive a perturbative model for the calculation of lumped photothermal forces, generated by thermal stresses, allowing for a simple evaluation of their modification to the mechanical susceptibility in optomechanical resonators. We predict higher bolometric contribution than previous theoretical estimates, furthermore, our model enables an accurate engineering of devices where these effects can be suppressed or enhanced when compared to optomechanical backaction. Finally, we apply our description to GaAs based disk microcavities for several radii and show that for typical parameters found in state-of-the-art experiments, the bolometric contribution to the change in mechanical damping dominates over its optomechanical counterpart.",
@@ -1636,7 +1652,7 @@
         ],
         "authors_string": "André G Primo, Rodrigo Benevides, Cauê Moreno Kersul, Pierre-Louis de Assis, Gustavo Wiederhecker, and Thiago P. M. Alegre"
       },
-      "OS-C-WED-01-04": {
+      "OS-I-WED-01-04": {
         "invited": false,
         "name": "Plasmonic BaTiO3 Electro-Optic Waveguide Analysis with a Discontinuous Galerkin Method",
         "abstract": "We have developed a novel modal solver that supports transverse anisotropic materials. The modal solver consists of the Interior Penalty Discontinuous Galerkin Method combined with a standard Finite Element Method to solve the full-wave Maxwell's curl-curl equation. Here we have used the method to analyze an anisotropic plasmonic metal-insulator-metal (MIM) waveguide. The waveguide comprises a gold-BaTiO3-gold layer that allows for a strong electro-optic effect. A simplified multiphysics approach was used to take into account the large Pockels effect in the BaTiO3 layer.",
@@ -1652,7 +1668,7 @@
         ],
         "authors_string": "Leandro Andrade Couto Fonseca, and Hugo Enrique Hernandez Figueroa"
       },
-      "OS-C-WED-01-05": {
+      "OS-I-WED-01-05": {
         "invited": false,
         "name": "Bright and Vivid Diffractive-Plasmonic Structural Colors",
         "abstract": "Colors observed in nature can fascinate people in an extraordinary ways and are very important to form our perception of an object as well as its design. The desire to reproduce vivid colors such as those found in birds, fishes, flowers and insects has resulted in significant scientific, cultural, economic and social impacts on mankind. Among the routes to create vivid colors, structural colors based on surface plasmon resonance (SPR), which can confine the optical excitation along a metal-dielectric interface far below the diffraction limit, has attracted much attention due to its large efficiency and high spatial resolution. Also, plasmonic reflectors have been studied as an alternative image display due to the possibility of using an external light source for low power consumption. One of the remaining challenges however is to produce vivid colors using only a reflecting surfaces. In therms of the visible spectra, the challenge is to produce a single sharp reflection peak in order to obtain such result. Here we show how to efficiently design and fabricate a grating structure capable of reflecting a single color based on the combination of the plasmon resonance and the diffraction created by the necessary grating for coupling light into the SPR. Properties of the interface such as the plasmon frequency of the metal and the refractive index of the metal-dielectric interface, together with the periodicity of the surface and the angle of incidence of the light determines the color purity. Using an genetic-optimization algorithm we determined such geometrical parameters for each desirable color. We will also show a proof of concept sample based on a linear aluminum grating micro-fabricated over silicon.",
@@ -1680,7 +1696,7 @@
         ],
         "authors_string": "Emerson G. Melo, Ana Ribeiro, Rodrigo Benevides, Antonio Zuben, Marcos Vinicius Puydinger Santos, Alexandre M. P. A. Silva, Gustavo Wiederhecker, and Thiago P. M. Alegre"
       },
-      "OS-I-WED-05-01": {
+      "OS-C-WED-05-01": {
         "invited": true,
         "name": "Power Tilt Analysis of Solutions obtained from Multi-objective Optimization of Amplifier Adaptive Control of Operating Point",
         "abstract": "The definition of the operating point for an optical amplifier is a problem that needs to deal with the characteristics of the amplifier and to return a solution that reaches the best quality of transmission (QoT) for the involved optical link. The definition of the gain needs to be performed autonomously, especially in dynamic optical networks. This problem is called the adaptive control of optical amplifiers operating point (ACOP). One of the most recent ACOP proposal showed that the inclusion of a variable optical attenuator (VOA) in the amplifier output can help to achieve solutions that minimize both the linear and nonlinear interference in the optical signal. This approach uses a multi-objective optimization algorithm that defines the amplifier gains and VOA losses aiming to maximize the minimum optical signal-to-noise ratio (OSNR) and minimize the OSNR ripple. Nevertheless, another essential aspect for the QoT in the optical system is the signal power tilt, and this metric was not considered in any of the previous ACOP approaches. Therefore, in this work, we analyze the solutions returned by the most recent ACOP approaches to investigate the performance of these solutions concerning the signal power tilt. The obtained results show that solutions with high OSNR and low OSNR ripple can have high power tilt, which indicates that this last metric should be considered in the ACOP approaches.",
@@ -1700,7 +1716,7 @@
         ],
         "authors_string": "Joaquim F. Martins-Filho, Carmelo Bastos-Filho, and Erick A. Barboza"
       },
-      "OS-I-WED-05-02": {
+      "OS-C-WED-05-02": {
         "invited": true,
         "name": "Few-mode erbium-doped fiber amplifier design challenges for WDM optical networks",
         "abstract": "The use of optical spatial division multiplexing (SDM) technologies increases the capacity of the optical channel, allowing higher transmission rates than those observed in wavelength division multiplexing (WDM) optical systems based on single-mode fibers. In particular, spatial multiplexing based on multimode fibers allows the transmission of information in orthogonal modes. In these systems, the erbium-doped fiber amplifier (EDFA) remains essential to compensate for optical link losses. This paper presents the challenges to the development of EDFAs for WDM optical systems based on few-mode fibers, considering the addition of gain flattening filters and correction of gain calculation.",
@@ -1712,7 +1728,7 @@
         ],
         "authors_string": "Adolfo Fernandes Herbster"
       },
-      "OS-I-WED-05-03": {
+      "OS-C-WED-05-03": {
         "invited": false,
         "name": "Design of a FM-EDFA with gain correction for few-mode WDM optical networks",
         "abstract": "The need to increase the capacity of modern optical communication systems requires the development of new technologies. Optical systems based on modal division multiplexing (MDM) allow an increased aggregate capacity by transmitting signals in orthogonal modes. In long-range links, however, by using EDFAs, the initially equalized WDM signal is affected by the differential signal gain (DSG), by the differential modal gain (DMG) and by the noise figure degradation due to the addition of amplified spontaneous emission (ASE) to the amplified signal. This study presents a technique that minimizes DSG and spectral gain variations in EDFAs for few-mode optical systems. The technique is applied to an FM-EDFA that amplifies a signal composed of 32 channels equally spaced between 1530 and 1561 nm and two groups of modes (LP01 and LP11). The maximum gain difference, considering a -20 dBm/channel signal power, is reduced from 4 dB to 0.6 dB. Also, considering an input power variation of 20 dB (-40 to -20 dBm/channel at 23 dB gain), the maximum gain difference is always lower than 2.5 dB.",
@@ -1924,6 +1940,18 @@
         ],
         "authors_string": "Marvyn Inga, Thiago P. M. Alegre, Gustavo Wiederhecker, Yovanny Espinel, Laís Fujii, José Maria Silva Filho, Francisco C Marques, and Louise Trivizol"
       },
+      "OS-O-WED-06-05": {
+        "invited": true,
+        "name": "Manipulating Sound with Light",
+        "abstract": "The interaction between light and phonons is strongly enhanced in micro and nanoscale optical cavities and waveguides. Such enhanced interaction enabled a range of novel funcionalities based on sound-light interaction, such as generating radio-frequency signals, suppressing stimulated light scattering and probind mesoscopic phonon nodes. In this tal, I will review our recent progress in this field that relies on exploring dielectric nano-waveguides and cavities to enhance or suppress the interaction between light and mechanical waves. These techniques have recently enables probing in real-time the molecular-scale vibrational modes of carbon nanotubes.",
+        "authors": [
+          {
+            "author_name": "G.S. Wiederecker, T.P. Mayer Alegre, G.O. Luiz, Felipe G.S. Santos, Y.A.V. Espinel, R.S. Benevides",
+            "institution": "IFGW, Unicamp"
+          }
+        ],
+        "authors_string": "G.S. Wiederecker, T.P. Mayer Alegre, G.O. Luiz, Felipe G.S. Santos, Y.A.V. Espinel, R.S. Benevides"
+      },
       "OS-S-WED-03-01": {
         "invited": false,
         "name": "Spectral Analysis of a Nanodipole Array above the Surface Impedance of Graphene by Green's Function",
@@ -2012,7 +2040,7 @@
         ],
         "authors_string": "Jhonattan Cordoba Ramirez, L Lechuga, Hugo Enrique Hernandez Figueroa, and Lucas H Gabrielli"
       },
-      "OS-O-WED-07-01": {
+      "OS-B-WED-07-01": {
         "invited": true,
         "name": "Advances in the prevention and monitoring of root dentin demineralization using lasers",
         "abstract": "The increase in the life expectancy and the longer permanence of the teeth in the oral cavity also led to an augment in the prevalence of root caries lesions. These lesions require more attention because of their rapid progression and difficulty in early diagnosis and monitoring. In this context, the irradiation of the tissues with high intensity lasers has been shown as an important way for preventing lesion formation because lasers chemically modify the irradiated dental hard tissues and make them more resistant to acid challenge. In addition, the association with ceramic biomaterials may allow additional remineralizing results. Together with therapeutics, the effective early diagnosis of incipient lesions is indispensable. Techniques that use lasers, such as optical coherence tomography, have also been promising in this aspect because they allow the early diagnosis and monitoring of demineralizations with high resolution and in a non-detrimental way. This article aims to show the actions of high intensity laser therapies when associated or not with biomaterials, on the prevention and remineralization of root caries lesions, as well as the effectiveness of optical coherence tomography in the diagnosis and monitoring the effects of the treatments in these lesions.",
@@ -2040,7 +2068,7 @@
         ],
         "authors_string": "Patricia da Ana, Daisa Pereira, Elizabete Ferreira, Daniela Figueredo, Juliana Daguano, and Denise M. Zezell"
       },
-      "OS-O-WED-07-02": {
+      "OS-B-WED-07-02": {
         "invited": false,
         "name": "Influence of the reference spectrum used as input to the RMieS-EMSC algorithm for correction of spectral distortions induced by Mie scattering in FTIR hyperspectral images",
         "abstract": "Fourier transform infrared (FTIR) microspectroscopy has shown great promise as a tool to assess the histological architecture of tissue samples by providing morphochemical maps that enable the evaluation of both spatial and compositional information based on the signatures of molecular vibrations. However, FTIR datasets collected in transmission and transflection modes are subjected to undesired spectral contributions non-related to the phenomenon of light absorption that must be corrected prior any analysis. The algorithm so-called \"Resonant Mie Scattering - Extended Multiplicative Scatter Correction (RMieS-EMSC)\" has been well succeeded in vibrational spectroscopy in removing spectral distortions. The main idea of the algorithm is to reconstruct the datasets that present undesired spectral contributions based on a scatter-free reference spectrum. In this study, FTIR hyperspectral images acquired from cutaneous malignant lesions were submitted to RMieS-EMSC protocol using Matrigel and average spectrum in order to evaluate the influence of the reference spectrum in the final correction. False-color maps obtained after segmentation were compared in terms of image quality and consistency with standard histopathology in order to evaluate the ability of each method to reproduce the histological structures of the specimen. Our findings indicate that the choice of reference spectrum has very little difference on the outcome of image analysis. The images obtained by both spectra used as reference may not have resulted in identical false-color maps, but the differences between the morphochemical maps are relatively small.",
@@ -2064,7 +2092,7 @@
         ],
         "authors_string": "Cassio Lima, Luciana Correa, Hugh Byrne, and Denise M. Zezell"
       },
-      "OS-O-WED-07-03": {
+      "OS-B-WED-07-03": {
         "invited": false,
         "name": "Analysis of the treatment of knee osteoarthritis using Photobiomodulation performed with a low power laser",
         "abstract": "Osteoarthritis is a degenerative process that affects the joints, it begins in the articular cartilage that undergoes a process of deterioration, and may even disappear totally in a more advanced phase. The main symptoms of osteoarthritis are functional disability and pain that usually worsens with movement and improves with rest. The pain can become continuous and can lead to functional disability, which reduces the quality of life of the individual. For the treatment of knee osteoarthritis (KOA) photobiomodulation (PBM) using low power laser /LED can represents a good non-pharmacological approach. The aim of this study is to analyze the effects of PBM in the treatment of KOA. We performed a randomized prospective clinical study with an experimental and qualitative/quantitative analysis, it was carried out through the analysis of the Visual Analogue Scale the WOMAC questionnaire and the range of motion measurement in 15 patients with knee osteoarthritis (KOA). The results showed that PBM was efficient for KOA treatment, in all analyzed variables. The intensity of stiffness and physical function improved with PBM. It is concluded that the therapy is effective in the treatment of KOA, PBM seems to promote significant good results in relieving the clinical signs of KOA without use of any pharmacological approach.",
@@ -2254,14 +2282,14 @@
       "OS-B-TUE-03-02": "16:20 to 16:40",
       "OS-B-TUE-03-03": "16:40 to 17:00",
       "OS-B-TUE-03-04": "17:00 to 17:20",
-      "OS-C-WED-01-01": "14:00 to 14:20",
-      "OS-C-WED-01-02": "14:20 to 14:40",
-      "OS-C-WED-01-03": "14:40 to 15:00",
-      "OS-C-WED-01-04": "15:00 to 15:20",
-      "OS-C-WED-01-05": "15:20 TO 15:40",
-      "OS-I-WED-05-01": "16:00 to 16:30",
-      "OS-I-WED-05-02": "16:30 to 17:00",
-      "OS-I-WED-05-03": "17:00 to 17:20",
+      "OS-I-WED-01-01": "14:00 to 14:20",
+      "OS-I-WED-01-02": "14:20 to 14:40",
+      "OS-I-WED-01-03": "14:40 to 15:00",
+      "OS-I-WED-01-04": "15:00 to 15:20",
+      "OS-I-WED-01-05": "15:20 TO 15:40",
+      "OS-C-WED-05-01": "16:00 to 16:30",
+      "OS-C-WED-05-02": "16:30 to 17:00",
+      "OS-C-WED-05-03": "17:00 to 17:20",
       "OS-L-WED-02-01": "14:00 to 14:20",
       "OS-L-WED-02-02": "14:20 to 14:40",
       "OS-L-WED-02-03": "14:40 to 15:00",
@@ -2271,14 +2299,15 @@
       "OS-O-WED-06-02": "16:20 to 16:40",
       "OS-O-WED-06-03": "16:40 to 17:00",
       "OS-O-WED-06-04": "17:00 to 17:20",
+      "OS-O-WED-06-05": "17:00 TO 17:40",
       "OS-S-WED-03-01": "14:00 to 14:20",
       "OS-S-WED-03-02": "14:20 to 14:40",
       "OS-S-WED-03-03": "14:40 to 15:00",
       "OS-S-WED-03-04": "15:00 to 15:20",
       "OS-S-WED-03-05": "15:20 to 15:40",
-      "OS-O-WED-07-01": "16:00 to 16:30",
-      "OS-O-WED-07-02": "16:30 to 16:50",
-      "OS-O-WED-07-03": "16:50 to 17:10"
+      "OS-B-WED-07-01": "16:00 to 16:30",
+      "OS-B-WED-07-02": "16:30 to 16:50",
+      "OS-B-WED-07-03": "16:50 to 17:10"
     },
     "poster_sessions": {
       "Tuesday, October 8th": {
@@ -2409,11 +2438,11 @@
           "session_name": "Integrated Photonics 3",
           "time": "14:00—15:40",
           "papers": [
-            "OS-C-WED-01-01",
-            "OS-C-WED-01-02",
-            "OS-C-WED-01-03",
-            "OS-C-WED-01-04",
-            "OS-C-WED-01-05"
+            "OS-I-WED-01-01",
+            "OS-I-WED-01-02",
+            "OS-I-WED-01-03",
+            "OS-I-WED-01-04",
+            "OS-I-WED-01-05"
           ]
         },
         "OS-C-WED-05": {
@@ -2421,7 +2450,7 @@
           "room": "Room 1",
           "session_name": "Optical Communication 3",
           "time": "16:00—17:20",
-          "papers": ["OS-I-WED-05-01", "OS-I-WED-05-02", "OS-I-WED-05-03"]
+          "papers": ["OS-C-WED-05-01", "OS-C-WED-05-02", "OS-C-WED-05-03"]
         },
         "OS-L-WED-02": {
           "chair": "",
@@ -2440,12 +2469,13 @@
           "chair": "",
           "room": "Room 2",
           "session_name": "Optics and Instrumentation 2",
-          "time": "16:00—17:20",
+          "time": "16:00—17:40",
           "papers": [
             "OS-O-WED-06-01",
             "OS-O-WED-06-02",
             "OS-O-WED-06-03",
-            "OS-O-WED-06-04"
+            "OS-O-WED-06-04",
+            "OS-O-WED-06-05"
           ]
         },
         "OS-S-WED-03": {
@@ -2466,7 +2496,7 @@
           "room": "Room 3",
           "session_name": "Biophotonics 3",
           "time": "16:00—17:10",
-          "papers": ["OS-O-WED-07-01", "OS-O-WED-07-02", "OS-O-WED-07-03"]
+          "papers": ["OS-B-WED-07-01", "OS-B-WED-07-02", "OS-B-WED-07-03"]
         }
       }
     },
