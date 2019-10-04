@@ -68,11 +68,7 @@
             "institution": "UTFPR, Brazil"
           },
           {
-            "author_name": "Juliana Thaler, Lucas Feitosa",
-            "institution": "Federal University of Technology - Paraná, Brazil"
-          },
-          {
-            "author_name": "Rafael Eleodoro de Góes",
+            "author_name": "Juliana Thaler, Lucas Feitosaand Rafael Eleodoro de Góes",
             "institution": "Federal University of Technology - Paraná, Brazil"
           },
           {
@@ -92,7 +88,7 @@
             "institution": "Federal University of Technology - Paraná, Brazil"
           }
         ],
-        "authors_string": "Thiago Neves Machado, Rafael Nadas, Juliana Thaler, Lucas Feitosa, Rafael Eleodoro de Góes, Ricardo Kamikawachi, Jorge Lenz, Wido Schreiner, and Arandi G Bezerra, Jr."
+        "authors_string": "Thiago Neves Machado, Rafael Nadas, Juliana Thaler, Lucas Feitosaand Rafael Eleodoro de Góes, Ricardo Kamikawachi, Jorge Lenz, Wido Schreiner, and Arandi G Bezerra, Jr."
       },
       "PS-P-TUE-02": {
         "name": "Multimode Photonic Biosensor Based on Cascaded Ring Resonator with Mach-Zehnder Interferometer for Vernier-Effect Refractive Index Sensing",
@@ -130,11 +126,7 @@
             "institution": "Federal University of Technology - Paraná, Brazil"
           },
           {
-            "author_name": "Rafaela Veiga",
-            "institution": "Federal University of Paraná, Brazil"
-          },
-          {
-            "author_name": "Jaqueline de Oliveira",
+            "author_name": "Rafaela Veigaand Jaqueline de Oliveira",
             "institution": "Federal University of Paraná, Brazil"
           },
           {
@@ -142,7 +134,7 @@
             "institution": "Federal University of Technology - Paraná, Brazil"
           }
         ],
-        "authors_string": "Ricardo Kamikawachi, Leticia Powrosnek, Jose Carlos Coninck, Rafaela Veiga, Jaqueline de Oliveira, and Marcelo Antoniassi"
+        "authors_string": "Ricardo Kamikawachi, Leticia Powrosnek, Jose Carlos Coninck, Rafaela Veigaand Jaqueline de Oliveira, and Marcelo Antoniassi"
       },
       "PS-P-TUE-04": {
         "name": "Facile synthesis of gold nanoparticles using Mimusops coriacea leaves extract",
@@ -245,15 +237,11 @@
         "abstract": "This work describes the fabrication and characterization of silicon nitride waveguides for operation in the 2 µm to 3 µm range. Fabrication was carried out via PECVD and lithography techniques. Transmission losses were measured, with a tunable laser, to be ~17 dB between 2 µm and 2.2 µm, increasing to ~30 dB between 2.3 µm and 2.6 µm. Beyond 2.8 µm no transmission was detected, possibly due to the presence of hydrogen in the silicon nitride material (leading to absorption). Losses in the 2 µm to 2.6 µm range are believed to be a consequence of scattering, as the waveguides presented an RMS roughness of ~5 nm. Future work will focus on reducing these sources of absorption and scattering so that operation can be extended to the 4 µm range.",
         "authors": [
           {
-            "author_name": "Emerson C de Oliveira, Rodrigo Gerosa, Christiano de Matos",
-            "institution": "Universidade Presbiteriana Mackenzie, Brazil"
-          },
-          {
-            "author_name": "Ciaran F. Phelan",
+            "author_name": "Emerson C de Oliveira, Rodrigo Gerosa, Christiano de Matosand Ciaran F. Phelan",
             "institution": "Universidade Presbiteriana Mackenzie, Brazil"
           }
         ],
-        "authors_string": "Emerson C de Oliveira, Rodrigo Gerosa, Christiano de Matos, and Ciaran F. Phelan"
+        "authors_string": "Emerson C de Oliveira, Rodrigo Gerosa, Christiano de Matosand Ciaran F. Phelan"
       },
       "PS-P-TUE-09": {
         "name": "Graphene Coplanar Capacitor",
@@ -264,15 +252,11 @@
             "institution": "Mackenzie Presbyterian University, Brazil"
           },
           {
-            "author_name": "Sérgio Adriano Gimenes, Junior",
-            "institution": "Universidade Presbiteriana Mackenzie, Brazil"
-          },
-          {
-            "author_name": "Lúcia Saito",
+            "author_name": "Sérgio Adriano Gimenes, Juniorand Lúcia Saito",
             "institution": "Universidade Presbiteriana Mackenzie, Brazil"
           }
         ],
-        "authors_string": "Matheus Bonando, Sérgio Adriano Gimenes, Junior, and Lúcia Saito"
+        "authors_string": "Matheus Bonando, and Sérgio Adriano Gimenes, Juniorand Lúcia Saito"
       },
       "PS-P-TUE-10": {
         "name": "Compact SOI Waveguide Crossing for TE0 and TE1 modes",
@@ -303,21 +287,6 @@
           }
         ],
         "authors_string": "Duclerc Fernandes Parra, and Leonardo Marchini"
-      },
-      "PS-P-TUE-12": {
-        "name": "Radiation-pressure induced Optical forces in Silicon Nanowaveguides",
-        "abstract": "This work describes radiation-pressure induced optical forces acting within silicon nanowaveguides, aiming to the scientific understanding of the physical concepts behind them, in order to achieve the appropriate design and the technological approaches for practical and efficient devices. We apply the Minkowski stress tensor formalism to a dielectric planar waveguide, in order to compute the optical forces exerted on the surfaces of a single waveguide by the eigenmodes' radiation pressures. By using Maxwell's equations, the Poynting vector, and the boundary conditions, we analytically prove that the energy-based methods, as Dispersion Relation, the Response Theory of Optical Forces, and the Scaling law, are indeed equal to the Stress Tensor method. Furthermore, we also show that the simplest optical structure, a slab waveguide, may be used to explain most of the radiation pressure's behaviors and, therefore, may be useful in the design of photonic-phononic devices.",
-        "authors": [
-          {
-            "author_name": "Janderson Rodrigues",
-            "institution": "Aeronautics Institute of Technology, Brazil"
-          },
-          {
-            "author_name": "Vilson Almeida",
-            "institution": "Aeronautics Institute of Technology, Brazil"
-          }
-        ],
-        "authors_string": "Janderson Rodrigues, and Vilson Almeida"
       },
       "PS-P-TUE-13": {
         "name": "Periodic structure of chalcogenide glass fabricated via laser induced forward transfer: finite element simulation",
@@ -356,37 +325,6 @@
           }
         ],
         "authors_string": "Katia Inomata , Arnaldo Junior, Ilka Prates , Luiz Setz , Patricia da Ana"
-      },
-      "PS-P-TUE-15": {
-        "name": "Thermal Blooming in Optical Tweezers",
-        "abstract": "Water near an optically trapped particle absorbs part of the laser energy resulting in changes for the refractive index and density. Particle position and optical potential description are affected by this photothermal effect.",
-        "authors": [
-          {
-            "author_name": "Antonio A. R. Neves",
-            "institution": "Universidade Federal do ABC, Brazil"
-          },
-          {
-            "author_name": "Partha Patra",
-            "institution": "Chalmers University of Technology, Sweden"
-          },
-          {
-            "author_name": "Qiwei Li",
-            "institution": "Hochschule Coburg, Germany"
-          },
-          {
-            "author_name": "Alessandro Magazzù",
-            "institution": "University of Gothenburg, Sweden"
-          },
-          {
-            "author_name": "Mikael Käll",
-            "institution": "Chalmers University of Technology, Sweden"
-          },
-          {
-            "author_name": "Giovanni Volpe",
-            "institution": "University of Gothenburg, Sweden"
-          }
-        ],
-        "authors_string": "Antonio A. R. Neves, Partha Patra, Qiwei Li, Alessandro Magazzù, Mikael Käll, and Giovanni Volpe"
       },
       "PS-P-TUE-16": {
         "name": "Fabrication of cylindrical resonant microcavities using the confinement provided by partially oxidized AlGaAs/GaAs layers",
@@ -1151,38 +1089,6 @@
           }
         ],
         "authors_string": "Johan Sebastián Díaz Tovar, Giulia Kassab, Natalia Inada, Vanderlei Bagnato, and Cristina Kurachi"
-      },
-      "OS-B-MON-03-04": {
-        "invited": false,
-        "name": "Computational models for light-tissue interactions: recent advances",
-        "abstract": "Computational simulations could be used as a tool to better understand how biochemical changes translate into structural changes that generate pathological states. By computational calculations, it is possible to obtain the vibrational spectrum of molecules and macromolecules. It is possible to verify which atoms or molecules contribute to the existence of each characteristic vibrational mode, identify and interpret the interactions between these modes, and associate these pieces of information to the pathological processes. In this work we will present recent advances from our group by using density functional theory (DFT) to model normal, inflammatory, and tumoral tissues in a minimalist way (100 atoms). Comparison with experimental data (vibrational spectroscopy data) will also be presented. Perspectives on using molecular dynamics on large models (> 60,000 atoms) will also be discussed.",
-        "authors": [
-          {
-            "author_name": "Neila Machado",
-            "institution": "Universidade Federal do ABC, Brazil"
-          },
-          {
-            "author_name": "Erika Sato",
-            "institution": "Universidade Federal do ABC, Brazil"
-          },
-          {
-            "author_name": "Daiana Bortoletto",
-            "institution": "UFABC, Brazil"
-          },
-          {
-            "author_name": "Cassio Lima",
-            "institution": "University of Sao Paulo, Brazil"
-          },
-          {
-            "author_name": "Denise M. Zezell",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN - CNEN/SP, Brazil"
-          },
-          {
-            "author_name": "Herculano Martinho",
-            "institution": "Universidade Federal do ABC, Brazil"
-          }
-        ],
-        "authors_string": "Neila Machado, Erika Sato, Daiana Bortoletto, Cassio Lima, Denise M. Zezell, and Herculano Martinho"
       },
       "OS-S-MON-07-01": {
         "invited": true,
@@ -2265,7 +2171,6 @@
       "OS-B-MON-03-01": "14:00 to 14:30",
       "OS-B-MON-03-02": "14:30 to 14:50",
       "OS-B-MON-03-03": "14:50 to 15:10",
-      "OS-B-MON-03-04": "15:10 to 15:30",
       "OS-S-MON-07-01": "16:00 to 16:30",
       "OS-S-MON-07-02": "16:30 to 16:50",
       "OS-S-MON-07-03": "16:50 to 17:10",
@@ -2299,7 +2204,7 @@
       "OS-O-WED-06-02": "16:20 to 16:40",
       "OS-O-WED-06-03": "16:40 to 17:00",
       "OS-O-WED-06-04": "17:00 to 17:20",
-      "OS-O-WED-06-05": "17:00 TO 17:40",
+      "OS-O-WED-06-05": "17:20 to 17:40",
       "OS-S-WED-03-01": "14:00 to 14:20",
       "OS-S-WED-03-02": "14:20 to 14:40",
       "OS-S-WED-03-03": "14:40 to 15:00",
@@ -2372,13 +2277,8 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Biophotonics 1",
-          "time": "14:00—15:30",
-          "papers": [
-            "OS-B-MON-03-01",
-            "OS-B-MON-03-02",
-            "OS-B-MON-03-03",
-            "OS-B-MON-03-04"
-          ]
+          "time": "14:00—15:10",
+          "papers": ["OS-B-MON-03-01", "OS-B-MON-03-02", "OS-B-MON-03-03"]
         },
         "OS-S-MON-07": {
           "chair": "",
