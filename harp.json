@@ -522,72 +522,72 @@
     "workshops": {
       "OS-W-MON-04-01": {
         "name": "SBFoton Database",
-        "authors": "Daniel Pataca – SBFoton",
+        "authors": "Daniel Pataca - SBFoton",
         "abstract": ""
       },
       "OS-W-MON-04-02": {
         "name": "Photonics research at Brazilian universities and research centers",
-        "authors": "José Maria Mascheroni – Alkimat Tecnologia Ltda",
+        "authors": "José Maria Mascheroni - Alkimat Tecnologia Ltda",
         "abstract": ""
       },
       "OS-W-MON-04-03": {
         "name": "Embrapii Laboratory IFSC USP",
-        "authors": "Vanderelei Bagnato – IFSC/USP",
+        "authors": "Vanderlei Bagnato - IFSC/USP",
         "abstract": ""
       },
       "OS-W-MON-04-04": {
         "name": "Round Table",
-        "authors": "Manuel Steidle – CERTI",
+        "authors": "Manuel Steidle - CERTI",
         "abstract": ""
       },
       "OS-W-MON-08-01": {
         "name": "Innovation in Optics & Photonics Product Development: Way of Working and Partnerships",
-        "authors": "Manuel Steidle – CERTI",
+        "authors": "Manuel Steidle - CERTI",
         "abstract": "The innovation with Optics and Photonics products is a multidisciplinary task, that demands structured management and best working practices. Under the point of view of a product development center, are presented project workflows and the management of innovation for solutions with Optics and Photonics for the Industry. Cases of success and also pitfalls in the context of a Brazilian product developer illustrates the experience in the real world of the industry and market competition in the field of  Photonics. Recommendations based on the lessons learned and proposals to enhance the performance of the innovation process are presented to exchange experiences and give support to the improvement of knowledge for product development in the Optics and Photonics market. With the approach of innovation, the plenary talk explores the connection of the development process with partnerships, technology transfer, supply chain development and questions of intellectual propriety in the context of  Brazilian and International applications. "
       },
       "OS-W-MON-08-02": {
-        "name": "Embrapii CPqD and Industry Unit – Project Experiences, Key Results and Future Vision",
-        "authors": "Marcos Sanches – CPqD",
-        "abstract": ""
+        "name": "Embrapii CPqD and Industry Unit - Project Experiences, Key Results and Future Vision",
+        "authors": "Marcos Sanches - CPqD",
+        "abstract": "The Embrapii CPQD - Advanced Communications Unit, with approximately 5 years in operation, has a portfolio of about 40 projects (executed, approved or under execution) and the purpose of this presentation is to highlight some project cases and highlight the impacts of the Embrapii support for innovation for domestic industry. Presentation includes: industry testimonial and impressions; the program's main results, benefits and strengths, as well as the main difficulties and challenges to be overcome for the continued success of the program in the future vision of innovation in the next 5 years."
       },
       "OS-W-MON-08-03": {
         "name": "Optics in Agri-environmental applications",
-        "authors": "Debora Marcondes Bastos Pereira Milori – Embrapa",
+        "authors": "Debora Marcondes Bastos Pereira Milori - Embrapa",
         "abstract": "The world must face a significant challenge in the coming years: food security. The UN's World Population Prospects 2019, estimated that the next three decades will see today's figure of 7.7 billion people rise to 9.7 billion by 2050 despite a continued slowdown in the global birth rate. If these predictions are confirmed, in order to feed this larger, more urban and richer population, food production (net of food used for biofuels) must increase by 70%. Thus, agricultural productivity needs to increase, but with environmental sustainability. In this scenario, science and new technologies are essential for the entire agribusiness production chain. There is a great opportunity to innovate in agriculture and environmental monitoring. Optical techniques can be great allies for this challenge. This lecture will show some examples of optical systems developed at the Embrapa Instrumentation Optics and Photonics Laboratory and their applications for precision agriculture and environmental monitoring."
       },
       "OS-W-MON-08-04": {
         "name": "Round Table",
-        "authors": "José Maria Mascheroni – Alkimat Tecnologia Ltda",
+        "authors": "José Maria Mascheroni - Alkimat Tecnologia Ltda",
         "abstract": ""
       },
       "OS-W-TUE-04-01": {
         "name": "Biophotonics                  ",
-        "authors": "Jarbas Caiado de Castro Neto – IFSC/USP",
+        "authors": "Jarbas Caiado de Castro Neto - IFSC/USP",
         "abstract": ""
       },
       "OS-W-TUE-04-02": {
-        "name": "Optical Communication",
-        "authors": "Roberto Yoshihiro Nakamura – PADTEC",
+        "name": "Padtec an Optical Communication Industry in Brazil",
+        "authors": "Roberto Yoshihiro Nakamura - PADTEC",
         "abstract": ""
       },
       "OS-W-TUE-04-03": {
         "name": "Round Table",
-        "authors": "Alberto Paradisi – CPqD",
+        "authors": "Alberto Paradisi - CPqD",
         "abstract": ""
       },
       "OS-W-TUE-05-01": {
         "name": "Laser and Photonics in manufacturing",
-        "authors": "Marcos Lichblau – CSMAT",
+        "authors": "Marcos Lichblau - CSMAT",
         "abstract": "The presentation provides an overview of the Brazilian machinery and equipment sector in terms of the application of LASER and Photonics in manufacturing."
       },
       "OS-W-TUE-05-02": {
         "name": "Integrated Photonics and Optoelectronics",
-        "authors": "Juliano Oliveira – Idea!",
+        "authors": "Juliano Oliveira - Idea!",
         "abstract": ""
       },
       "OS-W-TUE-05-03": {
         "name": "Round Table",
-        "authors": "Daniel Pataca – SBFoton",
+        "authors": "Daniel Pataca - SBFoton",
         "abstract": ""
       }
     },
@@ -618,7 +618,7 @@
         "name": "Cold atoms in the degenerated quantum regime: turbulence and systems out-of-equilibrium",
         "abstract": "Quantum many-body systems out of equilibrium pose several problems which are long-standing in physics. Thanks to the possibilities to investigate such systems with cold trapped atoms, a tremendous advance in those questions are being addressed. A large variety of situations can now be investigated in the laboratory. Among the many non equilibrium states, Quantum Turbulence receives special attention.",
         "author_picture": "img/speakers/vanderlei-bagnato.jpg",
-        "mini_cv": "Vanderlei Salvador Bagnato, born in 1958, is PhD from MIT (1987). Double major in Material Science Engineering (Universidade Federal de São Carlos – Brasil – 1981) and Physics \n(Universidade de São Paulo – Brasil – 1981). Received the title of  “Livre – Docente” by University of São Paulo (1989) and Full Professor by University of São Paulo (1993). Has his activities based on laser cooling and trapping of neutral atoms and applications of optics and laser to health science. Among many activities, he pursued a pioneering work in the field of atomic and molecular physics with worldwide recognition. Cold atomic collisions, techniques to better cool atoms, and fundaments of Bose-Einstein condensation are among the many published work. Quantum Turbulence involving atomic superfluid, and time and frequency metrology with the construction and evaluation of the first atomic clock developed in Latin America and the first pilot plant for the production of high precision microscopes. Recently the group of research under his guidance has implemented in Brazil by the first time the clinical use of  Photo-Dynamic-Therapy for the treatment of cancer and microbiological control.  A strong relation between basic research and industry is one of the characteristics of the work carried on by Bagnato, resulting the implementation of high technology industries in the field of optics. Has published over 500  papers in international journals with more than 15000 citations. During his academic life, he has  supervised more than 100 graduate students and he is presently supervising  15 graduate students involved in several programs of research as well as many undergraduates. Maintain close international relation with many institutions around the world.  Diffusion of science  organizing an special TV channel and public exhibitions  are part of his activity.  Members of the following academies: National Academy of Science(USA), Pontifical Academy of Science ( Vaticano) , TWAS, Brazilian Academy of science and Latin America Academy of Science. Has received many scientific prizes and Honors.",
+        "mini_cv": "Vanderlei Salvador Bagnato, born in 1958, is PhD from MIT (1987). Double major in Material Science Engineering (Universidade Federal de São Carlos - Brasil - 1981) and Physics \n(Universidade de São Paulo - Brasil - 1981). Received the title of  “Livre – Docente” by University of São Paulo (1989) and Full Professor by University of São Paulo (1993). Has his activities based on laser cooling and trapping of neutral atoms and applications of optics and laser to health science. Among many activities, he pursued a pioneering work in the field of atomic and molecular physics with worldwide recognition. Cold atomic collisions, techniques to better cool atoms, and fundaments of Bose-Einstein condensation are among the many published work. Quantum Turbulence involving atomic superfluid, and time and frequency metrology with the construction and evaluation of the first atomic clock developed in Latin America and the first pilot plant for the production of high precision microscopes. Recently the group of research under his guidance has implemented in Brazil by the first time the clinical use of  Photo-Dynamic-Therapy for the treatment of cancer and microbiological control.  A strong relation between basic research and industry is one of the characteristics of the work carried on by Bagnato, resulting the implementation of high technology industries in the field of optics. Has published over 500  papers in international journals with more than 15000 citations. During his academic life, he has  supervised more than 100 graduate students and he is presently supervising  15 graduate students involved in several programs of research as well as many undergraduates. Maintain close international relation with many institutions around the world.  Diffusion of science  organizing an special TV channel and public exhibitions  are part of his activity.  Members of the following academies: National Academy of Science(USA), Pontifical Academy of Science ( Vaticano) , TWAS, Brazilian Academy of science and Latin America Academy of Science. Has received many scientific prizes and Honors.",
         "authors": "Vanderelei Bagnato"
       },
       "PL-TUE-01": {
@@ -651,7 +651,7 @@
       },
       "PL-WED-01": {
         "name": "Rogue Photonics",
-        "abstract": "Random events in nature are of great scientific interest as they influence weather, spread of disease, the formation of rogue waves, glassy magnetic behavior, instabilities, turbulence, symmetry breaking, initiate chaos, and lead to Anderson localization in the solid state. These important phenomena have recently found a platform: photonics – to model, further understand and shed light on these various observations within the convenience of a laser laboratory. The link between chaos and lasing has thus, become a significant field of study. Random phenomenon has been shown to occur in Rayleigh, Brillouin and Raman scattering. This presentation charts the very rich area of research showing how scattering of light has been used to easily generate photonics analogues of these events. The Rogue, a random optical fibre grating written by UV radiation or ultrafast lasers, leads to a new type of localization of light, and how the removal of randomness results in high quality, well behaved, state-of-the-art lasers.",
+        "abstract": "Random events in nature are of great scientific interest as they influence weather, spread of disease, the formation of rogue waves, glassy magnetic behavior, instabilities, turbulence, symmetry breaking, initiate chaos, and lead to Anderson localization in the solid state. These important phenomena have recently found a platform: photonics - to model, further understand and shed light on these various observations within the convenience of a laser laboratory. The link between chaos and lasing has thus, become a significant field of study. Random phenomenon has been shown to occur in Rayleigh, Brillouin and Raman scattering. This presentation charts the very rich area of research showing how scattering of light has been used to easily generate photonics analogues of these events. The Rogue, a random optical fibre grating written by UV radiation or ultrafast lasers, leads to a new type of localization of light, and how the removal of randomness results in high quality, well behaved, state-of-the-art lasers.",
         "author_picture": "img/speakers/raman-kashyap.jpg",
         "mini_cv": "Raman Kashyap received the B.Sc. degree from King’s College London, U.K., and the Ph.D. degree in physics from Essex University, U.K. He has been active in the field of photonics research for over 30 years, many of which were spent at British Telecom Research Laboratories at Martlesham Heath, Ipswich, U.K. He was the Head of Corvis Canada Inc., a mid-size company of over one hundred employees. He has been involved in optical fiber based devices, measurements, and nonlinear optics. He researched fiber Bragg gratings since the very early day of the field. He has authored 550 papers in journals, books, and conferences, has presented more than 125 invited talks at conferences and institutes around the world, authored the first book on fiber Bragg gratings (expanded 2nd. Ed., 2001) and has filed over 40 patents.,He currently holds the Canada Research Chair on Future Photonic Systems. He is also a Professor with the Departments of Electrical Engineering and Engineering Physics, Polytechnique Montreal, University of Montreal, Canada. He is also the Head of the Advanced Photonics Concepts Laboratory and the 4M$ laser microfabrication Laboratory, Fabulas. His current research interests center around advanced application in photonics, including optical signal processing, glass and waveguide poling, advanced Bragg gratings and sensors, single frequency sources, random lasers, radio over fiber, tunable photonic crystal structures, bio-photonics, nonlinear optics, integrated optic waveguides, direct laser writing and micromachining, surface plasmons, and solid state laser cooling and devices for atom guidance.,Prof. Kashyap is a Chartered Physicist, a fellow of the Optical Society of America, the SPIE, the Institute of Physics, the Engineering Institute of Canada, the Canadian Academy of Engineering, and the Academy of Sciences of the Royal Society of Canada.",
         "authors": "Raman Kashyap"
@@ -667,7 +667,7 @@
         "name": "2D materials: from optical characterization to photonic application",
         "abstract": "From early years, optical methods, such as Raman, photoluminescence and absorption spectroscopies, have been of utmost importance for the characterization 2D materials. Among other characteristics, these methods allow for the determination of the 2D crystals’ number of layers, doping levels and defect densities. More recently, the incorporation of 2D materials on optical substrates and waveguides have allowed for a wide variety advanced photonic devices to be designed for prospective applications ranging from molecular sensing to optical communications and infrared/terahertz technology. For being flexible and not making out-of-plane chemical bonds, such an incorporation can easily be accomplished, while the increasing variety of 2D materials available allows for different optical properties to be obtained from the resulting device architecture. In this talk, I will review the recent activity carried out at MackGraphe towards the optical characterization and photonic application of 2D materials. I will show that the polarized Raman spectrum of orthorhombic lamellar materials, such as black phosphorus and germanium sulfide, incorporates valuable information about their edge structures. Also, nonlinear optical frequency conversion will be shown as an example of the ability to change the properties of light by exploiting electronic and excitonic processes in 2D materials. The incorporation of graphene oxide as well as nanocomposite materials onto the internal walls of microcapillaries in optical fibers will be described as means to develop devices for molecular sensing via surface enhanced Raman spectroscopy (SERS), as well as to generate ultrashort pulses in fiber lasers via mode locking.",
         "author_picture": "img/speakers/christiano-matos.jpg",
-        "mini_cv": "He graduated in Physics from the Institute of Physics and Chemistry of São Carlos of the University of São Paulo in 1996. He obtained his PhD in Physics from the Gleb Wataghin Physics Institute of the State University of Campinas in 1991. Between 1992 and 1995 he was a Visiting Researcher at AT & T Bell Laboratories (Homdel, NJ) working in the department of advanced optoelectronic devices. Back in Brazil, he became a professor at the Physics Institute of the University of Brasília (UnB) where he coordinated the Institute's postgraduate program. He is currently a full professor at Mackenzie Presbyterian University and the founder of MackGraphe (Center for Advanced Research in Graphene Nanomaterials and Nanotechnologies). He is an advisor to the CGIA (China Innovation Alliance of the Graphene Industry), a member of the International Committee of the RIDC (Research, Innovation and Dissemination Centers) of Fapesp, the Scientific Advisory Board of Quanta-Lab (INL – International Iberian Nanotechnology Laboratory and University of Minho ), the CPqD Innovation Committee, CCFOTO (MCTIC's Photonics Advisory Committee), a member of the OSA (Optical Society of America), the IEEE Photonics Society, the Brazilian Society of Physics (SBF) and SBMO (Brazilian Society of Microwave and Optoelectronics). He works in the area of Photonics in advanced devices based on bi-dimensional materials, such as graphene.",
+        "mini_cv": "He graduated in Physics from the Institute of Physics and Chemistry of São Carlos of the University of São Paulo in 1996. He obtained his PhD in Physics from the Gleb Wataghin Physics Institute of the State University of Campinas in 1991. Between 1992 and 1995 he was a Visiting Researcher at AT & T Bell Laboratories (Homdel, NJ) working in the department of advanced optoelectronic devices. Back in Brazil, he became a professor at the Physics Institute of the University of Brasília (UnB) where he coordinated the Institute's postgraduate program. He is currently a full professor at Mackenzie Presbyterian University and the founder of MackGraphe (Center for Advanced Research in Graphene Nanomaterials and Nanotechnologies). He is an advisor to the CGIA (China Innovation Alliance of the Graphene Industry), a member of the International Committee of the RIDC (Research, Innovation and Dissemination Centers) of Fapesp, the Scientific Advisory Board of Quanta-Lab (INL - International Iberian Nanotechnology Laboratory and University of Minho ), the CPqD Innovation Committee, CCFOTO (MCTIC's Photonics Advisory Committee), a member of the OSA (Optical Society of America), the IEEE Photonics Society, the Brazilian Society of Physics (SBF) and SBMO (Brazilian Society of Microwave and Optoelectronics). He works in the area of Photonics in advanced devices based on bi-dimensional materials, such as graphene.",
         "authors": "Christiano J. S. de Matos"
       },
       "PL-WED-04": {
@@ -679,7 +679,6 @@
       },
       "plenaries-end": null,
       "tech-sessions-init": null,
-
       "OS-C-MON-01-01": {
         "invited": true,
         "name": "Advances and Perspectives Towards Tb/s Optical Transmission",
@@ -699,7 +698,7 @@
           },
           {
             "author_name": "Eduardo Rosa",
-            "institution": "CPqD – Centro de Pesquisa e Desenvolvimento em Telecomunicações, Brazil"
+            "institution": "CPqD - Centro de Pesquisa e Desenvolvimento em Telecomunicações, Brazil"
           },
           {
             "author_name": "Fábio D. Simões, Felipe Lorenzo Della Lucia, Glauco C. C. P. Simões",
@@ -787,11 +786,11 @@
           },
           {
             "author_name": "Felipe Mejía",
-            "institution": "National Institute of Telecommunications – INATEL, Brazil"
+            "institution": "National Institute of Telecommunications - INATEL, Brazil"
           },
           {
             "author_name": "Danilo Spadoti",
-            "institution": "Universidade Federal de Itajubá – UNIFEI, Brazil"
+            "institution": "Universidade Federal de Itajubá - UNIFEI, Brazil"
           }
         ],
         "authors_string": "Gabriel Fré, Lúcia Saito, Felipe Mejía, and Danilo Spadoti"
@@ -878,7 +877,7 @@
       },
       "OS-O-MON-02-01": {
         "invited": true,
-        "name": "Compact Laser Accelerators Towards Medical Applications – perspectives for a Brazilian Program",
+        "name": "Compact Laser Accelerators Towards Medical Applications - perspectives for a Brazilian Program",
         "abstract": "Laser particle acceleration is now in a new trend due to an enormous worldwide effort to increase the peak power of femtosecond lasers, as well as increasing their average power in order to make them useful for applications. The leading example is the Extreme Light Infrastructure in Europe, which has led to the establishment of three large research facilities in the Czech Republic, Romania and Hungary that host some of the most powerful lasers world-wide (above PW peak power). This action is now being followed by the USA LaserNetUS initiative, that comprises all the big laser facilities in US, and similar efforts also happen in Asia. We are starting a program to establish a laser accelerator facility in Brazil, aiming to produce radiation (electrons, protons and X rays) to be used in medical applications, like X ray and electron therapy, nuclear reactions and, eventually, protontherapy.",
         "authors": [
           {
@@ -891,34 +890,10 @@
           },
           {
             "author_name": "Edison P Maldonado",
-            "institution": "Instituto Tecnológico de Aeronáutica – ITA, Brazil"
+            "institution": "Instituto Tecnológico de Aeronáutica - ITA, Brazil"
           }
         ],
         "authors_string": "Nilson Vieira, Ricardo E. Samad, and Edison P Maldonado"
-      },
-      "OS-O-MON-02-02": {
-        "invited": false,
-        "name": "Assessment of burn wounds status using mid-infrared spectroscopy",
-        "abstract": "Burns are one of the major causes of morbidity and the most costly traumatic injuries worldwide. Better understanding of the molecular mechanisms associated with wound healing might provide improved clinical strategies to speed up the tissue repair process and reduce the global impact of burns on public health services. The traditional techniques used to assess the biochemical events related to wound repair are laborious, time-consuming and require multiple staining. Thus, the present study aims to evaluate the feasibility of Fourier transform infrared (FTIR) spectroscopy in order to monitor the progress and healing status of burn wounds. Third-degree burn injuries were induced on Wistar rats by water vapor exposure. Afterwards, biopsies specimen was extracted for further histopathological examination and spectroscopic evaluation at 4 time-points (3, 7, 14 and 21 days). Raw spectral data were offset-corrected and normalized by amide I band area. The second derivatives were compared by the Principal Component Analysis (PCA). On days 3 and 7, when compared to healthy group, biomolecules bands were most prominent. However, on days 14 and 21, these molecular bands decreased. Therefore, our pairwise comparison revealed that metabolic activity induced by thermal injury decreases as the healing process progresses. Our findings show that FTIR spectroscopy can monitor the biochemical development induced by burn injury and detect the status of wound repair. This study was supported by CEPID/FAPESP 05/51689-2, CAPES/PROCAD 88881.068505/2014-01, CNPq (INCT-465763/2014/6, Phd-grant-141946/2018-0 and 141629/2015-0, PQ-309902/2017-7).",
-        "authors": [
-          {
-            "author_name": "Pedro Castro",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN – CNEN/SP, Brazil"
-          },
-          {
-            "author_name": "Cassio Lima",
-            "institution": "University of Sao Paulo, Brazil"
-          },
-          {
-            "author_name": "Telma Zorn",
-            "institution": "University of Sao Paulo, Brazil"
-          },
-          {
-            "author_name": "Denise M. Zezell",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN – CNEN/SP, Brazil"
-          }
-        ],
-        "authors_string": "Pedro Castro, Cassio Lima, Telma Zorn, and Denise M. Zezell"
       },
       "OS-O-MON-02-03": {
         "invited": false,
@@ -943,7 +918,7 @@
         "authors": [
           {
             "author_name": "Danielle Cristina Teles Ferreira",
-            "institution": "Instituto Federal de Educação, Ciência e Tecnologia Minas Gerais – IFMG-Formiga & Departamento de Física, Universidade Federal de Minas Gerais. Belo Horizonte, Brazil"
+            "institution": "Instituto Federal de Educação, Ciência e Tecnologia Minas Gerais - IFMG-Formiga & Departamento de Física, Universidade Federal de Minas Gerais. Belo Horizonte, Brazil"
           },
           {
             "author_name": "Rocio Borrego-Varillas",
@@ -1015,7 +990,7 @@
         "authors": [
           {
             "author_name": "Edison P Maldonado",
-            "institution": "Instituto Tecnológico de Aeronáutica – ITA, Brazil"
+            "institution": "Instituto Tecnológico de Aeronáutica - ITA, Brazil"
           },
           {
             "author_name": "Ricardo E. Samad, Armando V. F. Zuffi, Fabio Tabacow",
@@ -1100,6 +1075,30 @@
         ],
         "authors_string": "Johan Sebastián Díaz Tovar, Giulia Kassab, Natalia Inada, Vanderlei Bagnato, and Cristina Kurachi"
       },
+      "OS-B-MON-03-04": {
+        "invited": false,
+        "name": "Assessment of burn wounds status using mid-infrared spectroscopy",
+        "abstract": "Burns are one of the major causes of morbidity and the most costly traumatic injuries worldwide. Better understanding of the molecular mechanisms associated with wound healing might provide improved clinical strategies to speed up the tissue repair process and reduce the global impact of burns on public health services. The traditional techniques used to assess the biochemical events related to wound repair are laborious, time-consuming and require multiple staining. Thus, the present study aims to evaluate the feasibility of Fourier transform infrared (FTIR) spectroscopy in order to monitor the progress and healing status of burn wounds. Third-degree burn injuries were induced on Wistar rats by water vapor exposure. Afterwards, biopsies specimen was extracted for further histopathological examination and spectroscopic evaluation at 4 time-points (3, 7, 14 and 21 days). Raw spectral data were offset-corrected and normalized by amide I band area. The second derivatives were compared by the Principal Component Analysis (PCA). On days 3 and 7, when compared to healthy group, biomolecules bands were most prominent. However, on days 14 and 21, these molecular bands decreased. Therefore, our pairwise comparison revealed that metabolic activity induced by thermal injury decreases as the healing process progresses. Our findings show that FTIR spectroscopy can monitor the biochemical development induced by burn injury and detect the status of wound repair. This study was supported by CEPID/FAPESP 05/51689-2, CAPES/PROCAD 88881.068505/2014-01, CNPq (INCT-465763/2014/6, Phd-grant-141946/2018-0 and 141629/2015-0, PQ-309902/2017-7).",
+        "authors": [
+          {
+            "author_name": "Pedro Castro",
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN - CNEN/SP, Brazil"
+          },
+          {
+            "author_name": "Cassio Lima",
+            "institution": "University of Sao Paulo, Brazil"
+          },
+          {
+            "author_name": "Telma Zorn",
+            "institution": "University of Sao Paulo, Brazil"
+          },
+          {
+            "author_name": "Denise M. Zezell",
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN - CNEN/SP, Brazil"
+          }
+        ],
+        "authors_string": "Pedro Castro, Cassio Lima, Telma Zorn, and Denise M. Zezell"
+      },
       "OS-S-MON-07-01": {
         "invited": true,
         "name": "Optical Fiber Specklegram Sensors for Measurement of Liquids",
@@ -1115,7 +1114,7 @@
           },
           {
             "author_name": "Cristiano MB Cordeiro",
-            "institution": "Unicamp, Brazil"
+            "institution": "UNICAMP, Brazil"
           }
         ],
         "authors_string": "Eric Fujiwara, Thiago D Cabral, and Cristiano MB Cordeiro"
@@ -1187,7 +1186,7 @@
         "authors": [
           {
             "author_name": "Marcelo de Oliveira",
-            "institution": "Federal University of Technology – Parana (UTFPR), Brazil"
+            "institution": "Federal University of Technology - Parana (UTFPR), Brazil"
           },
           {
             "author_name": "Luis Nero Alves",
@@ -1199,7 +1198,7 @@
           },
           {
             "author_name": "Alexandre Pohl",
-            "institution": "Federal University of Technology – Parana (UTFPR), Brazil"
+            "institution": "Federal University of Technology - Parana (UTFPR), Brazil"
           }
         ],
         "authors_string": "Marcelo de Oliveira, Luis Nero Alves, Paulo P Monteiro, and Alexandre Pohl"
@@ -1282,7 +1281,7 @@
       },
       "OS-I-TUE-02-01": {
         "invited": true,
-        "name": "High-Performance and Small Form-Factor Tunable LASERs for High-Capcity Optical Telecommunications Systems",
+        "name": "High-Performance and Small Form-Factor Tunable LASERs for High-Capacity Optical Telecommunications Systems",
         "abstract": "In this work, an overview of requirements for compact optical modules and devices is presented, focusing on optical laser sources. Regarding coherent applications, the laser must have narrow linewidth, while, at the same time, be compact and present low power consumption, targeting C-form factor pluggable (CFP) modules. Latest results on laser development are presented, showing that the External-Cavity Laser (ECL) can fulfill the requirements for this application.",
         "authors": [
           {
@@ -1359,7 +1358,7 @@
           },
           {
             "author_name": "Cleber R. Mendonca",
-            "institution": "IFSC – USP, Brazil"
+            "institution": "IFSC - USP, Brazil"
           }
         ],
         "authors_string": "Nathalia B Tomazio, Franciele Henrique, Kelly T. de Paula, Ruben D Fonseca, and Cleber R. Mendonca"
@@ -1379,7 +1378,7 @@
           },
           {
             "author_name": "Cleber R. Mendonca",
-            "institution": "IFSC – USP, Brazil"
+            "institution": "IFSC - USP, Brazil"
           }
         ],
         "authors_string": "Luiz Eduardo Rocha, Kelly T. de Paula, and Cleber R. Mendonca"
@@ -1426,7 +1425,7 @@
       },
       "OS-B-TUE-03-03": {
         "invited": false,
-        "name": "Using ultraviolet light for reduction of Staphylococcus aureus in preservation solutions for transplantation – an in vitro study",
+        "name": "Using ultraviolet light for reduction of Staphylococcus aureus in preservation solutions for transplantation - an in vitro study",
         "abstract": "Using ultraviolet light for the microbiological control has been shown effective in literature for several applications. This study presents an in vitro investigation aimed to show the ability of ultraviolet light to reduce the colony-forming units of Staphylococcus aureus in a preservation solution used in transplantation procedures. The protocol applied produced a 3-4 log reduction.",
         "authors": [
           {
@@ -1459,11 +1458,11 @@
           },
           {
             "author_name": "Matheus del Valle",
-            "institution": "IPEN – USP, Brazil"
+            "institution": "IPEN - USP, Brazil"
           },
           {
             "author_name": "Denise M. Zezell",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN – CNEN/SP, Brazil"
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN - CNEN/SP, Brazil"
           },
           {
             "author_name": "Juliana Daguano",
@@ -1495,7 +1494,7 @@
           },
           {
             "author_name": "Newton C. Frateschi",
-            "institution": "University of Campinas – Unicamp, Brazil"
+            "institution": "University of Campinas - UNICAMP, Brazil"
           }
         ],
         "authors_string": "Michel Benite Rossi, Mário de Souza, Paulo Jarschel, and Newton C. Frateschi"
@@ -1507,7 +1506,7 @@
         "authors": [
           {
             "author_name": "Pilar G Vianna",
-            "institution": "MackGraphe – Mackenzie Presbyterian University"
+            "institution": "MackGraphe - Mackenzie Presbyterian University"
           },
           {
             "author_name": "Syed Hamza Safeer",
@@ -1515,11 +1514,11 @@
           },
           {
             "author_name": "Alexandre Ore",
-            "institution": "MackGraphe – Mackenzie Presbyterian University"
+            "institution": "MackGraphe - Mackenzie Presbyterian University"
           },
           {
             "author_name": "Vanessa Gordo",
-            "institution": "MackGraphe – Mackenzie Presbyterian University"
+            "institution": "MackGraphe - Mackenzie Presbyterian University"
           },
           {
             "author_name": "Isabel C. S. Carvalho",
@@ -1531,7 +1530,7 @@
           },
           {
             "author_name": "Christiano de Matos",
-            "institution": "MackGraphe – Mackenzie Presbyterian University"
+            "institution": "MackGraphe - Mackenzie Presbyterian University"
           }
         ],
         "authors_string": "Pilar G Vianna, Syed Hamza Safeer, Alexandre Ore, Vanessa Gordo, Isabel C. S. Carvalho, Victor Carozo, and Christiano de Matos"
@@ -1575,7 +1574,7 @@
         "authors": [
           {
             "author_name": "Leandro Andrade Couto Fonseca",
-            "institution": "Unicamp & Embraer, Brazil"
+            "institution": "UNICAMP & Embraer, Brazil"
           },
           {
             "author_name": "Hugo Enrique Hernandez Figueroa",
@@ -1683,7 +1682,7 @@
         "authors": [
           {
             "author_name": "Wagner de Rossi",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares – IPEN, Brazil"
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares - IPEN, Brazil"
           },
           {
             "author_name": "Niklaus Wetter",
@@ -1691,11 +1690,11 @@
           },
           {
             "author_name": "Antonio Gomes",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares – IPEN, Brazil"
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares - IPEN, Brazil"
           },
           {
             "author_name": "Viktor Ermakov",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares – IPEN, Brazil"
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares - IPEN, Brazil"
           }
         ],
         "authors_string": "Wagner de Rossi, Niklaus Wetter, Antonio Gomes, and Viktor Ermakov"
@@ -1735,7 +1734,7 @@
           },
           {
             "author_name": "Denise M. Zezell",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN – CNEN/SP, Brazil"
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN - CNEN/SP, Brazil"
           },
           {
             "author_name": "Nilson Vieira",
@@ -1827,7 +1826,7 @@
           },
           {
             "author_name": "Cleber R. Mendonca",
-            "institution": "IFSC – USP, Brazil"
+            "institution": "IFSC - USP, Brazil"
           }
         ],
         "authors_string": "André Pelosi, Jessica Dipold, Sabrina dos Santos, Juliana de Almeida, and Cleber R. Mendonca"
@@ -1882,23 +1881,31 @@
             "institution": "Pontifical Catholic University of Rio de Janeiro, Brazil"
           },
           {
-            "author_name": "Victor Dmitrievand Karlo Queiroz Costa",
+            "author_name": "Victor Dmitriev",
+            "institution": "Federal University of Para, Brazil"
+          },
+          {
+            "author_name": "Karlo Queiroz Costa",
             "institution": "Federal University of Para, Brazil"
           }
         ],
-        "authors_string": "André Felipe Cruz, Tommaso Rosso, and Victor Dmitrievand Karlo Queiroz Costa"
+        "authors_string": "André Felipe Cruz, Tommaso Rosso, Victor Dmitriev, and Karlo Queiroz Costa"
       },
       "OS-S-WED-03-02": {
         "invited": false,
         "name": "Systematic comparison between photonic sensors based on dielectrics and metals",
-        "abstract": "Photonic biosensors have gained much attention recently due to their high sensitivity, low energy consumption and miniaturization capability, conveying noteworthy advances in biomedicine. In the near future, these sensors will form the basis of the so-called Lab on a Chip (LoC): an equipment that would incorporate all laboratory functions into a single chip, capable of performing accurate clinical analyzes in any location, forming an important asset for countries with few resources for disease detection. There are a variety of configurations for biophotonic sensors, based on dielectric or metallic (plasmonic) media, ranging from fiber-optic based systems, waveguides, resonators, to nanoparticles and photonic crystals, to name a few. In spite of this great diversity, these devices can be classified into two broad categories: those that require previous mode coupling and those that do not. Although devices in the first category tend to display higher sensitivities, the ones in the second category exhibit many operation advantages, like facile integration and real-time label-free detection, constituting a suitable transducer for a LoC device. One type of free-space sensors are the devices based on excitation of quasi-Guided modes (QGM). QGM-based sensors feature as one of the most promising photonic systems for biosensing applications mainly due to their cost-effective fabrication process and capacity to control the wavelength of operation by design. Even though, in literature, several papers discuss characteristics of both plasmonics and dielectric systems, it is usually hard to find a standardized approach which discriminates the main features of these devices, because each group tends to use a different platform, thus hindering a comparative assessment of the devices. Consequently, given their complementary aspects – while metallic systems are typically more sensitive but feature poor spectral responses, dielectric-based sensors display good spectral responses but are less sensitive – and mostly independent research effort, it is still an open question which kind of sensor, dielectric or plasmonic based, has the best overall performance. The present work aims at accomplishing this task by systematically studying and comparing the core differences between both systems in terms of their sensing performance and spectral characteristics. We use the limit of detection as the figure of merit for the overall performance and show that, overall, dielectric sensors obtain a higher performance.",
+        "abstract": "Photonic biosensors have gained much attention recently due to their high sensitivity, low energy consumption and miniaturization capability, conveying noteworthy advances in biomedicine. In the near future, these sensors will form the basis of the so-called Lab on a Chip (LoC): an equipment that would incorporate all laboratory functions into a single chip, capable of performing accurate clinical analyzes in any location, forming an important asset for countries with few resources for disease detection. There are a variety of configurations for biophotonic sensors, based on dielectric or metallic (plasmonic) media, ranging from fiber-optic based systems, waveguides, resonators, to nanoparticles and photonic crystals, to name a few. In spite of this great diversity, these devices can be classified into two broad categories: those that require previous mode coupling and those that do not. Although devices in the first category tend to display higher sensitivities, the ones in the second category exhibit many operation advantages, like facile integration and real-time label-free detection, constituting a suitable transducer for a LoC device. One type of free-space sensors are the devices based on excitation of quasi-Guided modes (QGM). QGM-based sensors feature as one of the most promising photonic systems for biosensing applications mainly due to their cost-effective fabrication process and capacity to control the wavelength of operation by design. Even though, in literature, several papers discuss characteristics of both plasmonics and dielectric systems, it is usually hard to find a standardized approach which discriminates the main features of these devices, because each group tends to use a different platform, thus hindering a comparative assessment of the devices. Consequently, given their complementary aspects - while metallic systems are typically more sensitive but feature poor spectral responses, dielectric-based sensors display good spectral responses but are less sensitive - and mostly independent research effort, it is still an open question which kind of sensor, dielectric or plasmonic based, has the best overall performance. The present work aims at accomplishing this task by systematically studying and comparing the core differences between both systems in terms of their sensing performance and spectral characteristics. We use the limit of detection as the figure of merit for the overall performance and show that, overall, dielectric sensors obtain a higher performance.",
         "authors": [
           {
-            "author_name": "Rodrigo Romão França Soaresand Emiliano Martins",
+            "author_name": "Rodrigo Romão França Soares",
+            "institution": "Universidade de São Paulo, Brazil"
+          },
+          {
+            "author_name": "Emiliano Martins",
             "institution": "Universidade de São Paulo, Brazil"
           }
         ],
-        "authors_string": "Rodrigo Romão França Soaresand Emiliano Martins"
+        "authors_string": "Rodrigo Romão França Soares, and Emiliano Martins"
       },
       "OS-S-WED-03-03": {
         "invited": false,
@@ -1979,7 +1986,7 @@
           },
           {
             "author_name": "Denise M. Zezell",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN – CNEN/SP, Brazil"
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN - CNEN/SP, Brazil"
           }
         ],
         "authors_string": "Patricia da Ana, Daisa Pereira, Elizabete Ferreira, Daniela Figueredo, Juliana Daguano, and Denise M. Zezell"
@@ -1987,7 +1994,7 @@
       "OS-B-WED-07-02": {
         "invited": false,
         "name": "Influence of the reference spectrum used as input to the RMieS-EMSC algorithm for correction of spectral distortions induced by Mie scattering in FTIR hyperspectral images",
-        "abstract": "Fourier transform infrared (FTIR) microspectroscopy has shown great promise as a tool to assess the histological architecture of tissue samples by providing morphochemical maps that enable the evaluation of both spatial and compositional information based on the signatures of molecular vibrations. However, FTIR datasets collected in transmission and transflection modes are subjected to undesired spectral contributions non-related to the phenomenon of light absorption that must be corrected prior any analysis. The algorithm so-called \"Resonant Mie Scattering – Extended Multiplicative Scatter Correction (RMieS-EMSC)\" has been well succeeded in vibrational spectroscopy in removing spectral distortions. The main idea of the algorithm is to reconstruct the datasets that present undesired spectral contributions based on a scatter-free reference spectrum. In this study, FTIR hyperspectral images acquired from cutaneous malignant lesions were submitted to RMieS-EMSC protocol using Matrigel and average spectrum in order to evaluate the influence of the reference spectrum in the final correction. False-color maps obtained after segmentation were compared in terms of image quality and consistency with standard histopathology in order to evaluate the ability of each method to reproduce the histological structures of the specimen. Our findings indicate that the choice of reference spectrum has very little difference on the outcome of image analysis. The images obtained by both spectra used as reference may not have resulted in identical false-color maps, but the differences between the morphochemical maps are relatively small.",
+        "abstract": "Fourier transform infrared (FTIR) microspectroscopy has shown great promise as a tool to assess the histological architecture of tissue samples by providing morphochemical maps that enable the evaluation of both spatial and compositional information based on the signatures of molecular vibrations. However, FTIR datasets collected in transmission and transflection modes are subjected to undesired spectral contributions non-related to the phenomenon of light absorption that must be corrected prior any analysis. The algorithm so-called \"Resonant Mie Scattering - Extended Multiplicative Scatter Correction (RMieS-EMSC)\" has been well succeeded in vibrational spectroscopy in removing spectral distortions. The main idea of the algorithm is to reconstruct the datasets that present undesired spectral contributions based on a scatter-free reference spectrum. In this study, FTIR hyperspectral images acquired from cutaneous malignant lesions were submitted to RMieS-EMSC protocol using Matrigel and average spectrum in order to evaluate the influence of the reference spectrum in the final correction. False-color maps obtained after segmentation were compared in terms of image quality and consistency with standard histopathology in order to evaluate the ability of each method to reproduce the histological structures of the specimen. Our findings indicate that the choice of reference spectrum has very little difference on the outcome of image analysis. The images obtained by both spectra used as reference may not have resulted in identical false-color maps, but the differences between the morphochemical maps are relatively small.",
         "authors": [
           {
             "author_name": "Cassio Lima",
@@ -2003,7 +2010,7 @@
           },
           {
             "author_name": "Denise M. Zezell",
-            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN – CNEN/SP, Brazil"
+            "institution": "Instituto de Pesquisas Energéticas e Nucleares, IPEN - CNEN/SP, Brazil"
           }
         ],
         "authors_string": "Cassio Lima, Luciana Correa, Hugh Byrne, and Denise M. Zezell"
@@ -2181,9 +2188,8 @@
       "OS-I-MON-05-03": "16:50 to 17:10",
       "OS-I-MON-05-04": "17:10 to 17:30",
       "OS-O-MON-02-01": "14:00 to 14:30",
-      "OS-O-MON-02-02": "14:30 to 14:50",
-      "OS-O-MON-02-03": "14:50 to 15:10",
-      "OS-O-MON-02-04": "15:10 to 15:30",
+      "OS-O-MON-02-03": "14:30 to 14:50",
+      "OS-O-MON-02-04": "14:50 to 15:10",
       "OS-L-MON-06-01": "16:00 to 16:30",
       "OS-L-MON-06-02": "16:30 to 16:50",
       "OS-L-MON-06-03": "16:50 to 17:10",
@@ -2191,6 +2197,7 @@
       "OS-B-MON-03-01": "14:00 to 14:30",
       "OS-B-MON-03-02": "14:30 to 14:50",
       "OS-B-MON-03-03": "14:50 to 15:10",
+      "OS-B-MON-03-04": "15:10 to 15:30",
       "OS-S-MON-07-01": "16:00 to 16:30",
       "OS-S-MON-07-02": "16:30 to 16:50",
       "OS-S-MON-07-03": "16:50 to 17:10",
@@ -2273,13 +2280,8 @@
           "chair": "",
           "room": "Room 2",
           "session_name": "Optics and Instrumentation 1",
-          "time": "14:00—15:30",
-          "papers": [
-            "OS-O-MON-02-01",
-            "OS-O-MON-02-02",
-            "OS-O-MON-02-03",
-            "OS-O-MON-02-04"
-          ]
+          "time": "14:00—15:10",
+          "papers": ["OS-O-MON-02-01", "OS-O-MON-02-03", "OS-O-MON-02-04"]
         },
         "OS-L-MON-06": {
           "chair": "",
@@ -2297,8 +2299,13 @@
           "chair": "",
           "room": "Room 3",
           "session_name": "Biophotonics 1",
-          "time": "14:00—15:10",
-          "papers": ["OS-B-MON-03-01", "OS-B-MON-03-02", "OS-B-MON-03-03"]
+          "time": "14:00—15:30",
+          "papers": [
+            "OS-B-MON-03-01",
+            "OS-B-MON-03-02",
+            "OS-B-MON-03-03",
+            "OS-B-MON-03-04"
+          ]
         },
         "OS-S-MON-07": {
           "chair": "",
