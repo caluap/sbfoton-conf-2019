@@ -64,7 +64,7 @@ mixin rodape(pagina_atual)
         a.conf-logo(href="https://www.photonicssociety.org/", target="_blank") #[img(src="#{lvl}img/logos/ips.jpg", alt="IPS")]
         a.conf-logo(href="http://www.capes.gov.br/", target="_blank") #[img.adj2(src="#{lvl}img/logos/capes-horizontal.svg", alt="CAPES")]
         a.conf-logo(href="http://www.cnpq.br", target="_blank") #[img(src="#{lvl}img/logos/cnpq.svg", alt="CNPq")]
-        //- a.conf-logo(href="http://www.fapesp.br/", target="_blank") #[img.adj2(src="#{lvl}img/logos/fapesp.svg", alt="FAPESP")]
+        a.conf-logo(href="http://www.fapesp.br/", target="_blank") #[img.adj2(src="#{lvl}img/logos/fapesp.svg", alt="FAPESP")]
 
 
   .slide.s-rodape.invertido
@@ -183,6 +183,6 @@ mixin oral_session(i, i_sessao, cod_trabalho, titulo, resumo, autores, horario, 
     p.trab-lista-autores= autores
     unless horario == ""
       p.trab-horario.trab-horario-os #[span ► ]#{horario.slice(0,5)} !{'<span class="dados-sutis"> &nbsp;·&nbsp; '+sala+' &nbsp;·&nbsp; '+sessao+'</span>'}
-    //- unless cod_trabalho == "OS-L-MON-06-01"
+    unless cod_trabalho == "OS-L-MON-06-01"
       p.trab-link #[a(href="https://registration.sbfoton.org.br/sui/sui_main/download_paper/sbf2019/#{cod_trabalho}.pdf", target="_blank") download this paper]
     +bio(resumo, "trab-resumo", 128*6, true)
